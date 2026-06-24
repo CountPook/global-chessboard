@@ -8,6 +8,16 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-06-24",
+      "issue": 2,
+      "note": "Issue #1 was created as a draft on the previous run but was never published or scheduled (handoff left it for a human to schedule). As a result there is still no sent campaign to grade, and the only published post remains the May 31 test placeholder. Publication metrics are flat versus the issue #1 baseline: 14 active subscribers, +2 net new in the last 7 days (all website direct), 0.0% open and 0.0% click (no real send yet), $2.24 earnings (7 days). What to watch next run: if issue #1 or #2 is actually scheduled and sent, the next run will finally have real open/CTR/unsubscribe numbers to grade and to blend into ad ranking.",
+      "subscribers_active": 14,
+      "net_new_subscribers_7d": 2,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d_usd": 2.24
     }
   ],
   "ad_slots": [
@@ -35,6 +45,34 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-06-24",
+      "issue": 2,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "I Hate It Here",
+      "ad_headline": "The free newsletter making HR less lonely",
+      "offer_id_at_placement": "71542703",
+      "advertisement_id": "d4736a73-4c47-4cf9-a7a8-c9e4c6adc487",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 131,
+      "creative_kind": "primary",
+      "send_by": "2026-06-29T10:11:56Z"
+    },
+    {
+      "date": "2026-06-24",
+      "issue": 2,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-06-24",
+      "issue": 2,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

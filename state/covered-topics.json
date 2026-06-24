@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 2,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,39 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "issue": 2,
+      "title": "Britain Changes Leaders Again as Starmer Steps Aside",
+      "region": "Europe / United Kingdom",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/22/why-has-keir-starmer-resigned-as-uk-prime-minister-and-who-will-take-over",
+        "https://www.npr.org/2026/06/22/nx-s1-5866231/keir-starmer-resigns",
+        "https://en.wikipedia.org/wiki/2026_Labour_Party_leadership_crisis"
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "issue": 2,
+      "title": "China's Carrier Returns as Taiwan Tests Its Defenses",
+      "region": "Indo-Pacific",
+      "sources": [
+        "https://www.globalsecurity.org/military/library/news/2026/06/mil-260622-globaltimes01.htm",
+        "https://www.taipeitimes.com/News/front/archives/2026/06/23/2003859566",
+        "https://www.washingtontimes.com/news/2026/jun/22/taiwan-begins-5-day-military-drill-tanks-patrolling-streets/"
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "issue": 2,
+      "title": "Five Eyes Warn AI Could Accelerate Cyber Attacks Within Months",
+      "region": "Global / Cyber",
+      "sources": [
+        "https://www.itnews.com.au/news/must-act-now-to-counter-ai-borne-cyber-attacks-five-eyes-says-626815",
+        "https://en.sedaily.com/international/2026/06/23/five-eyes-warns-ai-cyberattacks-could-emerge-within-months",
+        "https://www.cyberdaily.au/security/13787-ai-is-rapidly-transforming-cyber-security-risk-five-eyes-agencies-warn"
       ]
     }
   ]

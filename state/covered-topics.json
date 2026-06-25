@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 2,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,39 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "issue": 2,
+      "title": "Starmer Resigns and Britain Faces Its Seventh Leader in a Decade",
+      "region": "Europe / United Kingdom",
+      "sources": [
+        "https://www.cnn.com/2026/06/22/world/live-news/keir-starmer-uk-pm",
+        "https://www.npr.org/2026/06/22/nx-s1-5866231/keir-starmer-resigns",
+        "https://www.aljazeera.com/news/2026/6/22/why-has-keir-starmer-resigned-as-uk-prime-minister-and-who-will-take-over"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "issue": 2,
+      "title": "A Rare Naval Standoff Hardens the Scarborough Shoal Dispute",
+      "region": "Indo-Pacific / South China Sea",
+      "sources": [
+        "https://www.scmp.com/news/china/military/article/3358063/china-and-philippines-have-rare-naval-stand-near-disputed-scarborough-shoal",
+        "https://www.cbsnews.com/news/u-s-monitoring-chinese-activity-in-south-china-sea-around-disputed-shoal/",
+        "https://thediplomat.com/2026/06/philippines-confirms-removal-of-floating-platform-at-scarborough-shoal/"
+      ]
+    },
+    {
+      "date": "2026-06-25",
+      "issue": 2,
+      "title": "The Transatlantic Tariff Truce Takes Legal Effect",
+      "region": "Economics / Transatlantic",
+      "sources": [
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/05/20/eu-us-trade-council-and-parliament-strike-a-deal-to-implement-the-tariff-elements-of-the-joint-statement/",
+        "https://www.euronews.com/my-europe/2026/05/20/eu-approves-trade-deal-with-the-us-despite-uncertainty-in-transatlantic-relations",
+        "https://en.wikipedia.org/wiki/Agreement_on_Reciprocal,_Fair,_and_Balanced_Trade"
       ]
     }
   ]

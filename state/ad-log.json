@@ -8,6 +8,26 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-06-25",
+      "issue": 1,
+      "graded_post_id": "post_8d106eb7-9f26-4bb9-8db8-e47b31b80fac",
+      "note": "Graded issue #1 (sent 2026-06-24 14:00 UTC to the full list). Email: 14 sent, 14 delivered (100%), 4 unique opens (28.57% open rate), 2 unique clickers (50% click-through among openers, verified), 1 unsubscribe (7.14% unsub rate), 0 spam, 0 bounces. No web views. Publication last_7_days at this run: 13 active subscribers (down 1 net after a churn), +2 new / -1 churned = +1 net, 28.57% open / 50% click aggregate, earnings $2.24. Read: solid open rate and strong click engagement for a first issue on a tiny list; the single unsubscribe is high in percentage terms only because the base is small. The 'I Hate It Here' CPC ad in slot 1 did not yet show realized click revenue change (earnings flat at $2.24).",
+      "subscribers_active": 13,
+      "new_subscribers_7d": 2,
+      "churned_subscribers_7d": 1,
+      "net_subscribers_7d": 1,
+      "open_rate": 28.57,
+      "click_rate": 50.0,
+      "unsubscribe_rate": 7.14,
+      "earnings_7d": "$2.24",
+      "issue1_ad_realized": {
+        "advertiser": "I Hate It Here",
+        "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
+        "payout_per_click_cents": 131,
+        "note": "No isolated per-ad click figure available from publication stats; total earnings flat week over week."
+      }
     }
   ],
   "ad_slots": [
@@ -35,6 +55,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-06-25",
+      "issue": 2,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "No direct sponsorship agreements (status=waiting) and no available ad offers at run time (list_ad_offers returned empty available_offers and pending_opportunities)."
+    },
+    {
+      "date": "2026-06-25",
+      "issue": 2,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-06-25",
+      "issue": 2,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

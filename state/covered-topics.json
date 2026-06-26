@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 2,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,39 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "NATO Heads to Ankara With Defense Spending and the US Commitment in the Balance",
+      "region": "Europe / Transatlantic",
+      "sources": [
+        "https://www.usnews.com/news/world/articles/2026-06-24/erdogan-says-bilateral-talks-with-trump-likely-at-nato-summit-in-turkey",
+        "https://www.washingtontimes.com/news/2026/jun/25/bigger-defense-spending-top-agenda-upcoming-nato-summit-turkey/",
+        "https://en.wikipedia.org/wiki/2026_Ankara_NATO_summit"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Taiwan Warns Its Warning Time Is Shrinking as Drills Test a Rapid Shift to War",
+      "region": "Indo-Pacific",
+      "sources": [
+        "https://www.japantimes.co.jp/news/2026/06/24/world/politics/taiwan-warning-time/",
+        "https://www.washingtonpost.com/world/2026/06/22/taiwan-hosts-military-drills-readiness-china/0c4d53a2-6e13-11f1-8730-e7fd0e2a6404_story.html",
+        "https://bworldonline.com/world/2026/06/24/758898/taiwan-says-warning-time-for-any-china-attack-is-shortening/"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Washington Widens Its Sanctions Net Around Cambodia's Scam Compounds",
+      "region": "Southeast Asia / Global South",
+      "sources": [
+        "https://www.occrp.org/en/news/us-slaps-second-package-of-sanctions-on-cambodias-prince-group",
+        "https://www.detroitnews.com/story/business/2026/06/23/u-s-adds-sanctions-against-accused-cambodian-scammers-prince-group/90663795007/",
+        "https://www.globalsecurity.org/security/library/news/2026/06/sec-260623-state01.htm"
       ]
     }
   ]

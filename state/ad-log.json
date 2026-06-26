@@ -8,6 +8,22 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 1,
+      "graded_post_id": "post_8d106eb7-9f26-4bb9-8db8-e47b31b80fac",
+      "note": "Grading issue #1 (published/sent 2026-06-24 14:00 UTC). Small list, so single-subscriber actions move the rates a lot. Email: 14 sent, 14 delivered (100%), open rate 28.57% (4 unique opens), click rate 50.0% (2 unique clickers, verified), bounce 0%, 1 unsubscribe (7.14%), 0 spam. Web views 0. Publication 7-day: 13 active subscribers (down from 14: +2 new, -1 churn over the window, net +1 but the unsub left it at 13), open 28.57%, click 50.0%, earnings $2.24. Takeaway: engagement among openers was strong (high CTR, the I Hate It Here ad and story buttons drew clicks), but one unsubscribe on a 14-person list is a 7% hit, so list growth and relevance matter more than ad load at this scale.",
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 2,
+      "churned_subscribers_7d": 1,
+      "open_rate": 28.57,
+      "click_rate": 50.0,
+      "unique_opens": 4,
+      "unique_clickers": 2,
+      "unsubscribes": 1,
+      "unsubscribe_rate": 7.14,
+      "earnings_7d": "$2.24"
     }
   ],
   "ad_slots": [
@@ -38,6 +54,48 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Masterworks",
+      "ad_headline": "Investors see ANOTHER return from Masterworks",
+      "offer_id_at_placement": "72524868",
+      "advertisement_id": "16ed20ea-19f9-41e9-b168-949d8d2baa7f",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-01T10:22:16Z"
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "Short BTC. Long ETH. Hold as Long as You Want.",
+      "offer_id_at_placement": "72524869",
+      "advertisement_id": "527a9818-f908-4653-836e-54354142300f",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-07-01T10:22:16Z"
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Stay curious.",
+      "offer_id_at_placement": "72524872",
+      "advertisement_id": "fa312841-5269-4838-84fd-076d0f47e235",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-06-30T23:59:59Z"
     }
   ]
 }

@@ -32,6 +32,11 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
   save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
   data-advertisement-kind = primary (with logo) | secondary (no logo).
+  SLOT LIMIT (learned 2026-06-26): a post has exactly ONE primary ad slot plus
+  multiple secondary slots. Placing 2+ ads all as kind="primary" is rejected with
+  "No 'primary' ad slot is available". To run 3 ads, use one primary (highest
+  payout) and the rest as secondary. Masterworks-type offers only ship a primary
+  creative, so reserve the primary slot for them.
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

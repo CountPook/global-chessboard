@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 3,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,70 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer Resigns and Britain Faces Its Seventh Leader in a Decade",
+      "region": "Europe / United Kingdom",
+      "sources": [
+        "https://www.npr.org/2026/06/22/nx-s1-5866231/keir-starmer-resigns",
+        "https://www.cnn.com/2026/06/22/world/live-news/keir-starmer-uk-pm"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "A Rare Naval Standoff at Scarborough Shoal",
+      "region": "Indo-Pacific / South China Sea",
+      "sources": [
+        "https://www.scmp.com/news/china/military/article/3358063/china-and-philippines-have-rare-naval-stand-near-disputed-scarborough-shoal",
+        "https://www.cbsnews.com/news/u-s-monitoring-chinese-activity-in-south-china-sea-around-disputed-shoal/"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Transatlantic Tariff Truce",
+      "region": "Economics / Trade",
+      "sources": [
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/05/20/eu-us-trade-council-and-parliament-strike-a-deal-to-implement-the-tariff-elements-of-the-joint-statement/",
+        "https://www.euronews.com/my-europe/2026/05/20/eu-approves-trade-deal-with-the-us-despite-uncertainty-in-transatlantic-relations"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "issue": 3,
+      "title": "Washington Strikes Iran After a Tanker Hit Tests the Hormuz Ceasefire",
+      "region": "Middle East",
+      "note": "Follow-up to issue 1's Iran oil-sanctions story; what is new is the June 26 US airstrike on Iranian sites and the M/V Ever Lovely drone attack, a military escalation distinct from the earlier sanctions deal.",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/26/us-strikes-iran-in-response-to-drone-strike-on-commercial-ship",
+        "https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html",
+        "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "issue": 3,
+      "title": "Allied Warnings Over Coast Guard Patrols Sharpen the Taiwan Strait Standoff",
+      "region": "Indo-Pacific / Taiwan",
+      "note": "Distinct from issue 2's Scarborough Shoal (Philippines-China) story; this concerns Chinese Coast Guard patrols off eastern Taiwan, Western allied statements, and the pending US arms package.",
+      "sources": [
+        "https://www.aei.org/articles/china-taiwan-update-june-26-2026/",
+        "https://www.washingtonpost.com/national-security/2026/05/23/us-pauses-14-billion-taiwan-arms-sale-after-china-summit/"
+      ]
+    },
+    {
+      "date": "2026-06-27",
+      "issue": 3,
+      "title": "American Forces Surge Into Quake-Hit Venezuela Months After Maduro's Capture",
+      "region": "Latin America / Global South",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/25/venezuela-struck-by-back-to-back-earthquakes-high-casualties-feared",
+        "https://www.npr.org/2026/06/24/nx-s1-5869817/2-major-earthquakes-strike-northern-venezuela-near-caracas",
+        "https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes"
       ]
     }
   ]

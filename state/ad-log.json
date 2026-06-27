@@ -8,6 +8,46 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-06-24",
+      "issue": 1,
+      "graded_on": "2026-06-27",
+      "post_id": "post_8d106eb7-9f26-4bb9-8db8-e47b31b80fac",
+      "note": "Issue #1 final email stats (graded retroactively on the 2026-06-27 run). Solid for a tiny list: open and click rates well above issue #2.",
+      "total_sent": 14,
+      "open_rate": 28.57,
+      "unique_opens": 4,
+      "click_rate": 50.0,
+      "unique_clickers": 2,
+      "unsubscribes": 1,
+      "unsubscribe_rate": 7.14,
+      "ad_slot_1": "I Hate It Here (real, CPC 131c)"
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "graded_on": "2026-06-27",
+      "post_id": "post_e94a9ecb-1eee-4117-900c-d7dfa2e32cd4",
+      "note": "Issue #2 (Starmer resignation, Scarborough Shoal, transatlantic tariff truce) was published 2026-06-26 but never recorded in covered-topics.json by the run that produced it (state desync; last_issue_number remained 1). Recovered and recorded this run. Engagement fell sharply versus issue #1, though on a 13-subscriber base this is single-reader variance. All three ad slots were placeholders, so $0 ad revenue in the period.",
+      "total_sent": 13,
+      "open_rate": 7.69,
+      "unique_opens": 1,
+      "click_rate": 0.0,
+      "unique_clickers": 0,
+      "unsubscribes": 0,
+      "unsubscribe_rate": 0.0,
+      "ad_slots": "all placeholders"
+    },
+    {
+      "date": "2026-06-27",
+      "issue": 3,
+      "graded_on": null,
+      "note": "Publication snapshot at issue #3 build time (last 7 days, America/Los_Angeles): 13 active subscribers, +2 new / -1 churned (net +1), open_rate_7d 18.52%, click_rate_7d 40.0%, earnings $0.00. To be graded on the next run against post_e113b158-e07f-4bb5-8027-95a9e6ad64c1.",
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 1,
+      "open_rate_7d": 18.52,
+      "click_rate_7d": 40.0
     }
   ],
   "ad_slots": [
@@ -35,6 +75,56 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-06-27",
+      "issue": 3,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Masterworks",
+      "ad_headline": "Investors see ANOTHER return from Masterworks",
+      "offer_id_at_placement": "72989853",
+      "advertisement_id": "4603e0a1-c6f7-4078-bcf8-40c5a48bdf4f",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-02T10:16:41Z"
+    },
+    {
+      "date": "2026-06-27",
+      "issue": 3,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Kalshi (CPC 150c) was available and survived the send-time cutoff, but beehiiv rejected a second ad-network node in the same post ('No primary ad slot is available'). Only one ad-network placement is supported per post for this publication, so the higher-value Masterworks offer took the single slot."
+    },
+    {
+      "date": "2026-06-27",
+      "issue": 3,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

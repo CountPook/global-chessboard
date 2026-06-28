@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 3,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,71 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer's Exit and the Search for Britain's Next Leader",
+      "region": "Europe / United Kingdom",
+      "note": "Published by a prior run that did not update state; topics reconstructed from the published post for dedup purposes.",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Scarborough Shoal Standoff Between China and the Philippines",
+      "region": "Indo-Pacific / South China Sea",
+      "note": "Published by a prior run that did not update state; topics reconstructed from the published post for dedup purposes.",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Transatlantic Tariff Truce Between the EU and the United States",
+      "region": "Trade / Transatlantic",
+      "note": "Published by a prior run that did not update state; topics reconstructed from the published post for dedup purposes.",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Israel and Lebanon Sign a Trilateral Framework as Hezbollah Rejects It",
+      "region": "Middle East",
+      "sources": [
+        "https://www.state.gov/releases/office-of-the-spokesperson/2026/06/trilateral-framework-between-the-united-states-of-america-the-state-of-israel-and-the-republic-of-lebanon",
+        "https://www.aljazeera.com/news/2026/6/26/what-is-the-framework-agreement-signed-by-israel-and-lebanon",
+        "https://www.timesofisrael.com/israel-and-lebanon-ink-framework-deal-for-minor-idf-withdrawal-after-4-days-of-dc-talks/",
+        "https://www.cnn.com/2026/06/26/middleeast/israel-and-lebanon-sign-framework-agreement-latam-intl"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Colombia Elects Abelardo de la Espriella in a Sharp Turn to the Right",
+      "region": "Americas / Latin America",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/22/far-right-de-la-espriella-elected-colombia-president-whats-next",
+        "https://www.cbc.ca/news/world/colombia-election-de-la-espriella-9.7244078",
+        "https://www.atlanticcouncil.org/dispatches/experts-react-what-a-president-abelardo-de-la-espriella-means-for-colombia-and-beyond/",
+        "https://www.cnn.com/2026/06/21/americas/colombia-trump-abelardo-de-la-espriella-intl-latam"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Taiwan Drills for a Sudden War as Beijing Tightens Its Pressure",
+      "region": "Indo-Pacific",
+      "sources": [
+        "https://www.aei.org/articles/china-taiwan-update-june-26-2026/",
+        "https://www.cnn.com/2026/03/19/asia/china-taiwan-invasion-plans-us-intl-hnk",
+        "https://www.cfr.org/articles/taiwans-political-polarization-is-playing-into-chinas-hands"
       ]
     }
   ]

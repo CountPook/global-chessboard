@@ -3,11 +3,30 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in 7 days, 0.0% open/click (no real campaign sent yet), $2.24 earnings (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-06-28",
+      "issue_graded": 2,
+      "graded_post_id": "post_e94a9ecb-1eee-4117-900c-d7dfa2e32cd4",
+      "graded_post_title": "Starmer's Exit, the Scarborough Shoal Standoff, and the Transatlantic Tariff Truce",
+      "graded_post_scheduled_at": "2026-06-26T14:00:00Z",
+      "note": "Issue 2 (the first issue actually sent to the list) underperformed. 13 emails sent, 100% delivery, but only 1 unique open (7.69% open rate) and 0 clicks (0.0% CTR), 0 unsubscribes, 0 web views. Issue 2 carried no real ads (all three slots were placeholders), so it generated no ad revenue. Publication 7d aggregate (as of 2026-06-28) shows a healthier 18.52% open and 40.0% click rate, but that blends in issue 1; the issue-2-specific numbers are the reliable signal and they are weak. Active subscribers dipped to 13 (from 14): +2 new, 1 churn, net +1 over 7 days, all acquisition from website direct. Earnings (7d): $0.00. Takeaways for issue 3: subject line clarity is fine; the bigger levers are list growth and getting real ads placed (done this issue) since open/engagement on a 13-person list is volatile.",
+      "graded_email_sent": 13,
+      "graded_open_rate": 7.69,
+      "graded_click_rate": 0.0,
+      "graded_unsubscribes": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 1,
+      "new_subscribers_7d": 2,
+      "churned_subscribers_7d": 1,
+      "open_rate_7d_pub_aggregate": 18.52,
+      "click_rate_7d_pub_aggregate": 40.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +57,70 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Issue 2 published by a prior run with all three ad slots as placeholders; no real ads were placed."
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "post_id": "post_8c25e714-2fa7-47dc-a0ff-ce4a2352f31c",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Masterworks",
+      "ad_headline": "Investors see ANOTHER return from Masterworks (!!!!)",
+      "advertisement_id": "4603e0a1-c6f7-4078-bcf8-40c5a48bdf4f",
+      "placement_method": "embedded already-accepted opportunity (offer acceptance was capped)",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "send_by": "2026-07-02T10:16:41Z"
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "post_id": "post_8c25e714-2fa7-47dc-a0ff-ce4a2352f31c",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "Short BTC. Long ETH. Hold as Long as You Want.",
+      "advertisement_id": "527a9818-f908-4653-836e-54354142300f",
+      "placement_method": "embedded already-accepted opportunity",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "send_by": "2026-07-01T10:22:16Z"
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "post_id": "post_8c25e714-2fa7-47dc-a0ff-ce4a2352f31c",
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Stay curious.",
+      "advertisement_id": "fa312841-5269-4838-84fd-076d0f47e235",
+      "placement_method": "embedded already-accepted opportunity",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "send_by": "2026-06-30T23:59:59Z"
     }
   ]
 }

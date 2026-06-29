@@ -8,6 +8,50 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-06-24",
+      "issue": 1,
+      "post_id": "post_8d106eb7-9f26-4bb9-8db8-e47b31b80fac",
+      "title": "Washington Eases Iran Oil Sanctions, Ukraine's Deep Strikes, and Sudan's Widening War",
+      "recipients": 14,
+      "delivered": 14,
+      "open_rate": 28.57,
+      "unique_opens": 4,
+      "click_rate": 50.0,
+      "unique_clicks": 2,
+      "unsubscribes": 1,
+      "ad_slot_1_advertiser": "I Hate It Here",
+      "note": "Recorded retroactively on the 2026-06-29 run. Strong click rate but one unsubscribe (7.14%)."
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "post_id": "post_e94a9ecb-1eee-4117-900c-d7dfa2e32cd4",
+      "title": "Starmer's Exit, the Scarborough Shoal Standoff, and the Transatlantic Tariff Truce",
+      "recipients": 13,
+      "delivered": 13,
+      "open_rate": 15.38,
+      "unique_opens": 2,
+      "click_rate": 0.0,
+      "unique_clicks": 0,
+      "unsubscribes": 0,
+      "note": "Recorded retroactively on the 2026-06-29 run. Weakest issue so far on opens and clicks."
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "recipients": 13,
+      "delivered": 13,
+      "open_rate": 46.15,
+      "unique_opens": 6,
+      "click_rate": 33.33,
+      "unique_clicks": 2,
+      "unsubscribes": 0,
+      "ad_slot_1_advertiser": "Masterworks",
+      "note": "Yesterday's issue, graded on the 2026-06-29 run. Best open rate to date (46.15%) and solid 33.33% click rate with no unsubscribes. Masterworks ad (CPC 225c) ran in slot 1. Publication 7-day aggregate at this run: 13 active subscribers, +2 new / -1 churned (net +1), open 30.0%, click 33.33%, earnings $0.00."
     }
   ],
   "ad_slots": [
@@ -38,6 +82,36 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-06-29",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Masterworks",
+      "ad_headline": "Investors see ANOTHER return from Masterworks (!!!!)",
+      "offer_id_at_placement": "73658943",
+      "advertisement_id": "61caa20a-56ce-445c-bef8-4447627b54ba",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-04T10:22:40Z"
+    },
+    {
+      "date": "2026-06-29",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Kalshi offers (CPC 150c) were available and not expired, but beehiiv's ad network rejected a second/third advertisementOpportunity node ('No primary ad slot is available in this post'). Only one network ad placement is permitted per post for this publication, so slots 2 and 3 are placeholders."
+    },
+    {
+      "date": "2026-06-29",
+      "issue": 4,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "See slot 2 note."
     }
   ]
 }

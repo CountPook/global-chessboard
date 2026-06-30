@@ -1,5 +1,6 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
+  "note": "Reconciled 2026-06-30: issues #2 (06-26) and #3 (06-28) were published but had not been logged here by prior runs. Their topics are added below so the 14-day dedup works.",
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +33,101 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer Resigns and Britain Faces Its Seventh Leader in a Decade",
+      "region": "Europe / United Kingdom",
+      "sources": [
+        "https://www.cnn.com/2026/06/22/world/live-news/keir-starmer-uk-pm",
+        "https://www.npr.org/2026/06/22/nx-s1-5866231/keir-starmer-resigns"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "A Rare Naval Standoff Hardens the Scarborough Shoal Dispute",
+      "region": "Indo-Pacific / South China Sea",
+      "sources": [
+        "https://www.scmp.com/news/china/military/article/3358063/china-and-philippines-have-rare-naval-stand-near-disputed-scarborough-shoal",
+        "https://www.cbsnews.com/news/u-s-monitoring-chinese-activity-in-south-china-sea-around-disputed-shoal/"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Transatlantic Tariff Truce Takes Legal Effect",
+      "region": "Transatlantic / Trade",
+      "sources": [
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/05/20/eu-us-trade-council-and-parliament-strike-a-deal-to-implement-the-tariff-elements-of-the-joint-statement/",
+        "https://www.euronews.com/my-europe/2026/05/20/eu-approves-trade-deal-with-the-us-despite-uncertainty-in-transatlantic-relations"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Washington Strikes Iran After a Tanker Hit Tests the Hormuz Ceasefire",
+      "region": "Middle East",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/26/us-strikes-iran-in-response-to-drone-strike-on-commercial-ship",
+        "https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html",
+        "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Allied Warnings Over Coast Guard Patrols Sharpen the Taiwan Strait Standoff",
+      "region": "Indo-Pacific / Taiwan",
+      "sources": [
+        "https://www.aei.org/articles/china-taiwan-update-june-26-2026/",
+        "https://www.washingtonpost.com/national-security/2026/05/23/us-pauses-14-billion-taiwan-arms-sale-after-china-summit/"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "American Forces Surge Into Quake-Hit Venezuela Months After Maduro's Capture",
+      "region": "Latin America",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/25/venezuela-struck-by-back-to-back-earthquakes-high-casualties-feared",
+        "https://www.npr.org/2026/06/24/nx-s1-5869817/2-major-earthquakes-strike-northern-venezuela-near-caracas",
+        "https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "issue": 4,
+      "title": "NATO Turns From Pledges to Delivery Ahead of the Ankara Summit",
+      "region": "Europe / Security",
+      "sources": [
+        "https://www.atlanticcouncil.org/commentary/event-recap/nato-secretary-general-mark-rutte-expect-deals-in-ankara-plus-a-sharp-message-to-moscow/",
+        "https://foreignpolicy.com/2026/06/29/nato-trump-erdogan-ankara-summit-europe-defense-russia/",
+        "https://www.kyivpost.com/post/78998"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "issue": 4,
+      "title": "Pakistan Strikes Across the Afghan Border as a Dormant War Reignites",
+      "region": "South Asia",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/29/pakistan-says-its-security-forces-killed-29-fighters-along-afghan-border",
+        "https://www.npr.org/2026/06/29/g-s1-130826/pakistani-airstrikes-kill-36-civilians-in-afghanistan-and-wound-160-officials-say",
+        "https://www.pbs.org/newshour/world/pakistan-says-it-carried-out-ground-operation-strikes-along-afghan-border-killing-29-militants"
+      ]
+    },
+    {
+      "date": "2026-06-30",
+      "issue": 4,
+      "title": "Washington Sanctions the Networks Arming Both Sides in Sudan",
+      "region": "Africa / Global South",
+      "sources": [
+        "https://home.treasury.gov/news/press-releases/sb0544",
+        "https://www.sudanspost.com/u-s-sanctions-eight-entities-individuals-fuelling-sudan-conflict/",
+        "https://www.globalsecurity.org/military/library/news/2026/06/mil-260626-treasury01.htm"
       ]
     }
   ]

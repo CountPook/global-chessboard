@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,97 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer's Exit and the Battle to Lead Britain",
+      "region": "Europe / United Kingdom",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Scarborough Shoal Standoff in the South China Sea",
+      "region": "Indo-Pacific / South China Sea",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Transatlantic Tariff Truce",
+      "region": "Economics / US-Europe",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Washington Strikes Iran After a Tanker Hit Tests the Hormuz Ceasefire",
+      "region": "Middle East",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/26/us-strikes-iran-in-response-to-drone-strike-on-commercial-ship",
+        "https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html",
+        "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Allied Warnings Over Coast Guard Patrols Sharpen the Taiwan Strait Standoff",
+      "region": "Indo-Pacific / Taiwan",
+      "sources": [
+        "https://www.aei.org/articles/china-taiwan-update-june-26-2026/",
+        "https://www.washingtonpost.com/national-security/2026/05/23/us-pauses-14-billion-taiwan-arms-sale-after-china-summit/"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "American Forces Surge Into Quake-Hit Venezuela Months After Maduro's Capture",
+      "region": "Latin America",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/25/venezuela-struck-by-back-to-back-earthquakes-high-casualties-feared",
+        "https://www.npr.org/2026/06/24/nx-s1-5869817/2-major-earthquakes-strike-northern-venezuela-near-caracas",
+        "https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes"
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "issue": 4,
+      "title": "Australia and Vanuatu Sign a Pact That Bars Foreign Bases",
+      "region": "Indo-Pacific / Pacific",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/29/australia-and-vanuatu-sign-deal-to-block-foreign-military-bases",
+        "https://thehill.com/homenews/ap/ap-international/ap-a-long-awaited-australia-vanuatu-pact-blocks-china-from-building-a-military-base/"
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "issue": 4,
+      "title": "NATO Gathers in Ankara Under a Five Percent Spending Mandate",
+      "region": "Europe",
+      "sources": [
+        "https://www.nato.int/en/news-and-events/events/2026/07/overview---2026-nato-summit-in-ankara-",
+        "https://www.dailysabah.com/business/defense/nato-to-unveil-billions-in-defense-deals-at-ankara-summit-rutte/amp",
+        "https://www.kyivpost.com/post/78998"
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "issue": 4,
+      "title": "Colombia's Rightward Turn Redraws the Regional Map",
+      "region": "Latin America",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/24/ivan-cepeda-concedes-defeat-in-colombia-election-sealing-right-wing-win",
+        "https://foreignpolicy.com/2026/06/26/colombia-presidential-vote-espriella-tigre-cepeda-petro-trump/",
+        "https://www.atlanticcouncil.org/dispatches/experts-react-what-a-president-abelardo-de-la-espriella-means-for-colombia-and-beyond/"
       ]
     }
   ]

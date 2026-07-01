@@ -8,6 +8,22 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-01",
+      "issue": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent_at": "2026-06-28T14:00:00Z",
+      "note": "Graded the newest published issue (issue #3, sent 2026-06-28). Note: issues #2 (2026-06-26) and #3 (2026-06-28) were produced by intervening runs whose ad-log/covered-topics updates never reached this branch, so their per-ad CTR was not logged. Issue #3 email performance: 13 delivered (100% delivery), open rate 46.15% (6 unique opens), click rate 33.33% (2 of 6 openers clicked), 0 unsubscribes, 0 bounces, 0 web views. Issue #3 ad: Masterworks in slot 1, slots 2 and 3 placeholders. Publication last 7 days (as of 2026-07-01, America/Los_Angeles): 13 active subscribers, 0 net new, 0 churned, open rate 30.0%, click rate 33.33%, earnings $0.00. Read: healthy open/click for a 13-subscriber list; subscriber base flat to slightly down (14 -> 13). No realized ad revenue yet because CPC ads require clicks that convert.",
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_post": 46.15,
+      "click_rate_post": 33.33,
+      "unsubscribes_post": 0,
+      "open_rate_7d": 30.0,
+      "click_rate_7d": 33.33,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +54,39 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-01",
+      "issue": 4,
+      "post_id": "post_fcafb589-b3cc-4fb8-8133-ad19b14d45da",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Masterworks",
+      "ad_headline": "Investors see ANOTHER return from Masterworks (!!!!)",
+      "offer_id_at_placement": "74915020",
+      "advertisement_id": "032c0190-2a42-483e-a3d4-6f913cab18f4",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-06T11:50:23Z"
+    },
+    {
+      "date": "2026-07-01",
+      "issue": 4,
+      "post_id": "post_fcafb589-b3cc-4fb8-8133-ad19b14d45da",
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Higher-value offers were available (Morning Brew 150c, Kalshi 150c) but beehiiv's ad network permits only one advertisementOpportunity slot per post; a second real ad was rejected with 'No primary ad slot is available in this post'. Placeholder used."
+    },
+    {
+      "date": "2026-07-01",
+      "issue": 4,
+      "post_id": "post_fcafb589-b3cc-4fb8-8133-ad19b14d45da",
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Same one-ad-slot limitation as slot 2. Placeholder used."
     }
   ]
 }

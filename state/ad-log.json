@@ -3,11 +3,35 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Only published post was a placeholder 'New post' sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-02",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "note": "Issue #3 (published 2026-06-28) is the strongest real issue to date: 46.15% open rate (6 unique opens of 13 delivered), 33.33% click rate (2 unique clickers), 0 unsubscribes, 0 bounces. Engagement quality is high; the constraint is list size, which is flat to slightly down (13 active, 0 net new over 7 days, down 1 from the 14 baseline at issue #1). Masterworks CPC ad ran in slot 1 but with only ~2 unique clickers issue-wide, realized ad revenue is minimal at this scale. Note: issues #2 and #3 were produced on the sibling branch and are graded here for the first time.",
+      "graded_post_email": {
+        "total_delivered": 13,
+        "open_rate": 46.15,
+        "unique_opens": 6,
+        "click_rate": 33.33,
+        "unique_clickers": 2,
+        "unsubscribe_rate": 0.0,
+        "bounce_rate": 0.0
+      },
+      "publication_7d": {
+        "subscribers_active": 13,
+        "net_new_subscribers_7d": 0,
+        "churned_7d": 0,
+        "open_rate_7d": 30.77,
+        "click_rate_7d": 25.0,
+        "earnings_7d": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -25,19 +49,46 @@
       "creative_kind": "primary",
       "send_by": "2026-06-29T07:09:42Z"
     },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-26", "issue": 2, "slot": 1, "type": "placeholder", "advertiser": "none", "note": "Reconstructed from published post content; all three slots were placeholders." },
+    { "date": "2026-06-26", "issue": 2, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-26", "issue": 2, "slot": 3, "type": "placeholder", "advertiser": "none" },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "date": "2026-06-28",
+      "issue": 3,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Masterworks",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "note": "Reconstructed from published post content."
+    },
+    { "date": "2026-06-28", "issue": 3, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-28", "issue": 3, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-07-02",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Masterworks",
+      "ad_headline": "Investors see ANOTHER return from Masterworks (!!!!)",
+      "offer_id_at_placement": "75506720",
+      "advertisement_id": "0dc1cb49-ab21-4d8b-a978-5287f2ce6965",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-07T10:17:06Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 3,
+      "date": "2026-07-02",
+      "issue": 4,
+      "slot": 2,
       "type": "placeholder",
-      "advertiser": "none"
-    }
+      "advertiser": "none",
+      "note": "Ad network rejected a second network placement ('No primary ad slot is available in this post'); this publication supports one network ad per post at its current plan/inventory. Higher-value offers 1440 Media and Kalshi (150c each) were available but could not be placed."
+    },
+    { "date": "2026-07-02", "issue": 4, "slot": 3, "type": "placeholder", "advertiser": "none" }
   ]
 }

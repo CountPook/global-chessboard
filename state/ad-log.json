@@ -3,11 +3,26 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Baseline: 14 active subscribers, +2 net new (7d), 0% open/click (no real campaign sent yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-03",
+      "graded_post_date": "2026-06-28",
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "note": "Most recent PUBLISHED post graded (drafts after 06-28 were never scheduled). This is the first real engagement data. Email 13 delivered, 100% delivery. Open rate 46.15% (6 unique opens), click rate 33.33% (2 unique clicks), 0 unsubscribes, 0 spam, 0 bounces. Web views 0. Publication 7d aggregate: open 30.77%, click 25.0%, 13 active subscribers, 0 net new, 0 churn, earnings $0.00. Strong open/click rates on a tiny 13-subscriber list; small absolute numbers make rates volatile. No advertiser here repeats in today's offer pool, so no realized-CTR blending was possible for today's ranking.",
+      "post_open_rate": 46.15,
+      "post_click_rate": 33.33,
+      "post_unsubscribes": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 30.77,
+      "click_rate_7d": 25.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,27 +32,27 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
+      "payout_per_click_cents": 131
+    },
+    {"date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none"},
+    {"date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none"},
+    {
+      "date": "2026-07-03",
+      "issue": 5,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "California. Texas. The Billboard Hot 100. It's all on Kalshi.",
+      "offer_id_at_placement": "76132320",
+      "advertisement_id": "3d621948-2d47-4618-a57a-d89306badb55",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
       "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "send_by": "2026-07-08T10:16:51Z"
     },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
-    }
+    {"date": "2026-07-03", "issue": 5, "slot": 2, "type": "placeholder", "advertiser": "none"},
+    {"date": "2026-07-03", "issue": 5, "slot": 3, "type": "placeholder", "advertiser": "none"}
   ]
 }

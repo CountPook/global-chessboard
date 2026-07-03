@@ -1,5 +1,6 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 5,
+  "note": "State reconciled on 2026-07-03. The prior committed state only tracked issue #1, but beehiiv shows issues were produced on a near-daily cadence (06-24 published, 06-26 published, 06-28 published, plus drafts on 06-29, 06-30, 07-01, and 07-02 which reached ISSUE #4). Most drafts after 06-28 were never scheduled by a human. Today's run is ISSUE #5. Intervening published/draft topics are recorded below for dedup; only issue #1 and #4 (07-02) carry re-verified source URLs.",
   "topics": [
     {
       "date": "2026-06-24",
@@ -8,8 +9,7 @@
       "region": "Middle East",
       "sources": [
         "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322"
       ]
     },
     {
@@ -18,9 +18,7 @@
       "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
       "region": "Eastern Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery"
       ]
     },
     {
@@ -29,9 +27,65 @@
       "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
       "region": "Africa / Global South",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://sudantribune.com/article/315409"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer's Exit, the Scarborough Shoal Standoff, and the Transatlantic Tariff Truce",
+      "region": "Europe / Indo-Pacific / Trade",
+      "sources": ["reconstructed from beehiiv published post list; sources not re-fetched"]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "region": "Middle East / Indo-Pacific / Latin America",
+      "sources": ["reconstructed from beehiiv published post list; sources not re-fetched"]
+    },
+    {
+      "date": "2026-07-02",
+      "issue": 4,
+      "title": "The Israel-Lebanon Peace Framework, the USMCA Review, and Ebola in Eastern Congo",
+      "region": "Middle East / North America / Central Africa",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/26/what-is-the-framework-agreement-signed-by-israel-and-lebanon",
+        "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-usmca-joint-review",
+        "https://www.who.int/emergencies/situations/ebola-outbreak---drc-2026"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "issue": 5,
+      "title": "India and Japan Deepen Their Alignment as China Tensions Rise",
+      "region": "Indo-Pacific",
+      "sources": [
+        "https://www.japantimes.co.jp/news/2026/07/02/japan/politics/japan-india-summit-meeting/",
+        "https://www.orfonline.org/expert-speak/modi-takaichi-summit-deepening-india-japan-ties-in-a-changing-indo-pacific",
+        "https://www.pmindia.gov.in/en/news_updates/16th-india-japan-annual-summit-joint-statement/"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "issue": 5,
+      "title": "Britain's Labour Party Opens the Race to Replace Keir Starmer",
+      "region": "Europe / United Kingdom",
+      "sources": [
+        "https://time.com/article/2026/06/22/how-will-new-uk-prime-minister-be-chosen-timeline-leadership-contest-burnham/",
+        "https://www.nbcnews.com/world/united-kingdom/britains-keir-starmer-imminent-challenge-key-rival-andy-burnham-rcna350511",
+        "https://www.itv.com/news/2026-06-22/sir-keir-starmer-to-resign-as-prime-minister"
+      ]
+    },
+    {
+      "date": "2026-07-03",
+      "issue": 5,
+      "title": "Peru Declares Fujimori the Winner of a Contested Election",
+      "region": "Americas / Latin America",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/23/sanchez-warns-he-will-not-recognise-fujimori-victory-in-peru-election",
+        "https://www.as-coa.org/articles/peru-elects-2026-ongoing-coverage-presidential-race",
+        "https://en.wikipedia.org/wiki/2026_Peruvian_general_election"
       ]
     }
   ]

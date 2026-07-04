@@ -3,11 +3,41 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-04",
+      "graded_issue": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent": "2026-06-28",
+      "note": "Graded the most recent published issue (#3, June 28). Strong engagement for the list size: 46.15% open rate (6 unique opens of 13 delivered), 33.33% verified click rate (2 unique clickers), 0 unsubscribes, 0 bounces, 0 spam, 100% delivery. Web views 0. Growth is the weak spot: active subscribers slipped from 14 to 13, 0 net new in the last 7 days, earnings $0.00 in the 7-day window (Masterworks CPC ad clicks not yet realized as earnings). Issues #2 (June 26) and #3 (June 28) were published but never recorded in state; state has been reconstructed this run.",
+      "post_stats_issue3": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 46.15,
+        "total_unique_opened": 6,
+        "click_rate_verified": 33.33,
+        "total_unique_email_clicked_verified": 2,
+        "unsubscribe_rate": 0.0,
+        "bounce_rate": 0.0,
+        "total_spam_reported": 0,
+        "total_web_viewed": 0
+      },
+      "publication_stats_7d": {
+        "current_active_subscribers": 13,
+        "open_rate": 46.15,
+        "click_rate": 33.33,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -17,27 +47,45 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
+      "payout_per_click_cents": 131
+    },
+    {"date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none"},
+    {"date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none"},
+    {
+      "date": "2026-07-04",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Masterworks",
+      "ad_headline": "Investors see ANOTHER return from Masterworks (!!!!)",
+      "opportunity_id": "0dc1cb49-ab21-4d8b-a978-5287f2ce6965",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
       "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "send_by": "2026-07-07T10:17:06Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-07-04",
+      "issue": 4,
       "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "California. Texas. The Billboard Hot 100. It's all on Kalshi.",
+      "opportunity_id": "3d621948-2d47-4618-a57a-d89306badb55",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-07-08T10:19:02Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-07-04",
+      "issue": 4,
       "slot": 3,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "note": "Ad network refused to accept additional new offers ('can not accept any more opportunities'). Only two distinct valid already-accepted opportunities existed (Masterworks 225c and Kalshi 150c); placing a third would have meant duplicating Masterworks, so slot 3 was left as a labeled placeholder rather than forced."
     }
   ]
 }

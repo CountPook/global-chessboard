@@ -3,11 +3,33 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' (post_a6a02adf, published 2026-05-31) sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0%, earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-05",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "note": "Graded the most recent published issue (#3, sent 2026-06-28). Strong engagement for a very small list: 13 delivered, 46.15% open rate (6 unique openers), 33.33% click rate (2 unique clickers, verified), 0 unsubscribes, 0 spam complaints. The Masterworks CPC ad ran in slot 1. Note: issues #2 and #3 were published on other branches and were not previously recorded in this branch's state; state has now been backfilled. Publication is flat: 13 active subscribers, 0 net new and 0 churned in the last 7 days, earnings $0.00 (last 7 days). Grade: content performing well on a per-open basis; the binding constraint is list size and zero recent growth, not engagement.",
+      "graded_post_stats": {
+        "total_delivered": 13,
+        "open_rate": 46.15,
+        "unique_opens": 6,
+        "click_rate": 33.33,
+        "unique_clickers": 2,
+        "unsubscribes": 0,
+        "spam_reports": 0
+      },
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 46.15,
+      "click_rate_7d": 33.33,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +57,37 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-05",
+      "issue": 4,
+      "draft_post_id": "post_99873787-6ded-4205-ba58-3fe5c719571f",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "California. Texas. The Billboard Hot 100. It's all on Kalshi.",
+      "advertisement_id": "3d621948-2d47-4618-a57a-d89306badb55",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "auto",
+      "send_by": "2026-07-08T10:19:02Z",
+      "placement_note": "Placed from an already-accepted opportunity via edit_post_content. The ad network rejected placing 3 separate offers ('can not accept any more opportunities' / 'no primary ad slot available'); this publication accepts one ad opportunity per post, so slots 2 and 3 are placeholders."
+    },
+    {
+      "date": "2026-07-05",
+      "issue": 4,
+      "draft_post_id": "post_99873787-6ded-4205-ba58-3fe5c719571f",
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-05",
+      "issue": 4,
+      "draft_post_id": "post_99873787-6ded-4205-ba58-3fe5c719571f",
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

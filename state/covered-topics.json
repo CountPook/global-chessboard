@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,95 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer's Exit",
+      "region": "Europe / United Kingdom",
+      "sources": [],
+      "note": "Sources not recorded on this branch; reconstructed from the published post index (post_e94a9ecb). UK political leadership change."
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Scarborough Shoal Standoff",
+      "region": "Indo-Pacific / South China Sea",
+      "sources": [],
+      "note": "Sources not recorded on this branch; reconstructed from the published post index (post_e94a9ecb). Philippines-China maritime tensions."
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Transatlantic Tariff Truce",
+      "region": "Economics / EU-US Trade",
+      "sources": [],
+      "note": "Sources not recorded on this branch; reconstructed from the published post index (post_e94a9ecb)."
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Washington Strikes Iran After a Tanker Hit Tests the Hormuz Ceasefire",
+      "region": "Middle East",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/26/us-strikes-iran-in-response-to-drone-strike-on-commercial-ship",
+        "https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html",
+        "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Allied Warnings Over Coast Guard Patrols Sharpen the Taiwan Strait Standoff",
+      "region": "Indo-Pacific / Taiwan",
+      "sources": [
+        "https://www.aei.org/articles/china-taiwan-update-june-26-2026/",
+        "https://www.washingtonpost.com/national-security/2026/05/23/us-pauses-14-billion-taiwan-arms-sale-after-china-summit/"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "American Forces Surge Into Quake-Hit Venezuela Months After Maduro's Capture",
+      "region": "Latin America",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/25/venezuela-struck-by-back-to-back-earthquakes-high-casualties-feared",
+        "https://www.npr.org/2026/06/24/nx-s1-5869817/2-major-earthquakes-strike-northern-venezuela-near-caracas",
+        "https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes"
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "issue": 4,
+      "title": "Mali's Capital Chokes as a Fuel Blockade Tightens Around Bamako",
+      "region": "Africa / Sahel",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/4/26/mali-rattled-by-ongoing-armed-attacks-what-to-know",
+        "https://www.securitycouncilreport.org/monthly-forecast/2026-07/west-africa-and-the-sahel-17.php",
+        "https://africacenter.org/spotlight/attacks-in-mali-underscore-worsening-security-trajectory/"
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "issue": 4,
+      "title": "NATO Gathers in Ankara to Test Its Unity on Spending and Ukraine",
+      "region": "Europe",
+      "sources": [
+        "https://www.reuters.com/world/nato-leaders-affirm-ironclad-commitment-collective-defence-ankara-summit-text-2026-07-03/",
+        "https://www.euronews.com/my-europe/2026/07/03/nato-to-reaffirm-iron-clad-commitment-to-article-5-at-ankara-summit",
+        "https://www.nato.int/en/news-and-events/events/2026/07/overview---2026-nato-summit-in-ankara-"
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "issue": 4,
+      "title": "China Widens Export Controls on Japan in a Bid to Split the G7",
+      "region": "Indo-Pacific / East Asia",
+      "sources": [
+        "https://www.aljazeera.com/economy/2026/6/29/china-slaps-export-controls-on-dozens-of-japanese-entities",
+        "https://www.cnbc.com/2026/06/29/china-japan-export-controls-watch-list-defense-entities.html",
+        "https://www.japantimes.co.jp/commentary/2026/07/01/japan/chinas-export-controls-target-japan/"
       ]
     }
   ]

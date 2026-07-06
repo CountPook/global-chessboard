@@ -3,11 +3,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in 7 days, 0.0% aggregate open/click (no real campaign sent yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-06",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "note": "Graded the newest published issue (#3, sent 2026-06-28). Issues #2 and #3 were published by runs on other branches; this branch's ad-log had only issue #1, so issue #3 is the first real issue graded here. Post-level: 13 delivered (100% delivery), 46.15% open rate (6 unique opens), 33.33% verified click rate (2 unique email clicks), 0 unsubscribes, 0 bounces, 0 spam. Publication (7d to 2026-07-06): 13 active subscribers, 0 net new, 0 churned, earnings $0.00 (no campaign sent inside the trailing 7-day window; last send was June 28).",
+      "graded_post_delivered": 13,
+      "graded_post_open_rate": 46.15,
+      "graded_post_click_rate_verified": 33.33,
+      "graded_post_unique_clicks": 2,
+      "graded_post_unsubscribes": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +52,38 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-06",
+      "issue": 4,
+      "post_id": "post_8b998a02-6689-4348-8df0-0576d5515edd",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "California. Texas. The Billboard Hot 100. It's all on Kalshi.",
+      "offer_id_at_placement": "77268637",
+      "advertisement_id": "19909e0a-9597-4622-9fdc-f331ae0b0a27",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-07-11T10:17:31Z"
+    },
+    {
+      "date": "2026-07-06",
+      "issue": 4,
+      "post_id": "post_8b998a02-6689-4348-8df0-0576d5515edd",
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "beehiiv ad network allocated only one paid slot for this post; a save attempt with three network ads was rejected with 'No primary ad slot is available'. Matches issue #1 and issue #3, which also ran a single network ad."
+    },
+    {
+      "date": "2026-07-06",
+      "issue": 4,
+      "post_id": "post_8b998a02-6689-4348-8df0-0576d5515edd",
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

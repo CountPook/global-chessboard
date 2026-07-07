@@ -3,11 +3,33 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Baseline at run time: 14 active subscribers, +2 net new in 7 days, aggregate open/click 0.0% (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "graded_on": "2026-07-07",
+      "post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "note": "Most recent published issue graded on 2026-07-07 (issue 3, sent 2026-06-28; there was no issue sent on 2026-07-06, so this was the newest published post). Solid engagement for a small list: nearly half of recipients opened and a third clicked, with no unsubscribes. Issue 2 (2026-06-26) was not graded because its stats were superseded; its numbers were not recorded on its run day.",
+      "email_delivered": 13,
+      "open_rate": 46.15,
+      "unique_opens": 6,
+      "click_rate": 33.33,
+      "unique_clickers": 2,
+      "unsubscribe_rate": 0.0,
+      "total_unsubscribes": 0,
+      "publication_at_grade_time": {
+        "active_subscribers": 13,
+        "net_new_subscribers_7d": 0,
+        "churned_subscribers_7d": 0,
+        "open_rate_7d": 0.0,
+        "click_rate_7d": 0.0,
+        "earnings_7d": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -22,22 +44,45 @@
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
       "payout_per_click_cents": 131,
+      "creative_kind": "primary"
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Masterworks",
+      "ad_headline": "Investors see ANOTHER return from Masterworks",
+      "note": "Reconstructed from the published issue 3 post on 2026-07-07; offer/advertisement IDs not recorded on run day.",
+      "payout_model": "cpc",
+      "creative_kind": "primary"
+    },
+    { "date": "2026-06-28", "issue": 3, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-28", "issue": 3, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-07-07",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "offer_id_at_placement": "77940824",
+      "advertisement_id": "6a041406-dfdf-47ef-a34c-7f7c07df6f89",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
       "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "send_by": "2026-07-12T10:18:38Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-07-07",
+      "issue": 4,
       "slot": 2,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "note": "Paying demand existed (Superhuman AI, Morning Brew, Kalshi, Maxio, all 150c CPC) but the beehiiv ad network accepts only ONE network ad per post; a second advertisementOpportunity node is rejected with 'No primary ad slot is available'. Placed the single highest-CPC ad (Tello) and left slots 2 and 3 as placeholders."
     },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
-    }
+    { "date": "2026-07-07", "issue": 4, "slot": 3, "type": "placeholder", "advertiser": "none" }
   ]
 }

@@ -38,6 +38,26 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 - **recipients**: omit on save_post to default to free tier on web+email (matches
   this publication's audience).
 
+## Lessons from later runs
+- **Ad network allows only ONE network ad per post.** Placing multiple
+  `node-advertisementOpportunity` blocks makes save_post fail with
+  "No 'primary' ad slot is available in this post for opportunity <id>". Place
+  the single highest-value offer as slot 1 and render the other ad slots as the
+  spec's placeholder blocks. (Confirmed 2026-07-07; matches issues 1 and 3, which
+  also ran 1 real ad + 2 placeholders.)
+- **email_settings keys are `email_subject_line` / `email_preview_text`**, not
+  `subject_line` / `preview_text`. If you pass the wrong keys, save_post silently
+  falls back to the post title (subject) and subtitle (preview). Set them via
+  save_post or fix afterward with edit_post.
+- **State can be stale across branches.** Issues 2 and 3 were published but their
+  topics/ad placements were never written to this branch's state. Before picking
+  stories, reconcile covered-topics.json against `list_posts status=published`
+  (read the latest post's masthead for the true ISSUE #N) so the issue number and
+  14-day dedup are correct.
+- Wikimedia `Special:FilePath/<File>.png` works for save_image (server-side
+  download) even though WebFetch 403s on commons.wikimedia.org. Transient 429s
+  happen; just retry. Use raster PNG/JPG, not SVG.
+
 ## Brand tokens (do not restyle theme; apply via spans/sections)
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;
 body text #a0b4c8; muted #8a9bb0; heading accent #e8d5a3; faint #5a6a7a;

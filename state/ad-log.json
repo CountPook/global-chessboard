@@ -8,6 +8,26 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-08",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent_at": "2026-06-28T14:00:00Z",
+      "note": "Grading the newest published issue (#3, sent 2026-06-28). Issues #2 and #3 were published but never recorded in state; this run reconciled the memory. Issue #3 performed well on a tiny list: 13 delivered, 100% delivery, 46.15% open rate (6 unique opens), 33.33% click rate (2 unique clicks), 0 unsubscribes, 0 bounces, 0 spam. Web views 0. Publication last-7-days (as of 2026-07-08): 13 active subscribers, 0 net new, 0 churned, 0.0% aggregate open/click (last send was 10 days ago), earnings $0.00. Takeaway: strong open and click engagement per capita, no list attrition, but the subscriber base is flat and monetization is negligible at this size. No prior CTR history exists for any of today's advertisers (Kalshi, Morning Brew, Superhuman AI), so ad ranking fell back to payout (all equal at 150c CPC).",
+      "email_total_delivered": 13,
+      "email_delivery_rate": 100.0,
+      "open_rate": 46.15,
+      "unique_opens": 6,
+      "click_rate": 33.33,
+      "unique_clicks": 2,
+      "unsubscribes": 0,
+      "bounce_rate": 0.0,
+      "publication_active_subscribers": 13,
+      "publication_net_new_7d": 0,
+      "publication_churned_7d": 0,
+      "publication_earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +58,36 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-08",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "California. Texas. The Billboard Hot 100. It's all on Kalshi.",
+      "offer_id_at_placement": "78585408",
+      "advertisement_id": "2b6178ca-856f-40b4-a256-da9a7482777d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-07-13T10:16:43Z"
+    },
+    {
+      "date": "2026-07-08",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "beehiiv rejected placing a second real ad ('No primary ad slot is available in this post'). The ad network appears to allow only one advertisementOpportunity per post for this publication, matching issue #1. Left as placeholder."
+    },
+    {
+      "date": "2026-07-08",
+      "issue": 4,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Same one-slot limit as slot 2. Left as placeholder."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,99 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer's Exit and the Contest to Lead Britain",
+      "region": "Europe / United Kingdom",
+      "note": "Backfilled from published post; state file had not been updated for issue 2.",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Scarborough Shoal Standoff in the South China Sea",
+      "region": "Indo-Pacific / South China Sea",
+      "note": "Backfilled from published post.",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Transatlantic Tariff Truce",
+      "region": "Economics / Trade",
+      "note": "Backfilled from published post.",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "US Strikes Near Hormuz and the Reimposition of Iran Pressure",
+      "region": "Middle East",
+      "note": "Backfilled from published post; state file had not been updated for issue 3.",
+      "sources": [
+        "https://www.global-chessboard.com/p/us-strikes-near-hormuz-the-taiwan-strait-standoff-and-venezuela-s-quake-relief-crisis"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "The Taiwan Strait Standoff",
+      "region": "Indo-Pacific / Taiwan",
+      "note": "Backfilled from published post.",
+      "sources": [
+        "https://www.global-chessboard.com/p/us-strikes-near-hormuz-the-taiwan-strait-standoff-and-venezuela-s-quake-relief-crisis"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Venezuela's Quake Relief Crisis",
+      "region": "Americas / Global South",
+      "note": "Backfilled from published post.",
+      "sources": [
+        "https://www.global-chessboard.com/p/us-strikes-near-hormuz-the-taiwan-strait-standoff-and-venezuela-s-quake-relief-crisis"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "issue": 4,
+      "title": "NATO's Ankara Summit and Turkey's Path Back to the F-35",
+      "region": "Europe / Transatlantic / Turkey",
+      "sources": [
+        "https://www.pbs.org/newshour/world/watch-trump-says-in-erdogan-meeting-that-u-s-will-lift-turkey-sanctions-consider-selling-f-35s",
+        "https://thehill.com/policy/defense/5955871-trump-turkey-nato-f35-pushback/",
+        "https://www.turkishminute.com/2026/07/07/trump-says-us-will-consider-f-35-sale-to-turkey-lifting-caatsa-sanctions/"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "issue": 4,
+      "title": "China Fires a Submarine Missile Across the South Pacific",
+      "region": "Indo-Pacific",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/7/6/china-missile-test-draws-criticism-from-australia-new-zealand-japan",
+        "https://www.cnn.com/2026/07/06/china/china-tests-submarine-launched-ballistic-missile-intl-hnk-ml",
+        "https://www.npr.org/2026/07/07/nx-s1-5884537/china-ballistic-missile-south-pacific"
+      ]
+    },
+    {
+      "date": "2026-07-08",
+      "issue": 4,
+      "title": "Washington Withdraws Iran's Oil Waiver and Strikes Back Over Hormuz",
+      "region": "Middle East",
+      "note": "Follow-up to issue 1 (waiver granted) and issue 3 (initial Hormuz strikes). What is new: the June waiver was revoked early, the US said it struck 80-plus targets, oil sanctions were reimposed, three vessels including a Qatari LNG tanker were attacked in the strait, and the UK raised its Hormuz alert to severe.",
+      "sources": [
+        "https://www.cnn.com/2026/07/07/world/live-news/nato-summit-trump",
+        "https://www.foreignexchanges.news/p/world-roundup-july-7-2026"
       ]
     }
   ]

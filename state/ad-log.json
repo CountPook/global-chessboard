@@ -8,6 +8,23 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-09",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "note": "Graded on run day (2026-07-09). No issue was published between 2026-06-28 and today, so the newest published post is issue #3 (US Strikes Near Hormuz, Taiwan Strait, Venezuela). NOTE: state was out of sync at run start; issues #2 (06-26) and #3 (06-28) had been published but were never logged. Backfilled per-post stats below. Issue #3 was the strongest issue to date: 46.15% open, 33.33% click, 0 unsubscribes on 13 delivered. Issue #2 was the weakest: 15.38% open, 0% click. Issue #1: 28.57% open, 50% click, but 1 unsubscribe (7.14%). Takeaway for ad ranking and content: the security/Middle East cover framing in #3 drove the best engagement; the softer #2 mix underperformed. Subscriber base is flat to slightly down (14 -> 13 active).",
+      "per_post_stats": [
+        {"issue": 1, "post_id": "post_8d106eb7-9f26-4bb9-8db8-e47b31b80fac", "delivered": 14, "open_rate": 28.57, "click_rate": 50.0, "unsubscribes": 1},
+        {"issue": 2, "post_id": "post_e94a9ecb-1eee-4117-900c-d7dfa2e32cd4", "delivered": 13, "open_rate": 15.38, "click_rate": 0.0, "unsubscribes": 0},
+        {"issue": 3, "post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1", "delivered": 13, "open_rate": 46.15, "click_rate": 33.33, "unsubscribes": 0}
+      ],
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "net_new_subscribers_4w": 2,
+      "open_rate_4w": 30.0,
+      "click_rate_4w": 33.33,
+      "earnings_4w": "$2.24"
     }
   ],
   "ad_slots": [
@@ -38,6 +55,39 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-09",
+      "issue": 4,
+      "post_id": "post_e940fcd3-d96d-43bb-be56-50323911e38a",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying! Get Tello's same reliable 5G network for under $25",
+      "offer_id_at_placement": "79231973",
+      "advertisement_id": "acce239b-8986-4dee-b4e4-a0a04693eb84",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-14T10:18:08Z"
+    },
+    {
+      "date": "2026-07-09",
+      "issue": 4,
+      "post_id": "post_e940fcd3-d96d-43bb-be56-50323911e38a",
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Multiple valid CPC offers were available (Kalshi, Morning Brew, Superhuman AI, Maxio, all 150c), but beehiiv rejected a save that placed more than one network ad in this post ('No primary ad slot is available'). The Ad Network allocates only one primary ad slot per post for this publication, so slots 2-3 were rendered as placeholders."
+    },
+    {
+      "date": "2026-07-09",
+      "issue": 4,
+      "post_id": "post_e940fcd3-d96d-43bb-be56-50323911e38a",
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "See slot 2 note: only one network ad slot available per post."
     }
   ]
 }

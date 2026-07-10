@@ -8,6 +8,23 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-10",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_date": "2026-06-28",
+      "note": "Grading of the newest published issue (#3, 2026-06-28) on the 2026-07-10 run. State had only logged issue #1; issues #2 (6/26) and #3 (6/28) were published but never recorded. Issue #3 performed well on a tiny list: 13 delivered, 46.15% unique open rate, 33.33% click rate, 0 unsubscribes, 0 bounces, 0 spam. Publication level (last 7 days) shows 13 active subscribers, 0 net new, $0.00 earnings, and 0.0% aggregate open/click because no campaign was sent inside the trailing 7-day window (the last send was 6/28, 12 days ago).",
+      "graded_email_delivered": 13,
+      "graded_open_rate": 46.15,
+      "graded_click_rate": 33.33,
+      "graded_unsubscribes": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +52,38 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-10",
+      "issue": 4,
+      "post_id": "post_e2fe27f7-637c-4686-8c8d-0f5e35bfed28",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "California. Texas. The Billboard Hot 100. It's all on Kalshi.",
+      "offer_id_at_placement": "79875299",
+      "advertisement_id": "6bc2b050-8a5a-40a9-92a1-cadfe2c33997",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-07-15T10:15:40Z"
+    },
+    {
+      "date": "2026-07-10",
+      "issue": 4,
+      "post_id": "post_e2fe27f7-637c-4686-8c8d-0f5e35bfed28",
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "beehiiv rejected a second and third ad-network placement: 'No primary ad slot is available in this post.' This publication currently exposes only one monetizable ad slot per post, matching issue #1's behavior."
+    },
+    {
+      "date": "2026-07-10",
+      "issue": 4,
+      "post_id": "post_e2fe27f7-637c-4686-8c8d-0f5e35bfed28",
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

@@ -1,5 +1,6 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
+  "note": "State was stale after issue #1: issues #2 (2026-06-26) and #3 (2026-06-28) were published but never logged. Reconciled on 2026-07-10 by reading the published posts back from beehiiv. Composite entries for #2 and #3 use the post title/URL since original source URLs were not recorded.",
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +33,68 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer's Exit, the Scarborough Shoal Standoff, and the Transatlantic Tariff Truce",
+      "region": "Europe / Indo-Pacific / Trade (composite issue)",
+      "stories": [
+        "UK: resignation/exit of PM Starmer",
+        "South China Sea: Scarborough Shoal standoff (Philippines/China)",
+        "Trade: transatlantic tariff truce (US/EU)"
+      ],
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "region": "Middle East / Indo-Pacific / Latin America (composite issue)",
+      "stories": [
+        "Middle East: US strikes near the Strait of Hormuz (Iran)",
+        "Indo-Pacific: Taiwan Strait standoff",
+        "Latin America: Venezuela earthquake relief and sovereignty concerns"
+      ],
+      "sources": [
+        "https://www.global-chessboard.com/p/us-strikes-near-hormuz-the-taiwan-strait-standoff-and-venezuela-s-quake-relief-crisis"
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "issue": 4,
+      "title": "NATO's Ankara Summit Locks In a Two-Year Ukraine Commitment",
+      "region": "Europe / Alliance politics",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/7/8/nato-pledges-70-billion-euros-for-ukraine-as-trump-praises-peace-progress",
+        "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/the-ankara-summit-declaration",
+        "https://www.kyivpost.com/analysis/79865"
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "issue": 4,
+      "title": "China's First Ocean Missile Test Rattles the South Pacific",
+      "region": "Indo-Pacific",
+      "sources": [
+        "https://www.cnn.com/2026/07/06/china/china-tests-submarine-launched-ballistic-missile-intl-hnk-ml",
+        "https://www.npr.org/2026/07/07/nx-s1-5884537/china-ballistic-missile-south-pacific",
+        "https://news.usni.org/2026/07/06/china-tests-submarine-launched-ballistic-missile-kicks-off-annual-exercise-with-russia",
+        "https://www.csis.org/analysis/chinas-slbm-test-underscores-importance-ballistic-missile-launch-notification-agreement"
+      ]
+    },
+    {
+      "date": "2026-07-10",
+      "issue": 4,
+      "title": "The Indus Waters Treaty Becomes a Nuclear Neighbors Flashpoint",
+      "region": "South Asia",
+      "sources": [
+        "https://thediplomat.com/2026/07/pakistan-ups-the-ante-on-indus-water-dispute-with-india/",
+        "https://www.cnbc.com/2026/06/22/india-pakistan-indus-waters-treaty-water-dispute-war-risk.html",
+        "https://www.chathamhouse.org/2026/04/india-and-pakistan-still-cannot-agree-restore-indus-waters-treaty-re-engagement-could-help"
       ]
     }
   ]

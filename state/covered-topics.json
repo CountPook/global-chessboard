@@ -1,5 +1,6 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
+  "note": "Reconciled 2026-07-11: the publication had 3 real published issues (06-24, 06-26, 06-28) but state only tracked issue #1. Issues #2 and #3 topics below were reconstructed from their published post titles/tags; their source field points to the beehiiv post URL rather than original wire links. Today's issue #4 topics are fully sourced.",
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +33,92 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer's Exit and the UK Leadership Question",
+      "region": "Europe / United Kingdom",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Scarborough Shoal Standoff",
+      "region": "Indo-Pacific / South China Sea",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "The Transatlantic Tariff Truce",
+      "region": "Economics / US-EU Trade",
+      "sources": [
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "US Strikes Near Hormuz",
+      "region": "Middle East / Iran",
+      "sources": [
+        "https://www.global-chessboard.com/p/us-strikes-near-hormuz-the-taiwan-strait-standoff-and-venezuela-s-quake-relief-crisis"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "The Taiwan Strait Standoff",
+      "region": "Indo-Pacific / Taiwan",
+      "sources": [
+        "https://www.global-chessboard.com/p/us-strikes-near-hormuz-the-taiwan-strait-standoff-and-venezuela-s-quake-relief-crisis"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Venezuela's Quake Relief Crisis",
+      "region": "Latin America / Venezuela",
+      "sources": [
+        "https://www.global-chessboard.com/p/us-strikes-near-hormuz-the-taiwan-strait-standoff-and-venezuela-s-quake-relief-crisis"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "issue": 4,
+      "title": "NATO's Ankara Reckoning Over Money and Staying Power",
+      "region": "Europe / Alliances",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/7/8/five-key-takeaways-from-the-nato-summit-in-ankara",
+        "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/the-ankara-summit-declaration",
+        "https://www.atlanticcouncil.org/dispatches/eleven-takeaways-from-the-nato-summit-in-ankara/"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "issue": 4,
+      "title": "Japan Hands the Philippine Navy Five Abukuma-class Warships",
+      "region": "Indo-Pacific / Maritime Security",
+      "sources": [
+        "https://www.navalnews.com/naval-news/2026/07/philippines-confirms-deal-to-acquire-five-japanese-abukuma-class-destroyer-escorts/",
+        "https://www.japantimes.co.jp/news/2026/07/08/japan/philippines-japan-abukuma-transfer/",
+        "https://www.nippon.com/en/news/yjj2026070701085/philippines-to-accept-5-destroyers-from-japan.html"
+      ]
+    },
+    {
+      "date": "2026-07-11",
+      "issue": 4,
+      "title": "The Sahel's War Turns on Mali's Russian Partners",
+      "region": "Africa / Global South / Sahel",
+      "sources": [
+        "https://www.usnews.com/news/world/articles/2026-07-09/convoy-carrying-russian-fighters-attacked-in-mali-sources-say",
+        "https://www.criticalthreats.org/analysis/jnim-fla-mali-sudan-rsf-saf-car-russia-burundi-drc-m23"
       ]
     }
   ]

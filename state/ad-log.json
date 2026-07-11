@@ -8,6 +8,28 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-11",
+      "graded_issue": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_scheduled_at": "2026-06-28T14:00:00Z",
+      "note": "Graded the newest published post (issue #3, 06-28) as 'yesterday'. State was out of sync: issues #2 (06-26) and #3 (06-28) had been published but never recorded. Issue #3 performed well for a 13-person list: 46.15% open rate and 33.33% click rate with zero unsubscribes, bounces, or spam. Engagement is healthy; list size and growth are the constraint (13 active, 0 net new in 7 days, $0 earnings).",
+      "post_email_sent": 13,
+      "post_delivery_rate": 100.0,
+      "post_open_rate": 46.15,
+      "post_unique_opens": 6,
+      "post_click_rate": 33.33,
+      "post_unique_clicks": 2,
+      "post_unsubscribes": 0,
+      "post_bounces": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +57,34 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-11",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Mindstream",
+      "ad_headline": "Master Claude AI (Free Guide)",
+      "offer_id_at_placement": "80243880",
+      "advertisement_id": "e7bc8d82-4b25-4dc7-af63-fe2f3ed66a0c",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 168,
+      "creative_kind": "primary",
+      "send_by": "2026-07-16T11:36:03Z"
+    },
+    {
+      "date": "2026-07-11",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-11",
+      "issue": 4,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

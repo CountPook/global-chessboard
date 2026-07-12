@@ -1,5 +1,6 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
+  "note": "Issues #2 (2026-06-26) and #3 (2026-06-28) were published on beehiiv but their state was written on other working branches and is not reflected in this file. Issue numbering reconciled from the beehiiv masthead: newest published post (2026-06-28) is Issue #3, so this run is Issue #4.",
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +33,36 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "issue": 4,
+      "title": "NATO Pledges 140 Billion Euros to Ukraine at the Ankara Summit",
+      "region": "Europe",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/7/8/nato-pledges-70-billion-euros-for-ukraine-as-trump-praises-peace-progress",
+        "https://www.npr.org/2026/07/09/nx-s1-5887053/trump-nato-zelenskyy",
+        "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2026/07/08/the-ankara-summit-declaration"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "issue": 4,
+      "title": "Russia Deepens Its Security Pact With the Sahel States",
+      "region": "West Africa / Global South",
+      "sources": [
+        "https://www.africanews.com/2026/07/09/russian-fm-meets-with-counterparts-from-sahel-alliance/"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "issue": 4,
+      "title": "A Looming Tariff Deadline Tests the US Trade Strategy",
+      "region": "Economics / United States",
+      "sources": [
+        "https://taxfoundation.org/research/all/federal/trump-tariffs-trade-war/",
+        "https://www.skadden.com/insights/publications/2026/05/us-trade-court-strikes-down-section-122-tariffs"
       ]
     }
   ]

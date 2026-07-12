@@ -3,11 +3,37 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Baseline: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-12",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent_date": "2026-06-28",
+      "note": "Grading the newest published issue (#3, sent 2026-06-28) because there was no post on the calendar day before this run. Strong engagement for a small list: 13 delivered, 46.15% open rate (6 unique opens), 33.33% click rate (2 unique clickers), 0 unsubscribes, 0 bounces, 0 spam. Publication has drifted from 14 to 13 active subscribers with 0 net new in the trailing 7 days and $0.00 earnings, reflecting a roughly two-week gap since the last send. Open and click rates are healthy; the priority is resuming a regular cadence to rebuild list growth and ad earnings.",
+      "graded_post_stats": {
+        "total_delivered": 13,
+        "open_rate": 46.15,
+        "unique_opens": 6,
+        "click_rate": 33.33,
+        "unique_clickers": 2,
+        "unsubscribe_rate": 0.0,
+        "bounce_rate": 0.0
+      },
+      "publication_last_7d": {
+        "active_subscribers": 13,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -35,6 +61,34 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-12",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Superhuman AI",
+      "ad_headline": "200+ Claude Prompts Top Professionals Actually Use at Work",
+      "offer_id_at_placement": "80406263",
+      "advertisement_id": "743ba8bb-853b-4ac0-9be8-bb803d889d6e",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-07-17T11:32:11Z"
+    },
+    {
+      "date": "2026-07-12",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-12",
+      "issue": 4,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

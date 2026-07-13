@@ -3,11 +3,24 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' (post_a6a02adf...), sent to one test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in 7 days, 0.0% aggregate open/click (no real campaign sent yet), earnings $2.24 (7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-13",
+      "issue": 5,
+      "note": "Graded the newest PUBLISHED post, which is Issue #3-equivalent 'US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis' (post_e113b158, sent 2026-06-28). It is not literally yesterday: nothing has been published since 2026-06-28, though drafts through 2026-07-12 exist and were never scheduled/sent. That June 28 issue performed well for the list size: 13 delivered, 46.15% unique open rate, 33.33% click rate, 0 unsubscribes, 0 spam. Publication 7-day stats this run: 13 active subscribers (down 1 from the 14 baseline), 0 new, 0 churned, $0.00 earnings, 0.0% open/click over the last 7 days because no campaign was actually sent in that window. Takeaway: engagement per send is healthy, but the value is being lost because the daily drafts are piling up unpublished. The single biggest lever is getting a human to schedule/send the drafts.",
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_sent": "2026-06-28",
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_graded_post": 46.15,
+      "click_rate_graded_post": 33.33,
+      "unsubscribes_graded_post": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,27 +30,22 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
       "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 2,
+      "date": "2026-07-13",
+      "issue": 5,
+      "slot": 1,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "note": "One real offer was available and valid at send time (Angelinos Coffee, CPC 112c/click, send_by 2026-07-18, offer id 80622078). Attempted to place it in slot 1 with the primary creative but the ad network rejected it: 'Could not place ad opportunity c32565ea-2a4f-49f1-a386-71cc5cadb005: can not accept any more opportunities.' This is an account-level cap, most likely because the backlog of unpublished daily drafts (2026-06-30 through 2026-07-12) each already hold a claimed ad opportunity. Fell back to a placeholder per Step 3f."
     },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
-    }
+    { "date": "2026-07-13", "issue": 5, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-07-13", "issue": 5, "slot": 3, "type": "placeholder", "advertiser": "none" }
   ]
 }

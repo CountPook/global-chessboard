@@ -1,5 +1,6 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 5,
+  "_note": "Issues #2-#4 were drafted on prior daily runs whose state committed to other working branches and is not present in this branch's history. Verified the latest issue number (4) from the most recent beehiiv draft (2026-07-12) and set today's issue to 5. Only issue #1 and today's issue #5 topics are recorded here; issue #2-#4 topics live in beehiiv drafts, not this file.",
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +33,37 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "issue": 5,
+      "title": "China Halts Helium Exports as a Global Supply Squeeze Deepens",
+      "region": "Indo-Pacific / Economics",
+      "sources": [
+        "https://www.caixinglobal.com/2026-07-11/china-bans-helium-exports-as-global-supply-crunch-hits-chipmaking-gas-102462943.html",
+        "https://www.digitimes.com/news/a20260710VL223/ban-qatar-2026-beijing-medical.html"
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "issue": 5,
+      "title": "Europe Races to Freeze the Cap on Russian Oil Revenue",
+      "region": "Europe / Economics",
+      "sources": [
+        "https://www.euronews.com/my-europe/2026/07/10/eu-countries-rush-to-avoid-disastrous-revision-of-russian-oil-price-cap",
+        "https://www.eurointegration.com.ua/eng/news/2026/07/6/7241056/"
+      ]
+    },
+    {
+      "date": "2026-07-13",
+      "issue": 5,
+      "title": "Sudan's Army Retakes Kurmuk and Reverses the Blue Nile Front",
+      "region": "Africa / Global South",
+      "sources": [
+        "https://sudantribune.com/article/315994",
+        "https://english.news.cn/africa/20260709/2183b2b2a037494bb1c7288b664a7216/c.html",
+        "https://darfur24.com/en/2026/07/09/sudanese-army-says-it-recaptures-kurmuk-in-blue-nile/"
       ]
     }
   ]

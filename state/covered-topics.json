@@ -1,5 +1,6 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 6,
+  "note": "Issue numbering reconciled from beehiiv on 2026-07-14: the most recent draft (2026-07-13) was labeled Issue #5, so today's issue is #6. State memory in this repo had only tracked issue #1; the draft-generating runs did not commit intervening state here. The beehiiv post list is the authoritative record of what has been covered.",
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +33,36 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "issue": 6,
+      "title": "Europe Weighs Its First Trade Curbs on Israeli Settlements",
+      "region": "Europe / Middle East",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/7/13/eu-countries-consider-sanctions-on-trade-from-illegal-israeli-settlements",
+        "https://www.jta.org/2026/07/14/global/eu-seeks-to-advance-trade-ban-on-israeli-settlements"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "issue": 6,
+      "title": "India and New Zealand Forge a Strategic Partnership in the Pacific",
+      "region": "Indo-Pacific / South Asia",
+      "sources": [
+        "http://www.thejakartapost.com/world/2026/07/11/new-zealand-india-form-strategic-partnership",
+        "https://thedefensepost.com/2026/07/11/new-zealand-india-partnership/"
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "issue": 6,
+      "title": "Mali and Algeria Reopen Their Skies and Restore Diplomatic Ties",
+      "region": "North Africa / Sahel",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/7/11/algeria-and-mali-restore-diplomatic-ties-following-yearlong-rift",
+        "https://abcnews.com/International/wireStory/mali-algeria-reopen-airspace-reinstate-ambassadors-ending-yearlong-134672474"
       ]
     }
   ]

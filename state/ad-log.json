@@ -8,6 +8,21 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-14",
+      "issue": 6,
+      "note": "Grading the last issue that actually reached inboxes: the 2026-06-28 edition (post_e113b158-e07f-4bb5-8027-95a9e6ad64c1, 'US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis'). It performed well for a small list: 46.15% unique open rate, 33.33% click rate, 0 unsubscribes, 0 spam reports, 13 delivered of 13 sent, 100% delivery. IMPORTANT: no issue has been sent since 2026-06-28. The daily routine has generated drafts through 2026-07-13, but none were scheduled or promoted, so the last 7 days show 0% aggregate open/click, 0 new subscribers, and the active list slipped from 14 to 13. Engagement on sent issues is healthy; reach and growth are stalled by the unscheduled-draft backlog.",
+      "last_sent_issue_date": "2026-06-28",
+      "last_sent_open_rate": 46.15,
+      "last_sent_click_rate": 33.33,
+      "last_sent_unsubscribes": 0,
+      "last_sent_delivered": 13,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +53,36 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-14",
+      "issue": 6,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "California. Texas. The Billboard Hot 100. It's all on Kalshi.",
+      "offer_id_at_placement": "81198385",
+      "advertisement_id": "4dc2ded9-a976-4e6f-89ea-758341d1bacf",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-07-19T10:15:43Z"
+    },
+    {
+      "date": "2026-07-14",
+      "issue": 6,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Valid offers existed (Morning Brew, 1440 Media, Maxio, Superhuman AI, all CPC 150c, expiring 2026-07-19), but beehiiv exposes only one primary ad-opportunity slot per post. Placing a second primary advertisementOpportunity node was rejected: 'No primary ad slot is available in this post.' Rendered as placeholder."
+    },
+    {
+      "date": "2026-07-14",
+      "issue": 6,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Same platform constraint as slot 2. Only one ad opportunity can be placed per post."
     }
   ]
 }

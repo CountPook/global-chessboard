@@ -3,11 +3,29 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-15",
+      "graded_post": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_issue": 3,
+      "graded_post_sent_at": "2026-06-28",
+      "note": "State had fallen behind: issues #2 (2026-06-26) and #3 (2026-06-28) published between runs but were untracked here. Graded the newest published post, issue #3 (US Strikes Near Hormuz / Taiwan Strait / Venezuela). Strong engagement for a small list: 46.15% open rate (6 unique of 13 delivered), 33.33% verified click rate (2 unique clicks), 0 unsubscribes, 0 spam. Weak point is growth and cadence: active subscribers slipped 14 -> 13, 0 net new in the trailing 7 days, and no issue had gone out in the 17 days before this run. Trailing-7-day publication aggregate is 0.0% open/click and $0.00 earnings simply because nothing was sent in that window.",
+      "graded_post_email_open_rate": 46.15,
+      "graded_post_email_click_rate_verified": 33.33,
+      "graded_post_unique_opens": 6,
+      "graded_post_unique_clicks": 2,
+      "graded_post_delivered": 13,
+      "graded_post_unsubscribes": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +56,36 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-15",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "True Gold Republic",
+      "ad_headline": "The Only Christian Precious Metals Firm in America.",
+      "offer_id_at_placement": "82247451",
+      "advertisement_id": "2c3694c2-0f0a-4632-b0aa-29f2a405b104",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-07-20T10:16:21Z"
+    },
+    {
+      "date": "2026-07-15",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Ad network rejected a second concurrent opportunity ('can not accept any more opportunities'); publication is capped at one accepted ad-network placement per post. Higher-CPC offer kept in slot 1; remaining offers (Kalshi, Morning Brew, Superhuman AI at 150c, Angelinos Coffee 112c) left unplaced."
+    },
+    {
+      "date": "2026-07-15",
+      "issue": 4,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Same one-ad cap as slot 2."
     }
   ]
 }

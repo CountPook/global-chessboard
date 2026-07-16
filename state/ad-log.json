@@ -8,6 +8,26 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-16",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent_at": "2026-06-28T14:00:00Z",
+      "note": "Graded the most recent published issue (#3, sent 2026-06-28). Issues #1, #2, #3 all published; this file previously only tracked #1. Issue #3 was the newest published at grading time. Strong engagement for a small list: 13 delivered, 46.15% open rate (6 unique opens), 33.33% click rate (2 unique clicks), 0 unsubscribes, 0 bounces, 0 spam complaints. Publication last-7-days snapshot on 2026-07-16 shows 0% open/click and $0 earnings because no issue had been sent in the prior 7 days (last send was 2026-06-28, ~18 days earlier). Active subscribers dipped to 13 from 14. Takeaway: open and click rates are healthy when an issue actually goes out; the gap since the last send (no issue between 06-28 and 07-16) is the main drag on growth and earnings. Cadence consistency matters more than any single-issue tweak.",
+      "graded_email_delivered": 13,
+      "graded_open_rate": 46.15,
+      "graded_unique_opens": 6,
+      "graded_click_rate": 33.33,
+      "graded_unique_clicks": 2,
+      "graded_unsubscribes": 0,
+      "graded_bounces": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +58,45 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-16",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "True Gold Republic",
+      "ad_headline": "The Only Christian Precious Metals Firm in America.",
+      "opportunity_id": "2c3694c2-0f0a-4632-b0aa-29f2a405b104",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "auto",
+      "send_by": "2026-07-20T10:16:21Z"
+    },
+    {
+      "date": "2026-07-16",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "California. Texas. The Billboard Hot 100. It's all on Kalshi.",
+      "opportunity_id": "4dc2ded9-a976-4e6f-89ea-758341d1bacf",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "auto",
+      "send_by": "2026-07-19T10:15:43Z"
+    },
+    {
+      "date": "2026-07-16",
+      "issue": 4,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Superhuman AI",
+      "ad_headline": "200+ Claude Prompts Top Professionals Actually Use at Work",
+      "opportunity_id": "743ba8bb-853b-4ac0-9be8-bb803d889d6e",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "auto",
+      "send_by": "2026-07-17T11:32:11Z"
     }
   ]
 }

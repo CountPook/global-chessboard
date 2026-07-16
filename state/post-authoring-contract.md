@@ -27,11 +27,23 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 - **Columns** (2x2 = two columns blocks): <div data-type="columns" data-stack-on-mobile="true">
   <div data-type="column" data-position="0" data-width="50%">...</div>...</div>.
   A node-section card CAN be nested inside a column for per-cell card styling.
-- **Ad block**: <div class="node-advertisementOpportunity" data-id="<offer_id>"
-  data-advertisement-kind="primary"></div>. IMPORTANT: offer ids from
-  list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
-  save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
-  data-advertisement-kind = primary (with logo) | secondary (no logo).
+- **Ad block**: <div class="node-advertisementOpportunity" data-id="<id>"></div>.
+  CRITICAL LESSON (2026-07-16): For multi-ad issues, do NOT place fresh
+  list_ad_offers ids. The ad network caps how many opportunities the
+  publication can ACCEPT, and each fresh offer placed tries to accept a new
+  one. With several opportunities already auto-accepted, placing 3 fresh offers
+  fails with "can not accept any more opportunities." INSTEAD: call
+  list_ad_opportunities(status="accepted") and embed the already-accepted
+  opportunity UUIDs directly (these are pre-accepted inventory, so embedding
+  them accepts nothing new). Rank accepted opportunities by payout_per_click,
+  and DISCARD any whose send_by is at/before the target send timestamp. This
+  succeeded placing all 3 slots on issue #4.
+  - Also OMIT data-advertisement-kind. Setting kind="primary" on more than one
+    ad fails with "No 'primary' ad slot is available in this post" because
+    primary/secondary map to positional slots (only one primary slot exists),
+    not just logo-on/off. Omitting it lets beehiiv auto-select per slot.
+  - offer ids from list_ad_offers still ROTATE between calls; opportunity UUIDs
+    from list_ad_opportunities are stable. Prefer opportunity UUIDs.
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

@@ -1,5 +1,6 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
+  "note": "Issues 2 and 3 (2026-06-26, 2026-06-28) were published but not recorded in this file by their runs. Confirmed via list_posts and the issue number in the 2026-06-28 post body (ISSUE #3). last_issue_number corrected to reflect reality on the 2026-07-16 run.",
   "topics": [
     {
       "date": "2026-06-24",
@@ -13,25 +14,36 @@
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-07-16",
+      "issue": 4,
+      "title": "Lithuania Weighs a China Reset and the Cost of Its Taiwan Gamble",
+      "region": "Europe / Indo-Pacific",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.arabnews.com/node/2650863/world",
+        "https://www.euronews.com/my-europe/2026/07/08/lithuania-seeks-china-reset-while-maintaining-hard-line-on-russia",
+        "https://www.lrt.lt/en/news-in-english/19/2975211/why-lithuania-s-china-reset-may-be-harder-than-for-other-countries"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-07-16",
+      "issue": 4,
+      "title": "Colombia Moves to Restore Ties With Israel and Open an Embassy in Jerusalem",
+      "region": "Latin America / Middle East",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.timesofisrael.com/incoming-colombian-fm-says-country-will-be-ninth-to-open-embassy-in-jerusalem/",
+        "https://www.aljazeera.com/news/2026/6/24/de-la-espriella-pledges-to-restore-colombias-relations-with-israel",
+        "https://www.i24news.tv/en/news/israel/diplomacy/artc-israel-and-colombia-agree-to-restore-full-diplomatic-ties"
+      ]
+    },
+    {
+      "date": "2026-07-16",
+      "issue": 4,
+      "title": "The EU's Twenty-First Russia Sanctions Package Stalls Over Oil and Internal Rifts",
+      "region": "Europe / Economics",
+      "sources": [
+        "https://www.pravda.com.ua/eng/news/2026/07/15/8044278/",
+        "https://sofiaglobe.com/2026/07/13/eu-foreign-policy-chief-no-agreement-yet-on-21st-package-of-sanctions-on-russia-but-quite-close/",
+        "https://www.bloomberg.com/news/newsletters/2026-07-13/eu-discusses-latest-russian-sanctions-package-and-israel-trade"
       ]
     }
   ]

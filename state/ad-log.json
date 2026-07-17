@@ -8,6 +8,28 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-17",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "note": "Grading gap: issues 2 (2026-06-26) and 3 (2026-06-28) were published but never recorded in state, and the newsletter had not run since June 28 (a 19-day gap) before this run. Graded the newest published issue, #3 ('US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis'). It performed well for a tiny list: 13 delivered, 46.15% unique open rate, 33.33% click rate, 0 unsubscribes, 0 spam. Web views were 0. Publication-wide over the trailing 7 days: 13 active subscribers (down 1 from the issue-1 baseline of 14), 0 net new and 0 churned, and $0.00 earnings, reflecting the three-week publishing pause. Takeaway: engagement per issue is strong but the list is not growing; consistent cadence and acquisition are the constraints, not content performance.",
+      "post_stats": {
+        "total_delivered": 13,
+        "open_rate": 46.15,
+        "click_rate": 33.33,
+        "unsubscribes": 0,
+        "spam_reported": 0,
+        "web_views": 0
+      },
+      "publication_7d": {
+        "active_subscribers": 13,
+        "net_new_subscribers": 0,
+        "churned_subscribers": 0,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +60,40 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-17",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "True Gold Republic",
+      "ad_headline": "The Only Christian Precious Metals Firm in America.",
+      "opportunity_id": "2c3694c2-0f0a-4632-b0aa-29f2a405b104",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "auto",
+      "send_by": "2026-07-20T10:16:21Z"
+    },
+    {
+      "date": "2026-07-17",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Kalshi",
+      "ad_headline": "California. Texas. The Billboard Hot 100. It's all on Kalshi.",
+      "opportunity_id": "4dc2ded9-a976-4e6f-89ea-758341d1bacf",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "auto",
+      "send_by": "2026-07-19T10:15:43Z"
+    },
+    {
+      "date": "2026-07-17",
+      "issue": 4,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "No third valid ad available. New offers could not be accepted (ad network returned 'can not accept any more opportunities'); among already-accepted opportunities only True Gold Republic and Kalshi remained valid past the 08:00 PT send time. The Superhuman AI accepted opportunity (150c) expired at 11:32Z, before the 15:00Z target send, so it was discarded."
     }
   ]
 }

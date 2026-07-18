@@ -32,6 +32,10 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
   save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
   data-advertisement-kind = primary (with logo) | secondary (no logo).
+  IMPORTANT: a post caps at 1 primary ad + 2 secondary ads. With 3 ad slots,
+  make exactly ONE slot primary and the other two secondary, or save_post is
+  rejected with "No 'primary' ad slot is available". Confirm each chosen offer
+  lists both creative_variations before assigning secondary.
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

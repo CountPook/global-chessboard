@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,42 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "issue": 4,
+      "title": "Washington's Air War on Iran Widens as the Hormuz Ceasefire Collapses",
+      "region": "Middle East",
+      "note": "Follow-up to issue #1 (Iran sanctions) and issue #3 (isolated Hormuz strike). What is new: the June interim ceasefire has fully collapsed and the US is running a sustained multi-day air campaign inside Iran, with civilian casualties and a naval blockade.",
+      "sources": [
+        "https://www.aljazeera.com/economy/2026/7/13/oil-prices-jump-as-us-and-iran-trade-attacks-over-strait-of-hormuz",
+        "https://www.cnn.com/2026/07/16/world/live-news/iran-war-trump",
+        "https://en.wikipedia.org/wiki/2026_Iran_war"
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "issue": 4,
+      "title": "Washington Accuses Beijing of Stealing Voter Data Before a Planned Summit",
+      "region": "Indo-Pacific / US-China",
+      "sources": [
+        "https://www.cbc.ca/news/world/trump-primetime-address-election-security-china-9.7273603",
+        "https://www.nbcnews.com/world/asia/trump-china-election-interference-claims-xi-trade-trip-rcna587951",
+        "https://www.forbes.com/sites/siladityaray/2026/07/17/entirely-fabricated-beijing-dismisses-trumps-election-interference-claims/",
+        "https://www.cnn.com/2026/07/17/politics/china-election-trump-xi-state-visit"
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "issue": 4,
+      "title": "Brazil Vows Reciprocal Tariffs as Washington Ties Trade to Bolsonaro's Trial",
+      "region": "Latin America / Global South",
+      "sources": [
+        "https://time.com/article/2026/07/16/brazil-condemns-us-tariffs-lula-trump-greer/",
+        "https://www.cbsnews.com/news/trump-brazil-retaliatory-tariffs-lula-us-imports/",
+        "https://www.pressdemocrat.com/2026/07/16/brazil-threatens-reciprocal-tariffs-new-us-penalties/",
+        "https://www.pbs.org/newshour/world/jair-bolsonaro-begins-27-year-prison-sentence-for-brazilian-coup-attempt"
       ]
     }
   ]

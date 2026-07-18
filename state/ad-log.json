@@ -8,6 +8,21 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-18",
+      "graded_issue": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent": "2026-06-28",
+      "note": "State file was stale (last_issue_number was recorded as 1), but three real issues have published: #1 (06-24), #2 (06-26, Starmer/Scarborough/tariffs), #3 (06-28). Newest published is issue #3, graded here. Today is issue #4. Issue #3 performed well for a 13-subscriber list: 100% delivery, 46.15% open rate (6 of 13 unique opens), 33.33% click rate (2 unique clicks), 0 unsubscribes, 0 bounces, 0 spam reports. Engagement is healthy; the constraint is list size, not content. Publication now at 13 active subscribers (down 1 from the 14 baseline), 0 net new and 0 churned in the last 7 days, $0.00 earnings last 7 days. Priority for growth remains subscriber acquisition. Issue #3 ran Masterworks as slot 1 (real) with a placeholder in slot 2.",
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_issue3": 46.15,
+      "click_rate_issue3": 33.33,
+      "unsubscribes_issue3": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +53,48 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-18",
+      "issue": 4,
+      "post_id": "post_8d43b111-4f0d-40fd-8ef8-eff119f05d02",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "True Gold Republic",
+      "ad_headline": "Your Retirement Has a Vulnerability Most Advisors Never Mention.",
+      "advertisement_id": "8321de19-d161-4077-8139-0a34020c03ae",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-07-23T10:18:14Z"
+    },
+    {
+      "date": "2026-07-18",
+      "issue": 4,
+      "post_id": "post_8d43b111-4f0d-40fd-8ef8-eff119f05d02",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Apps Built With AI Summit",
+      "ad_headline": "100s of People, July - Text",
+      "advertisement_id": "10e6d926-0651-4193-a3a0-92a946414c25",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "secondary",
+      "send_by": "2026-07-22T23:59:59Z"
+    },
+    {
+      "date": "2026-07-18",
+      "issue": 4,
+      "post_id": "post_8d43b111-4f0d-40fd-8ef8-eff119f05d02",
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Mindstream",
+      "ad_headline": "200 Ways To Make Money With AI",
+      "advertisement_id": "b4f28df3-a383-4153-a1bf-787e43fe9c1c",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 168,
+      "creative_kind": "secondary",
+      "send_by": "2026-07-23T10:18:14Z"
     }
   ]
 }

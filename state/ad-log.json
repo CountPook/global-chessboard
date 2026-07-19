@@ -3,9 +3,23 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' sent to a single test recipient. Publication baseline: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-19",
+      "grading_issue": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "note": "Grading the most recent SENT issue (#3, 2026-06-28). No issue was sent between 06-28 and today, so 'yesterday' had no sent post to grade; used the newest published post. Issue #3 performed strongly for a tiny list: 13 delivered, 46.15% open rate, 33.33% click rate, 0 unsubscribes, 0 spam, 0 bounces. Publication now at 13 active subscribers, 0 net new (7d), 0.0% aggregate open/click (7d) and $0.00 earnings (7d) because no campaign has gone out in the last week. Systemic issue: 24 drafts exist, all numbered ISSUE #4, none scheduled or sent since 06-28.",
+      "post3_delivered": 13,
+      "post3_open_rate": 46.15,
+      "post3_click_rate": 33.33,
+      "post3_unsubscribes": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
     }
@@ -17,27 +31,21 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
-      "payout_model": "cpc",
       "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "creative_kind": "primary"
     },
+    {"date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none"},
+    {"date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none"},
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 2,
+      "date": "2026-07-19",
+      "issue": "4 (draft, unsent)",
+      "post_id": "post_55670c9d-7f74-4f25-937e-68f900800258",
+      "slot": 1,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "reason": "Ad-network accept capacity was exhausted. Nine CPC offers were available today (top: True Gold Republic 187c, Apps Built With AI Summit 187c, Mindstream 168c). Placement failed twice: first 'No primary ad slot is available' (only one primary/logo ad allowed per post), then 'can not accept any more opportunities'. The three highest-value opportunities were already claimed/accepted by the unsent 2026-07-18 draft (post_8d43b111), which is why no new accepts were possible. Rendered all three slots as placeholders rather than corrupt the other draft's ad bindings."
     },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
-    }
+    {"date": "2026-07-19", "issue": "4 (draft, unsent)", "post_id": "post_55670c9d-7f74-4f25-937e-68f900800258", "slot": 2, "type": "placeholder", "advertiser": "none"},
+    {"date": "2026-07-19", "issue": "4 (draft, unsent)", "post_id": "post_55670c9d-7f74-4f25-937e-68f900800258", "slot": 3, "type": "placeholder", "advertiser": "none"}
   ]
 }

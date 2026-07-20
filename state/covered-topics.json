@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,54 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer's Exit, the Scarborough Shoal Standoff, and the Transatlantic Tariff Truce",
+      "region": "United Kingdom / Indo-Pacific / Trade",
+      "note": "Reconstructed from published post metadata (state desync recovered on 2026-07-20 run). Covers the UK PM transition, a Scarborough Shoal (South China Sea) standoff, and a US-EU tariff truce.",
+      "sources": []
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "region": "Middle East / Indo-Pacific / Latin America",
+      "note": "Reconstructed from published post metadata (state desync recovered on 2026-07-20 run). Covers renewed US-Iran fighting near Hormuz, a Taiwan Strait standoff, and Venezuela earthquake relief.",
+      "sources": []
+    },
+    {
+      "date": "2026-07-20",
+      "issue": 4,
+      "title": "Washington Moves to Dismantle the International Criminal Court",
+      "region": "International Institutions / United States",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/7/15/legal-challenge-says-trump-icc-sanctions-tread-on-us-citizens-rights",
+        "https://time.com/article/2026/07/14/international-criminal-court-icc-trump-rubio-state-department/",
+        "https://www.icc-cpi.int/news/international-criminal-court-deplores-new-sanctions-us-administration-against-icc-officials"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "issue": 4,
+      "title": "A Two Billion Dollar Signal to Taiwan as the Pacific Militarizes",
+      "region": "Indo-Pacific / Taiwan",
+      "sources": [
+        "https://www.pbs.org/newshour/world/u-s-approves-2-billion-in-arms-sales-to-taiwan-including-an-advanced-missile-defense-system",
+        "https://www.aljazeera.com/news/2026/6/18/taiwan-hopes-us-arms-sale-package-can-be-approved-soon-president-says"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "issue": 4,
+      "title": "Oil Climbs as the Strait of Hormuz Grinds Toward a Standstill",
+      "region": "Middle East / Energy",
+      "sources": [
+        "https://www.cnn.com/2026/07/19/world/live-news/iran-war-trump",
+        "https://www.aljazeera.com/economy/2026/7/14/oil-hits-1-month-high-as-us-iran-fighting-clouds-strait-of-hormuz-outlook",
+        "https://www.cnbc.com/2026/07/15/oil-prices-today-brent-wti-hormuz-blockade.html"
       ]
     }
   ]

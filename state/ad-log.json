@@ -8,6 +8,23 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-20",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis (Issue #3, sent 2026-06-28)",
+      "note": "Most recent published issue graded this run (issues #2 and #3 were published on a different branch and were not in this branch's state; recovered here). Issue #3 email performance was strong for the list size: 46.15% open rate, 33.33% click rate, zero unsubscribes, zero bounces. Weak spots: subscriber growth is flat (0 net new in the last 7 days) on a tiny base of 13, and no web views were recorded. Publication 7-day earnings rose to $7.12 from $2.24.",
+      "email_delivered": 13,
+      "open_rate": 46.15,
+      "unique_opens": 6,
+      "click_rate": 33.33,
+      "unique_clicks": 2,
+      "unsubscribes": 0,
+      "bounces": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "earnings_7d": "$7.12"
     }
   ],
   "ad_slots": [
@@ -35,6 +52,35 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-20",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "offer_id_at_placement": "87124394",
+      "advertisement_id": "bdfb8934-047c-499a-86d6-f9d689230f65",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-25T10:16:39Z"
+    },
+    {
+      "date": "2026-07-20",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Rich inventory was available (9 CPC offers, top payouts 225/187/187 cents), but the beehiiv ad network rejected placing more than one ad opportunity in a single post ('No primary ad slot available in this post'). Fell back to one real ad plus placeholders."
+    },
+    {
+      "date": "2026-07-20",
+      "issue": 4,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

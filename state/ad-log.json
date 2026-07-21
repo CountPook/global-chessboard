@@ -8,6 +8,51 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-21",
+      "graded_issue": 1,
+      "graded_post_id": "post_8d106eb7-9f26-4bb9-8db8-e47b31b80fac",
+      "sent_date": "2026-06-24",
+      "recipients": 14,
+      "delivered": 14,
+      "open_rate": 28.57,
+      "unique_opens": 4,
+      "click_rate_verified": 50.0,
+      "unique_clicks": 2,
+      "unsubscribes": 1,
+      "unsubscribe_rate": 7.14,
+      "note": "Backfilled grade. Issue #1 (Iran oil sanctions / Ukraine / Sudan) drew a 50% verified CTR from a small base but also the run's only unsubscribe."
+    },
+    {
+      "date": "2026-07-21",
+      "graded_issue": 2,
+      "graded_post_id": "post_e94a9ecb-1eee-4117-900c-d7dfa2e32cd4",
+      "sent_date": "2026-06-26",
+      "recipients": 13,
+      "delivered": 13,
+      "open_rate": 15.38,
+      "unique_opens": 2,
+      "click_rate_verified": 0.0,
+      "unique_clicks": 0,
+      "unsubscribes": 0,
+      "unsubscribe_rate": 0.0,
+      "note": "Backfilled grade. Issue #2 (Starmer / Scarborough Shoal / EU-US tariffs) was the weakest of the three real issues: lowest open rate and no clicks."
+    },
+    {
+      "date": "2026-07-21",
+      "graded_issue": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "sent_date": "2026-06-28",
+      "recipients": 13,
+      "delivered": 13,
+      "open_rate": 46.15,
+      "unique_opens": 6,
+      "click_rate_verified": 33.33,
+      "unique_clicks": 2,
+      "unsubscribes": 0,
+      "unsubscribe_rate": 0.0,
+      "note": "Backfilled grade and the most recent published issue graded this run. Issue #3 (US strikes Iran / Taiwan patrols / Venezuela quake) was the strongest issue to date: best open rate (46%), solid 33% CTR, zero unsubscribes. Publication snapshot at run time (last 7 days): 13 active subscribers, 0 net new, 0 churned, earnings $7.12. Note a roughly 3-week publishing gap between issue #3 (2026-06-28) and issue #4 (2026-07-21)."
     }
   ],
   "ad_slots": [
@@ -38,6 +83,37 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-21",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Mindstream",
+      "ad_headline": "Master Claude AI (Free Guide)",
+      "offer_id_at_placement": "88333597",
+      "advertisement_id": "7935afda-5442-4343-8157-54b8db173330",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 168,
+      "creative_kind": "auto",
+      "send_by": "2026-07-26T10:18:38Z",
+      "note": "Highest-value of five valid CPC offers. Placed with data-advertisement-kind omitted (auto-select) after forcing 'primary' was rejected."
+    },
+    {
+      "date": "2026-07-21",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "beehiiv ad network capped this publication at one accepted opportunity per post ('can not accept any more opportunities'), so the four other valid offers (Morning Brew, Superhuman AI, The Flyover, Angelinos Coffee) could not be placed."
+    },
+    {
+      "date": "2026-07-21",
+      "issue": 4,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Left as labeled placeholder due to the one-ad-per-post cap described in slot 2."
     }
   ]
 }

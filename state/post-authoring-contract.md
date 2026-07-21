@@ -27,11 +27,17 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 - **Columns** (2x2 = two columns blocks): <div data-type="columns" data-stack-on-mobile="true">
   <div data-type="column" data-position="0" data-width="50%">...</div>...</div>.
   A node-section card CAN be nested inside a column for per-cell card styling.
-- **Ad block**: <div class="node-advertisementOpportunity" data-id="<offer_id>"
-  data-advertisement-kind="primary"></div>. IMPORTANT: offer ids from
-  list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
-  save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
-  data-advertisement-kind = primary (with logo) | secondary (no logo).
+- **Ad block**: <div class="node-advertisementOpportunity" data-id="<offer_id>"></div>.
+  IMPORTANT: offer ids from list_ad_offers ROTATE between calls. Call list_ad_offers
+  immediately before save_post and use the fresh id, or the save is rejected as
+  "Unknown ad offer". data-advertisement-kind = primary (with logo) | secondary (no
+  logo); OMIT it to auto-select. CAP (learned 2026-07-21): this publication's ad
+  network accepts at most ONE network ad opportunity per post. Placing a 2nd/3rd is
+  rejected with "can not accept any more opportunities", and forcing kind="primary"
+  on multiples is rejected with "No 'primary' ad slot is available". Place only the
+  single highest-value offer (kind omitted) and use labeled placeholder blocks for
+  the remaining slots. save_post is atomic, so a rejected save places nothing and
+  releases any opportunity it claimed.
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

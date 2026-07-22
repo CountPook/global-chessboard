@@ -1,5 +1,5 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
       "date": "2026-06-24",
@@ -32,6 +32,80 @@
         "https://sudantribune.com/article/315409",
         "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
         "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+      ]
+    },
+    {
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer's Exit, the Scarborough Shoal Standoff, and the Transatlantic Tariff Truce",
+      "region": "UK / Indo-Pacific / Trade",
+      "note": "Published on this publication but not recorded in this branch's state at the time; backfilled for dedup. Full source list not retained.",
+      "sources": []
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Washington Strikes Iran After a Tanker Hit Tests the Hormuz Ceasefire",
+      "region": "Middle East",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/26/us-strikes-iran-in-response-to-drone-strike-on-commercial-ship",
+        "https://www.cnbc.com/2026/06/26/us-strikes-iran-strait-of-hormuz-ceasefire.html",
+        "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "Allied Warnings Over Coast Guard Patrols Sharpen the Taiwan Strait Standoff",
+      "region": "Indo-Pacific",
+      "sources": [
+        "https://www.aei.org/articles/china-taiwan-update-june-26-2026/",
+        "https://www.washingtonpost.com/national-security/2026/05/23/us-pauses-14-billion-taiwan-arms-sale-after-china-summit/"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "American Forces Surge Into Quake-Hit Venezuela Months After Maduro's Capture",
+      "region": "Latin America",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/6/25/venezuela-struck-by-back-to-back-earthquakes-high-casualties-feared",
+        "https://www.npr.org/2026/06/24/nx-s1-5869817/2-major-earthquakes-strike-northern-venezuela-near-caracas",
+        "https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "issue": 4,
+      "title": "Washington and Tehran Trade Strikes as Mediators Float a Ten Day Ceasefire",
+      "region": "Middle East",
+      "note": "Genuine follow-up to issues #1 and #3. What is new: the June memorandum has collapsed into open war (tenth consecutive night of US strikes by July 21), Iran hit US bases in Bahrain, Kuwait, and Jordan killing three US service members, and Qatar, Egypt, Oman, and Pakistan submitted a 10-day ceasefire proposal.",
+      "sources": [
+        "https://www.axios.com/2026/07/21/iran-war-ceasefire-proposal-trump-troops",
+        "https://www.aljazeera.com/news/2026/7/21/can-mediators-broker-a-truce-between-the-us-and-iran",
+        "https://www.pbs.org/newshour/world/iran-dismisses-u-s-ceasefire-plan-issues-counterproposal-as-strikes-land-across-the-mideast"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "issue": 4,
+      "title": "Thailand and Cambodia's Border Stays Frozen as China Offers to Mediate",
+      "region": "Indo-Pacific / Southeast Asia",
+      "sources": [
+        "https://www.nationthailand.com/news/politics/40068852",
+        "https://asianews.network/thailand-cambodia-border-fence-in-chanthaburi-45-intact-markers-complete/",
+        "https://www.britannica.com/event/Thailand-Cambodia-Conflict"
+      ]
+    },
+    {
+      "date": "2026-07-22",
+      "issue": 4,
+      "title": "A New Russia Sanctions Push Advances in Washington as Brussels Stalls",
+      "region": "Europe / Economics",
+      "sources": [
+        "https://thehill.com/policy/international/5968385-senate-russia-sanctions-bill-graham-trump-putin/",
+        "https://www.mondaq.com/unitedstates/money-laundering/1820132/weekly-sanctions-update-july-20-2026",
+        "https://www.yahoo.com/news/politics/articles/adoption-eus-21st-russia-sanctions-154500516.html"
       ]
     }
   ]

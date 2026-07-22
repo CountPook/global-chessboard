@@ -8,6 +8,27 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-22",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_published": "2026-06-28",
+      "note": "This run graded issue #3, the newest published post (there was a ~3.5 week publishing gap; the last three real issues #1, #2, #3 were sent June 24, 26, 28). Issue #3 performed strongly on engagement for a tiny list: 46.15% open rate and 33.33% click rate with zero unsubscribes and zero bounces, though the absolute audience is very small (13 delivered, 6 unique opens, 2 unique clickers). Web views were 0, so all engagement was in-email. Subscriber base slipped from 14 to 13 active with 0 net change and 0 churn in the last 7 days, indicating stalled growth during the publishing gap. Takeaway: content resonates with the existing list, but list growth is the binding constraint; resuming a consistent cadence is the priority.",
+      "post_email_sent": 13,
+      "post_open_rate": 46.15,
+      "post_click_rate": 33.33,
+      "post_unique_opens": 6,
+      "post_unique_clickers": 2,
+      "post_unsubscribes": 0,
+      "post_bounce_rate": 0.0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$7.12"
     }
   ],
   "ad_slots": [
@@ -35,6 +56,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-22",
+      "issue": 4,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Ad offers were available in list_ad_offers (Q3 Advisors 225c, Kalshi 150c, Morning Brew 150c, Superhuman AI 150c, Angelinos Coffee 112c; all send_by 2026-07-27, none expired at the ~15:00 UTC send time). Attempted to place the top offer (Q3 Advisors, 225c/click) but the beehiiv API rejected placement with 'can not accept any more opportunities' on every attempt, including a single-ad placement. The publication currently cannot accept new ad opportunities (likely a monetization/acceptance cap). Rendered as placeholder per Step 3f."
+    },
+    {
+      "date": "2026-07-22",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-22",
+      "issue": 4,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

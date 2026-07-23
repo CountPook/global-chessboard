@@ -27,11 +27,17 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 - **Columns** (2x2 = two columns blocks): <div data-type="columns" data-stack-on-mobile="true">
   <div data-type="column" data-position="0" data-width="50%">...</div>...</div>.
   A node-section card CAN be nested inside a column for per-cell card styling.
-- **Ad block**: <div class="node-advertisementOpportunity" data-id="<offer_id>"
-  data-advertisement-kind="primary"></div>. IMPORTANT: offer ids from
-  list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
-  save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
-  data-advertisement-kind = primary (with logo) | secondary (no logo).
+- **Ad block**: <div class="node-advertisementOpportunity" data-id="<offer_id>"></div>.
+  IMPORTANT: offer ids from list_ad_offers ROTATE between calls. Call
+  list_ad_offers immediately before placing and use the fresh id, or the save is
+  rejected as "Unknown ad offer". data-advertisement-kind = primary (with logo) |
+  secondary (no logo); OMIT it to auto-select.
+  LESSON (2026-07-23): placing 3 ad nodes in one save_post all with
+  data-advertisement-kind="primary" is REJECTED ("No 'primary' ad slot is
+  available in this post"). Reliable pattern: create the draft with placeholder
+  ad blocks, then place ads one at a time via edit_post_content (replace the
+  sponsor section by its data-node-hash) with the kind OMITTED so beehiiv
+  auto-selects. All three placed cleanly this way.
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

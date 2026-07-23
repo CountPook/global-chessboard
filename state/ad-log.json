@@ -8,6 +8,25 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-23",
+      "issue": 4,
+      "note": "State was stale coming into this run: it recorded last_issue_number 1, but beehiiv shows issues 2 (2026-06-26) and 3 (2026-06-28) were also published. Graded the newest published post, Issue #3 (post_e113b158, US Strikes Near Hormuz / Taiwan Strait / Venezuela), which had been out about four weeks after a publishing gap. Issue #3 email performed well on a tiny list: 13 sent, 100% delivered, 46.15% open rate (6 unique opens), 33.33% click rate (2 unique clickers), 0 unsubscribes, 0 bounces, 0 spam. Publication last 7 days: 13 active subscribers, 0 net new, 0 churned, earnings $7.12. Engagement is healthy but the list is not growing and slipped from 14 to 13; the four-week dormancy likely stalled acquisition. No repeat advertisers from the prior real ad (I Hate It Here), so no CTR blending was applied to today's ranking.",
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_issue": 3,
+      "total_sent": 13,
+      "delivery_rate": 100.0,
+      "open_rate": 46.15,
+      "unique_opens": 6,
+      "click_rate": 33.33,
+      "unique_clicks": 2,
+      "unsubscribes": 0,
+      "bounces": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "earnings_7d": "$7.12"
     }
   ],
   "ad_slots": [
@@ -38,6 +57,48 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-23",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "offer_id_at_placement": "90555119",
+      "advertisement_id": "7339c488-def6-4f29-9686-8120816a352d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "auto",
+      "send_by": "2026-07-28T10:19:22Z"
+    },
+    {
+      "date": "2026-07-23",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "True Gold Republic",
+      "ad_headline": "Gold Without the Games. Faith-Driven. Fully Transparent.",
+      "offer_id_at_placement": "90555120",
+      "advertisement_id": "4a4eb6d4-e69f-443b-beaa-c8506fcbfeb2",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "auto",
+      "send_by": "2026-07-28T10:19:34Z"
+    },
+    {
+      "date": "2026-07-23",
+      "issue": 4,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Mindstream",
+      "ad_headline": "Master Claude AI (Free Guide)",
+      "offer_id_at_placement": "90555123",
+      "advertisement_id": "ff8250e7-2169-43d6-b174-cb93871cf3f7",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 168,
+      "creative_kind": "auto",
+      "send_by": "2026-07-28T10:19:55Z"
     }
   ]
 }

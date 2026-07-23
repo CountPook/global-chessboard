@@ -1,5 +1,6 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
+  "note": "Issues 2 (2026-06-26) and 3 (2026-06-28) were published in beehiiv but were never recorded here by prior runs, so their topics are not in this list. Issue #3 covered US strikes near Hormuz, the Taiwan Strait standoff, and Venezuela quake relief. Issue #2 covered Starmer's exit, the Scarborough Shoal standoff, and the transatlantic tariff truce. The newsletter was then dormant for about four weeks before Issue #4 on 2026-07-23.",
   "topics": [
     {
       "date": "2026-06-24",
@@ -13,25 +14,36 @@
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-07-23",
+      "issue": 4,
+      "title": "Europe Freezes Russia's Oil Price Cap in a Diluted Sanctions Round",
+      "region": "Europe / Russia-Ukraine",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://kyivindependent.com/eu-agrees-21st-sanctions-package-after-greece-lifts-veto/",
+        "https://www.euronews.com/my-europe/2026/07/23/eu-agrees-new-sanctions-against-russia-as-greece-secures-lng-exemption",
+        "https://www.pravda.com.ua/eng/news/2026/07/23/8045471/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-07-23",
+      "issue": 4,
+      "title": "A Baton Strike at Second Thomas Shoal Shadows the ASEAN Talks in Manila",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/7/22/rubio-says-us-china-must-work-through-big-differences-at-asean-meeting",
+        "https://interaksyon.philstar.com/politics-issues/2026/07/20/316628/chinese-coast-guard-struck-navy-sailor-in-south-china-sea-encounter-says-philippine-military/",
+        "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/22/rubio-holds-talks-with-china039s-wang-yi-as-regional-powers-join-asean-meet"
+      ]
+    },
+    {
+      "date": "2026-07-23",
+      "issue": 4,
+      "title": "Washington Opens a Campaign to Disable the International Criminal Court",
+      "region": "International Law / Global Order",
+      "sources": [
+        "https://www.euronews.com/2026/07/14/marco-rubio-launches-sweeping-campaign-to-dismantle-icc-threat-to-us-sovereignty",
+        "https://time.com/article/2026/07/14/international-criminal-court-icc-trump-rubio-state-department/",
+        "https://www.aljazeera.com/news/2026/7/13/trump-administration-vows-to-disable-international-criminal-court"
       ]
     }
   ]

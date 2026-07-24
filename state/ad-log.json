@@ -3,11 +3,32 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-24",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent": "2026-06-28",
+      "note": "Grading the most recent real issue (#3, sent 2026-06-28) since no issue had been sent in the 7 days before this 2026-07-24 run. Issue #3 performed strongly for the list size: 13 delivered (100% delivery), 46.15% unique open rate (6 of 13), 33.33% click rate (2 unique clickers), 0 unsubscribes, 0 bounces, 0 spam reports. Engagement is healthy; the main constraint is list size, not content. Publication now at 13 active subscribers (down 1 from the issue #1 baseline of 14), 0 net new and 0 churned in the trailing 7 days, earnings $7.12 (last 7 days). Issues #1 and #2 were not separately graded this run; issue #3 is the freshest signal.",
+      "graded_post_stats": {
+        "total_delivered": 13,
+        "open_rate": 46.15,
+        "click_rate": 33.33,
+        "total_unsubscribes": 0,
+        "bounce_rate": 0.0
+      },
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$7.12"
     }
   ],
   "ad_slots": [
@@ -25,19 +46,47 @@
       "creative_kind": "primary",
       "send_by": "2026-06-29T07:09:42Z"
     },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "date": "2026-07-24",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "opportunity_id": "7339c488-def6-4f29-9686-8120816a352d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-28T10:19:22Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-07-24",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "opportunity_id": "bdfb8934-047c-499a-86d6-f9d689230f65",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-25T10:16:39Z"
+    },
+    {
+      "date": "2026-07-24",
+      "issue": 4,
       "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "True Gold Republic",
+      "ad_headline": "Gold Without the Games. Faith-Driven. Fully Transparent.",
+      "opportunity_id": "4a4eb6d4-e69f-443b-beaa-c8506fcbfeb2",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-07-28T10:19:34Z"
     }
-  ]
+  ],
+  "notes_for_next_run": "Ad placement lesson (2026-07-24): the ad network caps how many opportunities can be in 'accepted' status at once. Placing fresh ad OFFERS via save_post triggers new acceptances and fails with 'can not accept any more opportunities' when the cap is full. The fix is to call list_ad_opportunities, take the already-'accepted' opportunities (discarding any whose send_by is at/before the target send time), rank by payout_per_click_cents, and embed those opportunity IDs directly in the advertisementOpportunity node. This run filled all 3 slots that way (Tello 225c, Q3 Advisors 225c, True Gold Republic 187c), which also outpaid the raw offers on the board (150-187c)."
 }

@@ -3,11 +3,24 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-26",
+      "issue": 4,
+      "note": "Grading on this run reconciled the post history. Since issue #1, two further issues had published that were never recorded in state: issue #2 (post_e94a9ecb, 2026-06-26) and issue #3 (post_e113b158, 2026-06-28). The newest published issue is #3. Per-issue email stats: #1 (2026-06-24) 14 recipients, 28.6% open, 50.0% verified CTR, 1 unsubscribe (7.1%); #2 (2026-06-26) 13 recipients, 15.4% open, 0.0% CTR, 0 unsub; #3 (2026-06-28) 13 recipients, 46.2% open, 33.3% CTR, 0 unsub. Issue #3 was the strongest of the three on opens and had no unsubscribes; issue #2 was the weakest (lowest opens, no clicks). Publication now: 13 active subscribers, last 7 days 0 new / 0 churned / 0 net, earnings $7.12. Subscriber base is flat and small, so rate metrics are volatile.",
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "graded_issue": 3,
+      "graded_issue_open_rate": 46.15,
+      "graded_issue_click_rate": 33.33,
+      "graded_issue_unsubscribes": 0
     }
   ],
   "ad_slots": [
@@ -38,6 +51,36 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-26",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "offer_id_at_placement": "92977091",
+      "advertisement_id": "be7fc2c1-9876-4b01-9fbc-6023b292d80b",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-31T10:16:22Z"
+    },
+    {
+      "date": "2026-07-26",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Platform cap: this publication's ad network accepts only ONE ad opportunity per post. Second and third real ads were rejected ('can not accept any more opportunities' / 'No primary ad slot available'). Not a demand shortfall; 7 offers were available."
+    },
+    {
+      "date": "2026-07-26",
+      "issue": 4,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Same platform cap of one ad per post. Left as placeholder."
     }
   ]
 }

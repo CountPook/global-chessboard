@@ -37,6 +37,19 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).
 - **recipients**: omit on save_post to default to free tier on web+email (matches
   this publication's audience).
+- **AD LIMIT (important):** this publication's ad network accepts only ONE ad
+  opportunity per post. Placing 2+ advertisementOpportunity nodes fails with
+  "No 'primary' ad slot is available" or "can not accept any more opportunities",
+  and save_post is atomic so the WHOLE post is rejected. Strategy that works:
+  save the post with placeholder ad blocks in all slots, then use
+  edit_post_content to replace ONE placeholder with the highest-payout real ad.
+  Leave the other slots as placeholders. (Confirmed issue #1 and issue #4.)
+- **email_settings keys** are `email_subject_line` and `email_preview_text`
+  (NOT `subject_line`/`preview_text` - those are silently ignored, and the post
+  falls back to title/subtitle). Same keys on save_post and edit_post.
+- **get_post_content editor_html** returns JSON with the HTML in a `content`
+  field (entities escaped as <). Top-level blocks carry `data-node-hash`;
+  parse that JSON to get hashes for edit_post_content. Child nodes are not hashed.
 
 ## Brand tokens (do not restyle theme; apply via spans/sections)
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;

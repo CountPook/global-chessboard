@@ -8,6 +8,31 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-27",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_scheduled_at": "2026-06-28T14:00:00Z",
+      "note": "First run since the state files were last updated (2026-06-24). Between then and now, issues #2 (2026-06-26) and #3 (2026-06-28) published, but no issue has been sent in roughly a month. Graded the newest published issue, #3. It performed well for a small list: 46.15% unique open rate, 33.33% click rate, zero unsubscribes and zero spam complaints across 13 delivered. Because the last send predates the 7-day window, the publication-level 7-day figures are all zero and are not a knock on content. Subscriber count is 13, down from 14 at the last run (one churn over the month, no new sign-ups in the trailing 7 days). Takeaway: engagement per email is strong; the constraint is list growth and cadence, not content quality.",
+      "graded_post_stats": {
+        "total_delivered": 13,
+        "open_rate": 46.15,
+        "unique_opens": 6,
+        "click_rate": 33.33,
+        "unique_clicks": 2,
+        "unsubscribe_rate": 0.0,
+        "spam_reports": 0
+      },
+      "publication_last_7_days": {
+        "active_subscribers": 13,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -35,6 +60,35 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-07-27",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "offer_id_at_placement": "93674371",
+      "advertisement_id": "646e0b74-e320-453d-844e-dbecd35ce62c",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-01T10:17:32Z"
+    },
+    {
+      "date": "2026-07-27",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Higher-value offers were available (Q3 Advisors 225c/click, Morning Brew and three others at 150c/click) but the beehiiv ad network rejected placing more than one ad-network opportunity in the post ('No primary ad slot is available'). The publication's per-send allocation supports a single ad-network placement, so slots 2 and 3 are placeholders."
+    },
+    {
+      "date": "2026-07-27",
+      "issue": 4,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

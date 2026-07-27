@@ -1,37 +1,56 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
+  "note": "State was stale before the 2026-07-27 run (recorded last_issue_number 1), but beehiiv showed issues #2 (2026-06-26) and #3 (2026-06-28) had already published. Corrected to 4 this run. Issue #1 (2026-06-24) topics dropped as older than 30 days. Issue #2 and #3 entries reconstructed from the published archive (titles accurate; per-story source URLs were not recorded at the time).",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-06-26",
+      "issue": 2,
+      "title": "Starmer's Exit, the Scarborough Shoal Standoff, and the Transatlantic Tariff Truce",
+      "region": "United Kingdom / South China Sea / Trade",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.global-chessboard.com/p/starmer-s-exit-the-scarborough-shoal-standoff-and-the-transatlantic-tariff-truce"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-06-28",
+      "issue": 3,
+      "title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "region": "Middle East / Indo-Pacific / Latin America",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.global-chessboard.com/p/us-strikes-near-hormuz-the-taiwan-strait-standoff-and-venezuela-s-quake-relief-crisis"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-07-27",
+      "issue": 4,
+      "title": "China Stages Live Fire Drills Off Taiwan After a Tense Meeting With Washington",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.rappler.com/world/asia-pacific/china-live-fire-drills-taiwan-strait-july-2026/",
+        "https://stratnewsglobal.com/world-news/china-launches-live-fire-drills-near-taiwan-after-rubio-wang-talks/",
+        "https://chinaglobalsouth.com/2026/07/23/china-two-day-taiwan-strait-live-fire-drills/"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "issue": 4,
+      "title": "The European Union Tightens Its Grip on Russia With a 21st Sanctions Package",
+      "region": "Europe / Economics",
+      "sources": [
+        "https://www.consilium.europa.eu/en/press/press-releases/2026/07/23/21st-package-of-sanctions-eu-hits-russian-energy-financial-services-and-crypto-hard/",
+        "https://www.themoscowtimes.com/2026/07/23/eu-agrees-21st-sanctions-package-against-russia-a93317",
+        "https://valtioneuvosto.fi/en/-/eu-expands-sanctions-on-russia-with-extensive-21st-sanctions-package"
+      ]
+    },
+    {
+      "date": "2026-07-27",
+      "issue": 4,
+      "title": "A Fuel Blockade Tightens Around Mali's Capital as the Sahel War Evolves",
+      "region": "West Africa / Sahel / Global South",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/7/22/how-armed-group-alliances-are-reshaping-malis-conflict-and-the-wider-sahel",
+        "https://acleddata.com/media-citation/mali-under-siege-tracking-fuel-blockade-crippling-bamako-bellingcat",
+        "https://en.wikipedia.org/wiki/Mali_fuel_blockade"
       ]
     }
   ]

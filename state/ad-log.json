@@ -8,6 +8,31 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-28",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent_at": "2026-06-28T14:00:00Z",
+      "note": "Graded the newest published issue (Issue #3, sent 2026-06-28) since this run follows a roughly one-month gap with no issue sent in between. Issue #3 performed strongly for a tiny list: 13 delivered (100% delivery), 46.15% open rate (6 unique opens), 33.33% click rate (2 unique clicks), 0 unsubscribes, 0 bounces, 0 spam. Publication last-7-days (as of 2026-07-28): 13 active subscribers (down 1 from the issue #1 baseline of 14), 0 net new, open/click 0.0% and earnings $0.00 because no campaign has gone out since 2026-06-28. State file (covered-topics) had gone stale at issue #1; issues #2 and #3 were published without writing back to state.",
+      "graded_post_stats": {
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 46.15,
+        "unique_opens": 6,
+        "click_rate": 33.33,
+        "unique_clicks": 2,
+        "unsubscribe_rate": 0.0,
+        "bounce_rate": 0.0
+      },
+      "publication_last_7d": {
+        "subscribers_active": 13,
+        "net_new_subscribers_7d": 0,
+        "open_rate_7d": 0.0,
+        "click_rate_7d": 0.0,
+        "earnings_7d": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +63,42 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-28",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "advertisement_id": "646e0b74-e320-453d-844e-dbecd35ce62c",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-01T10:17:32Z",
+      "note": "Embedded an already-accepted ad opportunity rather than a fresh offer, because the ad network refused new acceptances (see report). Post-placement id is the accepted opportunity id."
+    },
+    {
+      "date": "2026-07-28",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "advertisement_id": "be7fc2c1-9876-4b01-9fbc-6023b292d80b",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-31T10:16:22Z",
+      "note": "Already-accepted ad opportunity, embedded to avoid the acceptance cap."
+    },
+    {
+      "date": "2026-07-28",
+      "issue": 4,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Filling this slot with a third real ad would have required accepting a new ad-network opportunity, which the API rejected ('can not accept any more opportunities'). Rendered as the labeled placeholder block instead."
     }
   ]
 }

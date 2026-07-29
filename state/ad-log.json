@@ -3,11 +3,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' sent to a single test recipient. Baseline at run time: 14 active subscribers, +2 net new in 7 days, 0.0% open/click, earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-29",
+      "issue": 5,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent_at": "2026-06-28T14:00:00Z",
+      "note": "No issue has been PUBLISHED/SENT since 2026-06-28. Daily runs have produced ~30 unsent drafts (issues #4 onward) that were never scheduled. Grading falls back to the last real send, issue #3 on 2026-06-28. That send performed well for its size: 13 delivered, 46.15% open, 33.33% click, 0 unsubscribes. But because nothing has been sent in a month, publication 7-day stats are flat: 13 active subscribers (down from 14), 0 net new, 0.0% aggregate open/click, $0.00 earnings (7d). The core problem is operational, not editorial: the drafts are good but nobody is clicking Schedule/Send.",
+      "graded_email_sent": 13,
+      "graded_open_rate": 46.15,
+      "graded_click_rate": 33.33,
+      "graded_unsubscribes": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,27 +34,53 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
       "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
       "payout_per_click_cents": 131,
+      "creative_kind": "primary"
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-07-29",
+      "issue": 5,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Superhuman AI",
+      "ad_headline": "200+ Claude Prompts Top Professionals Actually Use at Work",
+      "advertisement_id": "e3afd27e-de36-471c-bb87-f8b34c337048",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
       "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "send_by": "2026-07-31T23:59:59Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-07-29",
+      "issue": 5,
       "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Finance Advisors",
+      "ad_headline": "Little Known RMD Strategy Allowed by the IRS",
+      "advertisement_id": "077ca047-dca9-4b1f-8ccf-acd00bd4484c",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-03T10:19:22Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-07-29",
+      "issue": 5,
       "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Read less. Know more.",
+      "advertisement_id": "84613ca2-353a-44e1-9b7e-cd361d5de682",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-03T10:19:55Z"
     }
-  ]
+  ],
+  "_ad_network_note": "This publication's Ad Network allows only ONE 'primary' (with-logo) creative slot per post. Placing three primary ads via save_post is rejected ('No primary ad slot is available'). Workaround used this run: place slot 1 as primary, then slots 2 and 3 as 'secondary' (no-logo) creatives via edit_post_content. All three CPC offers (150c/click) filled. Also: offer ids from list_ad_offers rotate on every call, so re-fetch immediately before each placement. Advertiser CTR history not yet available (first appearances of Superhuman AI, Finance Advisors, Morning Brew), so ranking defaulted to payout (all equal at 150c)."
 }

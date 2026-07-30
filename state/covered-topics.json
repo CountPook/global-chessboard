@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-07-30",
+      "issue": 4,
+      "title": "Washington Opens a Formal Review of Its Military Footprint in Europe",
+      "region": "Europe / Transatlantic",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.militarytimes.com/news/pentagon-congress/2026/07/29/pentagon-has-kicked-off-review-of-us-force-posture-in-europe/",
+        "https://www.stripes.com/theaters/europe/2026-07-28/pentagon-europe-force-posture-review-22386853.html",
+        "https://www.washingtontimes.com/news/2026/jul/28/us-kicks-major-study-american-force-posture-europe/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-07-30",
+      "issue": 4,
+      "title": "Trilateral Drills in the South China Sea Meet Chinese Warnings",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://thediplomat.com/2026/07/philippines-holds-joint-exercises-with-us-japan-in-south-china-sea-amid-tensions-with-china/",
+        "https://www.japantimes.co.jp/news/2026/07/26/japan/south-china-sea-military-exercise/",
+        "https://www.navy.mil/Press-Office/News-Stories/display-news/Article/4417230/japan-philippine-and-us-forces-conduct-multilateral-maritime-cooperative-activi/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-07-30",
+      "issue": 4,
+      "title": "Brazil Takes Its Tariff Fight With Washington to the WTO",
+      "region": "Latin America / Economics",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.brecorder.com/news/40432132/brazil-requests-wto-consultations-over-us-tariffs",
+        "https://www.channelstv.com/2026/07/28/brazil-seeks-wto-consultation-over-us-tariffs/",
+        "https://time.com/article/2026/07/16/brazil-condemns-us-tariffs-lula-trump-greer/"
       ]
     }
-  ]
+  ],
+  "note": "Issues #2 (2026-06-26, Starmer/Scarborough/tariff truce) and #3 (2026-06-28, Hormuz strikes/Taiwan/Venezuela quake) were published but predate the 30-day retention window as of 2026-07-30, so they are dropped here. Issue counter reconciled to 4 based on the masthead of the newest published post (issue #3)."
 }

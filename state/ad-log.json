@@ -8,6 +8,20 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-30",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent_date": "2026-06-28",
+      "note": "Newest published issue (#3, 2026-06-28) graded this run. Strong engagement on a tiny list: 13 delivered, 46.15% open rate (6 unique opens), 33.33% click rate (2 unique clicks), 0 unsubscribes, 0 bounces, 0 spam. State was stale: issues #2 and #3 were published without covered-topics/ad-log being updated, so this is the first grade of the #3 campaign. Publication at run time (last 7 days, America/Los_Angeles): 13 active subscribers (down 1 from the 14 baseline), 0 net new, 0 churned, open/click 0.0% aggregate over the 7d window (no send inside it), earnings $0.00. Takeaway: the security-heavy #3 issue landed well on opens and clicks; the audience remains very small, so growth, not CTR, is the limiting factor.",
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_post": 46.15,
+      "click_rate_post": 33.33,
+      "unsubscribes_post": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +52,48 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-30",
+      "issue": 4,
+      "post_id": "post_fa8d07ae-72d8-43c5-a4ff-6a924dc53fd8",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "advertisement_id": "646e0b74-e320-453d-844e-dbecd35ce62c",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-01T10:17:32Z"
+    },
+    {
+      "date": "2026-07-30",
+      "issue": 4,
+      "post_id": "post_fa8d07ae-72d8-43c5-a4ff-6a924dc53fd8",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "advertisement_id": "be7fc2c1-9876-4b01-9fbc-6023b292d80b",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-07-31T10:16:22Z"
+    },
+    {
+      "date": "2026-07-30",
+      "issue": 4,
+      "post_id": "post_fa8d07ae-72d8-43c5-a4ff-6a924dc53fd8",
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Read less. Know more.",
+      "advertisement_id": "84613ca2-353a-44e1-9b7e-cd361d5de682",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-08-03T10:19:55Z"
     }
   ]
 }

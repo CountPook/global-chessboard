@@ -27,11 +27,20 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 - **Columns** (2x2 = two columns blocks): <div data-type="columns" data-stack-on-mobile="true">
   <div data-type="column" data-position="0" data-width="50%">...</div>...</div>.
   A node-section card CAN be nested inside a column for per-cell card styling.
-- **Ad block**: <div class="node-advertisementOpportunity" data-id="<offer_id>"
-  data-advertisement-kind="primary"></div>. IMPORTANT: offer ids from
-  list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
-  save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
-  data-advertisement-kind = primary (with logo) | secondary (no logo).
+- **Ad block**: <div class="node-advertisementOpportunity" data-id="<id>"
+  data-advertisement-kind="primary"></div>. data-advertisement-kind = primary
+  (with logo) | secondary (no logo).
+  IMPORTANT (offer ids rotate): numeric offer ids from list_ad_offers rotate
+  between calls, and placing by offer id tries to ACCEPT a new opportunity.
+  On this small publication that acceptance is CAPPED: embedding several fresh
+  offer ids at once fails with "can not accept any more opportunities" and the
+  whole save_post is rejected atomically (nothing is created).
+  FIX / preferred approach (2026-07-30): call list_ad_opportunities and embed the
+  already-ACCEPTED opportunities by their UUID (status="accepted"). Those are
+  already claimed, so placing them does not trip the acceptance cap. Rank by
+  payout_per_click_cents desc, drop any whose send_by is at/before the target
+  send timestamp, then place the top AD_SLOTS by UUID. This is how issue #4
+  successfully placed all three ads.
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

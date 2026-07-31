@@ -8,6 +8,27 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-07-31",
+      "issue": 4,
+      "note": "Graded the most recent published issue, #3 (post_e113b158-e07f-4bb5-8027-95a9e6ad64c1, 'US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis', scheduled 2026-06-28). No issue has been published since June 28 (a roughly month-long gap), so the newest published post is over 30 days old and this run graded it rather than a true 'yesterday'. Note: state memory previously tracked only issue #1, but the publication actually ran issues #1 (Jun 24), #2 (Jun 26), and #3 (Jun 28); today's is issue #4. Also discovered the ad network caps concurrently accepted opportunities: passing fresh offer IDs to save_post tried to re-accept already-accepted offers and was rejected ('can not accept any more opportunities'). Fix used: embed the existing accepted-opportunity UUIDs from list_ad_opportunities(status=accepted) instead of offer IDs.",
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_issue": 3,
+      "issue3_email_sent": 13,
+      "issue3_open_rate": 46.15,
+      "issue3_unique_opens": 6,
+      "issue3_click_rate": 33.33,
+      "issue3_unique_clicks": 2,
+      "issue3_unsubscribes": 0,
+      "issue3_bounces": 0,
+      "issue3_spam": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +59,45 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-07-31",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "opportunity_id": "646e0b74-e320-453d-844e-dbecd35ce62c",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-01T10:17:32Z"
+    },
+    {
+      "date": "2026-07-31",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Read less. Know more.",
+      "opportunity_id": "84613ca2-353a-44e1-9b7e-cd361d5de682",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-08-03T10:19:55Z"
+    },
+    {
+      "date": "2026-07-31",
+      "issue": 4,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Superhuman AI",
+      "ad_headline": "200+ Claude Prompts Top Professionals Actually Use at Work",
+      "opportunity_id": "e3afd27e-de36-471c-bb87-f8b34c337048",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-07-31T23:59:59Z"
     }
   ]
 }

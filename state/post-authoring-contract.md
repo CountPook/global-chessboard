@@ -27,11 +27,18 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 - **Columns** (2x2 = two columns blocks): <div data-type="columns" data-stack-on-mobile="true">
   <div data-type="column" data-position="0" data-width="50%">...</div>...</div>.
   A node-section card CAN be nested inside a column for per-cell card styling.
-- **Ad block**: <div class="node-advertisementOpportunity" data-id="<offer_id>"
-  data-advertisement-kind="primary"></div>. IMPORTANT: offer ids from
-  list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
-  save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
-  data-advertisement-kind = primary (with logo) | secondary (no logo).
+- **Ad block**: <div class="node-advertisementOpportunity" data-id="<offer_id>"></div>.
+  IMPORTANT: offer ids from list_ad_offers ROTATE between calls (every list call
+  mints new ids). Call list_ad_offers immediately before save_post and use the
+  fresh id, or the save is rejected as "Unknown ad offer".
+  data-advertisement-kind = primary (with logo) | secondary (no logo); OMIT it to
+  auto-select. On 2026-08-02 passing kind="primary" was rejected ("No 'primary' ad
+  slot is available for opportunity ...") so prefer omitting kind and letting beehiiv
+  auto-select the creative.
+  LIMIT: this publication's ad-network plan accepts only ONE ad-network opportunity
+  per post. Placing a second real ad fails with "can not accept any more
+  opportunities". So each issue = at most 1 real ad node; fill the other AD_SLOTS
+  with the placeholder block. (Matches issues #1, #3, #4, which each ran 1 real ad.)
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

@@ -8,6 +8,31 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-02",
+      "graded_issue": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_scheduled_at": "2026-06-28T14:00:00Z",
+      "note": "Graded the newest published issue, #3 (US Strikes Near Hormuz, Taiwan Strait Standoff, Venezuela Quake Relief). State file was stale and only tracked issue #1, so issues #2 (2026-06-26) and #3 (2026-06-28) were graded/reconciled from beehiiv directly. Issue #3 performed well for a 13-person list: 46.15% open rate (6 unique opens), 33.33% click rate (2 unique clickers), zero unsubscribes, zero bounces, 100% delivery. Weakness: list is not growing (13 active, flat) and there was a ~5 week gap with no send between 2026-06-28 and this 2026-08-02 run, which likely stalled momentum. No earnings recorded in the trailing 7 days because no issue was sent in that window.",
+      "graded_issue_email": {
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 46.15,
+        "unique_opens": 6,
+        "click_rate": 33.33,
+        "unique_clickers": 2,
+        "unsubscribe_rate": 0.0,
+        "bounce_rate": 0.0
+      },
+      "publication_at_run": {
+        "current_active_subscribers": 13,
+        "net_new_subscribers_7d": 0,
+        "churned_subscribers_7d": 0,
+        "open_rate_7d": 0.0,
+        "click_rate_7d": 0.0,
+        "earnings_7d": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +63,39 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-02",
+      "issue": 4,
+      "post_id": "post_2054ee29-66a0-45fd-a37d-9e2de3740d33",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "offer_id_at_placement": "99041069",
+      "advertisement_id": "c04a0f6c-2e91-4a4a-93b7-c59ef0e3bda1",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "auto",
+      "send_by": "2026-08-07T10:21:44Z"
+    },
+    {
+      "date": "2026-08-02",
+      "issue": 4,
+      "post_id": "post_2054ee29-66a0-45fd-a37d-9e2de3740d33",
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Ad network accepts only one ad-network opportunity per post on this plan. The second real offer was rejected with 'can not accept any more opportunities', so slots 2 and 3 render as labeled placeholders."
+    },
+    {
+      "date": "2026-08-02",
+      "issue": 4,
+      "post_id": "post_2054ee29-66a0-45fd-a37d-9e2de3740d33",
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "See slot 2 note. Unused eligible offers today (all send_by 2026-08-07, all CPC): 1440 Media 150c, Superhuman AI 150c, Finance Advisors 150c."
     }
   ]
 }

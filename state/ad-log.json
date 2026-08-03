@@ -8,6 +8,24 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-03",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_scheduled_at": "2026-06-28T14:00:00Z",
+      "note": "Graded the newest published post (issue #3, 2026-06-28). Note: the June 26 and June 28 issues (#2, #3) were published but never recorded in state; only issue #1 had been logged. Numbering reconciled this run, next issue = #4. Issue #3 email performance was strong for a tiny list: 13 delivered, 46.15% open rate (6 unique), 33.33% click rate (2 unique clicks), 0 unsubscribes, 0 bounces, 0 spam. Weak spot is audience growth: publication is flat to down (14 active at issue #1 baseline, 13 active now) with 0 net new subscribers and $0.00 earnings in the last 7 days. Takeaway for issue #4: engagement/content quality is working; the constraint is list growth and ad-slot capacity, not open/click rates.",
+      "graded_post_email_open_rate": 46.15,
+      "graded_post_email_click_rate": 33.33,
+      "graded_post_total_delivered": 13,
+      "graded_post_total_unsubscribes": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +53,38 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-08-03",
+      "issue": 4,
+      "post_id": "post_b2ee6897-9242-433f-bc6a-fb4c72241a87",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Sound familiar?",
+      "offer_id_at_placement": "99692899",
+      "advertisement_id": "576514cb-194a-4192-834f-b17465be1271",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-08-08T10:17:40Z"
+    },
+    {
+      "date": "2026-08-03",
+      "issue": 4,
+      "post_id": "post_b2ee6897-9242-433f-bc6a-fb4c72241a87",
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "beehiiv rejected additional ad-network placements. This publication's posts accept only one 'primary' ad-network slot per email; attempting three at once failed with 'No primary ad slot is available in this post'. Three CPC offers (Finance Advisors, Morning Brew, Superhuman AI, 1440 Media, all 150c/click) were available but only one could be placed."
+    },
+    {
+      "date": "2026-08-03",
+      "issue": 4,
+      "post_id": "post_b2ee6897-9242-433f-bc6a-fb4c72241a87",
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

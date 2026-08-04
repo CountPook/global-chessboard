@@ -1,6 +1,19 @@
 {
   "performance_history": [
     {
+      "date": "2026-08-04",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent": "2026-06-28",
+      "note": "Grading Issue #3 (June 28), the most recent real send. There was a ~5 week gap between that send and this run (Aug 4), so publication last_7_days shows 0 opens/0 clicks/0 net new only because nothing was sent recently, not because of poor performance. Issue #3 itself performed well on a tiny list: 13 delivered (100% delivery), 46.15% open rate (6 unique opens, 10 total), 33.33% click rate (2 unique clickers), 0 unsubscribes, 0 bounces, 0 spam. Slot 1 carried a real Masterworks CPC ad; slots 2/3 were placeholders. What worked: high open and click rates and zero list attrition, so content and subject lines are landing. What did not: subscriber growth is stalled (13 active, down 1 from 14 at issue #1) and the long publishing gap likely cost momentum. Ad demand remains thin.",
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_issue3": 46.15,
+      "click_rate_issue3": 33.33,
+      "unsubscribes_issue3": 0
+    },
+    {
       "date": "2026-06-24",
       "issue": 1,
       "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
@@ -35,6 +48,35 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-08-04",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "offer_id_at_placement": "100796276",
+      "advertisement_id": "3c084c10-b971-49b2-8d5f-eaa7cf868df6",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-09T10:18:51Z"
+    },
+    {
+      "date": "2026-08-04",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "6 CPC offers were available and unexpired, but the post's ad network inventory accepted only ONE primary placement per post. Attempting three primary ad nodes was rejected with 'No primary ad slot is available in this post'. Placed the highest-value offer (Tello, 225c) in slot 1; slots 2 and 3 rendered as placeholders. Next-best unplaced offers were Mindstream (168c) and 1440 Media / Morning Brew / Superhuman AI / Finance Advisors (150c each)."
+    },
+    {
+      "date": "2026-08-04",
+      "issue": 4,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

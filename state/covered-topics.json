@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-05",
+      "issue": 4,
+      "title": "The US Senate Moves Toward Sweeping Secondary Sanctions on Russia's Oil Trade",
+      "region": "United States / Russia / Global Economy",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.rferl.org/a/zelenskyy-united-states-senate-bill-sanctions-russia/33817262.html",
+        "https://www.axios.com/2026/07/29/senate-russia-sanctions-lindsey-graham",
+        "https://foreignpolicy.com/2026/07/30/lindsey-graham-russia-sanctions-bill-congress-ukraine/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-05",
+      "issue": 4,
+      "title": "Air Defense Stockpiles Run Low as the Iran War Strains American Arsenals",
+      "region": "Middle East / United States",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/economy/2026/8/3/pentagon-boosts-patriot-thaad-interceptor-output-amid-stockpile-strain",
+        "https://www.cnn.com/2026/08/04/politics/us-iran-key-missile-interceptors-low",
+        "https://www.defensenews.com/news/pentagon-congress/2026/08/03/pentagon-moves-to-triple-patriot-quadruple-thaad-interceptor-production/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-05",
+      "issue": 4,
+      "title": "Brazil Downgrades Ties With Argentina as a Personal Feud Turns Diplomatic",
+      "region": "South America / Global South",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.washingtonpost.com/world/2026/08/04/brazil-argentina-diplomatic-presence-milei-lula/",
+        "https://www.euronews.com/2026/08/05/brazil-argentina-diplomatic-relations-downgrade-to-charge-daffaires",
+        "https://www.internazionale.it/ultime-notizie-reuters/2026/08/05/brazil-downgrades-diplomatic-ties-with-argentina-after-milei-remarks"
       ]
     }
-  ]
+  ],
+  "_notes": "Issue #1 topics (2026-06-24) dropped as older than 30 days. Issues #2 (2026-06-26, Starmer/Scarborough/Tariff) and #3 (2026-06-28, Hormuz/Taiwan/Venezuela) were published from other sessions and never logged in this branch's state; both are >30 days old so no dedup impact. last_issue_number corrected to 4 based on the June 28 post masthead (ISSUE #3)."
 }

@@ -8,6 +8,33 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-05",
+      "run_issue": 4,
+      "graded_issue": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis (sent 2026-06-28)",
+      "note": "Graded the newest published issue (#3, sent 2026-06-28) since issues #2 and #3 were never logged on this branch. Strong engagement for a small list: 13 sent, 13 delivered (100%), 46.15% unique open rate (6 of 13), 33.33% click rate (2 unique clickers, 3 raw clicks), 0 unsubscribes, 0 spam, 0 bounces. Publication last-7-days window (America/Los_Angeles) was empty at run time (0 opens, 0 clicks, 0 new subscribers, $0 earnings) because the last real send was 2026-06-28, more than 5 weeks before this 2026-08-05 run. Active subscribers 13, down 1 from the 14 baseline at issue #1. Takeaway: open and click rates are healthy; the priority is cadence and list growth, since a 5+ week publishing gap left the recent-activity window empty and the subscriber count flat-to-declining.",
+      "graded_post_stats": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "unique_open_rate": 46.15,
+        "click_rate": 33.33,
+        "unique_clickers": 2,
+        "unsubscribes": 0,
+        "spam_reports": 0
+      },
+      "publication_last_7_days": {
+        "current_active_subscribers": 13,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +65,42 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-05",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "offer_id_at_placement": "101875952",
+      "advertisement_id": "81c4941c-20ba-4459-a4d5-5c5a7107fdb8",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-10T10:16:24Z"
+    },
+    {
+      "date": "2026-08-05",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Demand existed (see offers_available_but_unplaced) but beehiiv permitted only one ad slot in this post; a second advertisementOpportunity node was rejected with 'No primary ad slot is available in this post.'"
+    },
+    {
+      "date": "2026-08-05",
+      "issue": 4,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Same cap as slot 2 - only one ad placement allowed per post on this plan."
+    },
+    {
+      "date": "2026-08-05",
+      "issue": 4,
+      "record_type": "offers_available_but_unplaced",
+      "note": "Six CPC offers were available and none expired before the 2026-08-05T15:00:00Z (8:00 AM PT) target send. Ranked by payout_per_click_cents: Q3 Advisors 225 (placed), Mindstream 168, Finance Advisors 150, Morning Brew 150, Superhuman AI 150, 1440 Media 150. No realized CTR history existed for any of these advertisers to blend. Only the top offer could be placed because beehiiv caps this post at one ad slot. Slots 2 and 3 rendered as labeled placeholders. Note: offer IDs rotate on every list_ad_offers call; the ID above was the fresh ID used at save time."
     }
   ]
 }

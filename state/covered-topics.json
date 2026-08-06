@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-06",
+      "issue": 4,
+      "title": "Washington Pulls Brazil's Ambassador Visa as an Election Standoff Deepens",
+      "region": "Americas",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.cnn.com/2026/08/04/politics/trump-admin-revokes-visa-brazil-ambassador",
+        "https://www.nbcnews.com/world/brazil/trump-administration-revokes-brazilian-ambassadors-visa-diplomatic-dis-rcna590888",
+        "https://www.usnews.com/news/world/articles/2026-08-04/us-revokes-visa-of-brazilian-ambassador-over-diplomatic-dispute-official-says"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-06",
+      "issue": 4,
+      "title": "Manila Files Its Scarborough Shoal Claim at the UN as Beijing Objects",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.philstar.com/headlines/2026/08/02/2546410/philippines-formally-deposits-panatag-shoal-chart-un",
+        "https://www.rappler.com/philippines/deposit-scarborough-shoal-bajo-de-masinloc-char-united-nations/",
+        "https://focustaiwan.tw/politics/202608020012"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-06",
+      "issue": 4,
+      "title": "A Migrant Surge at Ceuta Splits the European Union",
+      "region": "Europe",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.ksat.com/news/world/2026/08/04/spanish-prime-minister-sanchez-fends-off-blistering-criticism-within-the-eu-over-ceuta-crisis/",
+        "https://www.aljazeera.com/news/2026/8/4/spanish-pm-sanchez-faces-criticism-as-eu-meets-over-ceuta-crossings",
+        "https://www.euronews.com/my-europe/2026/08/01/22-eu-leaders-call-for-emergency-talks-over-ceuta-migrant-crisis"
       ]
     }
   ]

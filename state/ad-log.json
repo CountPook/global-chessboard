@@ -3,11 +3,22 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "Baseline run. No prior real issue to grade. Placeholder test post only. 14 active subscribers, +2 net new in 7 days, 0% open/click (no real campaign sent yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-06",
+      "issue_graded": 3,
+      "note": "Graded the most recent PUBLISHED issue, #3 (post_e113b158, sent 2026-06-28), because no issue has been published since. Issue #3 performed well for a small list: 46.15% open rate, 33.33% click rate, 13/13 delivered, 6 unique opens, 2 unique clicks, 0 unsubscribes, 0 spam. Concern: a ~6 week publishing gap since 2026-06-28 despite daily drafts being generated (42 drafts exist), so engagement has not compounded and the list has slipped from 14 to 13 active subscribers with 0 net growth in the last 7 days. Content is landing with existing readers; the newsletter needs to actually ship on schedule and invest in acquisition.",
+      "post_id_graded": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "issue3_open_rate": 46.15,
+      "issue3_click_rate": 33.33,
+      "issue3_unsubscribes": 0
     }
   ],
   "ad_slots": [
@@ -17,13 +28,8 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
-      "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -38,6 +44,45 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-06",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "opportunity_id_at_placement": "81c4941c-20ba-4459-a4d5-5c5a7107fdb8",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-10T10:16:24Z"
+    },
+    {
+      "date": "2026-08-06",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "opportunity_id_at_placement": "3c084c10-b971-49b2-8d5f-eaa7cf868df6",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-09T10:18:51Z"
+    },
+    {
+      "date": "2026-08-06",
+      "issue": 4,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Sound familiar?",
+      "opportunity_id_at_placement": "576514cb-194a-4192-834f-b17465be1271",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-08-08T10:17:40Z"
     }
   ]
 }

@@ -38,6 +38,26 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 - **recipients**: omit on save_post to default to free tier on web+email (matches
   this publication's audience).
 
+## Ad network lessons (learned 2026-08-07, issue #4)
+- **Only 1 primary ad per post.** beehiiv allows at most 1 primary (with logo) + 2
+  secondary (without logo) advertisementOpportunity blocks per post. Setting all
+  three ad blocks to data-advertisement-kind="primary" fails with "No 'primary' ad
+  slot is available". Use primary for the top/most-valuable slot and secondary for
+  the other two.
+- **Do not claim new offers if accepted opportunities already exist.** This
+  publication auto-accepts ad opportunities. When several are already in status
+  "accepted" (see list_ad_opportunities status=accepted), trying to place a fresh
+  list_ad_offers id claims a NEW opportunity and fails with "can not accept any
+  more opportunities". Instead, embed the already-accepted opportunity UUIDs
+  directly in the advertisementOpportunity data-id. Rank the accepted ones by
+  payout_per_click_cents and drop any whose send_by is at or before the target
+  send timestamp. On 2026-08-07 there were exactly 3 valid accepted opportunities,
+  which filled all 3 slots (Q3 Advisors 225c primary, Tello 225c secondary,
+  Morning Brew 150c secondary).
+- Prefer list_ad_opportunities(status=accepted) as the FIRST ad source on this
+  publication; fall back to list_ad_offers only if fewer than AD_SLOTS accepted
+  opportunities survive the send-time filter.
+
 ## Brand tokens (do not restyle theme; apply via spans/sections)
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;
 body text #a0b4c8; muted #8a9bb0; heading accent #e8d5a3; faint #5a6a7a;

@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-07",
+      "issue": 4,
+      "title": "Beijing Answers Europe's Russia Sanctions With Rare Earth Export Curbs",
+      "region": "Europe / East Asia",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.scmp.com/economy/global-economy/article/3361732/china-adds-eu-entities-export-control-list",
+        "https://www.spglobal.com/energy/en/news-research/latest-news/metals/072426-china-bans-rare-earth-exports-to-14-european-companies",
+        "https://www.europarl.europa.eu/thinktank/en/document/EPRS_ATA(2025)779220"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-07",
+      "issue": 4,
+      "title": "A Jihadist Fuel Blockade Tightens Its Grip on Mali's Capital",
+      "region": "West Africa / Sahel",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.bbc.com/news/articles/cm2w0zpew0ko",
+        "https://www.aljazeera.com/news/2025/10/27/mali-shuts-schools-as-fuel-blockade-imposed-by-fighters-paralyses-country",
+        "https://en.wikipedia.org/wiki/Mali_fuel_blockade"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-07",
+      "issue": 4,
+      "title": "North Korea Hardens the DMZ and Tests the Armistice Line",
+      "region": "Indo-Pacific / Korean Peninsula",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.koreajoongangdaily.com/korea/as-north-korea-hardens-the-dmz-new-border-works-near-yeoncheon-test-the-line-and-the-armistice/12807720",
+        "https://www.nknews.org/pro/new-north-korean-defense-line-crosses-border-with-south-armistice-maps-confirm/",
+        "https://www.cbsnews.com/news/north-korea-constructs-walls-near-dmz-satellite-images/"
       ]
     }
-  ]
+  ],
+  "_note": "State previously tracked only issue #1. Issues #2 (2026-06-26) and #3 (2026-06-28) were published but never recorded here; numbering reconciled to continue at #4 on 2026-08-07. The 2026-06-24 issue-1 topics were dropped as older than 30 days per the retention rule."
 }

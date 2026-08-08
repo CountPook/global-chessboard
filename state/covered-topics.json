@@ -1,37 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
+  "note": "Issues #2 (2026-06-26) and #3 (2026-06-28) were published on beehiiv but never recorded in this file on this branch; their topics are all older than 30 days and so are not carried here. last_issue_number reconciled to 4 based on the newest published post (issue #3, 2026-06-28). Topics older than 30 days are pruned each run.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-08-08",
+      "issue": 4,
+      "title": "Japan Test-Fires Its First Ship-Launched Tomahawk as Tokyo Reaches for Counterstrike",
+      "region": "Indo-Pacific / East Asia",
+      "sources": [
+        "https://asiatimes.com/2026/08/japans-missile-leap-marks-shift-from-defense-to-counterstrike/",
+        "https://tass.com/world/2170193",
+        "https://www.aljazeera.com/news/2026/8/5/north-koreas-kim-yo-jong-issues-military-threat-over-japan-missile-test",
+        "https://www.aei.org/commentary/china-taiwan-update-august-7-2026/"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "issue": 4,
+      "title": "The Senate Passes a Sweeping Russia Sanctions Bill That Puts China and India in Its Sights",
+      "region": "United States / Economics",
+      "sources": [
+        "https://www.cnbc.com/2026/08/07/russia-sanctions-bill-lindsey-graham-senate.html",
+        "https://www.pbs.org/newshour/politics/senate-passes-sweeping-russia-sanctions-bill-negotiated-by-the-late-sen-lindsey-graham",
+        "https://www.atlanticcouncil.org/dispatches/what-the-latest-us-sanctions-bill-means-for-russia-and-for-china-india-and-iran/"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "issue": 4,
+      "title": "Eight Arab and Muslim States Open a Joint Diplomatic Front Over Gaza",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
-      "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.arabnews.com/node/2653620/saudi-arabia",
+        "https://www.aljazeera.com/news/2026/8/6/eight-countries-strongly-denounce-ongoing-israeli-violations-in-gaza",
+        "https://www.egypttoday.com/Article/1/148750/Israeli-attacks-in-Gaza-threaten-to-derail-political-process-reignite"
       ]
     }
   ]

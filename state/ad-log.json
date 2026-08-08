@@ -8,6 +8,33 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-08",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_scheduled_at": "2026-06-28T14:00:00Z",
+      "note": "Graded the newest published post, issue #3 (2026-06-28), as no issue ran between then and this 2026-08-08 run (a roughly six-week gap; issues #2 and #3 shipped in late June, then no issues in July). Issue #3 performed strongly for a small list: 13 delivered, 46.15% open rate, 33.33% click rate, 0 unsubscribes, 0 spam reports. Its lead Hormuz/Iran story and the FAQ likely drove the high open rate; clicks concentrated in email. Weak spot: web views were 0, so all engagement came through email, and the list did not grow (0 net new subscribers in the trailing 7 days, $0.00 earnings), which is the main thing to improve.",
+      "graded_post_stats": {
+        "total_delivered": 13,
+        "open_rate": 46.15,
+        "click_rate": 33.33,
+        "total_unique_opened": 6,
+        "total_unique_clicked": 2,
+        "unsubscribe_rate": 0.0,
+        "total_unsubscribes": 0,
+        "web_views": 0
+      },
+      "publication_stats_7d": {
+        "current_active_subscribers": 13,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +65,37 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-08",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "offer_id_at_placement": "104667257",
+      "advertisement_id": "996d5300-1215-4867-b3d6-389965de8c15",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-13T10:16:29Z",
+      "note": "Highest-payout available offer. beehiiv rejected placing more than one ad-network opportunity per post ('No primary ad slot is available in this post'), so only one real network ad could be embedded; slots 2 and 3 are labeled placeholders. Other offers available but not placed: Sprayground 187c, Finance Advisors/Morning Brew/Superhuman AI/1440 Media 150c."
+    },
+    {
+      "date": "2026-08-08",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "beehiiv allows only one ad-network placement per post; left as labeled placeholder."
+    },
+    {
+      "date": "2026-08-08",
+      "issue": 4,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "beehiiv allows only one ad-network placement per post; left as labeled placeholder."
     }
   ]
 }

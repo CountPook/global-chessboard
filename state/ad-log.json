@@ -3,11 +3,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0%, earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-09",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent_at": "2026-06-28",
+      "note": "Newest published issue graded this run (no issue sent since June 28, so this is the last real send). Issues #2 and #3 were published on beehiiv but never logged by prior runs. Issue #3 performed strongly for a small list: 13 delivered, 100% delivery, 46.15% open rate (6 unique opens), 33.33% click rate (2 unique clicks), 0 unsubscribes, 0 spam. Publication currently at 13 active subscribers, down 1 from the June baseline of 14; last 4 weeks show 0% open/click because no campaign was sent in that window, and net new subscribers were 0. Earnings last 4 weeks $7.12. Takeaway: engagement per recipient is healthy but list growth is flat and cadence lapsed for six weeks. No repeat advertiser yet, so no realized CTR available to blend into ad ranking.",
+      "post_email_open_rate": 46.15,
+      "post_email_click_rate": 33.33,
+      "post_total_delivered": 13,
+      "post_total_unsubscribes": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_4w": 0,
+      "open_rate_4w": 0.0,
+      "click_rate_4w": 0.0,
+      "earnings_4w": "$7.12"
     }
   ],
   "ad_slots": [
@@ -35,6 +52,35 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-08-09",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Sprayground",
+      "ad_headline": "A Backpack They'll Love All Year",
+      "offer_id_at_placement": "105085714",
+      "advertisement_id": "c8c1d407-834b-49c0-920b-229abc74c88c",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-08-14T10:17:24Z"
+    },
+    {
+      "date": "2026-08-09",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Five valid CPC offers were available (Sprayground 187c, Finance Advisors/Morning Brew/Superhuman AI/1440 Media 150c each), but beehiiv's ad network allotted only one placeable ad slot for this post. A second primary ad was rejected with 'No primary ad slot is available in this post.' Slots 2 and 3 fall back to placeholders."
+    },
+    {
+      "date": "2026-08-09",
+      "issue": 4,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

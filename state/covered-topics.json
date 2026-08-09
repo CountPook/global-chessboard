@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
+  "note": "Issues #2 (2026-06-26, Starmer/Scarborough/tariff truce) and #3 (2026-06-28, Hormuz strikes/Taiwan Strait/Venezuela quake) were published on beehiiv but never recorded in this file by prior runs. Their topics are now older than 30 days and are not retained here. Issue number corrected to 4 based on the masthead of the newest published post.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-09",
+      "issue": 4,
+      "title": "Washington and Ottawa Race a Tariff Deadline as Fifty Percent Duties Loom",
+      "region": "North America / Economics",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.cbc.ca/news/politics/us-canada-tariff-negotiations-august-deadline-9.7297274",
+        "https://www.theglobeandmail.com/business/article-canada-and-us-discussing-trade-concessions-in-return-for-partial/",
+        "https://www.whitehouse.gov/fact-sheets/2026/07/fact-sheet-president-donald-j-trump-imposes-additional-tariffs-on-canada/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-09",
+      "issue": 4,
+      "title": "North Korea Sends a Missile Unit Into Russia as the Alliance Deepens",
+      "region": "Europe / Northeast Asia",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.japantimes.co.jp/news/2026/08/05/asia-pacific/north-korean-missile-russia-ukraine/",
+        "https://www.kyivpost.com/post/81746",
+        "https://www.usnews.com/news/world/articles/2026-08-06/explainer-what-we-know-about-north-korean-forces-joining-russias-war-against-ukraine"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-09",
+      "issue": 4,
+      "title": "Manila Files a UN Map of Scarborough Shoal and Beijing Answers With Drills",
+      "region": "Indo-Pacific / South China Sea",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.philstar.com/headlines/2026/08/02/2546410/philippines-formally-deposits-panatag-shoal-chart-with-un",
+        "https://www.gmanetwork.com/news/topstories/nation/996977/china-says-it-rejects-philippine-baselines-around-scarborough-shoal/story/",
+        "https://www.rappler.com/philippines/deposit-scarborough-shoal-bajo-de-masinloc-char-united-nations/"
       ]
     }
   ]

@@ -32,6 +32,12 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
   save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
   data-advertisement-kind = primary (with logo) | secondary (no logo).
+  ONE-SLOT CEILING: This publication's ad network allots only a SINGLE placeable
+  ad slot per post. Embedding more than one primary ad block fails the whole save
+  with "No 'primary' ad slot is available in this post for opportunity ...". Place
+  at most one real ad (the highest payout offer) and render the remaining AD_SLOTS
+  as placeholder blocks. Confirmed on issues #1 (2026-06-24) and #4 (2026-08-09).
+  A failed save rolls back atomically, so no offer is claimed on rejection.
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

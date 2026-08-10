@@ -8,6 +8,35 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-10",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_scheduled_at": "2026-06-28T14:00:00Z",
+      "note": "Grading the most recent published issue (#3, 2026-06-28) as the baseline. There was no literal 'yesterday' post because the newsletter had not run since late June, a roughly six week gap. Issue #3 performed well for a very small list: 46.15% open rate and a 33.33% click rate on 13 delivered, with zero unsubscribes, zero bounces, and zero spam complaints. Web views were 0, so essentially all engagement came from email. Note issues #2 (2026-06-26) and #3 (2026-06-28) were published but never recorded in state, so their ad placements are unknown to this log. Publication has slipped from 14 to 13 active subscribers with 0 net new and 0 opens/clicks in the trailing 7 days, consistent with no recent send. Takeaway for today's ad ranking: no repeat advertisers from prior real issues (I Hate It Here, Masterworks) are in today's offer pool, so ranking is by payout only.",
+      "graded_post_stats": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 46.15,
+        "unique_opens": 6,
+        "click_rate": 33.33,
+        "unique_clickers": 2,
+        "unsubscribe_rate": 0.0,
+        "bounce_rate": 0.0,
+        "spam_reports": 0,
+        "web_views": 0
+      },
+      "publication_baseline_7d": {
+        "current_active_subscribers": 13,
+        "net_new_subscribers_7d": 0,
+        "churned_7d": 0,
+        "open_rate_7d": 0.0,
+        "click_rate_7d": 0.0,
+        "earnings_7d": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +67,45 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-10",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "advertisement_id": "dbb4a957-f466-4911-a7ea-c38223fd2bba",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-15T10:17:46Z"
+    },
+    {
+      "date": "2026-08-10",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Sprayground",
+      "ad_headline": "Backpacks Kids Actually Love Carrying",
+      "advertisement_id": "9e956219-fb78-450f-831e-f32f25adab32",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-15T10:17:46Z"
+    },
+    {
+      "date": "2026-08-10",
+      "issue": 4,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Tired of news that feels like noise?",
+      "advertisement_id": "6554d777-dac4-4051-aa09-cafc2c82f9c8",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-15T10:17:46Z"
     }
   ]
 }

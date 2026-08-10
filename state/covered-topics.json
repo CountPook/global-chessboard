@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
+  "note": "Issue numbering reconciled 2026-08-10 against published-post ground truth. Issues #1 (2026-06-24), #2 (2026-06-26), #3 (2026-06-28) were all published; the prior state file had only recorded #1. Today's run is issue #4. Topics older than 30 days are pruned per spec, so the June issues are not listed here.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-10",
+      "issue": 4,
+      "title": "The Black Sea Shipping War Chokes Grain and Oil at Its Source",
+      "region": "Europe / Eurasia",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://foreignpolicy.com/2026/08/06/russia-ukraine-war-black-sea-shipping-ports-exports-grain-food-agriculture-drones-missiles/",
+        "https://www.washingtontimes.com/news/2026/aug/4/russian-strikes-revive-black-sea-blockade-threaten-ukraines-economic/",
+        "https://www.marinelink.com/news/russian-grain-lobby-warns-black-sea-541702"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-10",
+      "issue": 4,
+      "title": "Colombia Swings Right Under a Contested Transfer of Power",
+      "region": "Latin America",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/news/2026/8/8/de-la-espriella-sworn-in-as-colombia-leader-vows-crackdown-on-armed-groups",
+        "https://www.npr.org/2026/08/07/nx-s1-5924775/colombias-new-president-vows-to-remake-the-country-and-challenge-its-fragile-peace",
+        "https://www.usnews.com/news/world/articles/2026-08-07/de-la-espriella-to-take-office-as-colombia-president-on-pledges-of-security-crackdown"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-10",
+      "issue": 4,
+      "title": "China and the EU Trade Blows Over Critical Minerals",
+      "region": "Economics / China-EU",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.scmp.com/economy/global-economy/article/3361732/china-adds-eu-entities-export-control-list",
+        "https://www.investmentmonitor.ai/news/china-restricts-exports-14-european-firms/"
       ]
     }
   ]

@@ -3,11 +3,22 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-11",
+      "graded_issue": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "note": "Graded issue #3 (published 2026-06-28), the newest real published issue. Issues #2 (2026-06-26) and #3 (2026-06-28) were published but never recorded in state, so this run reconciled the issue counter to 4. Issue #3 stats: 13 sent, 13 delivered (100%), 46.15% open rate (6 unique opens, 10 total), 33.33% click rate (2 unique clickers), 0 unsubscribes, 0 bounces, 0 spam reports. Strong engagement for a 13-person list. Publication now 13 active subscribers (down 1 from the 14 baseline), 0 new and 0 churned in the trailing 7 days, $0.00 earnings (no issue sent in ~6 weeks). The ad in issue #3 slot 1 was Masterworks (CPC).",
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_issue3": 46.15,
+      "click_rate_issue3": 33.33,
+      "unsubscribes_issue3": 0
     }
   ],
   "ad_slots": [
@@ -38,6 +49,45 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-11",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "opportunity_id": "dbb4a957-f466-4911-a7ea-c38223fd2bba",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-15T10:17:46Z"
+    },
+    {
+      "date": "2026-08-11",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Tello",
+      "ad_headline": "Stop overpaying for wireless. Get a Tello plan for under $25",
+      "opportunity_id": "996d5300-1215-4867-b3d6-389965de8c15",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-13T10:16:29Z"
+    },
+    {
+      "date": "2026-08-11",
+      "issue": 4,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Sprayground",
+      "ad_headline": "Backpacks Kids Actually Love Carrying",
+      "opportunity_id": "9e956219-fb78-450f-831e-f32f25adab32",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-08-15T10:17:46Z"
     }
   ]
 }

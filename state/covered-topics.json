@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-11",
+      "issue": 4,
+      "title": "Saudi Arabia, Turkey, and Pakistan Sign a Mutual Defense Pact in Mecca",
+      "region": "Middle East / South Asia",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://foreignpolicy.com/2026/08/07/pakistan-saudi-arabia-turkey-mutual-defense-pact-iran-israel-military/",
+        "https://www.cnn.com/2026/08/07/middleeast/saudi-arabia-turkey-pakistan-pact-intl",
+        "https://en.wikipedia.org/wiki/Strategic_Mutual_Defence_Agreement"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-11",
+      "issue": 4,
+      "title": "The US Senate Passes a Sweeping Russia and Iran Sanctions Bill",
+      "region": "United States / Russia / Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.cbsnews.com/news/russia-sanctions-bill-iran-senate-lindsey-graham/",
+        "https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham",
+        "https://www.atlanticcouncil.org/dispatches/what-the-latest-us-sanctions-bill-means-for-russia-and-for-china-india-and-iran/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-11",
+      "issue": 4,
+      "title": "North Korea Threatens New Military Steps as Japan Expands Its Defenses",
+      "region": "Indo-Pacific / Northeast Asia",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.usnews.com/news/world/articles/2026-08-10/north-korea-condemns-japans-white-paper-calling-it-re-invasion-paper",
+        "https://www.nbcnews.com/world/asia/north-korea-kim-yo-jong-warns-new-military-options-japan-rcna590916",
+        "https://thediplomat.com/2026/08/japans-2026-defense-white-paper-warns-of-chinas-expanding-military-reach-in-the-pacific/"
       ]
     }
   ]

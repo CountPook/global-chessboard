@@ -33,6 +33,13 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
   data-advertisement-kind = primary (with logo) | secondary (no logo).
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
+- **Ad-opportunity cap (learned 2026-08-11)**: placing UNCLAIMED offers from
+  list_ad_offers auto-accepts them, and the ad network caps how many the publication may
+  accept. If it is already holding several accepted opportunities, a save that tries to
+  accept more fails with "can not accept any more opportunities". FIX: call
+  list_ad_opportunities first, and place the already-accepted opportunities by their UUID
+  (same advertisementOpportunity node, data-id = the opportunity UUID). This avoids the
+  cap and often has higher-value inventory than the fresh offers.
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).
 - **recipients**: omit on save_post to default to free tier on web+email (matches

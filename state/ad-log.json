@@ -3,11 +3,36 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post', sent to a single test recipient. Publication baseline: 14 active subscribers, +2 net new (7d), open/click 0.0%, earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-12",
+      "issue_graded": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_published": "2026-06-28",
+      "note": "Newest published post at run time was Issue #3 (2026-06-28), roughly six weeks before this run (no issues published between 2026-06-28 and 2026-08-12). Grading that issue: strong engagement on a tiny list. Issues #2 and #3 were never logged to state by their own runs; their ad slots are not recorded here. Publication has not grown; active subscribers slipped from 14 (Jun 24) to 13.",
+      "graded_post_stats": {
+        "total_delivered": 13,
+        "open_rate": 46.15,
+        "click_rate": 33.33,
+        "total_unique_opened": 6,
+        "total_unique_clicked": 2,
+        "unsubscribe_rate": 0.0,
+        "bounce_rate": 0.0
+      },
+      "publication_stats_at_run": {
+        "current_active_subscribers": 13,
+        "net_new_subscribers_7d": 0,
+        "churned_subscribers_7d": 0,
+        "open_rate_7d": 0.0,
+        "click_rate_7d": 0.0,
+        "earnings_7d": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +63,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-12",
+      "issue": 4,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers returned zero available offers and zero pending opportunities; list_sponsorship_agreement_items (waiting) returned zero. No paid ad to place."
+    },
+    {
+      "date": "2026-08-12",
+      "issue": 4,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "No ad inventory available at run time."
+    },
+    {
+      "date": "2026-08-12",
+      "issue": 4,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "No ad inventory available at run time."
     }
   ]
 }

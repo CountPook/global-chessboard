@@ -8,6 +8,27 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date_graded": "2026-08-13",
+      "issue_graded": 3,
+      "post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "published": "2026-06-28",
+      "note": "Graded the most recent published issue (#3, 'US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis'). Note: issues #2 (2026-06-26) and #3 (2026-06-28) were published but never wrote state, and NO issue has run between 2026-06-28 and today (2026-08-13), a roughly six-week gap. Issue #3 delivered to the full list of 13 with strong engagement for its size: 46.15% open rate (6 unique opens), 33.33% click rate (2 unique clicks), zero unsubscribes, zero bounces. Weak spot is audience growth: the list slipped from 14 to 13 active subscribers with 0 net new in the trailing 7 days and $0.00 earnings, reflecting the long publishing gap. Ad performance-to-date data remains too thin to blend into ranking (no repeat advertiser yet with realized CTR).",
+      "total_sent": 13,
+      "total_delivered": 13,
+      "delivery_rate": 100.0,
+      "open_rate": 46.15,
+      "unique_opens": 6,
+      "click_rate": 33.33,
+      "unique_clicks": 2,
+      "unsubscribes": 0,
+      "bounce_rate": 0.0,
+      "publication_active_subscribers": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +59,46 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-13",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "advertisement_opportunity_id": "dbb4a957-f466-4911-a7ea-c38223fd2bba",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-15T10:17:46Z"
+    },
+    {
+      "date": "2026-08-13",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Sprayground",
+      "ad_headline": "Backpacks Kids Actually Love Carrying",
+      "advertisement_opportunity_id": "9e956219-fb78-450f-831e-f32f25adab32",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-08-15T10:17:46Z"
+    },
+    {
+      "date": "2026-08-13",
+      "issue": 4,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Tired of news that feels like noise?",
+      "advertisement_opportunity_id": "6554d777-dac4-4051-aa09-cafc2c82f9c8",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-08-15T10:17:46Z"
     }
-  ]
+  ],
+  "_ad_network_notes": "Ad-network placement lesson (2026-08-13): the network caps how many opportunities can be in the ACCEPTED-but-unplaced state at once. Placing three fresh unclaimed offers from list_ad_offers failed with 'can not accept any more opportunities' because prior daily runs had already auto-accepted several offers that were never placed. Fix: place the ALREADY-ACCEPTED opportunity IDs from list_ad_opportunities (status=accepted) directly in the advertisementOpportunity node, since those require no new acceptance. Rank accepted opportunities by payout_per_click_cents, drop any whose send_by is at or before the target send timestamp, and prefer distinct advertisers. Klover (262c) was the highest-paying offer available but existed only as an unclaimed offer, so using it would have hit the accept cap; it was skipped in favor of already-accepted Q3 Advisors, Sprayground, and 1440 Media."
 }

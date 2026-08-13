@@ -1,38 +1,41 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-13",
+      "issue": 4,
+      "title": "Washington Moves to Tariff the Buyers of Russian Oil",
+      "region": "Economics / Sanctions (US, Russia, global)",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.cnbc.com/2026/08/07/russia-sanctions-bill-lindsey-graham-senate.html",
+        "https://thehill.com/homenews/house/6021244-house-bipartisan-russia-sanctions-bill/",
+        "https://www.aljazeera.com/news/2026/7/31/how-us-senate-russia-sanctions-could-spell-100-tariffs-for-india-china",
+        "https://www.rferl.org/a/zelenskyy-united-states-senate-bill-sanctions-russia/33817262.html"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-13",
+      "issue": 4,
+      "title": "Taiwan's Return to the Pacific Islands Forum Reopens a Diplomatic Fight",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.anews.com.tr/world/2026/08/11/china-urges-pacific-islands-forum-to-properly-handle-taiwan-related-issues",
+        "https://www.taipeitimes.com/News/front/archives/2026/08/09/2003862175",
+        "https://thediplomat.com/2026/08/why-the-pacific-islands-forum-should-watch-taiwans-east-coast/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-13",
+      "issue": 4,
+      "title": "Ethiopia and Eritrea Edge Toward War Over Red Sea Access",
+      "region": "Horn of Africa / Global South",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.bloomberg.com/news/articles/2026-02-19/risk-of-ethiopia-war-mounts-as-troops-deploy-near-eritrea-border",
+        "https://feeds.bbci.co.uk/news/articles/cyv6r6e6800o",
+        "https://www.crisisgroup.org/brf/africa/ethiopia-eritrea/b210-ethiopia-eritrea-and-tigray-powder-keg-horn-africa",
+        "https://www.worldpoliticsreview.com/ethiopia-eritrea-tensions-red-sea/"
       ]
     }
-  ]
+  ],
+  "_note": "Entries older than 30 days are dropped. Issues #1 (2026-06-24), #2 (2026-06-26), and #3 (2026-06-28) were published but their topics were never written to this file by their runs; they are all older than 30 days as of 2026-08-13 and are therefore not retained here. Actual last published issue before this run was #3 (post_e113b158-e07f-4bb5-8027-95a9e6ad64c1)."
 }

@@ -8,9 +8,62 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-14",
+      "graded_issue": 3,
+      "graded_post_id": "post_e113b158-e07f-4bb5-8027-95a9e6ad64c1",
+      "graded_post_title": "US Strikes Near Hormuz, the Taiwan Strait Standoff, and Venezuela's Quake Relief Crisis",
+      "graded_post_sent_at": "2026-06-28",
+      "note": "Graded the most recent published issue (#3, sent 2026-06-28). Solid engagement for a tiny list: 13 delivered, 46.15% open rate (6 unique opens), 33.33% click rate (2 unique clickers), 0 unsubscribes, 0 bounces, 0 spam. Issue #3 carried one real ad (Masterworks) plus placeholders. Publication has been dormant since late June (no issue sent between 2026-06-28 and this run), and the audience slipped from 14 to 13 active subscribers with 0 new and 0 churned in the last 7 days, so growth is flat. Takeaway: content and deliverability are healthy; the constraint is list size and cadence, not engagement quality.",
+      "graded_post_delivered": 13,
+      "graded_post_open_rate": 46.15,
+      "graded_post_click_rate": 33.33,
+      "graded_post_unsubscribes": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
+    {
+      "date": "2026-08-14",
+      "issue": 4,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "opportunity_id": "dbb4a957-f466-4911-a7ea-c38223fd2bba",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "send_by": "2026-08-15T10:17:46Z"
+    },
+    {
+      "date": "2026-08-14",
+      "issue": 4,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Sprayground",
+      "ad_headline": "Backpacks Kids Actually Love Carrying",
+      "opportunity_id": "9e956219-fb78-450f-831e-f32f25adab32",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "send_by": "2026-08-15T10:17:46Z"
+    },
+    {
+      "date": "2026-08-14",
+      "issue": 4,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Tired of news that feels like noise?",
+      "opportunity_id": "6554d777-dac4-4051-aa09-cafc2c82f9c8",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "send_by": "2026-08-15T10:17:46Z"
+    },
     {
       "date": "2026-06-24",
       "issue": 1,

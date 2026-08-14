@@ -1,37 +1,36 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 4,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
-      "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
-      "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "Zambia Votes on Hichilema's Economic Record",
       "region": "Africa / Global South",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/8/13/polls-open-in-zambia-presidential-election-as-economic-reforms",
+        "https://www.france24.com/en/live-news/20260813-president-s-economic-record-on-the-line-as-zambia-votes",
+        "https://www.sowetan.co.za/news/africa/2026-08-13-zambia-votes-in-election-expected-to-favour-incumbent-hichilema/"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "The Senate Hands Trump a Tariff Weapon Against Russian Oil",
+      "region": "United States / Russia (sanctions and trade)",
+      "sources": [
+        "https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham",
+        "https://www.cnbc.com/2026/08/07/russia-sanctions-bill-lindsey-graham-senate.html",
+        "https://www.rferl.org/a/russia-ukraine-senate-trump-graham-sanctions/33824412.html"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "Brazil Downgrades Ties With Argentina Over Milei's Attacks on Lula",
+      "region": "Latin America",
+      "sources": [
+        "https://www.washingtonpost.com/world/2026/08/04/brazil-argentina-diplomatic-presence-milei-lula/",
+        "https://www.euronews.com/2026/08/05/brazil-argentina-diplomatic-relations-downgrade-to-charge-daffaires"
       ]
     }
   ]

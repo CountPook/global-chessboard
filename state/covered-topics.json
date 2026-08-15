@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 5,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "The Mecca Pact Ties Saudi Arabia, Pakistan, and Turkey to Mutual Defense",
+      "region": "Middle East / South Asia",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.nbcnews.com/world/middle-east/saudi-arabia-signs-mutual-defense-pact-nuclear-armed-pakistan-rcna232360",
+        "https://thehill.com/opinion/national-security/6027593-mecca-joint-defense-agreement/",
+        "https://en.wikipedia.org/wiki/Mecca_Joint_Defence_Agreement"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "North Korea Threatens Escalation as Seoul Offers Talks Before Joint Drills",
+      "region": "Indo-Pacific / Korea",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.koreaherald.com/article/10836235",
+        "https://www.bloomberg.com/news/articles/2026-08-15/south-korea-s-lee-proposes-talks-with-north-in-pursuit-off-peace",
+        "https://www.38north.org/2025/12/lee-jae-myungs-end-strategy-path-to-progress-or-dead-end/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "A Fuel Blockade Tightens Around Mali's Capital",
+      "region": "West Africa / Sahel",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.bbc.com/news/articles/cm2w0zpew0ko",
+        "https://en.wikipedia.org/wiki/Mali_fuel_blockade",
+        "https://acleddata.com/media-citation/mali-under-siege-tracking-fuel-blockade-crippling-bamako-bellingcat"
       ]
     }
   ]

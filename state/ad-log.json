@@ -8,6 +8,25 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-15",
+      "issue_graded": 4,
+      "graded_post_id": "post_e162d4c9-27ff-4395-b908-c1e39e585d3d",
+      "graded_post_title": "Tariffs on Russian Oil Buyers, Taiwan at the Pacific Forum, and the Ethiopia-Eritrea Standoff",
+      "graded_post_sent_at": "2026-08-14T14:00:00Z",
+      "note": "Graded yesterday's issue #4 (2026-08-14). Delivered to all 13 subscribers (100% delivery), 38.46% open rate (5 unique openers), 80.0% click-through rate among openers (4 unique clickers of 5), 0 unsubscribes, 0 bounces, 0 spam. Engagement quality is high on a small list; open rate has room to grow. Subscriber growth flat over the trailing 7 days (0 net new, 0 churned) and 7-day earnings $0.00, so audience acquisition, not engagement, is the binding constraint. Note: this branch's covered-topics state only tracked issue #1; issues #2 (2026-06-26), #3 (2026-06-28), and #4 (2026-08-14) were published without being recorded here. Reconciled issue numbering from the live post masthead (issue #4), so today's run is issue #5.",
+      "delivered": 13,
+      "open_rate": 38.46,
+      "unique_opens": 5,
+      "click_rate": 80.0,
+      "unique_clicks": 4,
+      "unsubscribes": 0,
+      "bounces": 0,
+      "subscribers_active": 13,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +57,45 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "post_id": "post_be07aed5-a848-4692-9884-38fd4195b6b2",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Klover",
+      "ad_headline": "Short on cash? Get up to $750, no credit check.",
+      "offer_id_at_placement": "110465744",
+      "advertisement_id": "23a1aca6-9ce5-445e-9bae-ab8e8ac034cd",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 262,
+      "creative_kind": "primary",
+      "send_by": "2026-08-20T10:22:02Z"
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "post_id": "post_be07aed5-a848-4692-9884-38fd4195b6b2",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "A Second Chance at Today's Low Tax Rates",
+      "offer_id_at_placement": "110465745",
+      "advertisement_id": "a55fec30-0a15-4ceb-8539-db2f0c718de8",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-20T10:22:02Z"
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "post_id": "post_be07aed5-a848-4692-9884-38fd4195b6b2",
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Post ad-opportunity cap reached at 2 placements on this plan; third eligible offer (Mindstream, 168c/click) could not be placed and slot 3 was rendered as a labeled placeholder."
     }
   ]
 }

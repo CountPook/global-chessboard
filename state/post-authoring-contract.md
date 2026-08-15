@@ -1,6 +1,14 @@
 # Cached beehiiv authoring contract (pub_995eb47b-b524-4e27-b1ea-daf929e01bd5)
 
-Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior changes.
+Cached 2026-06-24 from learn_post_authoring. Re-verified 2026-08-15: contract and
+merge tags unchanged. Re-fetch if beehiiv behavior changes.
+
+NOTE (2026-08-15): This publication/plan caps a post at 2 ad-network opportunity
+placements, and appears to allow at most 1 "primary" (with-logo) ad. Placing 3
+primary ads is rejected with "No 'primary' ad slot is available"; placing more
+than 2 total is rejected with "can not accept any more opportunities". Plan for
+up to 2 real ads (e.g. 1 primary + 1 secondary) and render any remaining AD_SLOTS
+as placeholder blocks.
 
 ## Key facts for building issues
 

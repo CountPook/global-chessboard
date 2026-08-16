@@ -3,11 +3,34 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Only published post was a placeholder 'New post' sent to a single test recipient. Baseline: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-16",
+      "issue_graded": 5,
+      "graded_post_id": "post_e7c2302f-ac83-4a9a-95bb-7f6a4d580440",
+      "graded_post_title": "Zambia's Election, a New Russia Oil Sanctions Bill, and Brazil's Rift With Argentina",
+      "note": "Graded issue #5 (published 2026-08-15). Strong engagement on a small list: 13 delivered, 53.85% open rate (7 unique opens), 85.71% click rate (6 unique clickers), 0 unsubscribes, 0 bounces, 0 spam. Publication flat: 13 active subscribers, 0 net new and 0 churn over the last 7 days; 7-day earnings $0.00 (ad revenue is CPC and accrues on click, not on send). Note: this branch's state had skipped issues 2-5 (they ran on another branch), so no continuous history existed here before today.",
+      "graded_email": {
+        "total_delivered": 13,
+        "open_rate": 53.85,
+        "unique_opens": 7,
+        "click_rate": 85.71,
+        "unique_clickers": 6,
+        "unsubscribes": 0,
+        "bounce_rate": 0.0,
+        "spam_reports": 0
+      },
+      "publication_7d": {
+        "active_subscribers": 13,
+        "net_new_subscribers": 0,
+        "churned_subscribers": 0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -17,27 +40,58 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
-      "payout_model": "cpc",
       "payout_per_click_cents": 131,
+      "creative_kind": "primary"
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-08-16",
+      "issue": 6,
+      "post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "opportunity_id": "731c99c0-a7dc-4fb8-a84d-89b804a17877",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
       "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "send_by": "2026-08-20T23:21:41Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-08-16",
+      "issue": 6,
+      "post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
       "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Mindstream",
+      "ad_headline": "Master Claude AI (Free Guide)",
+      "opportunity_id": "33daba85-426c-49d0-ade0-9d95b63ac6ae",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 168,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-20T23:21:42Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-08-16",
+      "issue": 6,
+      "post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
       "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Finance Advisors",
+      "ad_headline": "Little Known RMD Strategy Allowed by the IRS",
+      "opportunity_id": "fecb98e8-969f-4af5-9490-79883bf59efb",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-20T23:21:42Z"
     }
-  ]
+  ],
+  "ad_ranking_notes": {
+    "date": "2026-08-16",
+    "issue": 6,
+    "note": "6 CPC offers available at run time (Klover 262, Q3 225, Mindstream 168, Finance Advisors 150, Morning Brew 150, 1440 Media 150), all send_by 2026-08-21, none expired before the 8:00 AM PT (15:00 UTC) send. Ranked by payout_per_click_cents (no per-advertiser realized CTR available to blend). Klover (262) was highest but got canceled during placement and could not be used; the beehiiv ad network also capped new opportunity acceptances mid-run. Filled all 3 slots from the three already-accepted, unplaced opportunities (Q3 225 primary, Mindstream 168 secondary, Finance Advisors 150 secondary). beehiiv allows only one 'primary' (with-logo) ad slot per post, so slots 2 and 3 use secondary creatives."
+  }
 }

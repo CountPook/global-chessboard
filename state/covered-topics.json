@@ -1,37 +1,79 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 6,
+  "note": "This branch's state was stale (only issue #1). Rebuilt on 2026-08-16 from beehiiv published history so the 14-day dedup window is accurate. Older-than-30-day entries dropped.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "Tariffs on Russian Oil Buyers, Taiwan at the Pacific Forum, and the Ethiopia-Eritrea Standoff",
+      "region": "Multi (Economics / Indo-Pacific / Horn of Africa)",
+      "sources": [
+        "https://www.global-chessboard.com/p/tariffs-on-russian-oil-buyers-taiwan-at-the-pacific-forum-and-the-ethiopia-eritrea-standoff"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "Zambia's Election on Hichilema's Economic Record",
+      "region": "Africa",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/8/13/polls-open-in-zambia-presidential-election-as-economic-reforms",
+        "https://www.france24.com/en/live-news/20260813-president-s-economic-record-on-the-line-as-zambia-votes",
+        "https://www.sowetan.co.za/news/africa/2026-08-13-zambia-votes-in-election-expected-to-favour-incumbent-hichilema/"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "The Senate Hands Trump a Tariff Weapon Against Russian Oil (Graham sanctions bill)",
+      "region": "Economics / US-Russia",
+      "sources": [
+        "https://www.npr.org/2026/08/07/nx-s1-5924914/senate-passes-russia-sanctions-bill-that-was-long-championed-by-lindsey-graham",
+        "https://www.cnbc.com/2026/08/07/russia-sanctions-bill-lindsey-graham-senate.html",
+        "https://www.rferl.org/a/russia-ukraine-senate-trump-graham-sanctions/33824412.html"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "Brazil Downgrades Ties With Argentina Over Milei's Attacks on Lula",
+      "region": "Latin America",
+      "sources": [
+        "https://www.washingtonpost.com/world/2026/08/04/brazil-argentina-diplomatic-presence-milei-lula/",
+        "https://www.euronews.com/2026/08/05/brazil-argentina-diplomatic-relations-downgrade-to-charge-daffaires"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "issue": 6,
+      "title": "Putin Visits the Disputed Kuril Islands and Tokyo Lodges a Protest",
+      "region": "Northeast Asia",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/8/13/japan-protests-as-russias-putin-visits-disputed-kuril-islands",
+        "https://www.npr.org/2026/08/13/g-s1-138631/vladimir-putins-first-visit-to-disputed-pacific-islands-draws-tokyo-protest",
+        "https://edition.cnn.com/2026/08/13/asia/putin-kuril-islands-japan-intl"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "issue": 6,
+      "title": "Saudi Arabia, Turkey, and Pakistan Sign a Joint Defense Pact in Mecca",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/8/7/new-regional-order-pakistan-turkiye-saudi-arabia",
+        "https://www.aljazeera.com/news/2026/8/11/what-are-saudi-arabia-turkiye-and-pakistans-joint-military-capabilities",
+        "https://www.atlanticcouncil.org/dispatches/why-saudi-arabia-pakistan-and-turkey-just-signed-a-defense-pact/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-16",
+      "issue": 6,
+      "title": "China's Homegrown C919 Jet Flies Its First International Route",
+      "region": "East Asia",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.euronews.com/travel/2026/08/12/chinas-c919-makes-first-international-flight-as-it-takes-aim-at-boeing-and-airbus",
+        "https://www.caixinglobal.com/2026-08-14/chinas-c919-completes-first-scheduled-international-commercial-flight-102473917.html",
+        "https://www.globaltimes.cn/page/202608/1368097.shtml"
       ]
     }
   ]

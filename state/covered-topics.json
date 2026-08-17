@@ -1,37 +1,59 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 7,
+  "_note": "This branch's memory was stale at run time (it recorded only issue #1). Reconciled on 2026-08-17 against the live publication, where yesterday's published post was issue #6. Issues #1-3 (June 2026) dropped as older than 30 days. Issues #4-6 reconstructed from list_posts titles for dedup (source URLs not available in this branch's state).",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "Tariffs on Russian Oil Buyers, Taiwan at the Pacific Forum, and the Ethiopia-Eritrea Standoff",
+      "region": "Multi (Sanctions / Taiwan / Horn of Africa)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "Zambia's Election, a New Russia Oil Sanctions Bill, and Brazil's Rift With Argentina",
+      "region": "Multi (Zambia / Russia / Latin America)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-16",
+      "issue": 6,
+      "title": "The Mecca Defense Pact, Korea's Drill Standoff, and Mali's Fuel Blockade",
+      "region": "Multi (Middle East / Korean Peninsula / Sahel)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "A Rare Kushner Meeting Tests the Gaza Disarmament Road Map",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/8/16/kushner-meets-hamas-in-egypt-to-push-trumps-gaza-plan",
+        "https://www.npr.org/2026/08/16/g-s1-138948/kushner-gaza-hamas-netanyahu-egypt-talks",
+        "https://www.timesofisrael.com/kushner-hamas-chief-in-egypt-for-talks-on-advancing-trumps-gaza-plan-idf-continues-strikes/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "Long Range Strikes Deepen as the Russia Ukraine Front Freezes",
       "region": "Eastern Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.cnn.com/2026/08/15/europe/russia-moscow-ukraine-air-attack-intl",
+        "https://www.france24.com/en/europe/20260816-drone-and-missile-strikes-kill-19-in-russia-and-ukraine",
+        "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "A Shadow Fleet Wreck Turns Sanctions Into an Oil Spill",
+      "region": "Economics / Sanctions / Gulf of Oman",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/8/10/oman-trying-to-contain-extensive-oil-spill-from-stricken-tanker",
+        "https://www.washingtonpost.com/world/2026/08/13/russia-environment-oil-spill-marine-oman-greenpeace/ff51e66c-9726-11f1-9ef9-1be722184483_story.html",
+        "https://www.nbcnews.com/world/middle-east/oil-spill-oman-tanker-sanctions-russia-spreads-huge-area-rcna591707"
       ]
     }
   ]

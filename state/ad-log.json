@@ -3,11 +3,36 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-17",
+      "issue_graded": 6,
+      "graded_post_id": "post_be07aed5-a848-4692-9884-38fd4195b6b2",
+      "note": "Graded issue #6 (published 2026-08-16, 'The Mecca Defense Pact, Korea's Drill Standoff, and Mali's Fuel Blockade'). Email sent to 13, 100% delivery, no bounces, no unsubscribes, no spam reports. Open rate for that send was 15.38% (2 unique opens); the readers who opened were highly engaged, with a 100% verified click rate (2 unique clickers). Publication 7-day aggregates: 13 active subscribers, 0 net new, 0 churned, open rate 35.9%, click rate 92.86%, earnings $0.00. Read: engagement-per-opener is strong, but reach (opens) and list growth are flat. Priority remains growing the list and lifting open rates via subject-line testing.",
+      "graded_post_email": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 15.38,
+        "unique_opens": 2,
+        "click_rate": 100.0,
+        "unique_clicks_verified": 2,
+        "unsubscribe_rate": 0.0,
+        "bounce_rate": 0.0
+      },
+      "publication_7d": {
+        "active_subscribers": 13,
+        "net_new_subscribers": 0,
+        "churned_subscribers": 0,
+        "open_rate": 35.9,
+        "click_rate": 92.86,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -17,27 +42,56 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "post_id": "post_62f6ff18-47fd-4224-8bc2-5b8f0a90ea35",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "A Second Chance at Today's Low Tax Rates",
+      "advertisement_id": "aa0a4bd3-c897-49c4-ae08-6b305a93cb2e",
+      "offer_id_at_selection": 111533969,
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-22T10:20:13Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-08-17",
+      "issue": 7,
+      "post_id": "post_62f6ff18-47fd-4224-8bc2-5b8f0a90ea35",
       "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Sprayground",
+      "ad_headline": "Backpacks Kids Actually Love Carrying",
+      "advertisement_id": "680661a5-5946-45cf-8a8e-4335dc78908f",
+      "offer_id_at_selection": 111533971,
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-22T10:20:14Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-08-17",
+      "issue": 7,
+      "post_id": "post_62f6ff18-47fd-4224-8bc2-5b8f0a90ea35",
       "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Tired of news that feels like noise?",
+      "advertisement_id": "2e563bf8-71d2-4c6d-86f7-f16937458df3",
+      "offer_id_at_selection": 111533972,
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-22T10:20:14Z"
     }
   ]
 }

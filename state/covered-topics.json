@@ -1,37 +1,132 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "State memory was stale before the 2026-08-18 run: it recorded only issue #1, but posts through issue #7 (2026-08-17) had been published. Reconciled against list_posts (published) on 2026-08-18. Entries older than 30 days (issues #1-#3, June 2026) have been dropped. Issues #4-#7 were backfilled from their published titles for deduplication; their source URLs were not re-fetched.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "Tariffs on Russian Oil Buyers",
+      "region": "Economics / Sanctions",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "Taiwan at the Pacific Islands Forum",
+      "region": "Indo-Pacific",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "The Ethiopia-Eritrea Standoff",
+      "region": "Horn of Africa",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "Zambia's Election",
+      "region": "Africa",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "A New Russia Oil Sanctions Bill",
+      "region": "Economics / Sanctions",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "Brazil's Rift With Argentina",
+      "region": "Latin America",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-16",
+      "issue": 6,
+      "title": "The Mecca Defense Pact (Saudi Arabia-Pakistan)",
+      "region": "Middle East / South Asia",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-16",
+      "issue": 6,
+      "title": "Korea's Drill Standoff",
+      "region": "Indo-Pacific",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-16",
+      "issue": 6,
+      "title": "Mali's Fuel Blockade",
+      "region": "Sahel / Africa",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "Putin's Kuril Islands Visit",
+      "region": "Russia / Northeast Asia",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "The Mecca Defense Pact (follow-up)",
+      "region": "Middle East / South Asia",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "China's C919 Goes Global",
+      "region": "Indo-Pacific / Economics",
+      "sources": [],
+      "backfilled": true
+    },
+    {
+      "date": "2026-08-18",
+      "issue": 8,
+      "title": "Baghdad's Deadline for the Iran-Aligned Militias",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/8/5/iraq-faces-crisis-as-shia-armed-groups-defy-disarmament",
+        "https://www.thenationalnews.com/news/mena/2026/08/14/iran-aligned-iraq-militia-warns-government-of-internal-strife-if-forcibly-disarmed/",
+        "https://www.arabnews.com/node/2648992/middle-east"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-18",
+      "issue": 8,
+      "title": "Washington Trims a Cornerstone Drill With Seoul",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://thediplomat.com/2026/08/trumps-exercise-cut-risks-turning-south-korea-us-alliance-readiness-into-a-bargaining-chip/",
+        "https://foreignpolicy.com/2026/08/17/trump-south-north-korea-military-drills-iran-israel-hamas-deals/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-18",
+      "issue": 8,
+      "title": "The Fight for Baidoa Exposes Somalia's Fault Lines",
+      "region": "Africa / Horn of Africa",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/8/17/somali-army-clashes-with-rebel-forces-for-control-of-key-city-baidoa",
+        "https://www.arabnews.com/node/2654965/world"
       ]
     }
   ]

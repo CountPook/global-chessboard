@@ -3,11 +3,39 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-18",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "note": "First grading run since 2026-06-24; state memory had lapsed and issues #2-#7 were published in the interim. Grading the most recent published issue (#7, sent 2026-08-17). Email: 13 sent, 13 delivered (100% delivery), 30.77% open rate (4 unique opens), 50% raw click rate / 25% verified (1-2 unique clicks), 1 unsubscribe (7.69%), 0 spam reports, 0 web views. Publication last_7_days: 12 active subscribers, 0 new, 1 churned (net -1), aggregate open 34.62%, aggregate click 83.33%, earnings $0.00. Read: a tiny but engaged list. Opens are healthy for the size; the single unsubscribe drove a net decline and the 0 new subscribers is the weak point. Clicks are hard to read at n=13. Priority going forward is subscriber growth and keeping unsubscribes near zero.",
+      "issue_7_email": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "unique_opens": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "web_views": 0
+      },
+      "publication_last_7_days": {
+        "subscribers_active": 12,
+        "net_new_subscribers_7d": 0,
+        "churned_7d": 1,
+        "net_subscribers_7d": -1,
+        "open_rate_7d": 34.62,
+        "click_rate_7d": 83.33,
+        "earnings_7d": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -35,6 +63,35 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-08-18",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "offer_id_at_placement": "112483211",
+      "advertisement_id": "18a59aa4-99ed-4346-b14b-5e39aa400585",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-08-23T10:20:33Z"
+    },
+    {
+      "date": "2026-08-18",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Finance Advisors (CPC 150c/click, send_by 2026-08-23) was available and valid but could not be placed: the beehiiv ad network offered only one placeable ad slot for this post. A second advertisementOpportunity node was rejected with 'No primary ad slot is available in this post'. Placed the higher-value offer (Q3 Advisors, 225c) only."
+    },
+    {
+      "date": "2026-08-18",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

@@ -8,6 +8,37 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-19",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Grading the most recent published issue (#7, sent Aug 17). State was stale and had skipped issues 2-7; this is the first grading since issue 1. Email: 13 sent, 13 delivered (100%), open rate 30.77% (4 unique opens), click rate 50% raw / 25% verified (1 verified unique click), 0 bounces, 0 spam, 1 unsubscribe (7.69%). Publication 7d: 12 active subscribers, 0 new, 1 churned, net -1, open rate 34.62%, click rate 83.33%, earnings $0.00. Read: engagement rates are healthy for a tiny list, but the list is shrinking slightly and one unsubscribe is an outsized 7.69% on a 13-send. No repeat-advertiser CTR history is captured here because ads 2-7 were placed by runs that did not commit to this branch.",
+      "email": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "unique_opens": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "unique_clicks_verified": 1,
+        "unsubscribes": 1,
+        "unsubscribe_rate": 7.69,
+        "spam_reports": 0,
+        "bounce_rate": 0.0
+      },
+      "publication_7d": {
+        "active_subscribers": 12,
+        "new_subscribers": 0,
+        "churned_subscribers": 1,
+        "net_subscribers": -1,
+        "open_rate": 34.62,
+        "click_rate": 83.33,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +69,46 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-19",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Mindstream",
+      "ad_headline": "Master Claude AI (Free Guide)",
+      "offer_id_at_placement": "113395126",
+      "advertisement_id": "7a195536-1fef-4819-beba-a898fb900e11",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 168,
+      "creative_kind": "primary",
+      "send_by": "2026-08-24T10:21:19Z"
+    },
+    {
+      "date": "2026-08-19",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "If you want to sound smarter without doing more...",
+      "offer_id_at_placement": "113395125",
+      "advertisement_id": "e5ad5e10-6801-4471-87ae-8cf5a4fb0e84",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-08-24T10:21:19Z"
+    },
+    {
+      "date": "2026-08-19",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Only one primary and one secondary ad slot exist per post. A third ad (Q3 Advisors, 225c CPC) could not be placed: it dropped out of ad inventory during the earlier failed multi-primary save attempts, so the primary slot went to Mindstream (168c) instead."
     }
+  ],
+  "learnings": [
+    "beehiiv posts on this publication accept at most ONE 'primary' (with-logo) advertisementOpportunity plus ONE 'secondary' (no-logo) one. Placing two primaries fails with 'No primary ad slot is available in this post'. For 2 real ads use one primary + one secondary; the 3rd AD_SLOT is a placeholder.",
+    "Ad offer IDs rotate on every list_ad_offers call. Fetch immediately before save_post. Note that failed save attempts can also consume/rotate inventory (Q3 Advisors disappeared from available_offers after failed attempts this run)."
   ]
 }

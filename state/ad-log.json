@@ -3,11 +3,33 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "graded_on_run": "2026-08-20",
+      "note": "Graded on the 2026-08-20 run. State memory was stale (only issue #1 was logged), but beehiiv shows a real issue published almost daily Aug 14-17. Issue #7 (Kuril Islands, Mecca pact, C919) delivered to all 13 email subscribers with a 30.77% open rate (4 unique opens) and 2 unique clickers (50% raw CTR of openers, 25% verified). One unsubscribe (7.69%), which is proportionally heavy on a tiny list. Active list slipped from 14 (June) to 12, with 0 new signups and 1 churn in the last 7 days. Earnings $0.00 (7d). Priority: list growth and retention; engagement per-open is healthy but the base is shrinking.",
+      "post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "email_sent": 13,
+      "email_delivered": 13,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unique_clicks_raw": 2,
+      "unsubscribe_rate": 7.69,
+      "total_unsubscribes": 1,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 1,
+      "open_rate_7d": 34.62,
+      "click_rate_7d": 83.33,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,27 +39,35 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
       "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
       "payout_per_click_cents": 131,
+      "creative_kind": "primary"
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-08-20",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "offer_id_at_placement": "114357284",
+      "advertisement_id": "64324403-7ee4-4a93-940e-ddd391b96a9d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
       "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "send_by": "2026-08-25T10:23:31Z",
+      "status": "accepted"
     },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
-    }
+    { "date": "2026-08-20", "issue": 8, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-08-20", "issue": 8, "slot": 3, "type": "placeholder", "advertiser": "none" }
+  ],
+  "notes": [
+    "AD CAPACITY LESSON (2026-08-20): The beehiiv ad network only allocated ONE ad opportunity slot for this post today, even though list_ad_offers returned 4 available offers (Q3 Advisors 225c, Mindstream 168c, Morning Brew 150c, 1440 Media 150c, all send_by 2026-08-25). Placing a second ad block (primary OR secondary) was rejected: first with 'No primary ad slot is available in this post' (2+ primaries), then 'can not accept any more opportunities' (1 primary + 1 secondary, and again 1 primary + 1 secondary). Only the single highest-payout offer (Q3 Advisors, primary) could be placed; slots 2 and 3 fell back to labeled placeholders. The per-post opportunity count is set by real-time ad-network inventory and can differ from prior issues (issue #7 ran 2 ads). Future runs: place the single highest-payout offer first, then attempt additional ones one at a time and drop to placeholders when the API says capacity is exhausted.",
+    "Offer IDs from list_ad_offers rotate on every call and may be invalidated by a failed save_post; always re-fetch immediately before the save that will succeed.",
+    "email_settings keys for save_post/edit_post are 'email_subject_line' and 'email_preview_text' (NOT 'subject_line'/'preview_text'); the wrong keys are silently ignored and the subject defaults to the post title. Fixed via edit_post this run."
   ]
 }

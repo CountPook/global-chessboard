@@ -3,11 +3,23 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "Baseline. No prior real newsletter to grade. Publication baseline: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "note": "Graded issue #7 (published 2026-08-17), the newest published post at run time on 2026-08-21. Email: 13 sent, 13 delivered (100% delivery), open rate 30.77% (4 unique opens), click rate 50.0% raw / 25.0% verified (2 unique raw clicks, 1 verified), 1 unsubscribe (7.69%), 0 spam, 0 bounce. Publication 7-day (America/Los_Angeles): 12 active subscribers, aggregate open 34.62%, click 83.33%, net -1 subscriber (0 new, 1 churned), earnings $0.00. Ads in #7 were Finance Advisors (retirement lead gen, CPC) and 1440 (newsletter). Read: delivery is healthy on a very small list; open rate is slightly below the running aggregate and one unsubscribe on a 13-person send is proportionally high, so keep subject lines plain and factual and avoid list fatigue. Note: local state (covered-topics.json) had drifted and only recorded issue #1; issues #2-#7 were published without local logs.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 1,
+      "open_rate_post": 30.77,
+      "click_rate_post_raw": 50.0,
+      "click_rate_post_verified": 25.0,
+      "unsubscribes_post": 1
     }
   ],
   "ad_slots": [
@@ -17,13 +29,8 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -35,6 +42,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-08-21",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Real offers were available and ranked (Q3 Advisors 225c CPC, Mindstream 168c, Morning Brew 150c, all send_by 2026-08-26, none expired by the 15:00Z send). beehiiv rejected every placement with 'can not accept any more opportunities' (3 ads, then 2, then 1 all failed), a publication-level ad-network cap that was exhausted this run. Fell back to placeholder blocks per STEP 3f. A human can add Q3 Advisors (highest CPC) manually in the editor if the cap clears."
+    },
+    {
+      "date": "2026-08-21",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-08-21",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

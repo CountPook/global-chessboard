@@ -3,11 +3,41 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Baseline at run time: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign sent yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-22",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_published": "2026-08-17",
+      "note": "Most recent published issue graded (state on this branch was stale, so issue #7 was the newest real send). Reached all 13 email subscribers with a 30.77% open rate (4 unique opens) and clicks from the readers who opened (2 unique raw email clicks, 50% raw CTR / 25% verified). Downside: 1 unsubscribe (7.69% rate on a tiny list), 0 web views, $0 ad earnings in the period. Growth has stalled at 12 active subscribers, down 1 net over the last 7 days with no new signups. Per-reader engagement is healthy for the list size; acquisition, not content, is the binding constraint.",
+      "post_stats_issue7": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "total_unique_opened": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "total_unique_email_clicked_raw": 2,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "total_web_viewed": 0
+      },
+      "publication_stats_7d": {
+        "current_active_subscribers": 12,
+        "open_rate": 33.33,
+        "click_rate": 76.92,
+        "new_subscribers": 0,
+        "churned_subscribers": 1,
+        "net_subscribers": -1,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -17,27 +47,56 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
       "payout_per_click_cents": 131,
+      "creative_kind": "primary"
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-08-22",
+      "issue": 8,
+      "post_id": "post_b7a7a193-282c-4da6-9668-6f4ca57fa8d7",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Q3 Advisors",
+      "ad_headline": "The #1 Roth Conversion Mistake That Costs Retirees",
+      "opportunity_id": "64324403-7ee4-4a93-940e-ddd391b96a9d",
+      "source": "accepted_opportunity",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
       "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "send_by": "2026-08-25T10:23:31Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-08-22",
+      "issue": 8,
+      "post_id": "post_b7a7a193-282c-4da6-9668-6f4ca57fa8d7",
       "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Mindstream",
+      "ad_headline": "Master Claude AI (Free Guide)",
+      "opportunity_id": "7a195536-1fef-4819-beba-a898fb900e11",
+      "source": "accepted_opportunity",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 168,
+      "creative_kind": "primary",
+      "send_by": "2026-08-24T10:21:19Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-08-22",
+      "issue": 8,
+      "post_id": "post_b7a7a193-282c-4da6-9668-6f4ca57fa8d7",
       "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "If you want to sound smarter without doing more…",
+      "opportunity_id": "e5ad5e10-6801-4471-87ae-8cf5a4fb0e84",
+      "source": "accepted_opportunity",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-08-24T10:21:19Z"
     }
   ]
 }

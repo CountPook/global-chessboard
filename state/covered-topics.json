@@ -1,37 +1,66 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "State was out of sync before issue #8 (only issue #1 had been recorded, though issues #2-#7 published through 2026-08-17). Reconstructed last_issue_number from the live masthead of the newest published post (issue #7, 2026-08-17). Recent issue-level entries added below to keep the 14-day dedup window populated. Entries older than 30 days are dropped each run.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "Tariffs on Russian Oil Buyers, Taiwan at the Pacific Forum, and the Ethiopia-Eritrea Standoff",
+      "region": "(multiple)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "Zambia's Election, a New Russia Oil Sanctions Bill, and Brazil's Rift With Argentina",
+      "region": "(multiple)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-16",
+      "issue": 6,
+      "title": "The Mecca Defense Pact, Korea's Drill Standoff, and Mali's Fuel Blockade",
+      "region": "(multiple)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "region": "(multiple)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-24",
+      "issue": 8,
+      "title": "Washington Turns to Economic Warfare as the Iran Standoff Hardens",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/8/21/us-designates-hezbollah-an-iranian-proxy-sanctions-funding-network",
+        "https://www.thenationalnews.com/news/us/2026/08/20/us-re-designates-hezbollah-as-terrorist-group-and-unveils-new-sanctions/",
+        "https://www.cnn.com/2026/08/22/world/live-news/iran-war-trump"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-24",
+      "issue": 8,
+      "title": "New Zealand Weighs Joining the Australia and Fiji Ocean of Peace Pact",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.scmp.com/week-asia/politics/article/3360621/pacific-security-axis-grows-new-zealand-eyes-australia-fiji-defence-pact",
+        "https://asiatimes.com/2026/07/australia-fiji-pact-a-hard-pacific-pushback-against-china/",
+        "https://www.newsweek.com/pacific-version-of-nato-launched-to-counter-china-12175871"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-24",
+      "issue": 8,
+      "title": "Iceland Prepares to Vote on Reopening Its European Union Bid",
+      "region": "Europe",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://time.com/article/2026/08/11/iceland-european-union-referendum-what-it-means/",
+        "https://www.eunews.it/en/2026/07/27/iceland-early-voting-begins-in-the-referendum-on-eu-membership/",
+        "https://www.epc.eu/events/after-the-vote-icelands-eu-referendum-explained/"
       ]
     }
   ]

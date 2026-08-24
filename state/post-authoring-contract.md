@@ -32,6 +32,13 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
   save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
   data-advertisement-kind = primary (with logo) | secondary (no logo).
+  CAP (confirmed issue #8, 2026-08-24): this publication accepts only ONE
+  ad-network opportunity PER POST. A second one is rejected with "No 'primary'
+  ad slot is available" / "can not accept any more opportunities", for both
+  primary and secondary kinds. So place at most ONE real ad-network ad (the
+  highest payout_per_click), and render the remaining AD_SLOTS as placeholder
+  blocks. A whole save_post is rejected atomically if it embeds >1 ad node, so
+  build the post with a single real ad plus placeholders from the start.
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

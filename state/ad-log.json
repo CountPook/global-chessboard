@@ -3,11 +3,29 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Baseline at issue #1 run: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-24",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Grading the newest published issue (#7, sent 2026-08-17). State had been out of sync (issues #2-#7 published but not recorded here). Issue #7 email: 13 sent, 13 delivered (100%), 30.77% open rate (4 unique opens), click rate 50% raw / 25% verified (2 raw unique clickers, 1 verified), 1 unsubscribe (7.69%), 0 spam, 0 web views. Publication now at 12 active subscribers (down from 14 at issue #1), 0 net new and 0 churn in the last 7 days, earnings $0.00 (7d). Open rate is healthy for a tiny list; the single unsubscribe on a 13-person list is a large percentage but a small absolute number. No advertiser CTR history available to blend into today's ranking, so today's ad selection is by payout only.",
+      "email_sent": 13,
+      "open_rate": 30.77,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unique_clickers_raw": 2,
+      "unsubscribes": 1,
+      "unsubscribe_rate": 7.69,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,13 +35,8 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -38,6 +51,36 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-24",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Sprayground",
+      "ad_headline": "A Backpack They'll Love All Year",
+      "offer_id_at_placement": "117290840",
+      "advertisement_id": "63781f20-1710-47db-a17a-b3fd32665b83",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-08-29T10:19:06Z"
+    },
+    {
+      "date": "2026-08-24",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "beehiiv rejected any second ad-network opportunity on this post: 'can not accept any more opportunities'. This publication is capped at ONE ad-network ad per post, regardless of how many offers are available. Higher-value offers (Mindstream 168c, Morning Brew 150c, 1440 Media 150c) were available but could not be placed."
+    },
+    {
+      "date": "2026-08-24",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Same one-ad-per-post cap as slot 2."
     }
   ]
 }

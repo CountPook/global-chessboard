@@ -3,11 +3,31 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post', sent to a single test recipient. Baseline: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-25",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_published": "2026-08-17",
+      "note": "State on this branch had drifted (only issue #1 recorded), but the publication has published through issue #7. Grading the most recent published issue (#7, 2026-08-17). Small list: 13 sent, 13 delivered (100%). Open rate 30.77% (4 unique opens). Click rate 50.0% raw / 25.0% verified (1-2 unique clickers). 1 unsubscribe (7.69%). 0 web views. Publication now at 12 active subscribers (down from 14 at issue #1); last 7 days showed 0 new, 0 churned, $0 earnings because the last send (Aug 17) fell just outside the 7-day window. Issue #7 ran two real ads (Finance Advisors primary + 1440 secondary).",
+      "graded_email_sent": 13,
+      "graded_open_rate": 30.77,
+      "graded_unique_opens": 4,
+      "graded_click_rate_raw": 50.0,
+      "graded_click_rate_verified": 25.0,
+      "graded_unsubscribe_rate": 7.69,
+      "graded_unsubscribes": 1,
+      "publication_active_subscribers": 12,
+      "publication_net_new_7d": 0,
+      "publication_open_rate_7d": 0.0,
+      "publication_click_rate_7d": 0.0,
+      "publication_earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,13 +37,8 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -38,6 +53,45 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-25",
+      "issue": 8,
+      "post_id": "post_20613df3-c409-4a66-a78f-40f7e0cc5297",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Frontieras",
+      "ad_headline": "Unlocking $2.1 Trillion in Energy Potential",
+      "advertisement_id": "92233e39-f50c-4f49-a41f-2624f539513a",
+      "offer_id_at_placement": 118272199,
+      "creative_kind": "primary",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 337,
+      "send_by": "2026-08-27T23:59:59Z"
+    },
+    {
+      "date": "2026-08-25",
+      "issue": 8,
+      "post_id": "post_20613df3-c409-4a66-a78f-40f7e0cc5297",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Superhuman AI",
+      "ad_headline": "200+ Proven Ways to Make Money With AI in 2026",
+      "advertisement_id": "7c49a9d8-ed33-43ec-b35d-f014bbca613b",
+      "offer_id_at_placement": 118272200,
+      "creative_kind": "secondary",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "send_by": "2026-08-30T10:18:50Z"
+    },
+    {
+      "date": "2026-08-25",
+      "issue": 8,
+      "post_id": "post_20613df3-c409-4a66-a78f-40f7e0cc5297",
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Only two ad offers were available this run; slot 3 left as a labeled placeholder."
     }
   ]
 }

@@ -8,6 +8,32 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-26",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Graded issue #7 (Kuril Islands / Mecca Defense Pact / C919), the most recent published issue, on this run. State memory had been stale at issue 1, so issues 2-7 were never graded; issue #7 is the newest available. Issue #7 ads were real (Finance Advisors primary, 1440 Media secondary), not placeholders as the stale log implied. Small-list caveat: percentages swing hard on ~13 recipients.",
+      "post_email_sent": 13,
+      "post_email_delivered": 13,
+      "post_delivery_rate": 100.0,
+      "post_open_rate": 30.77,
+      "post_unique_opens": 4,
+      "post_click_rate_raw": 50.0,
+      "post_click_rate_verified": 25.0,
+      "post_unique_clicks_raw": 2,
+      "post_unique_clicks_verified": 1,
+      "post_unsubscribes": 1,
+      "post_unsubscribe_rate": 7.69,
+      "post_spam_reports": 0,
+      "post_web_views": 0,
+      "publication_active_subscribers": 12,
+      "publication_net_new_7d": 0,
+      "publication_churned_7d": 0,
+      "publication_open_rate_7d": 0.0,
+      "publication_click_rate_7d": 0.0,
+      "publication_earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +64,31 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-08-26",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Intended Klover (CPC 262c/click, primary) but placement rejected: publication 'can not accept any more opportunities' at save time. See run report."
+    },
+    {
+      "date": "2026-08-26",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Intended 1440 Media (CPC 150c/click, secondary, repeat advertiser) but placement rejected for the same reason."
+    },
+    {
+      "date": "2026-08-26",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "No ad; slot left as labeled placeholder."
     }
-  ]
+  ],
+  "ad_capacity_note_2026_08_26": "Four CPC offers were available and unexpired at send time (Klover 262c, Superhuman AI 150c, 1440 Media 150c, Angelinos Coffee 112c; all send_by 2026-08-31). Placement failed at save_post. First, primary ad slots are capped at 1 per post (issue #7 used exactly 1 primary + 1 secondary). Second, and blocking, even a single 1-primary-plus-1-secondary save was rejected with 'can not accept any more opportunities', which indicates the publication's active ad-opportunity capacity is currently full, most likely because issue #7's two live ads still occupy it. Recommend a human place ads in the beehiiv editor if capacity frees up, or retry on the next run. Future ad ranking for repeat advertiser 1440 Media: issue #7 (which ran 1440 as the secondary creative) achieved 30.77% open and 25% verified CTR overall on 13 recipients; per-ad CTR not separately available via the API."
 }

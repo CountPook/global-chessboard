@@ -1,37 +1,44 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issue numbers reconstructed from published posts on 2026-08-26. The state file had been stale at issue 1 since 2026-06-24 while issues 2 through 7 published without updating memory. Mapping by publish date: #1 Jun24, #2 Jun26, #3 Jun28, #4 Aug14, #5 Aug15, #6 Aug16, #7 Aug17, #8 Aug26. Entries older than 30 days are dropped from topics; recent_issue_titles keeps a compact dedup reference.",
+  "recent_issue_titles": [
+    {"issue": 4, "date": "2026-08-14", "title": "Tariffs on Russian Oil Buyers, Taiwan at the Pacific Forum, and the Ethiopia-Eritrea Standoff"},
+    {"issue": 5, "date": "2026-08-15", "title": "Zambia's Election, a New Russia Oil Sanctions Bill, and Brazil's Rift With Argentina"},
+    {"issue": 6, "date": "2026-08-16", "title": "The Mecca Defense Pact, Korea's Drill Standoff, and Mali's Fuel Blockade"},
+    {"issue": 7, "date": "2026-08-17", "title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global"}
+  ],
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-26",
+      "issue": 8,
+      "title": "Washington Opens a Global Economic Campaign to Isolate Iran",
+      "region": "Middle East / Economics",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/8/24/trump-administration-announces-global-economic-war-on-iran",
+        "https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran",
+        "https://www.atlanticcouncil.org/dispatches/experts-react-will-trumps-operation-economic-outcast-isolate-iran/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-26",
+      "issue": 8,
+      "title": "Britain and Ukraine Sign a Battlefield AI Partnership",
+      "region": "Europe / Defense Technology",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.usnews.com/news/world/articles/2026-08-24/uk-ukraine-sign-ai-defence-partnership-linked-to-battlefield-technology",
+        "https://www.army-technology.com/news/uk-ukraine-ai-defence-deal/",
+        "https://www.lbc.co.uk/article/ukraine-battlefield-ai-avengers-labs-britain-defence-deal-burnham-zelenskyy-5HjdgRz_2/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-26",
+      "issue": 8,
+      "title": "Mass Abduction in Nigeria Reignites a Security Reckoning",
+      "region": "West Africa / Human Security",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.timeslive.co.za/news/africa/2026-08-25-nigerias-president-orders-rescue-after-600-kidnapped-in-mosque-attack/",
+        "https://www.polity.org.za/article/nigerias-president-orders-rescue-after-mass-kidnapping-2026-08-25",
+        "https://saharareporters.com/2026/08/25/niger-mass-abduction-tinubu-orders-military-police-dss-launch-coordinated-rescue"
       ]
     }
   ]

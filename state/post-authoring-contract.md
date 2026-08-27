@@ -37,6 +37,25 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).
 - **recipients**: omit on save_post to default to free tier on web+email (matches
   this publication's audience).
+- **email_settings field names**: the API expects `email_subject_line` and
+  `email_preview_text` (NOT `subject_line` / `preview_text`, whatever the run
+  prompt says). Confirmed working 2026-08-27.
+
+## Ad placement cap (learned 2026-08-27)
+
+- This post/publication currently accepts only ONE ad-network opportunity per
+  post, and at most ONE `primary` (with-logo) creative. Attempting 3 primary
+  ads failed with "No 'primary' ad slot is available"; 1 primary + 2 secondary
+  and even 1 primary + 1 secondary failed with "can not accept any more
+  opportunities" on the 2nd ad. A single ad saved cleanly. So: place the single
+  highest-value offer as `primary`, render the remaining AD_SLOTS as the
+  placeholder block, and note the shortfall. (Issue #7 apparently carried 2 ads,
+  so the cap may vary with available ad demand. On a future run, try the top 2
+  offers once; if the 2nd is rejected, fall back to 1 + placeholders. Save the
+  post BEFORE experimenting so a good draft is never lost.)
+- Ad offer ids rotate on every list_ad_offers call. Re-fetch immediately before
+  save_post and, if a save fails, re-fetch again before retrying (a failed save
+  does not leave a stuck/pending claim; pending_opportunities stays empty).
 
 ## Brand tokens (do not restyle theme; apply via spans/sections)
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;

@@ -3,11 +3,35 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' sent to a single test recipient. Baseline at run time: 14 active subscribers, +2 net new in 7 days, 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-27",
+      "run_issue": 8,
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_scheduled_at": "2026-08-17T19:13:46Z",
+      "email_sent": 13,
+      "email_delivered": 13,
+      "delivery_rate": 100.0,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unique_email_clickers_raw": 2,
+      "unique_email_clickers_verified": 1,
+      "unsubscribes": 1,
+      "unsubscribe_rate": 7.69,
+      "spam_reports": 0,
+      "web_views": 0,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "note": "Issue #7 (2026-08-17) is the newest published post and was graded this run. On a 13-recipient send it drew a 30.77% open rate (4 opens) and at least one verified click-through, so engagement per issue is healthy, but a single unsubscribe reads as a 7.69% churn rate and the active list has drifted from 14 (issue #1) to 12 with no net growth in the trailing week. On a base this small every action swings the percentages hard, so numbers are directional, not statistically meaningful. Priority: subscriber growth."
     }
   ],
   "ad_slots": [
@@ -17,27 +41,40 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
-      "payout_model": "cpc",
       "payout_per_click_cents": 131,
+      "creative_kind": "primary"
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-08-27",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Klover",
+      "ad_headline": "Short on cash? Get up to $750, no credit check.",
+      "offer_id_at_placement": "120685007",
+      "advertisement_id": "233d6d5d-b5d1-4e97-b4f2-5addd5fdcd7b",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 262,
       "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "send_by": "2026-09-01T10:26:00Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-08-27",
+      "issue": 8,
       "slot": 2,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "note": "Real offers were available (Finance Buzz 187c, Superhuman AI 150c, 1440 Media 150c, Angelinos 112c) but beehiiv rejected any second ad on this post with 'can not accept any more opportunities' (and rejected a second 'primary' creative separately). Only one ad opportunity could be placed on this post this run."
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-08-27",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "note": "Left as placeholder for the same per-post ad-opportunity cap described in slot 2."
     }
   ]
 }

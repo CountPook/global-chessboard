@@ -8,6 +8,22 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-28",
+      "issue": 8,
+      "note": "State was stale on this run: covered-topics recorded only issue #1, but the beehiiv publication had in fact published issues through #7 (latest: 'Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global', post_178199d6-8943-47a0-bccb-b38b778953f8, sent 2026-08-17). Reset issue numbering to continue the real sequence at #8. Graded the most recent published issue (#7) rather than 'yesterday' since no issue has been sent since Aug 17. Issue #7 email: 13 delivered (100% delivery), 30.77% open rate (4 unique opens), 50.0% raw click / 25.0% verified click, 1 unsubscribe (7.69%), 0 spam. Publication now (last 7 days): 12 active subscribers (down from 14 at issue #1), 0 net new, 0 churned, open/click 0.0% (no send in window), earnings $0.00. Takeaway: open rate is healthy for the list size and the click rate shows engaged readers, but the single unsubscribe on a 13-person list is a high per-capita churn rate and the list has contracted since June, so cadence gaps (no send Aug 17 to Aug 28) and list growth are the priorities.",
+      "issue_7_email_delivered": 13,
+      "issue_7_open_rate": 30.77,
+      "issue_7_click_rate_raw": 50.0,
+      "issue_7_click_rate_verified": 25.0,
+      "issue_7_unsubscribes": 1,
+      "issue_7_unsubscribe_rate": 7.69,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +51,35 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-08-28",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Sound familiar?",
+      "offer_id_at_placement": "121736948",
+      "advertisement_id": "741d5021-7122-4c51-8f2d-505bcccb0801",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-09-02T10:16:56Z"
+    },
+    {
+      "date": "2026-08-28",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "beehiiv ad network allocates only one ad-network placement per post for this publication. A second offer (Superhuman AI, CPC 150c) was available and valid but could not be placed; save was rejected with 'No primary ad slot is available'. Placed one real ad, remaining slots left as placeholders."
+    },
+    {
+      "date": "2026-08-28",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

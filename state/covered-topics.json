@@ -1,37 +1,67 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "State was reconstructed on 2026-08-29. The prior committed memory recorded only issue #1, but the publication had in fact published through issue #7 (2026-08-17). Issues 4-7 below are reconstructed from post titles for dedup purposes; per-story sources were not recoverable except for issue #7.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "Tariffs on Russian Oil Buyers, Taiwan at the Pacific Forum, and the Ethiopia-Eritrea Standoff",
+      "region": "Multiple (Russia sanctions / Taiwan / Horn of Africa)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "Zambia's Election, a New Russia Oil Sanctions Bill, and Brazil's Rift With Argentina",
+      "region": "Multiple (Zambia / Russia sanctions / Latin America)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-16",
+      "issue": 6,
+      "title": "The Mecca Defense Pact, Korea's Drill Standoff, and Mali's Fuel Blockade",
+      "region": "Multiple (Middle East / Korean Peninsula / Sahel)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "region": "Multiple (Northeast Asia / Middle East / East Asia aviation)",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/8/13/japan-protests-as-russias-putin-visits-disputed-kuril-islands",
+        "https://www.aljazeera.com/news/2026/8/7/new-regional-order-pakistan-turkiye-saudi-arabia",
+        "https://www.euronews.com/travel/2026/08/12/chinas-c919-makes-first-international-flight-as-it-takes-aim-at-boeing-and-airbus"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-29",
+      "issue": 8,
+      "title": "Washington Weighs Cutting Its Troop Presence in Europe",
+      "region": "Europe / Transatlantic Security",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://foreignpolicy.com/2026/08/27/us-europe-defense-posture-review-troops-elbridge-colby-hegseth-nato/",
+        "https://www.csis.org/analysis/europe-force-posture-review-and-transition-nato-30"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-29",
+      "issue": 8,
+      "title": "Xi, Putin, and Modi Gather in Kyrgyzstan for the SCO Summit",
+      "region": "Central Asia / Eurasia",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://foreignpolicy.com/2026/08/28/sco-shanghai-cooperation-organisation-summit-india-china-pakistan-russia-bishkek/",
+        "https://timesca.com/kyrgyzstan-hosts-sco-summit-as-bloc-marks-25-years/"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "issue": 8,
+      "title": "Iran and Oman Push Talks to Reopen the Strait of Hormuz",
+      "region": "Middle East / Persian Gulf",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-08-25/iran-oman-push-talks-for-interim-reopening-of-hormuz-strait",
+        "https://www.aljazeera.com/news/2026/8/5/iran-oman-us-close-to-hormuz-deal-what-do-they-all-want"
       ]
     }
   ]

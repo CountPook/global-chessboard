@@ -3,11 +3,37 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-29",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_date": "2026-08-17",
+      "note": "First real grade with campaign data. Issue #7 (Kuril Islands / Mecca pact / C919) was sent to 13 recipients, 100% delivered, 0 bounces, 0 spam. Open rate 30.77% (4 unique opens), raw click rate 50% (2 unique clicks, 6 total), verified click rate 25% (1 verified click). 1 unsubscribe (7.69% rate, high but only one person on a tiny list). 0 web views. The list is shrinking: 14 active subscribers at issue #1, now 12, with 0 net new and 0 churn in the last 7 days (no send in that window). Ads that ran in issue #7 were real (Finance Advisors retirement lead-gen in slot 1, 1440 in a later slot). Takeaway: engagement is moderate on a very small list; the priority is subscriber growth, since content quality is not the bottleneck at this scale.",
+      "open_rate": 30.77,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unique_opens": 4,
+      "unique_clicks_raw": 2,
+      "unsubscribes": 1,
+      "unsubscribe_rate": 7.69,
+      "total_sent": 13,
+      "total_delivered": 13,
+      "spam_reports": 0,
+      "web_views": 0,
+      "publication_at_run": {
+        "active_subscribers": 12,
+        "net_new_subscribers_7d": 0,
+        "churned_subscribers_7d": 0,
+        "open_rate_7d": 0.0,
+        "click_rate_7d": 0.0,
+        "earnings_7d": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -35,6 +61,34 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-08-29",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Superhuman AI",
+      "ad_headline": "1,000+ Proven ChatGPT Prompts That Help You Work 10X Faster",
+      "offer_id_at_placement": "122494500",
+      "advertisement_id": "a31f7882-e6ee-4550-8409-a5ff5c51c030",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-09-03T10:12:40Z"
+    },
+    {
+      "date": "2026-08-29",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-08-29",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

@@ -3,11 +3,26 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-30",
+      "issue": 2,
+      "graded_post": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Graded the most recent published issue (Aug 17). NOTE: the state file was stale between runs. The publication has 8 published posts (a run of daily issues Aug 14 through Aug 17), but covered-topics.json only recorded issue #1 from June, so issue numbering here continues from the stored last_issue_number (1) to 2. Aug 17 issue was sent to 13 subscribers: 30.77% open rate (4 unique opens), 50% raw email CTR (2 unique raw clickers), 25% verified CTR (1 verified clicker), 0% bounce, 1 unsubscribe (7.69% unsub rate), 0 spam, 0 web views. Strong open/click on a tiny list, but 1 unsub on 13 sends is a high percentage to watch. Publication now 12 active subscribers, down from 14 at the issue #1 baseline. Last 7 days: 0 new, 0 churned, 0% aggregate open/click (no send within the trailing 7 days, since Aug 17 is more than 7 days before today), earnings $0.00.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_last_issue": 30.77,
+      "click_rate_last_issue_raw": 50.0,
+      "click_rate_last_issue_verified": 25.0,
+      "unsubscribe_rate_last_issue": 7.69,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +50,35 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-08-30",
+      "issue": 2,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Superhuman AI",
+      "ad_headline": "200+ Claude Prompts Top Professionals Actually Use at Work",
+      "offer_id_at_placement": "122942012",
+      "advertisement_id": "b605e908-7d91-4034-9c5b-e64dfba06076",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-09-04T10:18:27Z"
+    },
+    {
+      "date": "2026-08-30",
+      "issue": 2,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Angelinos Coffee (CPC 112c, send_by 2026-09-04) was available and valid, but beehiiv rejected a second ad: this post accepts only ONE ad-network opportunity ('can not accept any more opportunities'). Highest-value offer (Superhuman AI, 150c) was placed in slot 1; the rest are placeholders. LESSON FOR FUTURE RUNS: this publication/plan allows only one ad-network ad per post, so plan for 1 real ad plus placeholders regardless of AD_SLOTS."
+    },
+    {
+      "date": "2026-08-30",
+      "issue": 2,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

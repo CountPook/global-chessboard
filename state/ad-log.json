@@ -3,11 +3,41 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' sent to a single test recipient. Baseline at run time: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-08-31",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent": "2026-08-17",
+      "note": "State was out of sync: covered-topics recorded only issue #1, but issues #2-#7 were published. Corrected the counter to #8 this run. Graded the most recent published issue (#7, sent 2026-08-17). It reached all 13 recipients (100% delivery) with a 30.77% open rate (4 unique opens) and one verified click (25% verified click rate, 50% raw), but drew one unsubscribe (7.69%). No campaign was sent in the last 7 days, so the publication-wide 7-day open/click rates read 0.0%. Active subscribers have slipped from 14 (June) to 12. On a list this small, single-digit swings dominate; the priorities remain list growth and holding down unsubscribes. No realized CTR history exists for any advertiser currently on offer, so today's ad ranking is by payout_per_click_cents alone.",
+      "graded_post_stats": {
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "unique_opens": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "unique_clicks_raw": 2,
+        "unique_clicks_verified": 1,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "spam_reports": 0
+      },
+      "publication_stats_7d": {
+        "current_active_subscribers": 12,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -17,27 +47,46 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
+      "payout_per_click_cents": 131
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-08-31",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Klover",
+      "ad_headline": "Short on cash? Get up to $750, no credit check.",
+      "opportunity_id": "233d6d5d-b5d1-4e97-b4f2-5addd5fdcd7b",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 262,
+      "send_by": "2026-09-01T10:26:00Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-08-31",
+      "issue": 8,
       "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Superhuman AI",
+      "ad_headline": "200+ Claude Prompts Top Professionals Actually Use at Work",
+      "opportunity_id": "b605e908-7d91-4034-9c5b-e64dfba06076",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "send_by": "2026-09-04T10:18:27Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-08-31",
+      "issue": 8,
       "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Sound familiar?",
+      "opportunity_id": "741d5021-7122-4c51-8f2d-505bcccb0801",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "send_by": "2026-09-02T10:16:56Z"
     }
   ]
 }

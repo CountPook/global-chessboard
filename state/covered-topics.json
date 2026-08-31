@@ -1,37 +1,67 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "State was out of sync before issue #8: only issue #1 had been recorded, yet issues #2-#7 were published (see beehiiv archive). On 2026-08-31 the issue counter was corrected to 8 (most recent published issue, #7, was 2026-08-17). Topics older than 30 days are dropped. Issues #4-#7 story titles were reconstructed from the published archive for 14-day dedup; their source arrays hold the beehiiv post URL rather than the original citations.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-14",
+      "issue": 4,
+      "title": "Tariffs on Russian Oil Buyers, Taiwan at the Pacific Forum, and the Ethiopia-Eritrea Standoff",
+      "region": "Multi (Sanctions / Indo-Pacific / Horn of Africa)",
+      "sources": ["https://www.global-chessboard.com/p/tariffs-on-russian-oil-buyers-taiwan-at-the-pacific-forum-and-the-ethiopia-eritrea-standoff"]
+    },
+    {
+      "date": "2026-08-15",
+      "issue": 5,
+      "title": "Zambia's Election, a New Russia Oil Sanctions Bill, and Brazil's Rift With Argentina",
+      "region": "Multi (Africa / Sanctions / Latin America)",
+      "sources": ["https://www.global-chessboard.com/p/zambia-s-election-a-new-russia-oil-sanctions-bill-and-brazil-s-rift-with-argentina"]
+    },
+    {
+      "date": "2026-08-16",
+      "issue": 6,
+      "title": "The Mecca Defense Pact, Korea's Drill Standoff, and Mali's Fuel Blockade",
+      "region": "Multi (Middle East / Korean Peninsula / Sahel)",
+      "sources": ["https://www.global-chessboard.com/p/the-mecca-defense-pact-korea-s-drill-standoff-and-mali-s-fuel-blockade"]
+    },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "region": "Multi (Northeast Asia / Middle East / East Asia)",
+      "sources": ["https://www.global-chessboard.com/p/putin-s-kuril-islands-visit-the-mecca-defense-pact-and-china-s-c919-goes-global"]
+    },
+    {
+      "date": "2026-08-31",
+      "issue": 8,
+      "title": "Washington and Caracas Announce a Sweeping Deal Over Venezuela's Oil",
+      "region": "Americas / Energy",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.nbcnews.com/world/venezuela/us-entered-deal-venezuela-take-control-65-billion-barrels-oil-reserves-rcna594966",
+        "https://www.npr.org/2026/08/28/nx-s1-5948229/trump-says-u-s-has-entered-deal-with-venezuela-to-take-control-of-65-billion-barrels-of-oil-reserves",
+        "https://www.aljazeera.com/news/2026/8/29/trump-announces-biggest-oil-deal-in-world-history-with-venezuela",
+        "https://www.euronews.com/2026/08/30/venezuela-says-it-will-retain-sovereignty-over-its-oil-reserves-despite-us-deal"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-08-31",
+      "issue": 8,
+      "title": "Niger's Military Government Says It Crushed a Mutiny in the Capital",
+      "region": "West Africa / Sahel",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/news/2026/8/31/niger-mutiny-puts-russias-expanding-role-in-the-sahel-to-the-test",
+        "https://www.aljazeera.com/news/2026/8/30/nigers-military-led-government-says-it-contained-mutiny-what-next",
+        "https://www.nbcnews.com/world/africa/mutinous-soldiers-attack-airport-presidency-niger-capital-rcna595006"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-08-31",
+      "issue": 8,
+      "title": "Iceland Votes Against Reopening European Union Membership Talks",
+      "region": "Europe",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.cnbc.com/2026/08/30/iceland-eu-accession-referendum-result.html",
+        "https://www.cnn.com/2026/08/29/europe/iceland-eu-referendum-talks-votes-hnk-intl",
+        "https://www.aljazeera.com/news/2026/8/30/iceland-votes-to-reject-eu-accession-talks-what-happens-next"
       ]
     }
   ]

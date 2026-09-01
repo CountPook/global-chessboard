@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-01",
+      "issue": 8,
+      "title": "Xi, Putin, and Modi Gather in Bishkek as the SCO Marks Twenty Five Years",
+      "region": "Eurasia / Central Asia",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://timesca.com/kyrgyzstan-hosts-sco-summit-as-bloc-marks-25-years/",
+        "https://www.outlookindia.com/international/sco-summit-2026-in-bishkek-what-is-on-the-agenda",
+        "https://english.www.gov.cn/news/202509/01/content_WS68b565e8c6d0868f4e8f53be.html"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-01",
+      "issue": 8,
+      "title": "Niger's Junta Says It Crushed a Mutiny After a Night of Gunfire in Niamey",
+      "region": "Africa / Sahel",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/news/2026/8/30/nigers-military-led-government-says-it-contained-mutiny-what-next",
+        "https://www.pbs.org/newshour/world/inside-the-24-hour-mutiny-that-threatened-nigers-ruling-junta",
+        "https://en.wikipedia.org/wiki/2026_Nigerien_coup_attempt"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-01",
+      "issue": 8,
+      "title": "Drone Incursions and Sabotage Test NATO's Eastern Edge",
+      "region": "Europe",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.nato.int/en/news-and-events/articles/news/2026/08/12/nato-allies-condemn-recent-airspace-violations-and-incidents",
+        "https://www.cbc.ca/news/politics/russia-poland-ukraine-nato-attack-drones-missiles-9.7324731",
+        "https://www.aljazeera.com/news/2026/8/11/new-level-of-danger-drone-incidents-scare-europe-amid-russia-ukraine-war"
       ]
     }
-  ]
+  ],
+  "note": "Issue #1 topics (2026-06-24: Iran oil sanctions, Ukraine deep strikes, Sudan Blue Nile) dropped as older than 30 days. Issues #2-#7 were published to beehiiv but not recorded in this state file on either working branch; recent covered themes to avoid repeating without a fresh angle include the Mecca defense pact (Saudi/Turkey/Pakistan), China's C919, Korea drill standoff, Mali fuel blockade, Zambia's election, US tariffs on Russian oil buyers, Taiwan at the Pacific Forum, Ethiopia-Eritrea, Putin's Kuril Islands visit, and US strikes near Hormuz."
 }

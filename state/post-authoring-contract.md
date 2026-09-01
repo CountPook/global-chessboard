@@ -38,6 +38,31 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 - **recipients**: omit on save_post to default to free tier on web+email (matches
   this publication's audience).
 
+## Ad placement lessons (learned 2026-09-01, Issue #8)
+
+- **Only ONE `primary` (with-logo) ad slot per post.** A second primary block is
+  rejected with "No 'primary' ad slot is available". Make slot 1 primary and any
+  further ads `secondary`.
+- **The publication has an ad-opportunity ACCEPTANCE CAP.** When it already holds
+  several accepted-but-unplaced opportunities, trying to place NEW offers from
+  `list_ad_offers` (which auto-claims on placement) fails with "can not accept
+  any more opportunities". Instead, embed ALREADY-ACCEPTED opportunities found
+  via `list_ad_opportunities` (status defaults to active; only `accepted` ones
+  are embeddable) using their opportunity id in the `data-id`. These need no new
+  claim, so they bypass the cap.
+- Still enforce expiry: discard any opportunity whose `send_by` is at/before the
+  target send timestamp (8:00 AM PT = ~15:00 UTC), even if it is the
+  highest-payout one.
+- **Robust build pattern:** create the draft with placeholder ad blocks first
+  (always succeeds), then insert ads with `edit_post_content` (replace the
+  placeholder section by its block hash). That way ad-network limits can never
+  block draft creation.
+- `email_settings` keys are `email_subject_line` / `email_preview_text` (NOT
+  `subject_line` / `preview_text`, which are silently dropped).
+- `get_post_content` (editor_html) can exceed the tool output cap; it is saved to
+  a file. Parse the JSON `content` field and read `data-node-hash="..."` on
+  top-level blocks to get hashes for `edit_post_content`.
+
 ## Brand tokens (do not restyle theme; apply via spans/sections)
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;
 body text #a0b4c8; muted #8a9bb0; heading accent #e8d5a3; faint #5a6a7a;

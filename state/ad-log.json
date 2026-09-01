@@ -3,11 +3,41 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' sent to a single test recipient. Baseline at run time: 14 active subscribers, +2 net new (7d), 0.0% open/click, earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-01",
+      "issue": 8,
+      "graded_post": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_issue": 7,
+      "graded_send_date": "2026-08-17",
+      "note": "Graded the newest published issue, #7 (2026-08-17: Kuril Islands, Mecca defense pact, C919). Issues #2-#7 were published to beehiiv but not recorded in state on either branch, so grading jumped from #1 to #7. Issue #7 delivered to all 13 email recipients (100% delivery) with a healthy 30.77% open rate (4 unique opens) but thin absolute engagement: 2 unique raw email clickers (1 verified), 50% raw / 25% verified click rate. Unsubscribe rate 7.69% (1 of 13, high as a percentage on a tiny base). 0 web views. Publication has since drifted to 12 active subscribers with 0 net growth and $0 earnings in the last 7 days (no send since 08-17). Main constraint remains list size and click-through, not deliverability.",
+      "graded_post_stats": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "total_unique_opened": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "total_unique_email_clicked_raw": 2,
+        "total_unique_email_clicked_verified": 1,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "total_web_viewed": 0
+      },
+      "publication_stats_7d": {
+        "current_active_subscribers": 12,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "new_subscribers": 0,
+        "net_subscribers": 0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +68,40 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-01",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Sound familiar?",
+      "opportunity_id": "741d5021-7122-4c51-8f2d-505bcccb0801",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "primary",
+      "send_by": "2026-09-02T10:16:56Z"
+    },
+    {
+      "date": "2026-09-01",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Superhuman AI",
+      "ad_headline": "1,000+ Proven ChatGPT Prompts That Help You Work 10X Faster",
+      "opportunity_id": "a31f7882-e6ee-4550-8409-a5ff5c51c030",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-09-03T10:12:40Z"
+    },
+    {
+      "date": "2026-09-01",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "No third distinct advertiser available without duplicating Superhuman AI. Klover (262c CPC, highest value) was discarded: its send_by 2026-09-01T10:26:00Z falls before the 8:00 AM PT (~15:00 UTC) target send, so it would be expired at send time. New offers from list_ad_offers (Hubspot 206c, Wispr Flow 187c, Finance Buzz 187c) could not be claimed because the publication is at its ad-opportunity acceptance cap."
     }
   ]
 }

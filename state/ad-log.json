@@ -8,6 +8,23 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-02",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent": "2026-08-17",
+      "note": "State file was stale between runs: it tracked only issue #1, but the publication has in fact shipped seven real issues (the latest, issue #7, sent 2026-08-17). Graded issue #7 this run. It reached 13 recipients with a 30.77% open rate and 4 unique opens, a solid result for a small list. Clicks were thin: 2 unique raw clicks (1 verified), a 25% verified click rate among openers, and the issue drew 1 unsubscribe (7.69%), a large percentage only because the base is tiny. Active subscribers have drifted to 12, with 0 new and 0 churned in the last 7 days and $0 earnings because no issue was sent in that window (last send 16 days prior). Takeaway: opens are healthy; clicks and list growth are the weak points, so keep subject lines specific and stories tightly sourced.",
+      "total_sent": 13,
+      "open_rate": 30.77,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "total_unsubscribes": 1,
+      "unsubscribe_rate": 7.69,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +55,52 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-02",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Hubspot",
+      "ad_headline": "ICP Builder V1 - Primary",
+      "offer_id_at_placement": "126081802",
+      "advertisement_id": "e7b62ee7-d009-4901-9783-9011cfeb0488",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "primary",
+      "send_by": "2026-09-07T10:21:12Z"
+    },
+    {
+      "date": "2026-09-02",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Mindstream",
+      "ad_headline": "Master Claude AI (Free Guide)",
+      "offer_id_at_placement": "126081805",
+      "advertisement_id": "c847edab-35b5-4117-b644-3d4ab6c7bc60",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 168,
+      "creative_kind": "secondary",
+      "send_by": "2026-09-07T10:21:12Z"
+    },
+    {
+      "date": "2026-09-02",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Superhuman AI",
+      "ad_headline": "200+ Proven Ways to Make Money With AI in 2026",
+      "offer_id_at_placement": "126081806",
+      "advertisement_id": "9967bc94-b9ef-4774-924d-9973158f72e5",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-09-07T10:21:12Z"
     }
-  ]
+  ],
+  "ad_placement_notes": {
+    "date": "2026-09-02",
+    "note": "beehiiv ad-network placement limit discovered: a single post supports only ONE 'primary' ad slot. Attempting two or three advertisementOpportunity nodes with data-advertisement-kind='primary' fails with 'No primary ad slot is available in this post'. Fix: place the top-paying offer as primary and any additional offers as data-advertisement-kind='secondary'. This run placed 1 primary + 2 secondary and all three were accepted. Offer IDs rotate on every list_ad_offers call, so re-fetch immediately before save_post."
+  }
 }

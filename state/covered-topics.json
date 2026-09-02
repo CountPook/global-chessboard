@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-02",
+      "issue": 8,
+      "title": "The Shanghai Cooperation Organisation Summit Draws Xi, Putin, and Modi to Bishkek",
+      "region": "Eurasia / Central Asia",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.euronews.com/2026/08/31/eurasian-nations-gather-in-bishkek-to-forge-stronger-ties-new-alliances",
+        "https://www.outlookindia.com/national/pm-modi-xi-jinping-putin-gather-in-bishkek-for-26th-sco-summit",
+        "https://timesca.com/sco-summit-delivers-institutional-reform-but-leaves-development-bank-unsettled/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-02",
+      "issue": 8,
+      "title": "A Russian Drone Crashes in Eastern Poland and Warsaw Calls It a Provocation",
+      "region": "Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.pbs.org/newshour/world/watch-nato-leaders-hold-news-conference-in-wake-of-russian-drone-incursion",
+        "https://www.euronews.com/my-europe/2026/08/12/nato-stands-with-poland-and-romania-amid-russian-airspace-violations",
+        "https://kyivindependent.com/nato-jets-scrambled-as-poland-reacts-to-suspected-russian-drones-during-strikes-on-ukraine/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
+      "date": "2026-09-02",
+      "issue": 8,
+      "title": "The African Union Meets in Luanda to Repair Its Conflict Prevention Machinery",
       "region": "Africa / Global South",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://au.int/en/newsevents/20260829/au-extraordinary-summit-conflict-prevention-and-resolution",
+        "https://www.peaceau.org/en/article/summit-of-luanda",
+        "https://www.riotimesonline.com/african-union-luanda-summit-conflict-prevention-2026/"
       ]
     }
   ]

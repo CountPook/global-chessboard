@@ -3,11 +3,36 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' sent to a single test recipient. Publication baseline: 14 active subscribers, +2 net new in 7 days, aggregate open/click 0.0%.",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-03",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_published": "2026-08-17",
+      "note": "First grading of a real issue. State had been stale since issue #1; issues #2 through #7 were published (through 2026-08-17) without state updates, and daily drafts for 2026-08-18 through 2026-09-02 were created but never scheduled or published by the human operator. Graded the most recent published issue, #7.",
+      "email_total_sent": 13,
+      "email_delivery_rate": 100.0,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unique_clicks_raw": 2,
+      "unique_clicks_verified": 1,
+      "unsubscribe_rate": 7.69,
+      "unsubscribes": 1,
+      "spam_reports": 0,
+      "web_views": 0,
+      "subscribers_active_now": 12,
+      "net_subscribers_last_7d": 0,
+      "open_rate_last_7d": 0.0,
+      "click_rate_last_7d": 0.0,
+      "earnings_last_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,27 +42,43 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
       "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-09-03",
+      "issue": 8,
+      "post_id": "post_34012e70-3cec-4c03-b2a9-5528e5bfae2a",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Hubspot",
+      "ad_headline": "No follow-up questions required",
+      "offer_id_at_placement": "127681848",
+      "advertisement_id": "f16db65b-25fe-431b-82e2-7ca0037b8bb6",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 243,
+      "send_by": "2026-09-08T10:23:29Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-09-03",
+      "issue": 8,
+      "post_id": "post_34012e70-3cec-4c03-b2a9-5528e5bfae2a",
       "slot": 2,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "reason": "Ad network returned 'can not accept any more opportunities' when placing more than one new ad; concurrent-opportunity cap saturated by accumulated unpublished daily drafts holding accepted opportunities."
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-09-03",
+      "issue": 8,
+      "post_id": "post_34012e70-3cec-4c03-b2a9-5528e5bfae2a",
       "slot": 3,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "reason": "Same ad network capacity limit as slot 2."
     }
   ]
 }

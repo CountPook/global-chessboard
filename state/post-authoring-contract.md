@@ -42,3 +42,16 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;
 body text #a0b4c8; muted #8a9bb0; heading accent #e8d5a3; faint #5a6a7a;
 border #1e3a52; ad strip bg #0c1e30. Heading font Georgia serif; body Inter.
+
+## Ad placement gotchas (learned 2026-09-03)
+- Do NOT set data-advertisement-kind="primary" on multiple ad blocks: beehiiv
+  allows only one "primary" (with-logo) ad slot per post and rejects the save with
+  "No 'primary' ad slot is available...". Omit data-advertisement-kind and let the
+  server assign, or use "secondary" for extras.
+- The publication has a small CONCURRENT accepted-opportunity cap. Placing several
+  new ads at once can fail with "can not accept any more opportunities" when stale
+  unpublished drafts still hold accepted opportunities. When this happens, place the
+  single highest-value ad and fall back to placeholder blocks for the rest; note the
+  shortfall in the report. Publishing or expiring old drafts frees capacity.
+- Ad offer ids rotate on every list_ad_offers call. Re-fetch immediately before
+  save_post and match by advertiser + payout_per_click_cents to get the live id.

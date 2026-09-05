@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issue numbers 2 through 7 were published (2026-06-26 through 2026-08-17) but not recorded in this file on those runs; last_issue_number was read from the masthead of the most recent published post (Issue #7, 2026-08-17). Older entries pruned at 30 days per spec.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-05",
+      "issue": 8,
+      "title": "The SCO Turns Twenty Five and Presses for a Multipolar Order",
+      "region": "Central Asia / Eurasia",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/9/1/sco-slams-attacks-sanctions-on-iran-key-takeaways-from-bishkek-summit",
+        "https://eng.sectsco.org/20260901/2493609.html",
+        "https://asiatimes.com/2026/09/three-leaders-three-agendas-at-scos-25th-anniversary/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-05",
+      "issue": 8,
+      "title": "Niger's Military Government Says It Repelled a Coup Attempt",
+      "region": "West Africa / Sahel",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/news/2026/8/30/nigers-military-led-government-says-it-contained-mutiny-what-next",
+        "https://www.riotimesonline.com/niger-coup-attempt-niamey-base-101-2026/",
+        "https://www.criticalthreats.org/analysis/niger-coup-russia-algeria-sudan-rsf-chad-ethiopia-drc-m23-fardc"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-05",
+      "issue": 8,
+      "title": "Japan's Bond Yields Hit a Thirty Year High as Cheap Money Fades",
+      "region": "East Asia / Economics",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.brecorder.com/news/40437373/japans-benchmark-10-year-bond-yield-reaches-3-level-for-first-time-in-30-years",
+        "https://www.bloomberg.com/news/articles/2026-08-17/japan-s-bond-yields-climb-on-boj-hike-bets-fiscal-concerns",
+        "https://tradingeconomics.com/japan/government-bond-yield"
       ]
     }
   ]

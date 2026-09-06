@@ -3,11 +3,42 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "Baseline before any real campaign. 14 active subscribers, +2 net new (7d), open/click 0.0% (no real send yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-06",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Newest published issue graded (issue #7). Delivered to all 13 email recipients (100% delivery). Open rate 30.77% (4 unique opens). Raw click rate 50% of openers / 25% verified; 2 unique raw clicks, 1 verified. One unsubscribe (7.69%, outsized only because the list is tiny). No spam, no bounces, 0 web views. Publication now at 12 active subscribers (down from 14 at the issue #1 baseline), 0 net new in last 7 days, 0 open/click in last 7 days (no send inside the window), earnings $0.00 (7d). Engagement per-open is healthy; the constraint is list size and stalled acquisition, not content.",
+      "post_email": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "total_unique_opened": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "total_unique_clicked_raw": 2,
+        "total_unique_clicked_verified": 1,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "total_spam_reported": 0,
+        "total_web_viewed": 0
+      },
+      "publication_last_7_days": {
+        "current_active_subscribers": 12,
+        "new_subscribers": 0,
+        "net_subscribers": 0,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -17,13 +48,7 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
-      "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -38,6 +63,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-06",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers gated off current plan; no offers retrievable"
+    },
+    {
+      "date": "2026-09-06",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers gated off current plan; no offers retrievable"
+    },
+    {
+      "date": "2026-09-06",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers gated off current plan; no offers retrievable"
     }
   ]
 }

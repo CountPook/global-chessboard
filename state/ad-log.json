@@ -3,11 +3,32 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click 0.0%, earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-07",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent": "2026-08-17",
+      "note": "Grading the most recent published issue (#7, Aug 17). Delivered to 13 subscribers with a 30.8% open rate (4 unique opens) and one verified click (25% verified CTR; 50% raw). One unsubscribe (7.7% of the small list), no spam complaints, 0% bounce. No campaign has sent in the last 7 days, so publication-wide 7-day open/click and growth read flat at zero and the active list has slipped from 14 to 12. On a 13-person list a single unsubscribe is noise-level but worth watching. Ads could not be re-ranked this cycle because ad tools are unavailable on the current (downgraded) beehiiv plan.",
+      "delivered": 13,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unsubscribes": 1,
+      "unsubscribe_rate": 7.69,
+      "spam_reports": 0,
+      "subscribers_active_now": 12,
+      "net_new_subscribers_7d": 0,
+      "publication_open_rate_7d": 0.0,
+      "publication_click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,13 +38,8 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -38,6 +54,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-07",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools (list_ad_offers, list_sponsorship_agreement_items) are not available on the current beehiiv plan, so no offers or direct deals could be retrieved or placed. Rendered as the standard labeled placeholder block."
+    },
+    {
+      "date": "2026-09-07",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools unavailable on current plan."
+    },
+    {
+      "date": "2026-09-07",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools unavailable on current plan."
     }
   ]
 }

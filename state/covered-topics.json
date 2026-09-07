@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issue #8 (2026-09-07) was fully researched and written but NOT created in beehiiv: the publication's plan was downgraded to read-only, so save_post/duplicate_post/authoring tools are blocked. The finished HTML is preserved at state/drafts/2026-09-07-issue8.html. Issue numbering reconciled to reality this run: the newest published post was Issue #7 (2026-08-17); the stale state file had said 1. Older topics (issues 1-7) dropped per the 30-day retention rule.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-09-07",
+      "issue": 8,
+      "title": "US Envoys Shuttle Between Moscow and Kyiv to Revive Ukraine Talks",
+      "region": "Europe / Russia-Ukraine",
+      "sources": [
+        "https://www.cnn.com/2026/09/06/europe/witkoff-kushner-visit-kyiv-intl",
+        "https://www.rferl.org/a/kushner-witkoff-putin-zelenskyy-ukraine-russia/33847622.html",
+        "https://www.npr.org/2026/09/06/nx-s1-5959657/us-envoys-witkoff-kushner-talks-in-kyiv-putin-moscow"
+      ]
+    },
+    {
+      "date": "2026-09-07",
+      "issue": 8,
+      "title": "Israeli Strikes on Southern Lebanon Test a Fragile Truce",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.france24.com/en/middle-east/20260906-israeli-strikes-kill-four-in-lebanon-after-alleged-hezbollah-drone-launch",
+        "https://www.aljazeera.com/news/2026/9/6/israeli-air-attacks-on-lebanon-kill-at-least-four",
+        "https://today.lorientlejour.com/article/1546678/israeli-strikes-kill-2-women-in-arab-salim-destroy-ghandour-hospital-in-nabatieh.html"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-07",
+      "issue": 8,
+      "title": "Xi Takes to the Road to Pitch China as a Stable Alternative",
+      "region": "China / Global South",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.washingtonpost.com/world/2026/09/06/rare-flurry-trips-xi-pitches-china-stable-alternative-us-under-trump/",
+        "https://www.cnbc.com/2026/08/31/china-xi-us-trump-visit-sco-brics-modi-india.html",
+        "https://thediplomat.com/2026/09/chinas-global-strategy-under-xi-jinping/"
       ]
     }
   ]

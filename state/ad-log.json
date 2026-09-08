@@ -8,6 +8,22 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-08",
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_issue": 7,
+      "graded_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global (published 2026-08-17)",
+      "note": "Most recent published issue graded (state file was stale, recorded only issue #1; beehiiv had published through issue #7). Issue #7 email: 13 sent, 13 delivered (100%), 30.77% open rate (4 unique opens), 1 unsubscribe (7.69% unsub rate), 0 spam. Click rate reported 50% raw but only 25% verified (1 verified unique click). Web views 0. Publication-wide last 7 days: 12 active subscribers, 0 net new, 0 churn, open/click 0.0% (no send inside the 7-day window since #7 sent 2026-08-17, 22 days earlier). What worked: near-perfect delivery and a solid ~31% open rate for a tiny 13-recipient list; the cover-story link drew the single verified click. What did not: the list is very small and flat (12-14 subs, no growth), and one unsubscribe on 13 sends is a high rate on a small base. Cadence has lapsed (no issue sent in 3 weeks), which likely suppresses growth and engagement. Ad performance could not be re-measured this run because ad-network tools are plan-gated.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "issue7_email_open_rate": 30.77,
+      "issue7_email_click_rate_verified": 25.0,
+      "issue7_unsub_rate": 7.69,
+      "issue7_total_sent": 13
     }
   ],
   "ad_slots": [
@@ -38,6 +54,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-08",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-network tools (list_ad_offers) and direct-sponsorship tools (list_sponsorship_agreement_items) are not available on the current beehiiv plan. No ad inventory could be retrieved, so the slot is a labeled placeholder."
+    },
+    {
+      "date": "2026-09-08",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-network and sponsorship tools plan-gated; no inventory available."
+    },
+    {
+      "date": "2026-09-08",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-network and sponsorship tools plan-gated; no inventory available."
     }
   ]
 }

@@ -8,6 +8,37 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-09",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent": "2026-08-17",
+      "note": "Graded the most recent PUBLISHED post (Aug 17), since nothing has been published since. Issue #7 was delivered to 13 recipients (100% delivery). Open rate 30.77% (4 unique opens), click rate 50% raw / 25% verified (2 unique raw clicks, 1 verified). One unsubscribe = 7.69% unsub rate, which is high but reflects the tiny list (a single unsub moves the rate sharply). Zero web views. Subscriber base has slipped to 12 active (from 14 at issue #1) with 0 net new and $0 earnings in the last 7 days, consistent with no recent sends. Sample sizes are too small for the rates to be statistically meaningful.",
+      "graded_post_stats": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "total_unique_opened": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "total_unique_email_clicked_raw": 2,
+        "total_unique_email_clicked_verified": 1,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "total_web_viewed": 0
+      },
+      "publication_stats_7d": {
+        "current_active_subscribers": 12,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +69,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-09",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools plan-gated. list_ad_offers and list_sponsorship_agreement_items are BOTH unavailable on the current beehiiv plan as of 2026-09-09, so no offers could be queried or ranked. All three slots rendered as placeholders."
+    },
+    {
+      "date": "2026-09-09",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools plan-gated (see slot 1)."
+    },
+    {
+      "date": "2026-09-09",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools plan-gated (see slot 1)."
     }
   ]
 }

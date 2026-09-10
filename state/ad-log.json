@@ -3,11 +3,30 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' (post_a6a02adf, published 2026-05-31) sent to a single test recipient. Baseline at run time: 14 active subscribers, +2 net new (7d), open/click 0.0%, earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-10",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Graded issue #7 (most recent published, 2026-08-17) this run. State on this branch had only recorded issue #1; issues 2-7 were published (through 2026-08-17) without being logged here. No newsletter has sent in the last 7 days, so publication 7d aggregates are all zero. Issue #7 email: 13 sent, 13 delivered (100%), open rate 30.77% (4 unique opens), verified click rate 25.0% (raw CTR 50.0%), 1 unsubscribe (7.69%), 0 spam, 0 bounces. Web views 0. Small list means single-subscriber swings move every rate. Publication now at 12 active subscribers, down from 14 at the issue #1 baseline.",
+      "email_total_sent": 13,
+      "email_open_rate": 30.77,
+      "email_click_rate_verified": 25.0,
+      "email_click_rate_raw": 50.0,
+      "email_unsubscribe_rate": 7.69,
+      "email_unsubscribes": 1,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +57,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-10",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools (list_ad_offers, list_sponsorship_agreement_items) are not available on the current beehiiv plan; could not query or place any ad. All three slots rendered as labeled placeholders."
+    },
+    {
+      "date": "2026-09-10",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Plan restriction blocked ad querying."
+    },
+    {
+      "date": "2026-09-10",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Plan restriction blocked ad querying."
     }
   ]
 }

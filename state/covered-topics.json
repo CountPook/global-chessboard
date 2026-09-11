@@ -1,37 +1,70 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "notes": "2026-09-11: State reconciled. The file previously read last_issue_number=1, but list_posts shows 7 real issues were published through 2026-08-17 (issue #7, confirmed from its masthead). True last published issue is #7; today's issue was prepared as #8. Only topics from the last ~30 days are retained below; older entries pruned. Issue #8 (2026-09-11) was DRAFTED but NOT created in beehiiv because every authoring tool (save_post, save_image, generate_image, learn_post_authoring, list_ad_offers) is gated on the publication's current plan. If issue #8 is not manually published, reset last_issue_number to 7 on the next run.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-08-14",
+      "title": "Tariffs on Russian Oil Buyers, Taiwan at the Pacific Forum, and the Ethiopia-Eritrea Standoff",
+      "region": "Multi (Sanctions / Indo-Pacific / Horn of Africa)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-15",
+      "title": "Zambia's Election, a New Russia Oil Sanctions Bill, and Brazil's Rift With Argentina",
+      "region": "Multi (Africa / Sanctions / Latin America)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-16",
+      "title": "The Mecca Defense Pact, Korea's Drill Standoff, and Mali's Fuel Blockade",
+      "region": "Multi (Middle East / Korean Peninsula / Sahel)",
+      "sources": []
+    },
+    {
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "region": "Multi (Northeast Asia / Middle East / East Asia aviation)",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/8/13/japan-protests-as-russias-putin-visits-disputed-kuril-islands",
+        "https://www.aljazeera.com/news/2026/8/7/new-regional-order-pakistan-turkiye-saudi-arabia",
+        "https://www.euronews.com/travel/2026/08/12/chinas-c919-makes-first-international-flight-as-it-takes-aim-at-boeing-and-airbus"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-11",
+      "issue": 8,
+      "status": "drafted_not_published",
+      "title": "Ukraine Strikes Russia's Arctic Gas Heartland in the War's Deepest Attack",
+      "region": "Eastern Europe / Russia-Ukraine",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://kyivindependent.com/new-record-set-ukrainian-drones-strike-russian-gas-facility-over-3-000-km-away-in-siberia/",
+        "https://euromaidanpress.com/2026/09/10/ukraine-drone-strike-siberian-gas-plants/",
+        "https://www.twz.com/news-features/ukraine-carried-out-its-deepest-drone-strike-on-russia-ever"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-11",
+      "issue": 8,
+      "status": "drafted_not_published",
+      "title": "China and the Philippines Clash at a Seoul Security Forum Over the South China Sea",
+      "region": "Indo-Pacific / South China Sea",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.washingtontimes.com/news/2026/sep/9/war-words-china-philippines-south-china-sea-maritime-claims/",
+        "https://www.cnbc.com/2026/09/11/china-philippine-south-china-sea-disputes-tensions-.html",
+        "https://www.cnn.com/2026/07/24/asia/china-philippines-south-china-sea-scarborough-intl-hnk"
+      ]
+    },
+    {
+      "date": "2026-09-11",
+      "issue": 8,
+      "status": "drafted_not_published",
+      "title": "A Tanker War in the Gulf Pushes Oil Past 100 Dollars",
+      "region": "Middle East / Persian Gulf / Energy",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/9/6/us-iran-engaged-in-tanker-war-where-is-the-months-long-conflict-headed",
+        "https://www.aljazeera.com/news/liveblog/2026/9/7/iran-war-live-tehran-to-announce-new-hormuz-shipping-route-in-coming-days",
+        "https://www.unitedagainstnucleariran.com/analysis/iran-shipping-update-september-8-2026"
       ]
     }
   ]

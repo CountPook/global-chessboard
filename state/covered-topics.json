@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "State was stale before 2026-09-12: it recorded only issue #1, but beehiiv shows real published issues through #7 (2026-08-17). last_issue_number corrected to 8 on 2026-09-12. Topics older than 30 days are dropped per policy, so issues #1-#6 are not listed here; issue #7 (2026-08-17) is also >14 days old, so no de-duplication conflict applied to today's selection.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-12",
+      "issue": 8,
+      "title": "Algeria Severs Diplomatic Ties With the United Arab Emirates",
+      "region": "North Africa",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/9/10/algeria-cuts-diplomatic-ties-with-uae-what-we-know",
+        "https://www.al-monitor.com/originals/2026/09/fueled-regional-rivalries-algeria-severs-diplomatic-ties-uae",
+        "https://www.timesofisrael.com/algeria-severs-diplomatic-ties-with-uae-citing-its-provocative-or-hostile-actions/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-12",
+      "issue": 8,
+      "title": "Twelve Nations Ban Israeli Settlement Goods and Israel Orders a British Consulate Shut",
+      "region": "Europe / Middle East",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/news/2026/9/8/uk-bans-goods-from-israeli-west-bank-settlements-what-that-really-means",
+        "https://www.nbcnews.com/world/united-kingdom/uk-announces-trade-ban-israeli-west-bank-goods-burnham-huckabee-rcna596536",
+        "https://www.abc.net.au/news/2026-09-08/three-g7-countries-announce-import-ban-on-goods-from-settlements/107130998"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-12",
+      "issue": 8,
+      "title": "The European Union Pledges 200 Million Euros to Greenland as the Arctic Reopens",
+      "region": "Arctic / Europe",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.france24.com/en/live-news/20260907-eu-chief-announces-200-mn-euro-investment-package-for-greenland",
+        "https://digital-strategy.ec.europa.eu/en/news/eu-and-greenland-strengthen-partnership-and-engagement-backed-eu200-million-eu-investment",
+        "https://www.eunews.it/en/2026/09/07/greenland-a-renewed-partnership-with-the-eu-and-e200-million-in-investment/"
       ]
     }
   ]

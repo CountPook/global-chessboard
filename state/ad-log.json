@@ -8,6 +8,18 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-12",
+      "graded_issue": 7,
+      "graded_issue_date": "2026-08-17",
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "note": "Graded issue #7 (Putin's Kuril Islands Visit, the Mecca Defense Pact, China's C919). Email: 13 sent, 13 delivered (100% delivery), 30.77% open rate (4 unique opens), click rate 50.0% raw / 25.0% verified (1-2 unique clicks), 1 unsubscribe (7.69%), 0 spam reports, 0 bounces. Publication now 12 active subscribers (down 1, matching the single unsubscribe). Last-7-day publication aggregate reads 0% open/click and $0.00 earnings only because the most recent send was ~26 days ago, outside the 7-day window; the per-post stats are the meaningful read. IMPORTANT: covered-topics state was stale (recorded only issue #1); real published issues run through #7, so today's newsletter is #8.",
+      "subscribers_active": 12,
+      "open_rate": 30.77,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unsubscribe_rate": 7.69
     }
   ],
   "ad_slots": [
@@ -38,6 +50,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-12",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are gated on the current beehiiv plan; no ad inventory could be retrieved. Placeholder used per Step 3f."
+    },
+    {
+      "date": "2026-09-12",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "No ad inventory retrievable (plan-gated tools)."
+    },
+    {
+      "date": "2026-09-12",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "No ad inventory retrievable (plan-gated tools)."
     }
   ]
 }

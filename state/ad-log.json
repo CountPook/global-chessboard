@@ -8,6 +8,34 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-13",
+      "issue": 8,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global (Issue #7, sent 2026-08-17)",
+      "note": "State on this branch was stale (only issue #1 recorded); issues #2-#7 were published by earlier runs. Graded the newest published post, issue #7. Delivered 13/13 (100%), open rate 30.77% (4 unique opens), verified click rate 25% (1 verified click; raw click rate 50%), 1 unsubscribe (7.69%), 0 bounces, 0 web views. Publication last_7_days at run time: 12 active subscribers (down from 14), 0 new, 0 churned, 0% open/click (no send in the trailing 7 days; last send was ~4 weeks ago), earnings $0.00. No repeat-advertiser CTR data available to blend because ad tools are gated on the current plan.",
+      "graded_issue_7": {
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "unique_opens": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "unique_verified_clicks": 1,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "bounce_rate": 0.0,
+        "web_views": 0
+      },
+      "publication_last_7d": {
+        "subscribers_active": 12,
+        "net_new_subscribers_7d": 0,
+        "churned_7d": 0,
+        "open_rate_7d": 0.0,
+        "click_rate_7d": 0.0,
+        "earnings_7d": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +66,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-13",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad and sponsorship tools (list_ad_offers, list_sponsorship_agreement_items) are not available on the current beehiiv plan, so no offers could be queried or ranked. Rendered as placeholder."
+    },
+    {
+      "date": "2026-09-13",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Same plan limitation as slot 1."
+    },
+    {
+      "date": "2026-09-13",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Same plan limitation as slot 1."
     }
   ]
 }

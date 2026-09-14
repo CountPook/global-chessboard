@@ -8,6 +8,23 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-14",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_scheduled_at": "2026-08-17T19:13:46Z",
+      "note": "No post was published in the last 7 days, so there is no true 'yesterday' issue to grade. The automation last ran on 2026-08-17 (issue #7); today is 2026-09-14, a gap of roughly four weeks. State file covered-topics.json was stale (recorded only issue #1) while beehiiv shows issues through #7. Graded the most recent published issue (#7). Issue #7 email: 13 sent, 13 delivered (100%), open rate 30.77% (4 unique opens), click rate 50% raw / 25% verified (2 unique raw clicks, 1 verified), 1 unsubscribe (7.69% unsub rate), 0 spam. Publication now at 12 active subscribers, down from 14 at issue #1; 0 net new and 0 churned in the last 7 days; last-7-day open/click 0.0% and earnings $0.00 because nothing was sent in that window. Read: open rate near 31% is healthy for a tiny list, but the single unsubscribe on 13 recipients is a high percentage and the click signal is weak (1 verified click). Subscriber base has shrunk slightly and stalled. Ad/sponsorship and image tooling are now plan-gated (unavailable), unlike earlier issues that carried real ads.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "graded_issue_open_rate": 30.77,
+      "graded_issue_click_rate_verified": 25.0,
+      "graded_issue_unsubscribes": 1,
+      "graded_issue_unsubscribe_rate": 7.69
     }
   ],
   "ad_slots": [
@@ -38,6 +55,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-14",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are plan-gated (unavailable) on the current beehiiv plan, so no real ads could be retrieved or ranked."
+    },
+    {
+      "date": "2026-09-14",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tooling plan-gated; placeholder used."
+    },
+    {
+      "date": "2026-09-14",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tooling plan-gated; placeholder used."
     }
   ]
 }

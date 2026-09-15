@@ -8,6 +8,21 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-15",
+      "issue": 8,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_published": "2026-08-17",
+      "note": "Graded the most recent published issue (masthead Issue #7, published 2026-08-17). This branch's state was stale (last_issue_number was 1) while the live publication had continued to issue #7 and accumulated many unpublished drafts (created daily Aug 26 to Sep 4) that were never scheduled. Issue #7 delivered to all 13 email recipients (100% delivery), 30.77% open rate (4 unique opens), 50% raw click rate / 25% verified (2 raw unique clicks, 1 verified), 1 unsubscribe (7.69% unsub rate, high on a tiny list), 0 spam, 0 bounces, 0 web views. Publication has SHRUNK from 14 active subscribers (issue #1) to 12 now, with 0 net new and 0 churn in the last 7 days and no campaign sent in the last 7 days (last send Aug 17). Engagement per-open is healthy for a nascent list; retention and acquisition are the weak points, and the publication has been effectively dormant since Aug 17.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_last_issue": 30.77,
+      "click_rate_last_issue_verified": 25.0,
+      "unsubscribe_rate_last_issue": 7.69,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +53,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-15",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools (list_ad_offers, list_sponsorship_agreement_items) are gated on the workspace's current 'launch' plan and returned plan-unavailable errors. No direct deals or marketplace offers could be retrieved, so the slot is a labeled placeholder."
+    },
+    {
+      "date": "2026-09-15",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Same as slot 1: ad marketplace unavailable on current plan."
+    },
+    {
+      "date": "2026-09-15",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Same as slot 1: ad marketplace unavailable on current plan."
     }
   ]
 }

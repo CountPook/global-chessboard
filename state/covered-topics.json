@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-15",
+      "issue": 8,
+      "title": "Trump Backs a United Ireland and Breaks With Washington Neutrality",
+      "region": "Europe / North America",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.npr.org/2026/09/12/g-s1-143076/trump-meets-irelands-leaders",
+        "https://www.aljazeera.com/news/2026/9/12/trump-says-a-unified-ireland-would-be-fantastic-during-irish-visit",
+        "https://www.rte.ie/news/analysis-and-comment/2026/0913/1591389-comment-analysis-trump-united-ireland/",
+        "https://www.axios.com/2026/09/13/trump-united-ireland-north-south"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-15",
+      "issue": 8,
+      "title": "Houthi Forces Seize the Bab al-Mandeb and Tighten Their Grip on Red Sea Trade",
+      "region": "Middle East / Maritime",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/economy/2026/9/13/red-sea-nations-watch-as-houthis-seize-bab-al-mandeb-strait",
+        "https://www.aljazeera.com/news/2026/9/11/houthis-take-control-of-yemens-red-sea-coast-key-shipping-route",
+        "https://www.aljazeera.com/news/2026/9/12/iran-backed-houthis-seize-strategic-mayun-island-can-they-hold-it"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-15",
+      "issue": 8,
+      "title": "Nepal Carries Its Flood Catastrophe to the United Nations",
+      "region": "South Asia / Global South",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.japantimes.co.jp/commentary/2026/09/13/world/nepal-seeks-un-flood-funding/",
+        "https://foreignpolicy.com/2026/09/02/nepal-floods-disaster-regional-cooperation-climate/",
+        "https://en.wikipedia.org/wiki/2026_Nepal_floods"
       ]
     }
   ]

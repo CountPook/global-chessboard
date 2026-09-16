@@ -1,37 +1,36 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "State was last written for issue #1 (2026-06-24) but the publication actually published through issue #7 (2026-08-17); those intervening issues were not recorded here. Issue number for this run (8) was recovered by reading ISSUE #N from the newest published post. Topics older than 30 days are dropped, so issues 1-7 topics are not listed.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-16",
+      "issue": 8,
+      "title": "The BRICS Bloc Expands Its Ambitions in New Delhi",
+      "region": "Global South / Multilateral",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.businesstoday.in/india/story/brics-summit-2026-consensus-reached-as-leaders-prepare-to-pass-new-delhi-joint-declaration-555109-2026-09-12",
+        "https://www.forbesindia.com/article/news/brics-summit-2026-11-key-takeaways-from-the-new-delhi-declaration/2998249/1",
+        "https://www.aljazeera.com/news/2026/9/13/brics-summit-2026-what-are-the-key-takeaways"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-16",
+      "issue": 8,
+      "title": "Sweden's Far Right Stumbles in a Photo Finish Election",
+      "region": "Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/news/2026/9/15/sweden-election-is-too-close-to-call-as-far-right-loses-ground",
+        "https://www.cnn.com/2026/09/12/europe/sweden-election-preview-intl"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-16",
+      "issue": 8,
+      "title": "The Federal Reserve Turns Toward Its First Rate Hike Since 2023",
+      "region": "United States / Global Economics",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.kiplinger.com/investing/live/fed-meeting-updates-and-commentary-september-2026",
+        "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html"
       ]
     }
   ]

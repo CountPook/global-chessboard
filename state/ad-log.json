@@ -3,11 +3,30 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' sent to a single test recipient. Baseline at run time: 14 active subscribers, +2 net new in 7 days, 0.0% aggregate open/click, earnings $2.24 (7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-16",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_scheduled_at": "2026-08-17T19:13:46Z",
+      "note": "Graded the newest published post (issue #7). NOTE: state was stale (last recorded issue was #1); issues #2-#7 were published 2026-06 through 2026-08 but never logged here, so no per-issue trend is available for them. Issue #7 email: 13 delivered (100% delivery), 30.77% open rate (4 unique opens), 50.0% raw click rate / 25.0% verified (2 unique raw clicks, 1 verified), 1 unsubscribe (7.69%), 0 spam. Publication now (last 7 days, America/Los_Angeles): 12 active subscribers (down from 14 at issue #1 baseline), 0 net new / 0 churned in the window, 0.0% aggregate 7d open/click, earnings $0.00. Takeaway: open rate for issue #7 was healthy for a ~13-recipient list, but the single unsubscribe on such a small base is a meaningful 7.69% and total subscribers have drifted down; growth is the priority, not ad yield.",
+      "graded_email_delivered": 13,
+      "graded_open_rate": 30.77,
+      "graded_click_rate_raw": 50.0,
+      "graded_click_rate_verified": 25.0,
+      "graded_unsubscribes": 1,
+      "graded_unsubscribe_rate": 7.69,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +57,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-16",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tooling unavailable on current beehiiv plan. list_ad_offers and list_sponsorship_agreement_items both return 'not available on your current plan', so no offers or direct deals could be retrieved or placed. All 3 slots rendered as [ AD GOES HERE ] placeholders."
+    },
+    {
+      "date": "2026-09-16",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tooling unavailable on current beehiiv plan."
+    },
+    {
+      "date": "2026-09-16",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tooling unavailable on current beehiiv plan."
     }
   ]
 }

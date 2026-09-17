@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "State file was stale before the 2026-09-17 run: it recorded only issue #1, but list_posts shows real issues published through #7 (2026-08-17). Issue #8 was authored on 2026-09-17 but could NOT be saved to beehiiv because the publication's plan was downgraded to read-only (save_post and all authoring tools returned 'not available on your current plan'). The full HTML is saved at state/drafts/2026-09-17-issue-8.html for manual paste. Older entries (>30 days) dropped per spec.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-17",
+      "issue": 8,
+      "title": "The EU Offers Canada an Unprecedented Associate Membership",
+      "region": "Europe / North Atlantic",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/9/16/eu-chief-von-der-leyen-proposes-associate-member-status-for-canada",
+        "https://www.cnbc.com/2026/09/16/canada-eu-associate-member-von-der-leyen.html",
+        "https://www.npr.org/2026/09/16/nx-s1-5970985/canada-become-eu-associate-member"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
+      "date": "2026-09-17",
+      "issue": 8,
+      "title": "Taiwan Moves to Open a Second Mission in the Philippines",
+      "region": "Indo-Pacific",
+      "sources": [
+        "https://focustaiwan.tw/politics/202609150008",
+        "https://asia.nikkei.com/politics/international-relations/taiwan-tensions/taiwan-to-open-new-philippines-mission-in-diplomatic-push-sources-say",
+        "https://www.taipeitimes.com/News/taiwan/archives/2026/09/15/2003864314"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "issue": 8,
+      "title": "Belarus Frees 25 Prisoners as Washington Eases Some Sanctions",
       "region": "Eastern Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.nbcnews.com/world/europe/belarus-frees-25-prisoners-return-easing-us-sanctions-rcna598083",
+        "https://www.rferl.org/a/belarus-us-prisoners-release-sanctions/33857455.html",
+        "https://www.themoscowtimes.com/2026/09/16/belarus-frees-25-more-political-prisoners-in-return-for-us-sanctions-relief-a93723"
       ]
     }
   ]

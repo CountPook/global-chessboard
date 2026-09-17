@@ -8,9 +8,60 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-17",
+      "grading_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent": "2026-08-17",
+      "note": "Newest published issue at run time was #7 (sent 2026-08-17); no issue was sent in the last 7 days, so the publication-wide last_7_days rates read 0.0. Graded on the post's own lifetime stats instead. Issue #8 was authored 2026-09-17 but NOT saved to beehiiv: the plan was downgraded to read-only and save_post is unavailable.",
+      "issue7_post_stats": {
+        "total_sent": 13,
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "unique_opened": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "unique_clickers_raw": 2,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "spam_reported": 0
+      },
+      "publication_now": {
+        "current_active_subscribers": 12,
+        "net_new_subscribers_7d": 0,
+        "churned_7d": 0,
+        "open_rate_7d": 0.0,
+        "click_rate_7d": 0.0,
+        "earnings_7d": "$0.00"
+      }
     }
   ],
   "ad_slots": [
+    {
+      "date": "2026-09-17",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Plan downgraded to read-only; list_ad_offers and list_sponsorship_agreement_items unavailable. No real ads could be sourced. Draft could not be saved to beehiiv either."
+    },
+    {
+      "date": "2026-09-17",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-09-17",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
     {
       "date": "2026-06-24",
       "issue": 1,

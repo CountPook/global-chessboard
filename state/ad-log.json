@@ -8,6 +8,22 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-19",
+      "issue": 8,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_scheduled_at": "2026-08-17T19:13:46Z",
+      "note": "Graded the most recent published issue (Issue #7, sent 2026-08-17). State was stale (only tracked issue #1); reconstructed issue numbering from the live post history (7 real issues to date, so today is issue #8). Issue #7 delivered to 13 recipients (100% delivery), open rate 30.77% (4 unique opens), click rate 50% raw / 25% verified (1-2 unique clicks), 1 unsubscribe (7.69% unsub rate), 0 spam, 0 bounces. Small list: current active subscribers 12, down from 14 at the June baseline; 0 net new and 0 churned in the trailing 7 days (no email sent in that window since the last issue was a month ago). Open rate is respectable for a nascent list but the 7.69% unsubscribe rate on such a small base is worth watching. No real ad revenue: ad-network tools are now plan-gated (see report).",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_pct": 30.77,
+      "click_rate_pct_raw": 50.0,
+      "click_rate_pct_verified": 25.0,
+      "unsubscribe_rate_pct": 7.69,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +54,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-19",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are not available on the current beehiiv plan; no real ads could be retrieved."
+    },
+    {
+      "date": "2026-09-19",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are not available on the current beehiiv plan; no real ads could be retrieved."
+    },
+    {
+      "date": "2026-09-19",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are not available on the current beehiiv plan; no real ads could be retrieved."
     }
   ]
 }

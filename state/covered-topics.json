@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-19",
+      "issue": 8,
+      "title": "Russia's Wartime Duma Vote Unfolds With the Opposition Locked Out",
+      "region": "Europe / Russia",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.cnn.com/2026/09/18/europe/russia-parliamentary-elections-2026-ukraine-intl",
+        "https://time.com/article/2026/09/18/russia-elections-parliament-state-duma-putin/",
+        "https://www.themoscowtimes.com/2026/09/16/russians-prepare-for-an-election-with-less-choice-than-ever-a93727"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-19",
+      "issue": 8,
+      "title": "The Houthis Tighten Their Grip on the Bab al-Mandeb Strait",
+      "region": "Middle East / Maritime Security",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/news/2026/9/18/as-houthis-grab-bab-al-mandeb-us-appears-willing-to-watch-from-sidelines",
+        "https://foreignpolicy.com/2026/09/10/houthis-yemen-mokha-port-red-sea-bab-el-mandeb-iran-saudi-arabia-strait-hormuz/",
+        "https://time.com/article/2026/09/14/yemen-houthi-saudi-arabia-attacks-oil-red-sea-iran-war/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-19",
+      "issue": 8,
+      "title": "The Federal Reserve Raises Rates as Oil Drives Inflation Higher",
+      "region": "Economics / United States",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.bnnbloomberg.ca/business/economics/2026/09/16/us-federal-reserve-hikes-key-rate-for-1st-time-in-3-years-defying-trump-demands-for-a-cut/",
+        "https://us.cnn.com/2026/09/16/economy/fed-rate-decision-september",
+        "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html"
       ]
     }
   ]

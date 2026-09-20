@@ -1,37 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "last_published_issue": 7,
+  "notes": "State file was previously stale (recorded only issue #1). Reconciled 2026-09-20 against beehiiv: the last PUBLISHED issue is #7 (Putin's Kuril Islands Visit, sent 2026-08-17). Today's content was prepared as issue #8 but could NOT be created in beehiiv because all authoring/write MCP tools (save_post, duplicate_post, save_image, generate_image, learn_post_*, ad tools) returned 'not available on your current plan'. The ready-to-paste HTML is saved at state/drafts/2026-09-20-issue-8.html. If issue #8 is never published, the next run may need to reuse #8 rather than incrementing to #9. Topics older than 30 days have been dropped.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-20",
+      "issue": 8,
+      "title": "Washington Bars the Palestinian Delegation as the UN Votes to Let Abbas Speak by Video",
+      "region": "United Nations / Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/9/17/us-extends-visa-ban-on-palestinian-officials-before-un-general-assembly",
+        "https://www.middleeastmonitor.com/20260918-un-general-assembly-backs-palestinian-participation-abbas-to-address-session-by-video/",
+        "https://www.jpost.com/international/article-909007"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-20",
+      "issue": 8,
+      "title": "The Federal Reserve Raises Rates for the First Time Since 2023",
+      "region": "United States / Economics",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+        "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a1.htm",
+        "https://www.usbank.com/investing/financial-perspectives/market-news/federal-reserve-interest-rate.html"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-20",
+      "issue": 8,
+      "title": "Sweden's Center-Left Wins a Narrow Majority and Andersson Prepares to Return",
+      "region": "Europe / Sweden",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.france24.com/en/europe/20260918-sweden-s-centre-left-leader-andersson-tasked-with-forming-government-after-election",
+        "https://www.nbcnews.com/world/europe/swedens-prime-minister-steps-left-wing-opposition-election-rcna598351",
+        "https://www.abc.net.au/news/2026-09-17/sweden-election-result/107149110"
       ]
     }
   ]

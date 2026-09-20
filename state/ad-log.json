@@ -3,11 +3,40 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "Baseline. Only a placeholder test post existed before issue #1. Publication baseline: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
-      "click_rate_7d": 0.0
+      "click_rate_7d": 0.0,
+      "earnings_7d_usd": 2.24
+    },
+    {
+      "date": "2026-09-20",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent": "2026-08-17",
+      "note": "Latest published issue (#7) graded. State file had been stale (knew only issue #1); beehiiv shows issues #1-#7 published (Jun 24/26/28, Aug 14/15/16/17). Issue #7 delivered to all 13 subscribers (100% delivery), 30.77% open (4 unique opens), 25% verified click rate (1 verified click; 50%/2 unique raw clicks), 7.69% unsubscribe (1 unsub), 0 spam, 0 web views. Publication now 12 active subscribers (down from 14 at issue #1 baseline), 0 net new (7d), earnings $65.17 (7d) up sharply from $2.24 baseline, driven by beehiiv ad-network placements (Finance Advisors, 1440) that ran in recent issues.",
+      "post_email": {
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "unique_opens": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "unique_clicks_raw": 2,
+        "unique_clicks_verified": 1,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "spam_reports": 0
+      },
+      "publication_7d": {
+        "active_subscribers": 12,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "earnings_usd": 65.17
+      }
     }
   ],
   "ad_slots": [
@@ -17,13 +46,8 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -38,6 +62,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-20",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Ad tools (list_ad_offers, list_sponsorship_agreement_items) plan-gated this run; could not query or place real ads. Placeholder embedded in the prepared HTML."
+    },
+    {
+      "date": "2026-09-20",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Ad tools plan-gated this run."
+    },
+    {
+      "date": "2026-09-20",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Ad tools plan-gated this run."
     }
   ]
 }

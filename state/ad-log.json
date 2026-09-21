@@ -8,6 +8,21 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-21",
+      "issue": 2,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Graded the most recent published issue (2026-08-17), since no issue was sent in the last 24-48h (the publication has been dormant since mid-August). That issue: 13 delivered (100% delivery), 30.77% open rate (4 unique opens), 50% raw click rate but 25% verified click rate (2 unique raw clicks, 1 verified), 1 unsubscribe (7.69% unsub rate), 0 spam. Solid opens for a tiny list; the single unsubscribe is high in percentage terms only because the list is ~13. Publication now at 12 active subscribers, DOWN from 14 at the issue #1 baseline; 0 net new and 0 churn in the last 4 weeks (list is stagnant). Earnings $65.17 (trailing period), up from $2.24. NOTE: these ad-ranking metrics could not be used to rank offers this run because ad-network tools are plan-gated (see below).",
+      "subscribers_active": 12,
+      "net_new_subscribers_4w": 0,
+      "churned_subscribers_4w": 0,
+      "open_rate_last_post": 30.77,
+      "click_rate_last_post_verified": 25.0,
+      "unsubscribes_last_post": 1,
+      "earnings_trailing": "$65.17"
     }
   ],
   "ad_slots": [
@@ -38,6 +53,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-21",
+      "issue": 2,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-network and sponsorship tools (list_ad_offers, list_sponsorship_agreement_items) are not available on the publication's current beehiiv plan, so no real ads could be queried or placed. Fell back to placeholder blocks per Step 3f."
+    },
+    {
+      "date": "2026-09-21",
+      "issue": 2,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-network tools plan-gated; placeholder used."
+    },
+    {
+      "date": "2026-09-21",
+      "issue": 2,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-network tools plan-gated; placeholder used."
     }
   ]
 }

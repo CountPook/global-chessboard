@@ -1,38 +1,42 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 2,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-21",
+      "issue": 2,
+      "title": "Tokyo Weighs a 3.5 Percent Defense Spending Target",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.taipeitimes.com/News/front/archives/2026/09/16/2003864340",
+        "https://www.bloomberg.com/news/articles/2026-09-15/japan-eyes-defense-spending-worth-3-5-of-gdp-amid-us-pressure",
+        "https://easternherald.com/2026/09/21/japan-defense-gdp-target-us-pressure-bond-yields/",
+        "https://www.globaltimes.cn/page/202609/1370973.shtml"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-21",
+      "issue": 2,
+      "title": "The UN General Assembly Opens Its High-Level Week",
+      "region": "Global / Multilateral",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.un.org/en/high-level-week-2026",
+        "https://www.cnn.com/2026/09/21/world/unga-2026-what-to-expect-latam-intl",
+        "https://www.crisisgroup.org/sco/global/updates-un-general-assembly-2026",
+        "https://www.consilium.europa.eu/en/meetings/international-summit/2026/09/21-25/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-21",
+      "issue": 2,
+      "title": "JNIM's Fuel Blockade Tightens Its Siege on Mali's Capital",
+      "region": "Africa / Sahel / Global South",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://acleddata.com/media-citation/mali-under-siege-tracking-fuel-blockade-crippling-bamako-bellingcat",
+        "https://www.criticalthreats.org/analysis/niger-coup-russia-algeria-sudan-rsf-chad-ethiopia-drc-m23-fardc",
+        "https://www.riotimesonline.com/mali-fuel-blockade-bamako-siege-2026/",
+        "https://en.wikipedia.org/wiki/Mali_fuel_blockade"
       ]
     }
-  ]
+  ],
+  "_note": "June 2026 (issue #1) topics were dropped from this list on 2026-09-21 because they are older than 30 days. Issue numbering here follows this state file per the run instructions; note that the beehiiv publication itself has additional published issues (through 2026-08-17) that this branch's state does not track, because each scheduled run operates on an isolated branch seeded from issue #1 state."
 }

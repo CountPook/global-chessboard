@@ -1,37 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "reconciliation_note": "2026-09-22: This state file was stale at issue #1. beehiiv shows issues #2 through #7 were published through 2026-08-17 without being recorded here by intervening runs. Issue numbering has been realigned to real continuity, so the draft built this run is #8 (matching the masthead sequence readers see). Topics older than 30 days have been pruned per spec. Issues #2-#7 topics (Kuril Islands, Mecca defense pact, C919, Zambia election, Russia oil sanctions bill, Brazil-Argentina rift, tariffs on Russian oil buyers, Taiwan Pacific Forum, Ethiopia-Eritrea, Korea drill standoff, Mali fuel blockade) are all more than 30 days old and were not re-covered.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-22",
+      "issue": 8,
+      "title": "Washington Expands Its Military Role in Greenland in a Deal With Denmark",
+      "region": "Arctic / Transatlantic",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.cnn.com/2026/09/18/politics/trump-us-greenland-security",
+        "https://www.aljazeera.com/news/2026/9/19/denmark-says-binding-us-deal-on-greenland-wont-compromise-sovereignty",
+        "https://www.npr.org/2026/09/19/g-s1-144158/us-and-denmark-reach-deal",
+        "https://www.csmonitor.com/World/Europe/2026/0921/greenland-denmark-us-bases-agreement-trump-security"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-22",
+      "issue": 8,
+      "title": "A New US Law Gives Washington Power to Tax Buyers of Russian Oil",
+      "region": "Economics / Sanctions / Russia",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.rferl.org/a/33859294.html",
+        "https://www.aninews.in/news/world/us/trump-signs-lindsey-o-graham-sanctioning-russia-and-iran-act-of-2026-into-law20260919045028/",
+        "https://sanctionsnews.bakermckenzie.com/us-president-signs-russia-and-iran-sanctions-bill-with-new-tariff-powers/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-22",
+      "issue": 8,
+      "title": "Saudi Defenses Intercept a Houthi Missile Aimed at Riyadh",
+      "region": "Middle East / Gulf",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.france24.com/en/middle-east/20260919-smoke-flames-seen-near-riyadh-airport-major-flight-disruptions-reported",
+        "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh",
+        "https://english.alarabiya.net/News/saudi-arabia/2026/09/20/ballistic-missile-launched-by-houthis-toward-riyadh-was-intercepted-destroyed-coalition"
       ]
     }
   ]

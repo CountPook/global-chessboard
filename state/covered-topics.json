@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issue number is authoritative from the newest published post's masthead (issue #7, published 2026-08-17), not from this file, which had gone stale at issue #1. Do not trust last_issue_number alone; verify against list_posts + the latest post's ISSUE #N line. Topics older than 30 days are pruned per the run spec.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-09-23",
+      "issue": 8,
+      "title": "Xi Jinping Arrives in Washington for His First State Visit in Eleven Years",
+      "region": "East Asia / US-China",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.scmp.com/news/china/diplomacy/article/3368223/chinese-president-xi-jinping-will-pay-state-visit-us-week-beijing-confirms",
+        "https://www.cnn.com/2026/09/23/china/trump-xi-summit-washington-intl-hnk",
+        "https://www.cfr.org/articles/when-xi-comes-to-washington"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-23",
+      "issue": 8,
+      "title": "Seven Ethiopian Armed Groups Unite in a Bid to Topple Abiy Ahmed",
+      "region": "Horn of Africa / Global South",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.euronews.com/2026/09/21/former-enemies-form-alliance-to-overthrow-ethiopias-abiy-ahmed",
+        "https://www.usnews.com/news/world/articles/2026-09-21/seven-ethiopian-armed-groups-announce-anti-government-alliance",
+        "https://eastleighvoice.co.ke/ethiopia/403433/why-seven-ethiopian-armed-groups-have-united-against-prime-minister-abiy-ahmeds-government"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-09-23",
+      "issue": 8,
+      "title": "The European Union and the Philippines Reach a Preliminary Trade Deal",
+      "region": "Europe / Southeast Asia / Trade",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.bnnbloomberg.ca/business/international/2026/09/22/the-eu-moves-closer-to-free-trade-deal-with-philippines-amid-global-tensions/",
+        "https://www.philstar.com/headlines/2026/09/23/2558292/philippines-eu-free-trade-agreement-seen-next-year",
+        "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/philippines/eu-philippines-agreement_en"
       ]
     }
   ]

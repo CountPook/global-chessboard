@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issues #2 through #7 were published on beehiiv (Jun 26, Jun 28, Aug 14, Aug 15, Aug 16, Aug 17) by runs that did not commit state to this repo, so their topics are not recorded here. Issue #7 (Aug 17) was the most recent published issue; issue #8 could not be drafted via API this run because the beehiiv write API is gated on the current plan (see report). Only topics from the last 30 days are retained below.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-09-24",
+      "issue": 8,
+      "title": "Xi Jinping Arrives in Washington for a High Stakes State Visit",
+      "region": "East Asia",
+      "sources": [
+        "https://www.kpbs.org/news/international/2026/09/23/trump-set-to-greet-xi-for-high-stakes-state-visit",
+        "https://www.cfr.org/articles/xi-jinping-visits-the-white-house",
+        "https://www.csis.org/programs/trump-xi-2026-summits"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "issue": 8,
+      "title": "Russian Airspace Violations Push NATO Toward a Harder Line",
+      "region": "Europe",
+      "sources": [
+        "https://abcnews.com/Politics/trump-nato-countries-shoot-russian-aircraft-violate-airspace/story?id=125864554",
+        "https://www.aljazeera.com/news/2026/8/11/new-level-of-danger-drone-incidents-scare-europe-amid-russia-ukraine-war"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "issue": 8,
+      "title": "The United States and Iran Hold Rare Talks Over the Strait of Hormuz",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
-      "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.justsecurity.org/158608/early-edition-september-23-2026/",
+        "https://www.cnbc.com/2026/09/23/unga-trump-iran-china-greenland-ukraine-russia-.html",
+        "https://www.aljazeera.com/news/liveblog/2026/9/23/un-general-assembly-live-irans-pezeshkian-ukraines-zelenskyy-to-speak"
       ]
     }
   ]

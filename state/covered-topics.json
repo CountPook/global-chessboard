@@ -1,37 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issue number re-synced this run: state previously read last_issue_number=1 but the publication's most recent published masthead was ISSUE #7 (post_178199d6, sent 2026-08-17). Today's build is therefore #8. Topics older than 30 days pruned per spec (issue #1 topics from 2026-06-24 dropped).",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-09-25",
+      "issue": 8,
+      "title": "Washington Invites Putin to a G20 Summit on American Soil",
+      "region": "US-Russia / Europe",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/9/24/trump-invites-putin-to-miami-g20-why-that-matters",
+        "https://www.washingtonpost.com/national-security/2026/09/23/trump-invites-putin-this-years-g-20-summit-florida/",
+        "https://www.axios.com/2026/09/23/trump-putin-us-miami-g20-summit-invite-rubio"
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "issue": 8,
+      "title": "Trump and Iran Trade Threats and Overtures at the United Nations",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.washingtonpost.com/world/2026/09/23/irans-president-address-un-general-assembly-after-trump-threatens-annihilation/",
+        "https://www.cnbc.com/2026/09/23/iran-united-nations-trump-israel.html",
+        "https://www.cbc.ca/news/world/iran-un-general-assembly-united-states-9.7355113",
+        "https://foreignpolicy.com/2026/09/23/iran-unga-speech-pezeshkian-trump-israel-terrorist-nuclear/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-25",
+      "issue": 8,
+      "title": "Congo and Rwanda Test a Fragile Peace as Fighting Persists in the East",
+      "region": "Central Africa / Global South",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/9/15/geneva-talks-put-rwanda-drc-peace-deal-to-the-test",
+        "https://www.africanews.com/2026/08/24/drc-m23-agree-peace-roadmap-as-doha-talks-seek-to-regain-momentum/",
+        "https://www.securitycouncilreport.org/monthly-forecast/2026-09/democratic-republic-of-the-congo-35.php"
       ]
     }
   ]

@@ -3,11 +3,24 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Baseline: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-25",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_sent": "2026-08-17",
+      "note": "Graded most recent published issue (#7, Kuril Islands / Mecca defense pact / C919). Gap in runs: no issue published between 2026-08-17 and this run on 2026-09-25. State file was out of sync (had only issue #1); real publish history runs through issue #7. Issue #7 email: 13 sent, 13 delivered (100%), open rate 30.77% (4 unique opens), raw click rate 50.0% / verified 25.0% (2 unique clickers raw), 1 unsubscribe (7.69%), 0 spam, 0 bounces. Publication now: 12 active subscribers (down from 14 at baseline); last 7 days 0 new / 0 churned / 0 net; 7d earnings $65.17 (network ads accruing).",
+      "graded_post_open_rate": 30.77,
+      "graded_post_click_rate_verified": 25.0,
+      "graded_post_unsubscribe_rate": 7.69,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "earnings_7d": "$65.17"
     }
   ],
   "ad_slots": [
@@ -17,13 +30,7 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
-      "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -38,6 +45,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-25",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are gated on the current beehiiv plan (both returned 'not available on your current plan'), so no real ad or direct sponsorship could be discovered or placed via the API this run. Note: issue #7 carried beehiiv ad-network ads (Finance Advisors, 1440) that appear to be auto-injected at send by beehiiv, independent of these MCP tools; the same may occur at send for this issue."
+    },
+    {
+      "date": "2026-09-25",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-offer tools gated on current plan; placeholder used."
+    },
+    {
+      "date": "2026-09-25",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-offer tools gated on current plan; placeholder used."
     }
   ]
 }

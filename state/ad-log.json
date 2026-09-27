@@ -3,11 +3,34 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-27",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17T19:13:46Z",
+      "note": "No post was published 'yesterday' (2026-09-26); the newsletter has been dormant since issue #7 on 2026-08-17. Graded the most recent published issue (#7) as the best available. Issues #2-#7 were published between late June and mid-August but were never recorded in these state files (state was out of sync with the live publication).",
+      "email_total_sent": 13,
+      "email_total_delivered": 13,
+      "delivery_rate": 100.0,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate": 50.0,
+      "click_rate_verified": 25.0,
+      "unsubscribe_rate": 7.69,
+      "total_unsubscribes": 1,
+      "spam_reports": 0,
+      "web_views": 0,
+      "publication_active_subscribers_at_run": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +61,37 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-27",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "beehiiv ad tools (list_ad_offers, list_sponsorship_agreement_items) are gated on the current plan; no ad inventory could be retrieved."
+    },
+    {
+      "date": "2026-09-27",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "ad tools gated on current plan"
+    },
+    {
+      "date": "2026-09-27",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "ad tools gated on current plan"
+    }
+  ],
+  "observed_ads_in_recent_issues": [
+    {
+      "issue": 7,
+      "post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "note": "Issue #7 (2026-08-17) ran two real ads observed in the post body: Finance Advisors (retirement lead-gen, CPC) and 1440 (newsletter, CPC). Recorded from post content only; ad-network tooling was not available this run to pull payout/CTR."
     }
   ]
 }

@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issue numbering reconciled 2026-09-27: state previously read last_issue_number 1, but the beehiiv publication had published real issues through #7 (2026-08-17). Set to 8 to follow the true sequence. Only the two most recent runs' topics are retained here; entries older than 30 days are dropped per spec.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-09-27",
+      "issue": 8,
+      "title": "Trump and Xi Meet at the White House With More Symbolism Than Substance",
+      "region": "United States / China",
+      "sources": [
+        "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit",
+        "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html",
+        "https://www.aljazeera.com/news/2026/9/24/trump-xi-summit-four-key-takeaways-from-the-washington-dc-meeting"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "issue": 8,
+      "title": "Iran Offers to Reopen the Strait of Hormuz and Trump Turns It Down",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.cnbc.com/2026/09/26/trump-rejects-irans-conditional-ceasefire-proposal-wsj-reports.html",
+        "https://thehill.com/homenews/administration/6113000-trump-iran-proposal-ceasefire/",
+        "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-09-27",
+      "issue": 8,
+      "title": "NATO Hardens Its Posture as Russian Incursions Test the Alliance",
+      "region": "Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://foreignpolicy.com/2026/09/15/nato-russia-drone-lithuania-incursion-ukraine-denmark-oil/",
+        "https://www.euronews.com/my-europe/2026/09/01/zelenskyy-warns-russian-airspace-will-effectively-be-closing",
+        "https://www.nato.int/en/news-and-events/articles/news/2026/08/12/nato-allies-condemn-recent-airspace-violations-and-incidents"
       ]
     }
   ]

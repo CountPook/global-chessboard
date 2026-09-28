@@ -3,11 +3,26 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post', sent to a single test recipient. Baseline at run time: 14 active subscribers, +2 net new (7d), 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-28",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "State was stale (recorded only issue #1); beehiiv shows issues published through #7. Graded the most recent published issue, #7. It reached a small list: 13 sent, 100% delivery, 30.77% open rate (4 unique opens), 25% verified click rate (1 verified unique clicker), 1 unsubscribe (7.69%), 0 spam. Publication now shows 12 active subscribers, flat growth over the last 7 days, $0.00 earnings (7d). Engagement per-open is healthy for the size but the list is tiny and shrinking; growth is the binding constraint. NOTE: the beehiiv plan has been downgraded to read/analytics only. Ad-network tools (list_ad_offers, sponsorships) and authoring tools (save_post, save_image, learn_post_authoring) are all gated, so no ads could be placed and no draft could be created via the API this run.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_issue7": 30.77,
+      "click_rate_issue7_verified": 25.0,
+      "unsubscribe_rate_issue7": 7.69,
+      "earnings_7d_usd": 0.0
     }
   ],
   "ad_slots": [
@@ -17,27 +32,33 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
-      "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-09-28",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools (list_ad_offers, list_sponsorship_agreement_items) are gated on the current beehiiv plan; no real ads could be discovered or placed."
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-09-28",
+      "issue": 8,
       "slot": 2,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "reason": "Plan-gated ad tools; placeholder used."
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-09-28",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "reason": "Plan-gated ad tools; placeholder used."
     }
   ]
 }

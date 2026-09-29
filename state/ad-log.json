@@ -8,6 +8,22 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-29",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_scheduled_at": "2026-08-17",
+      "note": "Grading of the most recent published issue (#7, 2026-08-17). Email: 13 sent, 13 delivered (100%), 30.77% open rate (4 unique opens), 50% raw click rate / 25% verified (2 unique clicks raw, 1 verified), 0% bounce, 1 unsubscribe (7.69%), 0 spam. Web views 0. Opens improved sharply vs the 0% baseline, but on a tiny 13-address list a single unsubscribe swings the rate to ~7.7%. Publication now shows 12 active subscribers (down from 14 at issue #1), and last-7-days aggregate is 0/0 because no send has gone out since 2026-08-17 (a roughly 6-week publishing gap). IMPORTANT: issues #2-#7 were published without this ad-log being updated, so per-issue ad revenue for that stretch is not tracked here.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_issue7": 30.77,
+      "click_rate_issue7_raw": 50.0,
+      "click_rate_issue7_verified": 25.0,
+      "unsubscribe_rate_issue7": 7.69,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +54,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-29",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are not available on the current beehiiv plan (API write/monetization tools gated). No ads could be sourced. Rendered as [ AD GOES HERE ] placeholder."
+    },
+    {
+      "date": "2026-09-29",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "See slot 1. No offers available via API."
+    },
+    {
+      "date": "2026-09-29",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "See slot 1. No offers available via API."
     }
   ]
 }

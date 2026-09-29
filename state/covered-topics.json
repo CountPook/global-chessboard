@@ -1,6 +1,46 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "notes": "State-file numbering was stale before 2026-09-29: it recorded only issue #1, but beehiiv shows issues #2 through #7 were published (through 2026-08-17) without their topics being logged here. Those issues are all older than 30 days, so they do not affect 14-day dedup. Issue #8 was fully prepared on 2026-09-29 but NOT created in beehiiv because the publication's plan no longer includes API write access (save_post and all write tools are gated). The prepared HTML lives at state/drafts/2026-09-29-issue-8.html for manual paste. last_issue_number is set to 8 to match the prepared masthead; adjust if #8 is never published.",
   "topics": [
+    {
+      "date": "2026-09-29",
+      "issue": 8,
+      "status": "prepared_not_published_plan_gated",
+      "title": "Trump Rejects Iran's Offer to Reopen the Strait of Hormuz",
+      "region": "Middle East",
+      "sources": [
+        "https://www.washingtonpost.com/national-security/2026/09/26/trump-rejects-iran-proposal-reopen-strait-hormuz-restart-peace-talks/",
+        "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next",
+        "https://www.cnbc.com/2026/09/26/trump-rejects-irans-conditional-ceasefire-proposal-wsj-reports.html",
+        "https://www.britannica.com/event/2026-Iran-war"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "issue": 8,
+      "status": "prepared_not_published_plan_gated",
+      "title": "Seoul Proposes Trading Sanctions Relief for a North Korean Nuclear Freeze",
+      "region": "Indo-Pacific / Korean Peninsula",
+      "sources": [
+        "https://www.japantimes.co.jp/news/2026/09/23/asia-pacific/politics/south-korea-lee-north-korea-sanctions/",
+        "https://www.jpost.com/international/article-909249",
+        "https://www.usnews.com/news/world/articles/2026-09-24/north-korea-rejects-call-to-halt-nuclear-tests",
+        "https://www.armscontrol.org/act/2025-10/news/north-korea-rejects-talks-south-korea-seeks-them-us"
+      ]
+    },
+    {
+      "date": "2026-09-29",
+      "issue": 8,
+      "status": "prepared_not_published_plan_gated",
+      "title": "Senegal's President Signals He Could Dissolve a Parliament Led by His Former Ally",
+      "region": "West Africa / Global South",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/5/23/senegals-president-faye-sacks-pm-sonko-and-dissolves-government",
+        "https://www.france24.com/en/africa/20260526-senegal-ousted-pm-sonko-elected-parliament-speaker-in-challenge-to-president-faye",
+        "https://www.bloomberg.com/news/articles/2026-05-26/senegal-s-sonko-returns-to-parliament-set-to-lead-assembly",
+        "https://www.brookings.edu/articles/a-new-schism-in-senegal-marks-uncharted-territory-for-africas-democratic-beacon/"
+      ]
+    },
     {
       "date": "2026-06-24",
       "issue": 1,

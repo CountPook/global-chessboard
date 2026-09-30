@@ -8,6 +8,22 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-09-30",
+      "issue": 8,
+      "graded_post": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global (Issue #7, published 2026-08-17)",
+      "note": "Most recent published issue is #7 (2026-08-17); there was no post from the actual prior day. Graded #7 as the newest published issue. Issue #7 email stats: 13 delivered (100% delivery), 30.77% open rate (4 unique opens), 50% raw click rate / 25% verified, 1 unsubscribe (7.69% unsub rate). Compared with the surrounding mid-August run: 2026-08-15 (Zambia) hit 53.85% opens and 2026-08-14 (Tariffs/Taiwan) 38.46%, so #7 opened below that recent peak, and its single unsubscribe was the only churn in that stretch. Publication-wide last 7 days (as of 2026-09-30): 12 active subscribers (down from 14 at the issue #1 baseline), 0 net new and 0 churned in the last 7 days, 0.0% aggregate open/click rate (no send in the window), $0.00 earnings. Takeaway: engagement on a ~13-person list is volatile issue to issue; the summit/pact/aviation mix in #7 underperformed the Zambia-election issue, and list growth has stalled and slightly reversed since June.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00",
+      "graded_issue_open_rate": 30.77,
+      "graded_issue_click_rate_verified": 25.0,
+      "graded_issue_unsubscribes": 1
     }
   ],
   "ad_slots": [
@@ -38,6 +54,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-09-30",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are gated on the current beehiiv plan; no real ads could be fetched or ranked this run."
+    },
+    {
+      "date": "2026-09-30",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "plan-gated ad tools"
+    },
+    {
+      "date": "2026-09-30",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "plan-gated ad tools"
     }
   ]
 }

@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "_note": "last_issue_number reflects the issue PREPARED this run (#8, 2026-10-02). Issues #2 through #7 were published on beehiiv (through 2026-08-17) but never recorded here; state had drifted (was stuck at 1). Reconciled on 2026-10-02 by reading the masthead of the most recent published post (#7). Topics older than 30 days are trimmed per spec, so only issue #8 remains below. NOTE: the #8 draft could NOT be created via the beehiiv API this run because the publication's current plan gates all authoring tools (save_post, save_image, learn_*). The full HTML is saved at state/drafts/2026-10-02-issue-8.html for manual creation.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-10-02",
+      "issue": 8,
+      "title": "Russia Warns NATO of a Nuclear Response Over Kaliningrad",
+      "region": "Europe / Russia",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/9/30/russia-warns-nato-of-possible-nuclear-response-if-kaliningrad-is-cut-off",
+        "https://www.themoscowtimes.com/2026/09/30/moscow-sends-nuclear-warning-to-nato-as-tensions-rise-in-the-baltic-a93828",
+        "https://www.usnews.com/news/world/articles/2026-09-30/russia-issues-nuclear-warning-to-nato-as-tensions-rise-in-the-baltic"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "issue": 8,
+      "title": "Brazil Heads Into a Knife-Edge Presidential Vote",
+      "region": "Latin America",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/9/22/brazil-election-lula-and-flavio-bolsonaro-tied-in-latest-polls",
+        "https://www.as-coa.org/articles/brazils-2026-presidential-candidates-lula-bolsonaro-and-other-top-contenders",
+        "https://www.americasquarterly.org/article/brazil-meet-the-candidates-2026/"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "issue": 8,
+      "title": "Washington Sends Iran's UN Delegation Home as Talks Stall",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
-      "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.axios.com/2026/10/01/rubio-iran-unga-delegation-kicked-out",
+        "https://www.thenationalnews.com/news/gulf/2026/10/01/us-kicks-out-irans-un-delegation-as-peace-talks-stall/",
+        "https://news.cgtn.com/news/2026-10-02/Trump-says-renewed-strikes-on-Iran-after-midterms-possible--1QUhsbd0hJC/p.html"
       ]
     }
   ]

@@ -8,6 +8,22 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-02",
+      "issue": 8,
+      "graded_post": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global (Issue #7)",
+      "graded_post_sent": "2026-08-17",
+      "note": "No post was published yesterday; the most recent published issue was #7 on 2026-08-17 (a ~6-week publishing gap). Graded #7 as the most recent issue. Issues #2 through #7 were published but never recorded in state. Email: 13 sent, 13 delivered (100%), 30.77% open rate (4 unique opens), 2 unique clickers raw / 1 verified, 50% raw CTR (25% verified), 1 unsubscribe (7.69%), 0 spam, 0 bounces. Publication now at 12 active subscribers (down from 14), 0 net new and 0 churned in the last 7 days, $0.00 earnings (7d).",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_issue7": 30.77,
+      "click_rate_issue7_raw": 50.0,
+      "click_rate_issue7_verified": 25.0,
+      "unsubscribe_rate_issue7": 7.69,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +54,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-02",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools (list_ad_offers, list_sponsorship_agreement_items) are gated on the current beehiiv plan; could not query real offers. All 3 slots rendered as placeholders."
+    },
+    {
+      "date": "2026-10-02",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools gated on current plan."
+    },
+    {
+      "date": "2026-10-02",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools gated on current plan."
     }
   ]
 }

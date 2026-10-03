@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issues #2 through #7 were published in beehiiv (last was #7 on 2026-08-17) but were not recorded here; this file had been left at issue #1. Reset to reflect the true last issue number (8) going forward. Older entries dropped per the 30-day retention rule.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-10-03",
+      "issue": 8,
+      "title": "Ethiopia and Eritrea Sever Ties as Drones Strike Addis Ababa",
+      "region": "Horn of Africa",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/10/1/eritrea-severs-diplomatic-ties-with-ethiopia-in-tit-for-tat-move",
+        "https://www.bloomberg.com/news/articles/2026-10-02/eritrea-cuts-ties-with-ethiopia-as-horn-of-africa-tensions-flare",
+        "https://www.democracynow.org/2026/10/2/headlines/ethiopia_and_eritrea_sever_diplomatic_ties_as_tigray_rebels_claim_drone_strikes_on_addis_ababa"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "issue": 8,
+      "title": "The Strait of Hormuz Stays Shut as Reopening Talks Stall",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://english.alarabiya.net/News/middle-east/2026/09/22/france-working-on-un-security-council-resolution-on-strait-of-hormuz",
+        "https://gulfnews.com/world/mena/france-working-on-un-resolution-for-strait-of-hormuz-navigation-1.500688537",
+        "https://onu.delegfrance.org/france-calls-for-the-unconditional-and-immediate-reopening-of-the-strait-of"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-03",
+      "issue": 8,
+      "title": "Seoul Threatens Action Against Kyiv Over a Prisoner Transfer",
+      "region": "East Asia",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/10/2/row-between-ukraine-south-korea-mounts-over-north-korean-pows",
+        "https://www.koreaherald.com/article/10884614",
+        "https://www.taipeitimes.com/News/front/archives/2026/10/03/2003865312"
       ]
     }
   ]

@@ -8,6 +8,31 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-03",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_published": "2026-08-17",
+      "note": "Graded the most recent published issue (#7, 2026-08-17). Issues #2-#7 were published in beehiiv but state was never updated past issue #1. No issue has been sent in roughly seven weeks, so the trailing 7-day publication stats are flat. Issue #7 delivered to all 13 email recipients (100% delivery), 30.77% open rate (4 unique opens), 2 unique clickers (25% verified CTR), 1 unsubscribe (7.69%), 0 spam complaints. Open engagement is solid for a small list, but the active list has slipped from 14 (issue #1 run) to 12 now. Priority: restore a regular send cadence to rebuild engagement and reverse the subscriber decline.",
+      "issue7_email_sent": 13,
+      "issue7_delivered": 13,
+      "issue7_delivery_rate": 100.0,
+      "issue7_open_rate": 30.77,
+      "issue7_unique_opens": 4,
+      "issue7_click_rate_raw": 50.0,
+      "issue7_click_rate_verified": 25.0,
+      "issue7_unique_clickers_raw": 2,
+      "issue7_unsubscribe_rate": 7.69,
+      "issue7_unsubscribes": 1,
+      "issue7_spam_reports": 0,
+      "publication_active_subscribers": 12,
+      "publication_last_7d_new": 0,
+      "publication_last_7d_churned": 0,
+      "publication_last_7d_open_rate": 0.0,
+      "publication_last_7d_click_rate": 0.0,
+      "publication_last_7d_earnings": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +63,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-03",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-network tools (list_ad_offers) and sponsorship tools are plan-gated; no real ads available."
+    },
+    {
+      "date": "2026-10-03",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-network tools (list_ad_offers) and sponsorship tools are plan-gated; no real ads available."
+    },
+    {
+      "date": "2026-10-03",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad-network tools (list_ad_offers) and sponsorship tools are plan-gated; no real ads available."
     }
   ]
 }

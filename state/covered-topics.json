@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "last_issue_number corrected from 1 to 8 on 2026-10-04: the repo state file had drifted and only recorded issue #1, but beehiiv shows published issues through #7 (scheduled 2026-08-17). Grounded the sequence on the latest published post's masthead. Issues #2 to #6 were never recorded here and cannot be reconstructed; the 30-day retention window below only affects recent topics.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-10-04",
+      "issue": 8,
+      "title": "Washington Masses a Third Carrier Near Iran as the Ceasefire Frays",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/10/2/new-aircraft-carrier-10000-us-troops-is-the-iran-war-about-to-escalate",
+        "https://www.washingtonpost.com/national-security/2026/10/01/pentagon-prepares-potential-surge-naval-forces-middle-east/",
+        "https://www.cbsnews.com/live-updates/iran-war-us-trump-talks-strait-of-hormuz/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-04",
+      "issue": 8,
+      "title": "Brazil Votes in a Tight Contest Between Lula and the Bolsonaro Movement",
+      "region": "South America",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.cnn.com/2026/10/04/americas/brazil-president-elections-2026-latam-intl",
+        "https://www.chathamhouse.org/2026/09/brazils-presidential-election-more-just-another-polarized-contest",
+        "https://www.as-coa.org/articles/brazils-2026-presidential-candidates-lula-bolsonaro-and-other-top-contenders"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-10-04",
+      "issue": 8,
+      "title": "Bosnia Holds a Fraught Election With Its Postwar Order Under Strain",
+      "region": "Europe / Western Balkans",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/10/4/bosnia-general-election-2026-explained-in-maps-and-charts",
+        "https://www.euronews.com/2026/10/04/bosnia-votes-as-pro-russian-politician-looms-large-over-race-and-a-stalled-eu-bid-dominate",
+        "https://www.ispionline.it/en/publication/republika-srpska-secession-stalls-snap-elections-and-the-us-policy-reshape-towards-bosnia-223249"
       ]
     }
   ]

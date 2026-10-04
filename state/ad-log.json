@@ -8,6 +8,24 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-04",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Most recent published issue graded this run (no post from the day before this run; the newsletter last published 2026-08-17, a ~7-week gap). State file had only recorded issue #1, but beehiiv shows published issues through #7. Issue #7 email stats: 13 sent, 13 delivered (100%), 30.77% open rate (4 unique opens), raw click rate 50.0% / verified 25.0% (2 raw unique clickers, 1 verified), 0% bounce, 1 unsubscribe (7.69%), 0 web views. Publication-wide last_7_days at run time: 12 active subscribers (down from 14 at issue #1), 0 net new, 0 churned, open/click 0.0% (window outside send), earnings $0.00.",
+      "graded_email_open_rate": 30.77,
+      "graded_email_click_rate_raw": 50.0,
+      "graded_email_click_rate_verified": 25.0,
+      "graded_unsubscribes": 1,
+      "graded_unsubscribe_rate": 7.69,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +56,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-04",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools unavailable on current beehiiv plan (list_ad_offers and list_sponsorship_agreement_items both returned 'not available on your current plan'). Could not query direct deals or ad offers, so all slots rendered as labeled placeholders per STEP 3(f)."
+    },
+    {
+      "date": "2026-10-04",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools unavailable on current beehiiv plan."
+    },
+    {
+      "date": "2026-10-04",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools unavailable on current beehiiv plan."
     }
   ]
 }

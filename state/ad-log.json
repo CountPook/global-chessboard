@@ -8,6 +8,21 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-05",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_published": "2026-08-17",
+      "note": "Grading the newest published issue (#7, Aug 17) since this is the first run since then. Small but healthy list engagement: 30.77% open rate (4 of 13 unique opens), 25% verified click rate (1 unique verified click; 50% raw), 1 unsubscribe (7.69%), 0 spam, 0 web views. List has contracted to 12 active subscribers (from 14 in June), with 0 net change and 0 churn reported over the last 4 weeks (no campaign sent in that window; last send was Aug 17). Trailing 4-week earnings $65.17. Takeaway: opens solid for a tiny list, clicks thin, and the ~3-month publishing gap plus a downgraded plan are the real drags on growth.",
+      "subscribers_active": 12,
+      "net_new_subscribers_4w": 0,
+      "churned_subscribers_4w": 0,
+      "open_rate_post": 30.77,
+      "click_rate_post_verified": 25.0,
+      "unsubscribe_rate_post": 7.69,
+      "earnings_4w": "$65.17"
     }
   ],
   "ad_slots": [
@@ -38,6 +53,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-05",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are gated on the current beehiiv plan; no ads could be retrieved."
+    },
+    {
+      "date": "2026-10-05",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are gated on the current beehiiv plan; no ads could be retrieved."
+    },
+    {
+      "date": "2026-10-05",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "list_ad_offers and list_sponsorship_agreement_items are gated on the current beehiiv plan; no ads could be retrieved."
     }
   ]
 }

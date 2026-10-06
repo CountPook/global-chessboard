@@ -8,6 +8,21 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-06",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_scheduled_at": "2026-08-17",
+      "note": "Most recent published issue graded (not literally yesterday; there was a gap between runs). Issue #7 email: 13 sent, 13 delivered (100%), open rate 30.77% (4 unique opens), click rate 50.0% raw / 25.0% verified (2 raw unique clicks, 1 verified), 1 unsubscribe (7.69%), 0 spam, 0 bounces, 0 web views. Publication now at 12 active subscribers, 0 net new and 0 churned in the last 7 days, $0.00 earnings (7d). The list has shrunk from 14 (June) to 12. Ad network earnings have fallen to zero, consistent with the plan downgrade observed this run.",
+      "email_total_sent": 13,
+      "email_open_rate": 30.77,
+      "email_click_rate_verified": 25.0,
+      "email_unsubscribes": 1,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "earnings_7d_usd": 0.0
     }
   ],
   "ad_slots": [
@@ -38,6 +53,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-06",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Could not query ads. list_ad_offers and list_sponsorship_agreement_items both returned 'not available on your current plan'. No ad or sponsorship could be evaluated or placed this run."
+    },
+    {
+      "date": "2026-10-06",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Plan-gated ad tools; no ad available to place."
+    },
+    {
+      "date": "2026-10-06",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Plan-gated ad tools; no ad available to place."
     }
   ]
 }

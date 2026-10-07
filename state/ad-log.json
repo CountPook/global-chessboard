@@ -8,6 +8,21 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-07",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Most recent published issue was #7 (sent 2026-08-17); the local state on this branch had only recorded issue #1, so issues #2-#7 were graded/created on runs that did not persist here. Graded issue #7 this run. Email: 13 delivered (100% delivery), 30.77% open rate (4 unique opens), 25% verified click rate (1 verified unique click / 50% raw), 1 unsubscribe (7.69% unsub rate), 0 spam complaints, 0 bounces. Publication now on FREE plan with 12 active subscribers (down from 13 at issue #7 send). Last-7-days publication aggregate: 0 new subs, 0 churn, 0.0% open/click (no send in the window), $0.00 earnings.",
+      "email_total_delivered": 13,
+      "open_rate": 30.77,
+      "click_rate_verified": 25.0,
+      "unsubscribe_rate": 7.69,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +53,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-07",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools (list_ad_offers, list_sponsorship_agreement_items) are plan-gated on the Free plan; no offers could be fetched."
+    },
+    {
+      "date": "2026-10-07",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools plan-gated on Free plan."
+    },
+    {
+      "date": "2026-10-07",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad tools plan-gated on Free plan."
     }
   ]
 }

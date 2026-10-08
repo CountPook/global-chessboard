@@ -37,6 +37,30 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).
 - **recipients**: omit on save_post to default to free tier on web+email (matches
   this publication's audience).
+- **email_settings keys**: use `email_subject_line` and `email_preview_text`
+  (NOT `subject_line`/`preview_text`). Passing the wrong keys silently leaves the
+  subject defaulting to the post title and the preview to the subtitle.
+
+## Ad placement lesson (2026-10-08, issue #8)
+Placing THREE ad opportunity nodes in one `save_post` call, each with
+`data-advertisement-kind="primary"`, was rejected: "No 'primary' ad slot is
+available in this post for opportunity <uuid>." The whole save is atomic, so the
+post was not created. Robust pattern that worked:
+1. `save_post` with the 3 ad slots as the `[ AD GOES HERE ]` PLACEHOLDER blocks
+   (always parses, post is created).
+2. Read `get_post_content` (editor_html), parse each `#0c1e30` placeholder
+   section's OWN `data-node-hash` (find the `<div ... data-background-color="#0c1e30" ... data-node-hash="X">`
+   opening tag; the "nearest preceding hash" heuristic is WRONG and grabs the HR).
+3. `edit_post_content` replacing each placeholder section with
+   `<div class="node-advertisementOpportunity" data-id="<fresh_offer_id>"></div>`
+   and OMIT `data-advertisement-kind` so the server auto-assigns an available
+   creative/slot. Do them ONE op per call to isolate any rejection; a rejected
+   slot just keeps its placeholder.
+HRs render as bare `<hr data-node-hash="X">` (not wrapped in a div), so a
+depth-tracking top-level parser that skips `hr` will not list them; the spacing
+HRs are still present. Offer ids rotate only when `list_ad_offers` is called, so
+fetch the three ids once and do all the edit_post_content placements without
+re-listing in between.
 
 ## Brand tokens (do not restyle theme; apply via spans/sections)
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;

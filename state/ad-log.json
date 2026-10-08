@@ -3,11 +3,25 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf..., published 2026-05-31) sent to a single test recipient. Baseline at run time: 14 active subscribers, +2 net new in 7 days, 0.0% open/click (no real campaign sent yet), earnings $2.24 (7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-08",
+      "issue_graded": 7,
+      "note": "Graded issue #7 (post_178199d6-8943-47a0-bccb-b38b778953f8, 'Putin's Kuril Islands Visit...', sent 2026-08-17), the most recent published issue. Issues 2-7 ran on branch claude/peaceful-euler-xrn9km and were never recorded in this branch's state, so this branch skipped from issue 1 to issue 8. Issue #7 performance: 13 sent, 13 delivered (100%), open rate 30.77% (4 unique opens), click rate 50% raw / 25% verified (2 unique raw email clicks, 1 verified), 1 unsubscribe (7.69%), 0 spam, 0 web views. Publication now 12 active subscribers, down from 14 at issue #1. Last 7 days flat (0 new, 0 churned, $0.00 earnings) because no issue was sent in the ~7 weeks since 2026-08-17. Takeaways: open rate held up on a tiny list; the single unsubscribe weighs heavily at this list size; the main drag is the long publishing gap, so cadence matters more than any single-issue tweak.",
+      "post_id_graded": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "earnings_7d": "$0.00",
+      "issue7_open_rate": 30.77,
+      "issue7_click_rate_verified": 25.0,
+      "issue7_click_rate_raw": 50.0,
+      "issue7_unsubscribe_rate": 7.69
     }
   ],
   "ad_slots": [
@@ -17,27 +31,54 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
       "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-10-08",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "WorldQuant",
+      "ad_headline": "Where Quantitative Thinkers Compete, Learn and Grow",
+      "offer_id_at_placement": "158192648",
+      "advertisement_id": "8b9f6d6f-ecfd-47eb-87e6-dec609a09ea0",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "server-selected (kind omitted)",
+      "send_by": "2026-10-13T10:22:09Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-10-08",
+      "issue": 8,
       "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "CryptoLark",
+      "ad_headline": "Text-Only Ad 1",
+      "offer_id_at_placement": "158192653",
+      "advertisement_id": "2eff0b51-36a6-42ec-b2b0-e5d737d3d9b4",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "server-selected (kind omitted)",
+      "send_by": "2026-10-13T10:22:09Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-10-08",
+      "issue": 8,
       "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Tired of news that feels like noise?",
+      "offer_id_at_placement": "158192649",
+      "advertisement_id": "ee7dc51d-f8fd-4dba-8697-7f813fb0506b",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "server-selected (kind omitted)",
+      "send_by": "2026-10-13T10:22:09Z"
     }
   ]
 }

@@ -1,37 +1,36 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issue numbers are derived from the live beehiiv publication (latest published issue was #7 on 2026-08-17). The counter was previously stale at 1 while the publication had already reached #7; it is now corrected to 8. Entries older than 30 days are dropped.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-10-09",
+      "issue": 8,
+      "title": "Navi Pillay Wins the 2026 Nobel Peace Prize for Her Work in International Law",
+      "region": "Global / International Institutions",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.cnn.com/2026/10/09/world/live-news/nobel-peace-prize-2026-winner-intl",
+        "https://www.newsweek.com/nobel-peace-prize-2026-winner-trump-award-12541915",
+        "https://en.wikipedia.org/wiki/2026_Nobel_Peace_Prize"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-09",
+      "issue": 8,
+      "title": "The European Union Agrees Its Largest Single Round of Russia Sanctions",
+      "region": "Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://report.az/en/other-countries/eu-members-agree-22nd-sanctions-package-against-russia",
+        "https://militarnyi.com/en/news/new-eu-sanctions-package-against-russia-s-defense-industry-covers-about-1-700-items",
+        "https://tass.com/world/2199325"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-10-09",
+      "issue": 8,
+      "title": "South Korea Flight Tests Its First Homegrown Hypersonic Weapon",
+      "region": "Indo-Pacific / Korean Peninsula",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.npr.org/2026/10/08/g-s1-147113/south-korea-test-flies-its-first-domestically-developed-hypersonic-weapon"
       ]
     }
   ]

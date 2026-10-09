@@ -1,6 +1,19 @@
 {
   "performance_history": [
     {
+      "date": "2026-10-09",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Grading the most recent published issue (#7, sent 2026-08-17); there was no issue sent yesterday because the publication has been dormant since mid-August. State's covered-topics counter was stale at 1 while the live publication had already reached issue #7, so today's issue is #8 (derived from the live masthead, not the stale state file). Issue #7: 13 delivered (100% delivery), 4 unique opens (30.77% open rate), raw click rate 50% but only 1 verified click (25% verified CTR), 1 unsubscribe (7.69%, high on a tiny 13-recipient base), 0 spam. Ads in #7: slot 1 Finance Advisors (retirement lead-gen, CPC), slot 2 1440 (CPC); slot 3 was not filled. Publication-wide last 7 days: 0 new subs, 0 churn, 0 net, $0 earnings, 0% open/click (no send in the window). Active subscribers now 12, down from 14 at issue #1. Takeaway: open rate held near 31% which is healthy for the list size, but engagement and list growth are flat and the ~7-week publishing gap likely cost momentum; resuming a regular cadence is the priority.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_issue7": 30.77,
+      "verified_click_rate_issue7": 25.0,
+      "unsubscribe_rate_issue7": 7.69
+    },
+    {
       "date": "2026-06-24",
       "issue": 1,
       "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
@@ -11,6 +24,53 @@
     }
   ],
   "ad_slots": [
+    {
+      "date": "2026-10-09",
+      "issue": 8,
+      "post_id": "post_a9454373-b92a-49c7-895a-def17e8c7981",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "WorldQuant",
+      "ad_headline": "Where Quantitative Thinkers Compete, Learn and Grow",
+      "opportunity_id": "8b9f6d6f-ecfd-47eb-87e6-dec609a09ea0",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-10-13T10:25:33Z"
+    },
+    {
+      "date": "2026-10-09",
+      "issue": 8,
+      "post_id": "post_a9454373-b92a-49c7-895a-def17e8c7981",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "CryptoLark",
+      "ad_headline": "Text-Only Ad 1",
+      "opportunity_id": "2eff0b51-36a6-42ec-b2b0-e5d737d3d9b4",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "secondary",
+      "send_by": "2026-10-13T10:28:05Z"
+    },
+    {
+      "date": "2026-10-09",
+      "issue": 8,
+      "post_id": "post_a9454373-b92a-49c7-895a-def17e8c7981",
+      "slot": 3,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Tired of news that feels like noise?",
+      "opportunity_id": "ee7dc51d-f8fd-4dba-8697-7f813fb0506b",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "secondary",
+      "send_by": "2026-10-13T10:28:12Z"
+    },
+    {
+      "date": "2026-10-09",
+      "issue": 8,
+      "note": "Ad placement lesson: this publication's ad network holds a fixed cap of accepted opportunities (3). Placing fresh offers from list_ad_offers auto-accepts them and fails with 'can not accept any more opportunities' once the cap is reached. The account already had 3 accepted opportunities (WorldQuant, CryptoLark, 1440 Media), so the correct move was to embed those accepted opportunity IDs (from list_ad_opportunities status=accepted) directly rather than placing new offers. Also: only ONE 'primary' (with-logo) ad slot is allowed per post; additional ads must use data-advertisement-kind='secondary'. Accepted-opportunity IDs are stable (unlike list_ad_offers IDs, which rotate every call)."
+    },
     {
       "date": "2026-06-24",
       "issue": 1,

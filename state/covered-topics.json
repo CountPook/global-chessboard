@@ -1,38 +1,40 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-10-10",
+      "issue": 8,
+      "title": "Washington Sanctions the Entire International Criminal Court as Navi Pillay Wins the Nobel Peace Prize",
+      "region": "International Institutions / Global",
+      "sources": [
+        "https://news.un.org/en/story/2026/10/1168558",
+        "https://news.un.org/en/story/2026/10/1168562",
+        "https://www.hrw.org/news/2026/10/09/us-sanctions-international-criminal-court",
+        "https://www.cnn.com/2026/10/09/world/live-news/nobel-peace-prize-2026-winner-intl"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "issue": 8,
+      "title": "The Strait of Hormuz Stays Closed as the Iran War Grinds Into an Insurgency",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.cbsnews.com/live-updates/iran-war-nuclear-donald-trump-vance-rubio-strait-of-hormuz/",
+        "https://www.aljazeera.com/news/liveblog/2026/10/9/iran-war-live-iranian-media-reports-massive-explosions-in-hormuz-strait",
+        "https://en.wikipedia.org/wiki/2026_Iran_war"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-10",
+      "issue": 8,
+      "title": "Brazil Heads to a Presidential Runoff After Flavio Bolsonaro Tops the First Round",
+      "region": "Latin America",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/10/5/brazils-presidential-race-three-key-takeaways-from-the-first-round",
+        "https://www.cnbc.com/2026/10/04/brazil-presidential-election-lula-bolsonaro.html",
+        "https://en.wikipedia.org/wiki/2026_Brazilian_general_election"
       ]
     }
-  ]
+  ],
+  "notes": "last_issue_number was previously stale at 1 while 7 issues had actually published (newest, issue #7, on 2026-08-17). Corrected to continue from the real masthead sequence: today's issue is #8. Older topic entries (issue #1, 2026-06-24) dropped per the 30-day retention rule."
 }

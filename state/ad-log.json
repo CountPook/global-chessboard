@@ -8,6 +8,29 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-10",
+      "graded_post": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_issue": 7,
+      "graded_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "sent_at": "2026-08-17",
+      "note": "Graded the most recent published issue (#7, sent Aug 17). No issue has been sent since, so 7-day publication stats read 0. Small list behaving as expected: open rate in line with trailing 3-month average, one verified click, one unsubscribe (a meaningful share of a 13-person list), zero web views. List flat to slightly shrinking. Priority is resuming a regular send cadence. NOTE: these ad-log state entries were not updated for issues #2-#7; this is the first grading entry since issue #1.",
+      "email_sent": 13,
+      "email_delivered": 13,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unique_clicks_verified": 1,
+      "unsubscribe_rate": 7.69,
+      "unsubscribes": 1,
+      "web_views": 0,
+      "publication_active_subscribers": 12,
+      "publication_net_subscribers_7d": 0,
+      "publication_net_subscribers_3mo": -1,
+      "publication_earnings_3mo": "$72.29",
+      "publication_earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +61,40 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-10",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "WorldQuant",
+      "ad_headline": "Where Quantitative Thinkers Compete, Learn and Grow",
+      "advertisement_id": "4eac2bcc-7f92-413f-a81c-efefe9a3c0f7",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "server_selected",
+      "send_by": "2026-10-15T10:27:20Z"
+    },
+    {
+      "date": "2026-10-10",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Tired of news that feels like noise?",
+      "advertisement_id": "8ceb5e93-2018-4053-91e0-71cf70113cc6",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "server_selected",
+      "send_by": "2026-10-15T10:27:20Z"
+    },
+    {
+      "date": "2026-10-10",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "This publication's posts accept only 2 ad-network placements (issue #7 also carried 2). A third real ad was rejected ('can not accept any more opportunities'), so slot 3 was rendered as the labeled placeholder block. Finance Buzz (187 cpc) was the next-ranked offer that would have filled it."
     }
   ]
 }

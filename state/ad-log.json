@@ -8,6 +8,29 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-11",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "State was stale on this run: covered-topics.json still read last_issue_number=1, but beehiiv shows 8 published posts through issue #7 (sent 2026-08-17). Reset issue numbering to #8 off the real latest issue. No post was sent between 2026-08-17 and today, so 7-day publication stats are flat. Graded issue #7 as the most recent real issue.",
+      "issue7_email_total_sent": 13,
+      "issue7_open_rate": 30.77,
+      "issue7_unique_opens": 4,
+      "issue7_click_rate_raw": 50.0,
+      "issue7_click_rate_verified": 25.0,
+      "issue7_unique_verified_clicks": 1,
+      "issue7_unsubscribe_rate": 7.69,
+      "issue7_unsubscribes": 1,
+      "issue7_web_views": 0,
+      "publication_active_subscribers": 12,
+      "publication_net_new_subscribers_7d": 0,
+      "publication_churned_7d": 0,
+      "publication_open_rate_7d": 0.0,
+      "publication_click_rate_7d": 0.0,
+      "publication_earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +61,30 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-11",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Intended WorldQuant (cpc 225c, top-ranked). Ad network rejected placement: 'can not accept any more opportunities'. Same error on 3-ad, 2-ad, and single-ad attempts, so this is a publication-level block on accepting ad opportunities, not a per-post cap. Left as placeholder."
+    },
+    {
+      "date": "2026-10-11",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Intended CryptoLark (cpc 225c). Blocked by same ad network error. Left as placeholder."
+    },
+    {
+      "date": "2026-10-11",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Intended Morning Brew (cpc 187c). Blocked by same ad network error. Left as placeholder."
     }
   ]
 }

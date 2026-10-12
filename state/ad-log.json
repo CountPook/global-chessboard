@@ -3,11 +3,39 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post', sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-12",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Newest published issue was #7, sent 2026-08-17 (state memory was stale at #1 but beehiiv shows 7 published issues). Issue #7 email stats: 13 delivered (100% delivery), 30.77% open rate (4 unique opens), 50% raw click rate / 25% verified (2 unique raw clickers, 1 verified), 0% bounce, 1 unsubscribe (7.69%), 0 spam. Decent open rate for a tiny list, but one unsubscribe at this size is a meaningful churn signal and verified clicks are thin. Publication now 12 active subscribers (down from 14 in June), 0 net new and 0 churned in the last 7 days, $0.00 earnings last 7 days. Growth is flat and the list has shrunk since the first issue.",
+      "graded_email": {
+        "total_delivered": 13,
+        "open_rate": 30.77,
+        "unique_opens": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "unique_clickers_raw": 2,
+        "unsubscribes": 1,
+        "unsubscribe_rate": 7.69,
+        "spam_reports": 0
+      },
+      "publication_last_7_days": {
+        "active_subscribers": 12,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -17,13 +45,7 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
-      "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -38,6 +60,50 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-12",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "WorldQuant",
+      "ad_headline": "Where Quantitative Thinkers Compete, Learn and Grow",
+      "opportunity_id": "4eac2bcc-7f92-413f-a81c-efefe9a3c0f7",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-10-15T10:27:20Z",
+      "placement_method": "embedded already-accepted opportunity"
+    },
+    {
+      "date": "2026-10-12",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Tired of news that feels like noise?",
+      "opportunity_id": "8ceb5e93-2018-4053-91e0-71cf70113cc6",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "primary",
+      "send_by": "2026-10-15T10:27:20Z",
+      "placement_method": "embedded already-accepted opportunity"
+    },
+    {
+      "date": "2026-10-12",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "CryptoLark",
+      "ad_headline": "Text-Only Ad 1",
+      "opportunity_id": "2eff0b51-36a6-42ec-b2b0-e5d737d3d9b4",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "server-selected",
+      "send_by": "2026-10-13T10:28:05Z",
+      "placement_method": "embedded already-accepted opportunity",
+      "note": "Creative is labeled 'Text-Only Ad 1'; flagged for human review before scheduling. send_by 2026-10-13T10:28:05Z survives a 2026-10-12 08:00 PT send but would expire if the issue is scheduled for 2026-10-13 08:00 PT or later."
     }
-  ]
+  ],
+  "_run_note_2026-10-12": "New ad OFFERS could not be placed this run: list_ad_offers offers (WorldQuant, 1440, Morning Brew, etc.) were all rejected with 'can not accept any more opportunities'. The publication is at the beehiiv Ad Network cap for accepted opportunities (24 accepted opportunities outstanding). Worked around by embedding three already-accepted opportunities (which does not accept anything new). All 3 slots filled with real ads, no shortfall. Advertiser cap should be reviewed in the beehiiv UI so fresh higher-value offers can be accepted in future."
 }

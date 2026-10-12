@@ -1,38 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-10-12",
+      "issue": 8,
+      "title": "Trump Declares a Russia Ukraine Energy Ceasefire as Strikes Continue",
+      "region": "Eastern Europe / Russia",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-10-11/trump-says-russia-and-ukraine-agreed-to-energy-ceasefire-mv3wxxro",
+        "https://www.pbs.org/newshour/world/trump-claims-russia-and-ukraine-agree-to-energy-ceasefire-despite-continued-attacks",
+        "https://www.axios.com/2026/10/11/trump-russia-ukraine-energy-ceasefire-zelensky"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "issue": 8,
+      "title": "North Korea Answers Seoul's First Hypersonic Test With a Missile Barrage",
+      "region": "Indo-Pacific / Korean Peninsula",
+      "sources": [
+        "https://www.npr.org/2026/10/08/g-s1-147113/south-korea-test-flies-its-first-domestically-developed-hypersonic-weapon",
+        "https://www.spokesman.com/stories/2026/oct/11/north-korea-fires-missiles-days-after-south-koreas/"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "issue": 8,
+      "title": "A Houthi Strike on Riyadh's Main Airport Widens the War in the Gulf",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
-      "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/10/10/attack-on-airport-in-saudi-capital-riyadh-leaves-several-injured",
+        "https://edition.cnn.com/2026/10/10/middleeast/riyadh-airport-saudi-houthis-intl",
+        "https://www.aljazeera.com/news/2026/10/11/yemen-fighting-expands-as-houthis-attack-saudi-airport-what-to-know"
       ]
     }
-  ]
+  ],
+  "_note": "Entries older than 30 days are pruned on each run. The June 2026 issue #1 topics were pruned on the 2026-10-12 run. State was found stale at the start of this run (last_issue_number read as 1) while beehiiv showed 7 published issues through 2026-08-17; corrected to 8 based on the masthead of the most recent published post."
 }

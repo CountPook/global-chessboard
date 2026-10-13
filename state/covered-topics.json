@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "last_issue_number reconciled to 8 on 2026-10-13: the most recent published issue was #7 (post_178199d6, 2026-08-17). Earlier runs did not keep this counter in sync; read the masthead of the newest published post to verify before incrementing.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-10-13",
+      "issue": 8,
+      "title": "The European Union Adopts Its Largest Batch of Russia Sanctions Yet",
+      "region": "Europe",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://english.news.cn/20261012/09156a2ea96d47bc9115abc09e775891/c.html",
+        "https://www.tribuneindia.com/news/world/pressure-on-russia-should-work-eus-kaja-kallas-announces-1600-sanctions-listings-against-moscow",
+        "https://easternherald.com/2026/10/12/eu-russia-sanctions-military-industrial-listings/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-13",
+      "issue": 8,
+      "title": "Brazil Heads to a Runoff After Bolsonaro Edges Lula in the First Round",
+      "region": "Latin America",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://en.wikipedia.org/wiki/2026_Brazilian_general_election",
+        "https://www.as-coa.org/articles/brazils-election-four-points-understand-first-round-results"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
+      "date": "2026-10-13",
+      "issue": 8,
+      "title": "Nigeria Evacuates More Citizens From South Africa as Xenophobic Violence Persists",
       "region": "Africa / Global South",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.thisdaylive.com/2026/10/12/nigerians-fleeing-south-africa-rises-to-2037-as-xenophobic-violence-persists/",
+        "https://allafrica.com/stories/202610120111.html",
+        "https://dailytrust.com/xenophobia-111-more-distressed-nigerians-return-from-south-africa-by-joshua-odeyemi/"
       ]
     }
   ]

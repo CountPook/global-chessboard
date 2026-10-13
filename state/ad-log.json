@@ -8,6 +8,23 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-13",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent": "2026-08-17",
+      "note": "Graded the most recent published issue (#7, 2026-08-17). State memory was stale (covered-topics said issue #1) but 8 posts were actually published through issue #7; reconciled issue counter to 8 this run. Issue #7 email: 13 delivered (100% delivery), 30.77% open rate (4 unique opens), click rate verified 25% (1 verified click), 1 unsubscribe (7.69% of delivered), 0 spam. Solid open rate for a tiny list; the single unsubscribe is noise at this list size. Publication now at 12 active subscribers (down from 14 at issue #1); last 7 days: 0 new, 0 churned, 0 opens (no send in that window), $0.00 earnings. No reliable realized-CTR data per advertiser is retained, so today's ad ranking fell back to payout_per_click_cents.",
+      "graded_email_delivered": 13,
+      "graded_open_rate": 30.77,
+      "graded_click_rate_verified": 25.0,
+      "graded_unsubscribes": 1,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +55,45 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-13",
+      "issue": 8,
+      "post_id": "post_22c31025-85f1-4968-80f9-5b0d06a5ab23",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "WorldQuant",
+      "ad_headline": "Where Quantitative Thinkers Compete, Learn and Grow",
+      "advertisement_id": "4eac2bcc-7f92-413f-a81c-efefe9a3c0f7",
+      "placement_source": "accepted_opportunity",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-10-15T10:27:20Z"
+    },
+    {
+      "date": "2026-10-13",
+      "issue": 8,
+      "post_id": "post_22c31025-85f1-4968-80f9-5b0d06a5ab23",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Tired of news that feels like noise?",
+      "advertisement_id": "8ceb5e93-2018-4053-91e0-71cf70113cc6",
+      "placement_source": "accepted_opportunity",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "primary",
+      "send_by": "2026-10-15T10:27:20Z"
+    },
+    {
+      "date": "2026-10-13",
+      "issue": 8,
+      "post_id": "post_22c31025-85f1-4968-80f9-5b0d06a5ab23",
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Shortfall: the publication has hit its ad-network cap on accepting new opportunities, so fresh offers from list_ad_offers could not be claimed (save rejected with 'can not accept any more opportunities'). Only 2 already-accepted opportunities had a send_by after the 2026-10-13T15:00:00Z target send time (WorldQuant 225c, 1440 Media 206c); both were placed. Slot 3 left as the labeled placeholder."
     }
   ]
 }

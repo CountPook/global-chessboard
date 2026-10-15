@@ -3,11 +3,31 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' sent to a single test recipient. Publication baseline: 14 active subscribers, +2 net new in 7 days, 0.0% aggregate open/click (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-15",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "State memory was stale (it stopped at issue #1) while issues #2-#7 published Jun-Aug. Graded the most recent published issue, #7 (Aug 17). Small list, so absolute numbers swing hard. Opens were healthy but one unsubscribe on 13 sends is a 7.69% rate; list has not grown (12 active now, down from 14 at issue #1, 0 net new in the last 7 days). Engagement is fine on a per-reader basis; the real problem is distribution, the list is tiny and flat, so growth, not content, is the limiting factor.",
+      "email_sent": 13,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unsubscribes": 1,
+      "unsubscribe_rate": 7.69,
+      "bounce_rate": 0.0,
+      "spam_reports": 0,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,13 +37,7 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
-      "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -38,6 +52,48 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-15",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Read less, know more.",
+      "offer_id_at_placement": "164183935",
+      "advertisement_id": "abe45dbf-8ec0-4dfd-95c1-0969d76154c9",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-10-20T10:27:22Z"
+    },
+    {
+      "date": "2026-10-15",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Anchr Point",
+      "ad_headline": "Inheritance, Oct - Text",
+      "offer_id_at_placement": "164183936",
+      "advertisement_id": "974fd700-c18f-4e75-99fa-be9f1b113c91",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "secondary",
+      "send_by": "2026-10-20T10:27:22Z"
+    },
+    {
+      "date": "2026-10-15",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "The CEO Report",
+      "ad_headline": "Best Growth Marketing Hack, Sept - Text",
+      "offer_id_at_placement": "164183934",
+      "advertisement_id": "4d66fd6d-babf-42e6-a721-94fea32a5601",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 150,
+      "creative_kind": "secondary",
+      "send_by": "2026-10-20T10:27:23Z"
     }
   ]
 }

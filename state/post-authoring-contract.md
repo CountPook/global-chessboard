@@ -32,6 +32,13 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
   save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
   data-advertisement-kind = primary (with logo) | secondary (no logo).
+- **Ad placement caps (learned 2026-10-16, issue #8)**: beehiiv accepts at most TWO
+  ad-network placements per post on this plan (a third save_post ad block is rejected
+  with "can not accept any more opportunities"). Also only ONE creative may be
+  data-advertisement-kind="primary" (with logo) per post; every additional ad must be
+  "secondary" (placing a second primary fails with "No 'primary' ad slot is available").
+  So the working pattern is: slot 1 primary, slot 2 secondary, slot 3 placeholder.
+  Failed save_post calls are atomic (no opportunity is claimed when the save is rejected).
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

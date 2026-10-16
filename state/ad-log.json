@@ -8,6 +8,31 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-16",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Grading issue #7 (the most recent published issue; there was no issue yesterday because the newsletter paused for roughly two months after Aug 17). Engagement per issue was healthy but the list is stagnant and slowly shrinking. State on this branch was stale: it recorded last_issue_number=1, but the live publication has published through issue #7, so numbering was corrected to continue at #8.",
+      "issue7_email_total_sent": 13,
+      "issue7_email_total_delivered": 13,
+      "issue7_open_rate": 30.77,
+      "issue7_unique_opens": 4,
+      "issue7_click_rate_raw": 50.0,
+      "issue7_click_rate_verified": 25.0,
+      "issue7_unique_clicks_raw": 2,
+      "issue7_unsubscribe_rate": 7.69,
+      "issue7_unsubscribes": 1,
+      "issue7_spam_reports": 0,
+      "issue7_web_views": 0,
+      "publication_active_subscribers": 12,
+      "publication_net_new_subscribers_7d": 0,
+      "publication_churned_7d": 0,
+      "publication_open_rate_7d": 0.0,
+      "publication_click_rate_7d": 0.0,
+      "publication_earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +63,45 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-16",
+      "issue": 8,
+      "post_id": "post_d0ee0afe-d520-4526-bea5-3406cf07c6b4",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Smart starts here.",
+      "offer_id_at_placement": "165421365",
+      "advertisement_id": "7f5f9598-f7fa-4695-964c-430bdf3d1577",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "primary",
+      "send_by": "2026-10-21T10:28:19Z"
+    },
+    {
+      "date": "2026-10-16",
+      "issue": 8,
+      "post_id": "post_d0ee0afe-d520-4526-bea5-3406cf07c6b4",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Hubspot",
+      "ad_headline": "Unify Your Teams and Tech Stack With HubSpot",
+      "offer_id_at_placement": "165421362",
+      "advertisement_id": "630d6b02-8d64-4f27-814d-d9136d5d578d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "secondary",
+      "send_by": "2026-10-21T10:28:19Z"
+    },
+    {
+      "date": "2026-10-16",
+      "issue": 8,
+      "post_id": "post_d0ee0afe-d520-4526-bea5-3406cf07c6b4",
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Platform cap: beehiiv accepted only 2 ad-network placements for this post (a third placement was rejected with 'can not accept any more opportunities'). Highest-payout survivors Katusa Research (187c) and Morning Brew (187c) could not be added. Also only one 'primary' (with-logo) creative is allowed per post; additional ads must be 'secondary'."
     }
   ]
 }

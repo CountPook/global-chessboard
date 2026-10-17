@@ -1,37 +1,41 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Reconciled 2026-10-17: the publication had published real issues through #7 (2026-08-17) that were not logged here (state file only ever recorded issue #1). Issue number set to 8 based on the masthead of the most recent published post (ISSUE #7). Topics older than 30 days dropped per routine rules; only issue #8 topics remain.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-10-17",
+      "issue": 8,
+      "title": "The European Union Hits Russia's Arms Industry With Its Largest Sanctions Expansion",
+      "region": "Europe / Russia",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.usnews.com/news/world/articles/2026-10-12/eu-adopts-nearly-1-600-new-sanctions-listings-targeting-russia",
+        "https://sofiaglobe.com/2026/10/12/eu-agrees-largest-ever-package-of-sanctions-targeting-almost-1600-individuals-entities-in-russias-military-industrial-complex/",
+        "https://www.eeas.europa.eu/delegations/chile/eu-adopts-its-largest-ever-package-sanctions-listings-targeting-industry-behind-russias-war_en",
+        "https://www.themoscowtimes.com/2026/10/12/eu-adopts-record-sanctions-expansion-targeting-16k-russian-defense-firms-and-executives-a93952"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-17",
+      "issue": 8,
+      "title": "North Korea Test Fires Submarine Launched Cruise Missiles for the First Time in Years",
+      "region": "Northeast Asia",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports",
+        "https://news.usni.org/2026/10/15/north-korea-tests-first-submarine-launched-cruise-missile-in-nearly-3-years",
+        "https://www.cbs17.com/news/ap-top-headlines/ap-north-korea-holds-first-underwater-launched-missile-tests-in-nearly-3-years/",
+        "https://www.twz.com/news-features/north-koreas-hunchback-missile-submarine-makes-first-at-sea-appearance-for-missile-tests"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-10-17",
+      "issue": 8,
+      "title": "A European Union and Gulf Summit in Riyadh Is Postponed as Houthi Attacks Mount",
+      "region": "Middle East / Gulf",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.brecorder.com/news/40444390/eu-gulf-nations-postpone-riyadh-summit-after-houthi-attacks",
+        "https://www.bloomberg.com/news/articles/2026-10-15/eu-gulf-states-expected-to-postpone-saudi-summit-over-attacks",
+        "https://www.arabnews.com/world/eu-and-gulf-states-postpone-summit-due-in-saudi-arabia-3006485",
+        "https://www.newarab.com/news/eu-gulf-summit-saudi-arabia-postponed-after-houthi-attacks"
       ]
     }
   ]

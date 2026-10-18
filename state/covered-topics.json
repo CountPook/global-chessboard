@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issues #2 through #7 were published Jun-Aug 2026 but were not recorded here by those runs; issue numbering was reconciled on 2026-10-18 from the live publication (most recent published issue was #7, Aug 17). Topics older than 30 days are pruned on each run.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-10-18",
+      "issue": 8,
+      "title": "Washington Waives Its New Russia Oil Sanctions Days Before They Take Effect",
+      "region": "United States / Russia / Europe",
+      "sources": [
+        "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
+        "https://www.cbsnews.com/news/trump-waives-sanctions-tariffs-russian-oil-lindsey-graham/",
+        "https://www.axios.com/2026/10/17/trump-russia-sanctions"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "issue": 8,
+      "title": "Manila Accuses Beijing's Envoy of a Veiled Threat as Sea Tensions Rise",
+      "region": "Indo-Pacific / South China Sea",
+      "sources": [
+        "https://interaksyon.philstar.com/politics-issues/2026/10/16/320635/philippines-hits-chinese-envoy-thinly-veiled-threat-force/",
+        "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/16/philippine-president-marcos-to-summon-chinese-envoy-over-threatening-remarks",
+        "https://tribune.net.ph/2026/10/16/marcos-seeks-meeting-with-chinese-envoy-over-threat-remark"
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "issue": 8,
+      "title": "One Year On, the Gaza Ceasefire Holds in Name but the Fighting Persists",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
-      "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.hrw.org/news/2026/10/10/gaza-ceasefire-anniversary-marks-year-of-failed-promises",
+        "https://www.jordannews.jo/Section-20/Middle-East/Israel-Continues-Gaza-Ceasefire-Violations-for-374th-Day-57500"
       ]
     }
   ]

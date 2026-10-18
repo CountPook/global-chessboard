@@ -8,6 +8,33 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-18",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "note": "State memory was stale: only issue #1 was recorded, but issues #2-#7 were published between Jun and Aug 2026. Graded the most recent published issue (#7, 'Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919', scheduled 2026-08-17). No newsletter has been sent in the ~2 months since, so last-7-day publication engagement is zero and the list has drifted from 14 (Jun baseline) to 12 active subscribers.",
+      "issue7_email": {
+        "total_sent": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "unique_opens": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "unique_clickers_verified": 1,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "spam_reports": 0,
+        "web_views": 0
+      },
+      "publication_last_7_days": {
+        "active_subscribers": 12,
+        "net_new_subscribers": 0,
+        "churned_subscribers": 0,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +65,49 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-18",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Smart starts here.",
+      "opportunity_id": "7f5f9598-f7fa-4695-964c-430bdf3d1577",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "primary (requested)",
+      "send_by": "2026-10-21T10:31:04Z"
+    },
+    {
+      "date": "2026-10-18",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Hubspot",
+      "ad_headline": "Unify Your Teams and Tech Stack With HubSpot",
+      "opportunity_id": "630d6b02-8d64-4f27-814d-d9136d5d578d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "secondary (served; primary requested, only secondary creative available on this opportunity)",
+      "send_by": "2026-10-21T10:31:04Z"
+    },
+    {
+      "date": "2026-10-18",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "Read less, know more.",
+      "opportunity_id": "abe45dbf-8ec0-4dfd-95c1-0969d76154c9",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-10-20T10:27:22Z"
     }
+  ],
+  "learnings": [
+    "Ad placement cap: this publication already holds a set of accepted ad opportunities each cycle (visible via list_ad_opportunities status=accepted). Placing fresh offers from list_ad_offers tries to ACCEPT new opportunities and fails with 'can not accept any more opportunities'. Fix: embed the already-accepted opportunity UUIDs (from list_ad_opportunities) as the advertisementOpportunity data-id, ranked by payout_per_click_cents, rather than offer ids from list_ad_offers.",
+    "On 2026-10-18 the active accepted opportunities were: 1440 Media (206c), Hubspot (206c), Anchr Point (187c), Morning Brew (187c), The CEO Report (150c)."
   ]
 }

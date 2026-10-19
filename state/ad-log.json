@@ -3,11 +3,25 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder 'New post' sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-19",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "This run (issue #8) graded the most recent published issue, #7, sent 2026-08-17. The publication has been on hiatus since mid-August, so there was no literal 'yesterday' issue. Issue #7: 13 sent, 13 delivered (100% delivery), 30.77% open rate (4 unique opens), click rate 50% raw / 25% verified (1 verified unique email click), 1 unsubscribe (7.69% unsub rate), 0 spam, 0 web views. Publication now at 12 active subscribers (down from 14 at issue #1), 0 net new and 0 churn in the last 7 days (no sends in that window). The 30.77% open on a tiny list is a reasonable baseline; the single unsubscribe on 13 recipients is noise at this scale. Priorities: resume a regular cadence to rebuild engagement and grow the list past the low-teens, where every metric is dominated by single-reader swings.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_issue7": 30.77,
+      "click_rate_issue7_verified": 25.0,
+      "unsubscribe_rate_issue7": 7.69
     }
   ],
   "ad_slots": [
@@ -35,6 +49,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-10-19",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Ad network offers were available and unexpired (1440 Media 206c CPC, Katusa Research 187c, Morning Brew 187c, plus others, all send_by 2026-10-24) but placement failed. Every save_post attempt that embedded an advertisementOpportunity node was rejected with 'can not accept any more opportunities', including a single-ad attempt. This is an account/plan-level acceptance cap, not an expiration or ranking problem, so all three slots fell back to placeholders. A human should check the beehiiv ad network settings / acceptance limit before the next run."
+    },
+    {
+      "date": "2026-10-19",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-10-19",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

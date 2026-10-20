@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "State file was stale before Issue #8: it recorded last_issue_number 1, but beehiiv had 7 published issues (newest Issue #7, 2026-08-17). Issue number corrected to continue the real published sequence. Topics older than 30 days are dropped per spec, so earlier issues are no longer listed here; the full record lives in beehiiv list_posts.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-10-20",
+      "issue": 8,
+      "title": "Egypt Moves to Authorize Military Support for Saudi Arabia as Houthi Strikes Escalate",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.thenationalnews.com/news/mena/2026/10/19/egypts-pledge-to-support-saudi-arabia-against-houthis-whats-on-the-table/",
+        "https://www.pbs.org/newshour/world/egypts-top-security-body-agrees-to-help-saudi-arabia-defend-itself-against-houthi-attacks",
+        "https://fortune.com/2026/10/18/egypt-saudi-arabia-defense-authorization-troops-houthis-escalation/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-20",
+      "issue": 8,
+      "title": "France Faces Its Most Severe Unrest in Years as Cost of Living Protests Turn Violent",
+      "region": "Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.washingtonpost.com/world/2026/10/18/violent-protests-spread-france/",
+        "https://www.cnn.com/2026/10/17/europe/half-million-protesters-sweep-france-in-youth-unrest-latam-intl",
+        "https://www.euronews.com/2026/10/18/spire-collapses-at-historic-limoges-town-hall-amid-violent-protests-across-france"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-10-20",
+      "issue": 8,
+      "title": "China and the European Union Reach a Working Truce Over Rare Earth Exports",
+      "region": "East Asia / Economics",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://news.metal.com/newscontent/104160501-china-open-to-facilitating-rare-earth-exports-to-eu-seeks-reciprocity-on-dual-use-licenses",
+        "https://merics.org/en/comment/merics-forum-how-can-eu-navigate-chinas-rare-earths-export-controls",
+        "https://www.businesstoday.com.my/2026/10/15/china-seeks-reciprocal-eu-cooperation-on-rare-earth-export-license/"
       ]
     }
   ]

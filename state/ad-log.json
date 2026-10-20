@@ -8,6 +8,20 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-20",
+      "issue": 8,
+      "graded_post": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global (Issue #7, sent 2026-08-17)",
+      "note": "Most recent published issue graded this run (state had not been updated since Issue #1, so the intervening issues #2 through #7 were never logged here). Issue #7 email: 13 sent, 13 delivered (100%), 30.77% open rate (4 unique opens), 50% raw click rate but only 25% verified (1-2 clicks), 7.69% unsubscribe rate (1 unsubscribe), 0 web views. Publication now: 12 active subscribers (down from 14 in June), 0 net new and 0 churned in the last 7 days, $0.00 earnings last 7 days. Takeaway: open rate is healthy for a tiny list, but the list is shrinking slowly and engagement volume is too low to read much signal into CTR. No advertiser CTR history is available to blend into ad ranking.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_issue7": 30.77,
+      "click_rate_issue7_verified": 25.0,
+      "unsubscribe_rate_issue7": 7.69,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +49,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-10-20",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "6 CPC ad offers were available and all valid past the send time (all send_by 2026-10-25). Ranked by payout: 1440 Media 206c, Katusa Research 187c, Particle for Men 187c, The CEO Report 150c, Superhuman AI 150c, Angelinos Coffee 105c. No direct sponsorship agreements were waiting. Placement FAILED: every save_post attempt that embedded an advertisementOpportunity node (tried 3 ads, then 2, then 1) was rejected with 'Could not place ad opportunity <uuid>: can not accept any more opportunities'. This is an account/publication-level block on accepting new ad-network opportunities, not a per-post cap (even a single ad failed). Fell back to placeholder blocks in all 3 slots. A human should check the beehiiv ad network status for this publication and place ads manually in the editor if desired."
+    },
+    {
+      "date": "2026-10-20",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-10-20",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

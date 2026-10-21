@@ -8,6 +8,34 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-21",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Grading the most recent SENT issue (#7, 2026-08-17); issues #2-#7 were never logged to state, so this is the first time stats were captured here. Issue #7 reached all 13 email recipients (100% delivery) with a 30.77% open rate (4 unique opens) and 2 unique raw email clickers (1 verified), but drew 1 unsubscribe (7.69%, high on so small a list) and 0 web views. The publication then went dormant: no issue sent in the ~2 months to 2026-10-21. Active subscribers slipped from 14 (issue #1 baseline) to 12; last 4 weeks show 0 opens, 0 clicks, 0 new subscribers, 0 churn, $0 earnings (no sends). Engagement per-send looks healthy for a tiny list; the binding constraint is cadence/reach, so resuming a regular weekly send is the priority.",
+      "email_sent": 13,
+      "email_delivered": 13,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unique_email_clickers_raw": 2,
+      "unique_email_clickers_verified": 1,
+      "unsubscribe_rate": 7.69,
+      "unsubscribes": 1,
+      "web_views": 0,
+      "publication_active_subscribers": 12,
+      "publication_last_4_weeks": {
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +66,48 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-21",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "ClaimsHero",
+      "ad_headline": "Is Social Media Hurting Your Child? Your Family May Qualify",
+      "offer_id_at_placement": "170325003",
+      "advertisement_id": "6a115d4c-14ed-427e-8c92-15a4f1099144",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-10-26T10:30:37Z"
+    },
+    {
+      "date": "2026-10-21",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Katusa Research",
+      "ad_headline": "Nvidia Is Worth Nearly 19 Times Every Silver Miner Combined",
+      "offer_id_at_placement": "170324999",
+      "advertisement_id": "6c7c9d2f-a2bd-4609-9332-c6d282c0e56d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "secondary",
+      "send_by": "2026-10-26T10:30:37Z"
+    },
+    {
+      "date": "2026-10-21",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "If you want to sound smarter without doing more...",
+      "offer_id_at_placement": "170325002",
+      "advertisement_id": "b7940c03-69a4-49ea-8eff-ddb80a0c5200",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "secondary",
+      "send_by": "2026-10-26T10:30:37Z"
     }
   ]
 }

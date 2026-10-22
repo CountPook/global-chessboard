@@ -1,38 +1,36 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-10-22",
+      "issue": 8,
+      "title": "Moscow Proposes a Three Way Summit of Trump, Putin, and Xi",
+      "region": "Great Power / Global",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://thehill.com/policy/international/6157609-putin-proposes-trump-xi-summit/",
+        "https://www.pravda.com.ua/eng/news/2026/10/19/8058673/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-22",
+      "issue": 8,
+      "title": "Washington Courts Central Asia With Minerals and Trade at Samarkand",
+      "region": "Central Asia",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://timesca.com/central-asian-states-set-out-priorities-after-rubio-talks-in-samarkand/",
+        "https://www.yahoo.com/news/politics/articles/rubio-puts-trans-caspian-trade-195316509.html"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
+      "date": "2026-10-22",
+      "issue": 8,
+      "title": "Envoys Gather in Geneva to Seek a Path Toward a Sudan Ceasefire",
       "region": "Africa / Global South",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://news.un.org/en/story/2026/10/1168638",
+        "https://sudantribune.com/article/320290"
       ]
     }
-  ]
+  ],
+  "_note": "last_issue_number reconciled to 8 on 2026-10-22 from the live beehiiv feed: issues #2-#7 were published (through 2026-08-17) but never recorded in state. Ground truth is the masthead of the latest published post. Topics older than 30 days are dropped per spec, so #1-#7 topics are not retained here."
 }

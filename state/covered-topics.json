@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
-      "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
+      "date": "2026-10-23",
+      "issue": 8,
+      "title": "A US Peace Framework for Ukraine Takes Shape as Europe Pushes Back",
       "region": "Eastern Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://kyivindependent.com/rubio-witkoff-reportedly-clash-over-easing-russia-sanctions-trump-admin-denies/",
+        "https://united24media.com/war-in-ukraine/us-and-europe-draft-peace-framework-that-freezes-frontline-and-sets-terms-for-russia-sanctions-relief-23386",
+        "https://www.nbcmiami.com/news/business/money-report/u-s-proposes-lighter-sanctions-on-russia-as-part-of-peace-plan-with-ukraine-bloomberg/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-10-23",
+      "issue": 8,
+      "title": "Iran Keeps the Strait of Hormuz Closed as Talk of Renewed Strikes Grows",
+      "region": "Middle East",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/",
+        "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/",
+        "https://www.tribuneindia.com/news/abbas-araghchi/hormuz-is-closed-until-america-accepts-our-conditions-araghchi-demands-us-to-honour-mou-commitments"
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "issue": 8,
+      "title": "Guinea-Bissau Postpones Its Vote as the Junta Blocks the Ousted President",
+      "region": "West Africa / Global South",
+      "sources": [
+        "https://www.africanews.com/2026/10/02/guinea-bissau-junta-blocks-embalos-planned-return-citing-security-concerns/",
+        "https://wmbdradio.com/2026/10/08/guinea-bissau-to-delay-elections-following-last-years-coup/",
+        "https://www.worldpoliticsreview.com/guinea-bissau-coup-junta-embalo-djassi-elections/"
       ]
     }
-  ]
+  ],
+  "_note": "Issue #1 topics (2026-06-24: Iran oil sanctions, Ukraine deep strikes, Sudan Blue Nile) dropped as older than 30 days. Issues #2-#7 (late June and mid-August) were published but not recorded here by earlier runs; the authoritative last_issue_number is taken from the masthead of the newest published post (issue #7, 2026-08-17), so this run is issue #8."
 }

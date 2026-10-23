@@ -8,6 +8,23 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-23",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Graded the newest published issue (#7, Aug 17). The newsletter has been dormant since mid-August, so publication-level 7-day stats are all zero and there is no fresh day-over-day comparison. Issue #7 email performance: 13 delivered (100% delivery), 30.77% unique open rate (4 unique opens), click rate 50% raw / 25% verified (1-2 clicks), 1 unsubscribe (7.69% on a 13-person list, a single person), 0 spam. Publication now at 12 active subscribers (down from 14 at issue #1 baseline), 0 net-new and 0 churn in the last 7 days, $0 earnings in the last 7 days.",
+      "graded_post_delivered": 13,
+      "graded_post_open_rate": 30.77,
+      "graded_post_click_rate_verified": 25.0,
+      "graded_post_unsubscribes": 1,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +55,49 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-23",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Atlas Salt",
+      "ad_headline": "Why Overseas Producers Can't Undercut Atlas Salt, Even for Free",
+      "opportunity_id": "133ae41b-ef49-4150-817a-b7fd113c00aa",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 300,
+      "creative_kind": "primary",
+      "send_by": "2026-10-27T10:29:34Z"
+    },
+    {
+      "date": "2026-10-23",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "ClaimsHero",
+      "ad_headline": "Teen Hooked on Social Media? You May Have a Claim",
+      "opportunity_id": "cee8cd81-0e01-4616-8dc1-ff9b7045b59d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-10-27T10:30:17Z"
+    },
+    {
+      "date": "2026-10-23",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Katusa Research",
+      "ad_headline": "Nvidia Is Worth Nearly 19 Times Every Silver Miner Combined",
+      "opportunity_id": "6c7c9d2f-a2bd-4609-9332-c6d282c0e56d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-10-26T10:30:37Z"
     }
+  ],
+  "_lessons": [
+    "Ad offer IDs from list_ad_offers rotate between calls and, when placed, trigger a FRESH opportunity accept. The ad network caps how many opportunities a publication can hold accepted at once; placing fresh offer IDs on 2026-10-23 failed with 'can not accept any more opportunities'. Fix: the network auto-accepts a rolling set of opportunities. Use list_ad_opportunities(status='accepted') and embed those already-accepted opportunity UUIDs directly, which does not trigger a new accept. Rank accepted opportunities by payout_per_click_cents and pick distinct advertisers with send_by after the target send time.",
+    "beehiiv email_settings keys on save_post/edit_post are email_subject_line and email_preview_text (not subject_line / preview_text). Passing the wrong keys silently defaults the subject to the title and preview to the subtitle."
   ]
 }

@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "On 2026-10-24 the state file was stale (it recorded only issue #1), but the beehiiv published history shows real issues through #7 (sent 2026-08-17). True last issue is #7, so this run produced #8. Entries older than 30 days are pruned per spec, so pre-September topics are not retained here.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-10-24",
+      "issue": 8,
+      "title": "Brazil Faces a Runoff Between Lula and the Bolsonaro Dynasty",
+      "region": "Latin America / Global South",
+      "sources": [
+        "https://www.npr.org/2026/10/23/nx-s1-6004277/brazil-vote-runoff-lula-bolsonaro",
+        "https://www.aljazeera.com/news/2026/10/23/what-to-know-as-brazil-prepares-for-tense-presidential-run-off",
+        "https://amp.cbc.ca/lite/story/1.6603351"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "issue": 8,
+      "title": "Washington Reopens the Door to Russian Diesel",
+      "region": "Eurasia / Economics",
+      "sources": [
+        "https://shipandbunker.com/news/world/445068-us-lifts-sanctions-on-russian-diesel-for-six-months-after-trump-putin-call",
+        "https://www.clydeco.com/en/insights/2026/10/ofac-authorizes-us-imports-of-russian-diesel",
+        "https://euromaidanpress.com/2026/10/10/washington-makes-it-official-us-treasury-license-clears-sale-and-import-of-russian-diesel-blocked-by-sanctions/"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "issue": 8,
+      "title": "Turkey Moves to Ratify the Mecca Defense Pact",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
-      "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/10/20/turkiye-moves-to-ratify-mecca-joint-defence-agreement",
+        "https://www.washingtonpost.com/business/2026/10/21/turkey-saudi-pakistan-mecca-defense-agreement-explainer/783b0ca4-cd6c-11f1-ac04-9f58578a68b4_story.html",
+        "https://turkishminute.com/2026/10/20/saudi-pakistan-pact-would-bind-turkey-to-mutual-defense-for-at-least-10-years-report/"
       ]
     }
   ]

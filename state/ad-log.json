@@ -8,6 +8,24 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-24",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "note": "First grading since issue #1. The memory file was stale (recorded only issue #1), but beehiiv shows real issues through #7 (sent 2026-08-17, 'Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global'). The newsletter has been dormant since mid-August. Graded the newest published issue (#7): 13 delivered, 30.77% open rate (4 unique opens), 50% raw / 25% verified click rate (2 raw clickers, 1 verified), 1 unsubscribe (7.69%), 0 web views. Takeaways: open rate is healthy for a tiny list, but the single unsubscribe on 13 recipients is a high rate and the list has shrunk from 14 to 12 active subscribers over the dormant period; growth is the main problem, not engagement. The two-month gap between sends likely cost subscribers and momentum; resuming a regular cadence should help.",
+      "issue7_delivered": 13,
+      "issue7_open_rate": 30.77,
+      "issue7_click_rate_raw": 50.0,
+      "issue7_click_rate_verified": 25.0,
+      "issue7_unsubscribes": 1,
+      "issue7_web_views": 0,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +56,46 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-24",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Atlas Salt",
+      "ad_headline": "Why Overseas Producers Can't Undercut Atlas Salt, Even for Free",
+      "opportunity_id_at_placement": "133ae41b-ef49-4150-817a-b7fd113c00aa",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 300,
+      "creative_kind": "primary",
+      "send_by": "2026-10-27T10:29:34Z"
+    },
+    {
+      "date": "2026-10-24",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "ClaimsHero",
+      "ad_headline": "Teen Hooked on Social Media? You May Have a Claim",
+      "opportunity_id_at_placement": "cee8cd81-0e01-4616-8dc1-ff9b7045b59d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-10-27T10:30:17Z"
+    },
+    {
+      "date": "2026-10-24",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Katusa Research",
+      "ad_headline": "Nvidia Is Worth Nearly 19 Times Every Silver Miner Combined",
+      "opportunity_id_at_placement": "6c7c9d2f-a2bd-4609-9332-c6d282c0e56d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-10-26T10:30:37Z"
     }
-  ]
+  ],
+  "ad_placement_notes": "2026-10-24: list_ad_offers returned 7 valid network offers (all send_by 2026-10-29), but placing them via save_post failed with 'can not accept any more opportunities' (the ad network had already auto-accepted ~5 opportunities for this publication, hitting an acceptance cap). Workaround: embedded already-accepted opportunities from list_ad_opportunities(status=accepted) instead, ranked by payout and filtered to send_by after the 2026-10-24T15:00Z target send, using unique advertisers. All 3 slots filled; no shortfall. Defaulted to primary (with-logo) creatives on an unattended run. For future runs, prefer list_ad_opportunities(status=accepted) when the offer-placement path hits the cap."
 }

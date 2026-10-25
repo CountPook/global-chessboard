@@ -1,37 +1,48 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "last_issue_number reconciled from 1 to 8 on 2026-10-25: beehiiv showed 6 real issues published since issue #1 (issues #2 through #7, newest 2026-08-17), which earlier runs never recorded here. Topics for issues #2-#6 are not reconstructed; only issue #7 and #8 themes are known to this file.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-08-17",
+      "issue": 7,
+      "title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "region": "Northeast Asia / Middle East / East Asia",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/8/13/japan-protests-as-russias-putin-visits-disputed-kuril-islands",
+        "https://www.aljazeera.com/news/2026/8/7/new-regional-order-pakistan-turkiye-saudi-arabia",
+        "https://www.euronews.com/travel/2026/08/12/chinas-c919-makes-first-international-flight-as-it-takes-aim-at-boeing-and-airbus"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "issue": 8,
+      "title": "The United States and Israel Prepare for a Possible New Strike on Iran",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/10/24/why-is-israel-launching-a-new-military-operation-in-the-occupied-west-bank",
+        "https://www.washingtontimes.com/news/2026/oct/24/israel-imposes-closures-across-west-bank-city-attacks/",
+        "https://gulfnews.com/world/mena/middle-east-war-houthi-missile-targets-riyadh-tankers-hit-mines-near-hormuz-1.500721804"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-25",
+      "issue": 8,
+      "title": "Washington Pushes Russia and Ukraine Toward Talks While Easing Pressure on Russian Oil",
+      "region": "Eurasia / Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy",
+        "https://www.axios.com/2026/10/21/russia-ukraine-putin-witkoff-peace",
+        "https://www.euronews.com/2026/10/15/us-extends-sanctions-waiver-for-russian-oil-giant-lukoil-until-2027"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-10-25",
+      "issue": 8,
+      "title": "Brazil Faces a Razor Thin Runoff Between Lula and Flavio Bolsonaro",
+      "region": "Latin America",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.nbcnews.com/world/brazil/brazil-heads-polls-pivotal-runoff-lula-bolsonaro-jr-rcna605495",
+        "https://www.npr.org/2026/10/04/nx-s1-5981181/brazil-presidential-lula-bolsonaro"
       ]
     }
   ]

@@ -8,6 +8,22 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-25",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_issue_date": "2026-08-17",
+      "note": "Graded the most recent published issue (#7, Aug 17). State was stale (last_issue_number was 1) so issues #2-#6 were never logged. Issue #7 email: 13 sent, 13 delivered (100%), open_rate 30.77% (4 unique opens), click_rate 50.0% raw / 25.0% verified (2 unique raw clicks, 1 verified), unsubscribe_rate 7.69% (1 unsub), 0 bounces, 0 spam, 0 web views. Publication now 12 active subscribers; last 7 days 0 new, 0 churned, $0.00 earnings. Ads in issue #7 were Finance Advisors (retirement lead-gen) and 1440 Media; neither was logged here at the time so no realized CTR is available for ad ranking.",
+      "email_sent": 13,
+      "email_delivered": 13,
+      "open_rate": 30.77,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unsubscribe_rate": 7.69,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +51,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-10-25",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Ad network available offers existed (Atlas Salt 300cpc, CBDistillery 225cpc, 1440 Media 206cpc, Katusa 187, Particle 187, Superhuman 150, Angelinos 105, all send_by 2026-10-30) but save_post rejected every placement with 'can not accept any more opportunities' at 3 ads and again at 2 ads, failing on the first ad. Treated as an account/publication ad-network acceptance quota that was exhausted at run time. All three slots rendered as placeholders."
+    },
+    {
+      "date": "2026-10-25",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-10-25",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

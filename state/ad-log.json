@@ -8,6 +8,30 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-26",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "The schedule was dormant for about two months; the most recent published issue (#7, 2026-08-17) was graded as a proxy for 'yesterday'. State was not maintained between issue #1 and issue #7, but beehiiv shows issues #2-#7 were published June 26 through Aug 17. Issue #7 had solid open and click engagement for a tiny list but one unsubscribe. Publication is now dormant with no sends in the last 4 weeks and a slightly shrunken list (12 vs 14 in June).",
+      "issue7_email_sent": 13,
+      "issue7_email_delivered": 13,
+      "issue7_open_rate": 30.77,
+      "issue7_unique_opens": 4,
+      "issue7_click_rate_raw": 50.0,
+      "issue7_click_rate_verified": 25.0,
+      "issue7_unique_clicks_raw": 2,
+      "issue7_unsubscribes": 1,
+      "issue7_unsubscribe_rate": 7.69,
+      "issue7_web_views": 0,
+      "publication_active_subscribers": 12,
+      "publication_last_4w_open_rate": 0.0,
+      "publication_last_4w_click_rate": 0.0,
+      "publication_last_4w_new_subscribers": 0,
+      "publication_last_4w_churned": 0,
+      "publication_last_4w_earnings": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +62,42 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-26",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Atlas Salt",
+      "ad_headline": "Why Overseas Producers Can't Undercut Atlas Salt, Even for Free",
+      "placement_kind": "accepted_opportunity",
+      "advertisement_id": "133ae41b-ef49-4150-817a-b7fd113c00aa",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 300,
+      "creative_kind": "primary",
+      "send_by": "2026-10-27T10:29:34Z"
+    },
+    {
+      "date": "2026-10-26",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "ClaimsHero",
+      "ad_headline": "Teen Hooked on Social Media? You May Have a Claim",
+      "placement_kind": "accepted_opportunity",
+      "advertisement_id": "cee8cd81-0e01-4616-8dc1-ff9b7045b59d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-10-27T10:30:17Z"
+    },
+    {
+      "date": "2026-10-26",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Ad network would not accept any new offers (publication has a backlog of already-accepted opportunities and hit the acceptance cap). Only two already-accepted opportunities survived the target send time, so slot 3 is a placeholder."
     }
   ]
 }

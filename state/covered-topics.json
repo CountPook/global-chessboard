@@ -1,38 +1,41 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-10-26",
+      "issue": 8,
+      "title": "Israel Heads to the Polls in a Vote Cast as a Referendum on Netanyahu",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/10/25/israeli-elections-what-are-the-possible-outcomes",
+        "https://www.washingtonpost.com/world/2026/10/19/israel-election-parties-explainer-netanyahu/",
+        "https://www.npr.org/2026/10/19/nx-s1-6008128/israel-prepares-for-a-high-stakes-election",
+        "https://www.abc.net.au/news/2026-10-23/israel-election-2026-explained/107287156"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-26",
+      "issue": 8,
+      "title": "China Prepares to Host Trump at APEC as Moscow Floats a Three Way Summit",
+      "region": "East Asia / Great Powers",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.france24.com/en/live-news/20261019-putin-xi-and-trump-could-meet-at-apec-summit-kremlin",
+        "https://www.upi.com/Top_News/World-News/2026/10/18/apec-2026-shenzhen-donald-trump-xi-jinping/3011792364819/",
+        "https://thediplomat.com/2026/10/what-the-us-and-china-should-discuss-at-apec/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-10-26",
+      "issue": 8,
+      "title": "A Transatlantic Split Over Russia Sanctions Widens as Kyiv Tightens Its Own",
+      "region": "Europe",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas",
+        "https://www.consilium.europa.eu/en/meetings/european-council/2026/10/15-16/",
+        "https://www.kyivpost.com/post/88076",
+        "https://www.ukrinform.net/rubric-polytics/4177785-zelensky-imposes-sanctions-on-russian-ballistic-weapons-makers-and-defense-industry-component-suppliers.html"
       ]
     }
-  ]
+  ],
+  "_note": "Issue #1 topics (2026-06-24) dropped as older than 30 days. The state file was not maintained between issue #1 and issue #8; beehiiv shows 7 real issues published through 2026-08-17, so this run is numbered #8 to continue the masthead sequence (issue #7 masthead confirmed via get_post_content)."
 }

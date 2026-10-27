@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "_reconciliation_note": "On the 2026-10-27 run the state file still read last_issue_number=1, but beehiiv showed seven real published issues through Issue #7 (2026-08-17, 'Putin's Kuril Islands Visit...'). Issues #2 through #7 were produced without updating this file, so the memory had diverged from the live publication. Issue number reset to the correct sequence (newest published masthead #7, so today is #8). Topics older than 30 days were dropped per spec, so only Issue #8's topics are recorded below; the June Issue #1 topics aged out.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-10-27",
+      "issue": 8,
+      "title": "Washington Holds Off Striking Iran as Gulf Oil Markets Swing",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.agbi.com/oil-and-gas/2026/10/oil-declines-after-trump-rules-out-imminent-attack-on-iran/",
+        "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
+        "https://www.foxnews.com/live-news/us-iran-war-donald-trump-oil-nuclear-sites-hormuz-strait-october-14"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-10-27",
+      "issue": 8,
+      "title": "North and South Korea Trade Warnings at the United Nations as Artillery Appears at the Border",
+      "region": "Indo-Pacific / Korean Peninsula",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.investing.com/news/world-news/north-korea-tells-un-south-fabricated-landmine-incident-kcna-says-4971272",
+        "https://www.usnews.com/news/world/articles/2026-10-25/north-korea-tells-un-south-fabricated-landmine-incident-kcna-says",
+        "https://www.timeslive.co.za/news/world/2026-10-26-north-south-korea-tensions-high-as-letters-lodged-with-un-howitzers-spotted/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-10-27",
+      "issue": 8,
+      "title": "Washington and Ottawa Explore a Narrow Deal to Ease Steel and Auto Tariffs",
+      "region": "North America",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.japantimes.co.jp/business/2026/10/27/us-canada-tariffs-talks/",
+        "https://finance.yahoo.com/news/exclusive-us-canada-working-deal-192957007.html",
+        "https://gvwire.com/2026/10/26/us-canada-working-on-deal-to-ease-steel-auto-tariffs-sources-say/"
       ]
     }
   ]

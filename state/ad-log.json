@@ -8,6 +8,20 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-27",
+      "issue": 8,
+      "graded_post": "Issue #7, post_178199d6-8943-47a0-bccb-b38b778953f8, 'Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global', sent 2026-08-17",
+      "note": "This is the first run since 2026-08-17; the publication has been dormant for over two months (Issues #2 to #7 were published outside this state file's record). Graded the newest published post, Issue #7, since there was no literal 'yesterday' issue. Issue #7 email stats: 13 sent, 13 delivered (100%), open rate 30.77% (4 unique opens), click rate 50% raw / 25% verified (2 raw unique clickers, 1 verified), 1 unsubscribe (7.69%), 0 spam, 0 web views. Publication now has 12 active subscribers, down from 14 at Issue #1. Last 7 days: 0 opens, 0 clicks, 0 new subs, $0.00 (dormant). Last 3 months aggregate: open 34.62%, click 83.33%, net -1 subscriber, earnings $65.17.",
+      "subscribers_active": 12,
+      "issue7_open_rate": 30.77,
+      "issue7_click_rate_raw": 50.0,
+      "issue7_click_rate_verified": 25.0,
+      "issue7_unsubscribes": 1,
+      "last_3_months_open_rate": 34.62,
+      "last_3_months_click_rate": 83.33,
+      "last_3_months_earnings_usd": 65.17
     }
   ],
   "ad_slots": [
@@ -38,6 +52,48 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-27",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Introducing Fair Game from Vanity Fair",
+      "offer_id_at_placement": "175280036",
+      "advertisement_id": "a12e8e8b-0c32-4b7a-bdb2-608e70d73e6a",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-11-01T10:22:38Z"
+    },
+    {
+      "date": "2026-10-27",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Particle for Men",
+      "ad_headline": "Gravite Cologne for Men: Confidence in a Bottle",
+      "offer_id_at_placement": "175280035",
+      "advertisement_id": "bf4a08bf-0e4d-41a6-9b21-dd1d10ed6f9e",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-01T10:22:38Z"
+    },
+    {
+      "date": "2026-10-27",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Angelinos Coffee",
+      "ad_headline": "Fresh-Roasted Coffee, Without Leaving the House",
+      "offer_id_at_placement": "175280034",
+      "advertisement_id": "f0a9813d-bd7f-40bd-b835-370dcd195289",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 105,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-01T10:22:38Z"
     }
   ]
 }

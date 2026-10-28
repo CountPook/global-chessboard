@@ -3,11 +3,29 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder ('New post', 2026-05-31) to a single test recipient. Baseline at run time: 14 active subscribers, +2 net new 7d, 0.0% open/click (no real campaign yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-28",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "State was stale: only issue #1 had been recorded, but issues 2-7 were published through 2026-08-17. Graded the newest published issue (#7). Small list: 13 delivered, 30.77% open (4 unique opens), raw click 50% / verified 25% (1 verified unique click), 7.69% unsubscribe (1 unsub), 0 spam, 0 web views. Publication last 7 days: 12 active subscribers (down from 14 in June), 0 net new, 0 churned, $0 earnings, 0% aggregate open/click (no send in the last 7 days; last issue was Aug 17, a ~10-week gap before today).",
+      "email_delivered": 13,
+      "open_rate": 30.77,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unique_verified_clicks": 1,
+      "unsubscribe_rate": 7.69,
+      "spam_reports": 0,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,27 +35,53 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
       "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
       "payout_per_click_cents": 131,
+      "creative_kind": "primary"
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-10-28",
+      "issue": 8,
+      "post_id": "post_509e79a8-08b8-405c-95dc-1314aa184802",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Introducing Fair Game from Vanity Fair",
+      "offer_id_at_placement": "176203442",
+      "advertisement_id": "8e963eae-0725-43bb-bcfa-282d671c5bbc",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
       "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "send_by": "2026-11-02T10:30:51Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-10-28",
+      "issue": 8,
+      "post_id": "post_509e79a8-08b8-405c-95dc-1314aa184802",
       "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Katusa Research",
+      "ad_headline": "Nvidia Is Worth Nearly 19 Times Every Silver Miner Combined",
+      "offer_id_at_placement": "176203441",
+      "advertisement_id": "c70bf477-71c3-4048-a0d5-3a1e28a7e951",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-02T10:30:51Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-10-28",
+      "issue": 8,
+      "post_id": "post_509e79a8-08b8-405c-95dc-1314aa184802",
       "slot": 3,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "note": "Angelinos Coffee (offer, CPC 105c) was available and valid but dropped: this publication caps a post at 2 ad opportunities total. The two highest-payout offers (Conde Nast 225c, Katusa 187c) were placed; the lowest was left as a placeholder."
     }
-  ]
+  ],
+  "ad_network_notes": "This publication accepts at most 2 ad opportunities per post, and only 1 of those may be 'primary' (with logo). Build the highest-value ad as primary and the next as secondary; render any remaining slots as placeholders. Ad offer IDs rotate on every list_ad_offers call, so re-fetch immediately before save_post. A failed save_post releases any offers it tried to claim (they reappear in available_offers with new IDs)."
 }

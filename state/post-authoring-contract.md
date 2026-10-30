@@ -27,11 +27,18 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 - **Columns** (2x2 = two columns blocks): <div data-type="columns" data-stack-on-mobile="true">
   <div data-type="column" data-position="0" data-width="50%">...</div>...</div>.
   A node-section card CAN be nested inside a column for per-cell card styling.
-- **Ad block**: <div class="node-advertisementOpportunity" data-id="<offer_id>"
+- **Ad block**: <div class="node-advertisementOpportunity" data-id="<id>"
   data-advertisement-kind="primary"></div>. IMPORTANT: offer ids from
   list_ad_offers ROTATE between calls. Call list_ad_offers immediately before
   save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
   data-advertisement-kind = primary (with logo) | secondary (no logo).
+  CRITICAL (learned 2026-10-30): you can place AT MOST ONE unclaimed list_ad_offers
+  id per post. A second one fails the whole save with "can not accept any more
+  opportunities". To run MULTIPLE ads in one issue, use ALREADY-ACCEPTED opportunity
+  ids from list_ad_opportunities(status="accepted") instead (these do not need to be
+  re-accepted, so the cap does not bite). Accepted-opportunity ids are stable UUIDs
+  and do NOT rotate. Check each accepted opportunity's send_by is after the target
+  send time. This is how all 3 slots were filled on 2026-10-30.
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).

@@ -8,6 +8,34 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-30",
+      "issue_graded": "most recent published post (publication has run several issues beyond state issue #1; see report)",
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "graded_post_stats": {
+        "total_delivered": 13,
+        "delivery_rate": 100.0,
+        "open_rate": 30.77,
+        "unique_opens": 4,
+        "click_rate_raw": 50.0,
+        "click_rate_verified": 25.0,
+        "unsubscribe_rate": 7.69,
+        "total_unsubscribes": 1,
+        "spam_reports": 0,
+        "web_views": 0
+      },
+      "publication_at_run": {
+        "current_active_subscribers": 12,
+        "net_subscribers_7d": 0,
+        "net_subscribers_28d": 0,
+        "open_rate_7d": 0.0,
+        "click_rate_7d": 0.0,
+        "earnings_7d": "$0.00",
+        "note": "No campaign sent in the 7 or 28 days before this run (last send 2026-08-17), so 7-day engagement is 0 by construction. Subscriber base flat at 12, down from 14 at the 2026-06-24 baseline."
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +66,46 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-30",
+      "issue": 2,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Introducing Fair Game from Vanity Fair",
+      "advertisement_id": "8e963eae-0725-43bb-bcfa-282d671c5bbc",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-11-02T10:30:51Z"
+    },
+    {
+      "date": "2026-10-30",
+      "issue": 2,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Katusa Research",
+      "ad_headline": "Nvidia Is Worth Nearly 19 Times Every Silver Miner Combined",
+      "advertisement_id": "c70bf477-71c3-4048-a0d5-3a1e28a7e951",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-11-02T10:30:51Z"
+    },
+    {
+      "date": "2026-10-30",
+      "issue": 2,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Particle for Men",
+      "ad_headline": "Gravite Cologne for Men: Confidence in a Bottle",
+      "advertisement_id": "bf4a08bf-0e4d-41a6-9b21-dd1d10ed6f9e",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-11-01T10:22:38Z"
     }
-  ]
+  ],
+  "ad_placement_notes": "The Ad Network rejects placing MORE THAN ONE unclaimed offer (list_ad_offers id) in a single post: the second placement fails with 'can not accept any more opportunities'. To run multiple ads, embed ALREADY-ACCEPTED opportunity ids from list_ad_opportunities(status='accepted') instead. On 2026-10-30 all three slots were filled this way (Conde Nast, Katusa, Particle), all with send_by after the target send time of 2026-10-30T15:00:00Z (8:00 AM PDT)."
 }

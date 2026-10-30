@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 2,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
-      "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
-      "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
+      "date": "2026-10-30",
+      "issue": 2,
+      "title": "Washington Sanctions Rwanda's Defense Ministry Over the War in Eastern Congo",
       "region": "Africa / Global South",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://home.treasury.gov/news/press-releases/sb0411",
+        "https://www.lanacion.com.ar/usa/us-imposes-sanctions-on-rwandan-defense-ministry-over-involvement-in-eastern-congo-conflict-nid28102026/",
+        "https://nation.africa/kenya/news/africa/us-imposes-sanctions-on-rwanda-s-defense-ministry-over-congo-conflict-5649826"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "issue": 2,
+      "title": "Qatar Presses a Fragile Bid to Revive US and Iran Nuclear Talks",
+      "region": "Middle East",
+      "sources": [
+        "https://www.axios.com/2026/10/28/iran-war-arab-mediators-war-post-midterms",
+        "https://english.aawsat.com/world/5324134-qatari-mediators-press-peace-deal-between-us-and-iran",
+        "https://www.arise.tv/iran-rejects-us-claim-on-nuclear-inspections-after-first-round-of-talks/"
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "issue": 2,
+      "title": "Seoul and Washington Postpone Their Annual Defense Meeting",
+      "region": "Indo-Pacific / Korean Peninsula",
+      "sources": [
+        "https://www.khan.co.kr/en/article/202610281110007",
+        "https://www.koreatimes.co.kr/foreignaffairs/20261027/fm-cho-says-to-meet-rubio-this-week-raise-dpk-lawmakers-visa-delay",
+        "https://biz.heraldcorp.com/article/10916726"
       ]
     }
   ]

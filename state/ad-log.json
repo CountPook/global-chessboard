@@ -8,6 +8,30 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-10-31",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_published": "2026-08-17",
+      "note": "Graded the most recent published issue (#7, Aug 17). State file was stale (only tracked issue #1); beehiiv shows issues #2-#7 were published through mid-August, then the newsletter went dormant for ~2.5 months. Issue #7 performed reasonably for a tiny list: 30.77% open rate on 13 delivered (4 unique opens), 1 verified click (25% verified CTR, 50% raw), 1 unsubscribe (7.69%), 0 spam, 0 web views. The long publishing gap likely drove list stagnation: the publication fell from 14 to 12 active subscribers with 0 new sign-ups and 0 churn in the trailing 7 days, and 0% aggregate open/click (no recent send). Earnings $0.00 over the last 7 days.",
+      "post_total_sent": 13,
+      "post_total_delivered": 13,
+      "post_open_rate": 30.77,
+      "post_unique_opens": 4,
+      "post_click_rate_raw": 50.0,
+      "post_click_rate_verified": 25.0,
+      "post_unique_clicks_verified": 1,
+      "post_unsubscribes": 1,
+      "post_unsubscribe_rate": 7.69,
+      "post_spam_reports": 0,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +62,46 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-10-31",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Introducing Fair Game from Vanity Fair",
+      "opportunity_id": "8e963eae-0725-43bb-bcfa-282d671c5bbc",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-11-02T10:30:51Z"
+    },
+    {
+      "date": "2026-10-31",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Katusa Research",
+      "ad_headline": "Nvidia Is Worth Nearly 19 Times Every Silver Miner Combined",
+      "opportunity_id": "c70bf477-71c3-4048-a0d5-3a1e28a7e951",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-11-02T10:30:51Z"
+    },
+    {
+      "date": "2026-10-31",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Particle for Men",
+      "ad_headline": "Gravite Cologne for Men: Confidence in a Bottle",
+      "opportunity_id": "bf4a08bf-0e4d-41a6-9b21-dd1d10ed6f9e",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "primary",
+      "send_by": "2026-11-01T10:22:38Z"
     }
-  ]
+  ],
+  "_ad_placement_lesson": "2026-10-31: Placing ad network offers from list_ad_offers available_offers failed with 'can not accept any more opportunities' - this publication is at its cap for ACCEPTING new offers. Fix: embed already-ACCEPTED opportunities from list_ad_opportunities(status='accepted') by their opportunity UUID in the advertisementOpportunity node. Those embed without accepting anything new. Pick accepted opportunities whose send_by is after the target send time, rank by payout_per_click_cents, avoid repeating the same advertiser."
 }

@@ -8,6 +8,22 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-01",
+      "run_issue": 8,
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_published_at": "2026-08-17",
+      "note": "State on this branch was stale (stuck at issue #1), so there was no issue-by-issue history for issues 2-7. Graded the most recent ACTUALLY PUBLISHED issue, #7 (published 2026-08-17). No issue has been sent to subscribers since Aug 17; a large stack of daily drafts (issues beyond #7) has accumulated unscheduled. Issue #7 performance: 13 delivered, 30.77% open rate (4 unique opens), unsubscribe rate 7.69% (1 unsub), 0 spam, click rate low (1 unique verified clicker, ~15% unique raw CTR), 0 web views. Issue #7 ran 2 real ads (Finance Advisors retirement lead-gen, 1440 Media). Publication at this run: 12 active subscribers (down from 14 at issue #1), 0 new / 0 churned last 7 days, $0.00 earnings last 7 days (nothing sent recently).",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "earnings_7d_usd": 0.0,
+      "issue7_open_rate": 30.77,
+      "issue7_unsubscribe_rate": 7.69,
+      "issue7_unique_email_clickers": 2
     }
   ],
   "ad_slots": [
@@ -38,6 +54,44 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-11-01",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad network rejected new placements: 'can not accept any more opportunities'. See note below."
+    },
+    {
+      "date": "2026-11-01",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad network rejected new placements: 'can not accept any more opportunities'."
+    },
+    {
+      "date": "2026-11-01",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "reason": "Ad network rejected new placements: 'can not accept any more opportunities'."
     }
-  ]
+  ],
+  "ad_notes_2026-11-01": {
+    "sponsorship_agreements_waiting": 0,
+    "available_offers_at_run": [
+      {"advertiser": "Conde Nast", "cpc_cents": 225, "send_by": "2026-11-06T10:20:07Z"},
+      {"advertiser": "1440 Media", "cpc_cents": 206, "send_by": "2026-11-06T10:20:07Z"},
+      {"advertiser": "Katusa Research", "cpc_cents": 187, "send_by": "2026-11-06T10:20:07Z"},
+      {"advertiser": "Particle for Men", "cpc_cents": 187, "send_by": "2026-11-06T10:20:07Z"},
+      {"advertiser": "Morning Brew", "cpc_cents": 187, "send_by": "2026-11-06T10:20:07Z"},
+      {"advertiser": "The Rundown AI", "cpc_cents": 150, "send_by": "2026-11-06T10:20:07Z"},
+      {"advertiser": "Angelinos Coffee", "cpc_cents": 105, "send_by": "2026-11-06T10:20:07Z"}
+    ],
+    "intended_placements_before_cap": ["Conde Nast (225c)", "1440 Media (206c)", "Katusa Research (187c)"],
+    "cap_error": "save_post with 3 advertisementOpportunity nodes was rejected: 'Could not place ad opportunity ... can not accept any more opportunities'. The publication already holds 2 accepted opportunities (Conde Nast, Katusa Research, both deadline 2026-11-02) that are embedded in the Oct 31 draft, and the ad network would not grant more. Many prior daily offers show status 'missed' because drafts were never sent. Fell back to 3 placeholder ad blocks and flagged the shortfall. Root cause is the unscheduled-draft backlog, not an authoring error."
+  }
 }

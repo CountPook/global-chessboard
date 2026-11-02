@@ -3,11 +3,40 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-02",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_scheduled_at": "2026-08-17T19:13:46Z",
+      "note": "Most recent published issue (#7, 2026-08-17) graded this run. Delivered to all 13 email recipients (100% delivery). Open rate 30.77% (4 unique opens), 2 unique clickers, 1 unsubscribe (7.69%, high on a tiny list), 0 spam, 0 web views. No issue has been sent in the last 7 days, so current-period opens/clicks/earnings are all zero and the active list has slipped to 12 from the 14-subscriber issue #1 baseline. Healthy open rate for the list size; the lone unsubscribe, flat growth, and a ~2.5 month publishing gap are the concerns.",
+      "email_total_sent": 13,
+      "email_total_delivered": 13,
+      "delivery_rate": 100.0,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate_unverified": 50.0,
+      "click_rate_verified": 25.0,
+      "unique_clickers": 2,
+      "unsubscribes": 1,
+      "unsubscribe_rate": 7.69,
+      "spam_reported": 0,
+      "web_views": 0,
+      "publication_last_7_days": {
+        "active_subscribers": 12,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "open_rate": 0.0,
+        "click_rate": 0.0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +67,48 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-11-02",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Atlas Salt",
+      "ad_headline": "Why Overseas Producers Can't Undercut Atlas Salt, Even for Free",
+      "offer_id_at_placement": "179699568",
+      "advertisement_id": "aba62666-16eb-4855-8f78-5432f7d0d880",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 300,
+      "creative_kind": "server_selected",
+      "send_by": "2026-11-07T10:25:51Z"
+    },
+    {
+      "date": "2026-11-02",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Text-Only Ad 2 - Fair Game (Vanity Fair)",
+      "offer_id_at_placement": "179699573",
+      "advertisement_id": "e62cbbce-00d0-4432-8a2f-357ce909460b",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "server_selected",
+      "send_by": "2026-11-07T10:25:51Z"
+    },
+    {
+      "date": "2026-11-02",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "If you want to sound smarter without doing more...",
+      "offer_id_at_placement": "179699572",
+      "advertisement_id": "ce61e937-2dad-4584-9634-ca8a6fbeca2d",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "server_selected",
+      "send_by": "2026-11-07T10:25:51Z"
     }
   ]
 }

@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-11-02",
+      "issue": 8,
+      "title": "Washington Weighs Renewed Strikes on Iran as Tehran Warns of Open Ended Retaliation",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.france24.com/en/middle-east/20261031-iran-s-khamenei-warns-us-and-israel-against-new-attacks",
+        "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/",
+        "https://www.foxnews.com/live-news/iran-war-news-trump-us-israel-november-1"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-02",
+      "issue": 8,
+      "title": "Ethiopia Takes Delivery of Russian Su-35 Jets and Looks to Advanced Air Defenses",
+      "region": "Horn of Africa",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://theaviationist.com/2026/10/30/ethiopia-receives-first-su-35-fighters/",
+        "https://addisstandard.com/news-alert-ethiopia-receives-12-russian-su-35-fighter-jets-plans-to-acquire-four-s-400-air-defense-batteries/",
+        "https://www.airforce-technology.com/news/ethiopia-su-35-russia/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-11-02",
+      "issue": 8,
+      "title": "G20 Foreign Ministers End Atlanta Talks Without a Joint Statement",
+      "region": "Global / Multilateral",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.thehansindia.com/news/international/g20-foreign-ministers-end-atlanta-meeting-without-consensus-on-key-issue-1138066",
+        "https://dailypioneer.com/amp/story/world/g20-foreign-ministers-end-atlanta-talks-without-consensus-on-key-global-issues",
+        "https://www.uniindia.com/world/g20-foreign-ministers-meeting-statement-ukraine/232523"
       ]
     }
-  ]
+  ],
+  "notes": "Issue #1 (2026-06-24) dropped from this list as older than 30 days. Reader-facing issue numbering was reconciled this run: the publication had published through issue #7 (2026-08-17) but state/covered-topics.json still read last_issue_number 1, so issues #2-#7 were never recorded here. Set to 8 to stay continuous with what readers have seen."
 }

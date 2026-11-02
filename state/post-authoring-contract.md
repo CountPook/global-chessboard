@@ -33,6 +33,11 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
   data-advertisement-kind = primary (with logo) | secondary (no logo).
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
+- **Ad kind gotcha (learned 2026-11-02)**: setting data-advertisement-kind="primary"
+  can be rejected with "No 'primary' ad slot is available in this post for opportunity
+  <uuid>" when the advertiser's current creative is text-only or secondary. Safest to
+  OMIT data-advertisement-kind entirely and let the server pick the available creative.
+  data-custom-intro="A word from our sponsor" is accepted and renders above the ad.
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).
 - **recipients**: omit on save_post to default to free tier on web+email (matches

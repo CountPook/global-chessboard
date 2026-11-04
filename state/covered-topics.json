@@ -1,37 +1,35 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "_note": "Issue numbering corrected on 2026-11-04. The prior state tracked last_issue_number=1, but list_posts showed 7 real issues had in fact published between 2026-06-24 and 2026-08-17 (plus a 'New post' test). Counting those real issues, today's draft is issue #8. Topics older than 30 days are pruned on each run.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-11-04",
+      "issue": 8,
+      "title": "Washington's Limited Strike on Qeshm Island",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.cbsnews.com/news/u-s-strikes-iran-targets/",
+        "https://www.cnn.com/2026/11/02/politics/us-strikes-iran-qeshm-island",
+        "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-04",
+      "issue": 8,
+      "title": "Europe Rehearses a Postwar Ukraine Mission",
+      "region": "Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.france24.com/en/europe/20261103-european-force-to-hold-first-ukraine-support-exercise-in-poland"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-11-04",
+      "issue": 8,
+      "title": "China's Naval Sweep Across the First Island Chain",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.japantimes.co.jp/news/2026/10/29/asia-pacific/politics/taiwan-50-chinese-vessels/",
+        "https://www.taipeitimes.com/News/editorials/archives/2026/11/04/2003867104"
       ]
     }
   ]

@@ -8,6 +8,19 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-04",
+      "issue_graded": 7,
+      "post_id_graded": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "post_title_graded": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global (published 2026-08-17)",
+      "note": "Graded the most recent published issue. 13 emails sent and delivered (100% delivery), 30.77% open rate (4 unique opens), 1 unique verified click (25% verified CTR, 50% raw), 1 unsubscribe (7.69%), 0 spam, 0 web views. Publication now at 12 active subscribers, down from the 14 at the issue #1 baseline; 0 net new and 0 churn in the trailing 7 days because no email went out in that window (last send was mid-August). Engagement is reasonable for a very small list, but on 13 recipients a single unsubscribe is one person and open rate swings are noisy. Also discovered the state file was stale: it tracked only issue #1, but seven real issues had published between 2026-06-24 and 2026-08-17. Issue numbering corrected to #8 for today's draft.",
+      "subscribers_active": 12,
+      "open_rate": 30.77,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unsubscribe_rate": 7.69,
+      "spam_reports": 0
     }
   ],
   "ad_slots": [
@@ -35,6 +48,35 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-11-04",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Atlas Salt",
+      "ad_headline": "Why Overseas Producers Can't Undercut Atlas Salt, Even for Free",
+      "offer_id_at_placement": "181615825",
+      "advertisement_id": "5293384c-4fac-4c58-984b-233ebd0bdc07",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 300,
+      "creative_kind": "primary",
+      "send_by": "2026-11-09T10:22:20Z"
+    },
+    {
+      "date": "2026-11-04",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "beehiiv rejected placing more than one primary ad node in a single post ('No primary ad slot is available'). Only the top-CPC offer (Atlas Salt, 300c) could be placed. Conde Nast (225c) and 1440 Media (206c) were ranked next but could not be added."
+    },
+    {
+      "date": "2026-11-04",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

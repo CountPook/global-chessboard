@@ -3,9 +3,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "Baseline run. No prior real issue to grade. Publication baseline at run time: 14 active subscribers, +2 net new in 7 days, 0.0% open/click (no real campaign sent yet), earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-05",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Graded the most recent published issue (#7, sent 2026-08-17). 13 emails sent, 13 delivered (100% delivery), 30.77% open rate (4 unique opens), 25% verified click rate (1 unique verified click, 50% raw), 7.69% unsubscribe rate (1 unsubscribe), 0 spam reports, 0 web views. No issue has been sent since 2026-08-17, an ~11 week gap; active subscribers slipped from 14 to 12 and last-7-days growth and engagement are flat at 0 because nothing has shipped recently. Takeaway: cadence is the main lever. On a 12 to 13 person list, open rate is reasonable but absolute engagement is tiny, and a single unsubscribe reads as a high percentage. Regular sends should be re-established.",
+      "graded_email_sent": 13,
+      "graded_delivered": 13,
+      "graded_open_rate": 30.77,
+      "graded_click_rate_verified": 25.0,
+      "graded_click_rate_raw": 50.0,
+      "graded_unsubscribe_rate": 7.69,
+      "graded_spam_reports": 0,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
     }
@@ -17,13 +36,7 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
-      "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
     },
     {
       "date": "2026-06-24",
@@ -38,6 +51,46 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-11-05",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Atlas Salt",
+      "ad_headline": "Why Overseas Producers Can't Undercut Atlas Salt, Even for Free",
+      "opportunity_id": "5293384c-4fac-4c58-984b-233ebd0bdc07",
+      "advertisement_kind": "primary",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 300,
+      "send_by": "2026-11-09T10:22:20Z"
+    },
+    {
+      "date": "2026-11-05",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Text-Only Ad 2 - Fair Game, October - Text Only 2",
+      "opportunity_id": "e62cbbce-00d0-4432-8a2f-357ce909460b",
+      "advertisement_kind": "secondary",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "send_by": "2026-11-07T10:25:51Z"
+    },
+    {
+      "date": "2026-11-05",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Morning Brew",
+      "ad_headline": "If you want to sound smarter without doing more",
+      "opportunity_id": "ce61e937-2dad-4584-9634-ca8a6fbeca2d",
+      "advertisement_kind": "secondary",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "send_by": "2026-11-07T10:25:51Z"
     }
-  ]
+  ],
+  "ad_network_notes": "Issue #8: the publication allows only ONE 'primary' (with-logo) ad slot per post; placing 3 primary ads was rejected. The account also could not accept any NEW ad opportunities (it had several already-accepted but unplaced opportunities from prior runs sitting against its acceptance cap). Fix that worked: embed already-accepted opportunities (list_ad_opportunities, status=accepted) by their UUIDs instead of claiming fresh numeric offer IDs, using 1 primary + 2 secondary. Lesson for future runs: prefer embedding existing accepted opportunities when the account is near its acceptance cap, and keep at most one primary per post."
 }

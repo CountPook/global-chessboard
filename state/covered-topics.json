@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-11-05",
+      "issue": 8,
+      "title": "Washington Restarts Ukraine Diplomacy With a New Round of Abu Dhabi Talks",
+      "region": "Europe / Russia-Ukraine",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.thenationalnews.com/news/us/2026/11/02/russia-ukraine-witkoff-abu-dhabi/",
+        "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin",
+        "https://www.kyivpost.com/post/88971"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-05",
+      "issue": 8,
+      "title": "Tokyo and Beijing Head Toward the Shenzhen Summit With Ties at a Decade Low",
+      "region": "Indo-Pacific / East Asia",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://thediplomat.com/2026/09/a-message-to-china-from-japans-takaichi-administration/",
+        "https://www.lowyinstitute.org/the-interpreter/japan-s-quiet-test-china-diplomacy",
+        "https://www.japantimes.co.jp/commentary/2026/11/03/japan/japan-beijings-strategy/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-11-05",
+      "issue": 8,
+      "title": "The Antalya Climate Summit Opens With a Contest Over Electricity and Finance",
+      "region": "Global / Climate / Economics",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.eenews.net/articles/turkey-australia-to-push-for-global-electrification-goal-at-un-climate-summit/",
+        "https://bloomberg.com/news/articles/2026-11-05/in-a-divided-world-cop31-aims-for-agreement-on-electrification",
+        "https://cop31.tr/"
       ]
     }
-  ]
+  ],
+  "notes": "Issue #1 (2026-06-24) dropped from this file as older than 30 days. Live beehiiv data shows the most recent published issue before today was #7 (post_178199d6, 2026-08-17); the state file had fallen out of sync at last_issue_number=1, so issue numbering was corrected to resume at #8."
 }

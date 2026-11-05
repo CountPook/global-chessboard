@@ -1,6 +1,8 @@
 # Cached beehiiv authoring contract (pub_995eb47b-b524-4e27-b1ea-daf929e01bd5)
 
-Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior changes.
+Cached 2026-06-24 from learn_post_authoring; re-verified 2026-11-05 (contract unchanged; node/mark set and brand approach still valid). Re-fetch if beehiiv behavior changes.
+
+Ad-network gotchas confirmed 2026-11-05: a post accepts only ONE primary (with-logo) advertisementOpportunity; additional ads must be secondary. When list_ad_offers placement fails with "can not accept any more opportunities," the account is at its acceptance cap from already-accepted but unplaced opportunities; embed those instead via list_ad_opportunities (status=accepted) using their UUIDs as data-id.
 
 ## Key facts for building issues
 

@@ -42,3 +42,22 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;
 body text #a0b4c8; muted #8a9bb0; heading accent #e8d5a3; faint #5a6a7a;
 border #1e3a52; ad strip bg #0c1e30. Heading font Georgia serif; body Inter.
+
+## Update 2026-11-06 (issue #8 run) — ad-network slot cap
+
+- This publication accepts only ONE ad-network placement per post. Placing a
+  second advertisementOpportunity fails: three primaries -> "No 'primary' ad slot
+  is available"; one primary + two secondary -> "can not accept any more
+  opportunities" on the 2nd ad. Plan for ONE real ad + placeholder blocks for the
+  rest.
+- Prefer embedding an already-ACCEPTED opportunity (from list_ad_opportunities,
+  status "accepted") over claiming a fresh list_ad_offers offer: it sidesteps the
+  "can not accept any more opportunities" cap and the accepted pool often has
+  higher CPC. Rank by payout_per_click_cents; check send_by > target send time.
+- edit_post_content cannot `replace` a section wrapper with a bare node (guarded).
+  To swap a placeholder section for an ad node: insertAfter the placeholder with
+  the ad node, then delete the placeholder in the same or a follow-up call
+  (a target hash may appear only once per call).
+- email_settings on save_post uses keys **email_subject_line** and
+  **email_preview_text** (not subject_line/preview_text). Wrong keys are silently
+  ignored and the subject falls back to the title, preview to the subtitle.

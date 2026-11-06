@@ -3,11 +3,29 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Publication baseline at run time: 14 active subscribers, +2 net new in 7 days, 0.0% open/click (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-06",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_published": "2026-08-17",
+      "note": "Most recent published issue (#7) graded. State on this branch had skipped issues 2-7. Email: 13 sent, 13 delivered (100%), open rate 30.77% (4 unique opens), click rate 25.0% verified / 50.0% raw (1 verified click), 1 unsubscribe (7.69%), 0 spam. Healthy engagement on a tiny list, but the publication has been dormant since Aug 17. Publication now at 12 active subscribers (down from 14 at the issue-1 baseline), 0 net new and $0 earnings in the last 7 days. Priority: resume cadence and grow the list. No repeat advertisers, so no realized-CTR blending needed for today's ranking.",
+      "email_total_sent": 13,
+      "email_open_rate": 30.77,
+      "email_click_rate_verified": 25.0,
+      "unsubscribe_rate": 7.69,
+      "spam_reports": 0,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,27 +35,28 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
       "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
+      "payout_per_click_cents": 131
+    },
+    {"date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none"},
+    {"date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none"},
+    {
+      "date": "2026-11-06",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Atlas Salt",
+      "ad_headline": "Why Overseas Producers Can't Undercut Atlas Salt, Even for Free",
+      "opportunity_id": "5293384c-4fac-4c58-984b-233ebd0bdc07",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 300,
       "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "send_by": "2026-11-09T10:22:20Z",
+      "note": "Placed an already-accepted ad-network opportunity (Atlas Salt, 300c CPC) rather than a list_ad_offers offer. The publication accepts only ONE ad placement per post: attempts to add a second ad returned 'No primary ad slot is available' and then 'can not accept any more opportunities'. Atlas Salt at 300c outranks every available offer (top was Conde Nast 225c)."
     },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
-    }
+    {"date": "2026-11-06", "issue": 8, "slot": 2, "type": "placeholder", "advertiser": "none"},
+    {"date": "2026-11-06", "issue": 8, "slot": 3, "type": "placeholder", "advertiser": "none"}
   ]
 }

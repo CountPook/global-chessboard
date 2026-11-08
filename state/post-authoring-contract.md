@@ -42,3 +42,24 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;
 body text #a0b4c8; muted #8a9bb0; heading accent #e8d5a3; faint #5a6a7a;
 border #1e3a52; ad strip bg #0c1e30. Heading font Georgia serif; body Inter.
+
+## Ad placement lesson (learned 2026-11-08, issue #8)
+- beehiiv auto-accepts a handful of ad opportunities per send cycle. Find them with
+  `list_ad_opportunities(status="accepted")` and embed the ACCEPTED OPPORTUNITY id
+  (a uuid), NOT the rotating numeric offer id from `list_ad_offers`.
+- Passing an offer id makes beehiiv try to accept a NEW opportunity; once the cycle
+  quota is used this fails with "can not accept any more opportunities" even for a
+  single ad. Using the already-accepted opportunity id avoids this entirely, and
+  those uuids are stable (they do not rotate between calls).
+- A post exposes only ONE "primary" ad slot. Set `data-advertisement-kind="primary"`
+  on at most one ad; make every other ad `"secondary"`. Three real ads placed
+  successfully as 1 primary + 2 secondary on 2026-11-08.
+- Each accepted opportunity has its own `send_by`/`deadline`; drop any that expires
+  before the target send time, same as for offers.
+
+## Network / image note (2026-11-08)
+- This session's network policy blocks WebFetch to arbitrary hosts (ENOTFOUND) and
+  blocks verifying Wikimedia Commons file pages. A guessed Special:FilePath save_image
+  URL 404'd. Fallback that worked: beehiiv `generate_image` (copyright-safe, no real
+  individuals), captioned "Illustration generated with AI". WebSearch still works and
+  is detailed enough to research and source stories.

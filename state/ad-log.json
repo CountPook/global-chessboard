@@ -3,11 +3,39 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0%, earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-08",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent": "2026-08-17",
+      "note": "Most recent published issue was #7 (2026-08-17), not #1. The state file was stale; issues #2-#7 were published without updating state/. Graded issue #7 as the newest published post. Healthy open rate on a tiny list, thin click engagement, one unsubscribe, flat/declining subscriber base (14 at issue #1 down to 12 now). No sends in the last 4 weeks, so the 4-week aggregate rates read as 0.",
+      "email_total_sent": 13,
+      "email_total_delivered": 13,
+      "delivery_rate": 100.0,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate_raw": 50.0,
+      "click_rate_verified": 25.0,
+      "unique_clicks_raw": 2,
+      "unique_clicks_verified": 1,
+      "unsubscribes": 1,
+      "unsubscribe_rate": 7.69,
+      "bounce_rate": 0.0,
+      "spam_reports": 0,
+      "web_views": 0,
+      "subscribers_active": 12,
+      "net_new_subscribers_4w": 0,
+      "churned_subscribers_4w": 0,
+      "open_rate_4w": 0.0,
+      "click_rate_4w": 0.0,
+      "earnings_4w": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +66,46 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-11-08",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Atlas Salt",
+      "ad_headline": "Why Overseas Producers Can't Undercut Atlas Salt, Even for Free",
+      "opportunity_id": "5293384c-4fac-4c58-984b-233ebd0bdc07",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 300,
+      "creative_kind": "primary",
+      "send_by": "2026-11-09T10:22:20Z"
+    },
+    {
+      "date": "2026-11-08",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Vanity Fair's New Show, Where Nothing Is Off the Table",
+      "opportunity_id": "8fcfd3c2-ec63-4aec-9154-79f07cab1f0e",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-12T10:26:56Z"
+    },
+    {
+      "date": "2026-11-08",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "CBDistillery",
+      "ad_headline": "The CBD Brand that Actually Does What It Says",
+      "opportunity_id": "1e221d2c-e602-4c98-a3b6-757f9662e041",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-12T10:26:56Z"
     }
-  ]
+  ],
+  "_ad_placement_lessons": "beehiiv auto-accepts a small set of ad opportunities per cycle (visible via list_ad_opportunities status=accepted). Embed the ACCEPTED OPPORTUNITY id (a uuid), NOT the rotating offer id from list_ad_offers. Passing offer ids triggers a fresh acceptance and fails with 'can not accept any more opportunities' once the cycle's quota is used. A post also has only ONE 'primary' ad slot: set data-advertisement-kind=primary on at most one ad, all others 'secondary'. This run placed 3 real ads (1 primary + 2 secondary) using accepted opportunity ids."
 }

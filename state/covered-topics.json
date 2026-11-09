@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-11-09",
+      "issue": 8,
+      "title": "Ukraine and Russia Return to the Table in Abu Dhabi",
+      "region": "Europe / Eastern Europe",
+      "sources": [
+        "https://kyivindependent.com/russia-to-send-senior-diplomats-military-officials-to-upcoming-peace-talks-in-abu-dhabi/",
+        "https://www.aa.com.tr/en/eurasia/kremlin-declares-composition-of-russia-s-delegation-at-new-trilateral-abu-dhabi-summit/4115152",
+        "https://www.kyivpost.com/post/89466"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "issue": 8,
+      "title": "America's Naval Blockade of Iran Tightens Around Hormuz",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/11/8/us-launches-task-force-to-disrupt-irans-land-based-supply-routes",
+        "https://gulfnews.com/world/mena/us-strikes-multiple-iranian-naval-vessels-mine-laying-ships-used-to-harass-shipping-in-strait-of-hormuz-1.500470395",
+        "https://www.crisisgroup.org/trigger-list/iran-usisrael-trigger-list/flashpoints/strait-hormuz"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-09",
+      "issue": 8,
+      "title": "Sudan and Ethiopia Trade Expulsions as the War Spills Across Borders",
+      "region": "Horn of Africa / Global South",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/11/4/sudan-ethiopia-order-tit-for-tat-diplomatic-expulsions",
+        "https://www.thenationalnews.com/news/mena/2026/11/05/sudan-and-ethiopia-in-tit-for-tat-expulsions-of-diplomats-as-tensions-rise",
+        "https://theprint.in/world/ethiopia-expels-sudanese-diplomats-after-fresh-allegations-of-support-for-rsf/3090457/"
       ]
     }
-  ]
+  ],
+  "_note": "Entries older than 30 days are dropped on each run. The June 2026 (issue 1) topics were dropped on 2026-11-09. Note: between issue 1 (2026-06-24) and this run the publication also published issues 2-7 (through 2026-08-17) that were never logged here; the issue counter was reconciled to the real masthead number (issue 7 was the last published), so this run is issue 8."
 }

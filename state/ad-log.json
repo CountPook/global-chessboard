@@ -3,11 +3,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. Publication baseline: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click 0.0%, earnings $2.24 (7d).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-09",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_scheduled_at": "2026-08-17T19:13:46Z",
+      "note": "Grading the most recent published issue (#7, Aug 17). The newsletter went dormant for roughly three months after it; there were no sends in the last 7 days so publication-wide 7d open/click are 0.0%. Issue #7 email: 13 sent, 13 delivered, open_rate 30.77% (4 unique opens), click_rate 50.0% raw but only 25.0% verified (1 verified unique click), unsubscribe_rate 7.69% (1 unsub), 0 web views. Subscriber base slipped from 14 (June) to 12 now. Takeaway: tiny list, decent open rate for the size, but weak verified clicks and a high single-unsub rate on 13 recipients; the three-month gap likely cost momentum and subscribers. Issue #8 uses contextually relevant ads (1440 Media newsy, Conde Nast media) alongside the highest-paying available to try to lift verified CTR.",
+      "subscribers_active_now": 12,
+      "issue7_total_sent": 13,
+      "issue7_open_rate": 30.77,
+      "issue7_click_rate_raw": 50.0,
+      "issue7_click_rate_verified": 25.0,
+      "issue7_unsubscribe_rate": 7.69,
+      "publication_open_rate_7d": 0.0,
+      "publication_click_rate_7d": 0.0,
+      "net_new_subscribers_7d": 0
     }
   ],
   "ad_slots": [
@@ -17,27 +34,58 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
       "offer_id_at_placement": "71499732",
       "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 131
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-11-09",
+      "issue": 8,
+      "post_id": "post_87505272-7f85-4efd-bfe5-0154386e73c7",
+      "slot": 1,
+      "position": "after intro (top)",
+      "type": "real",
+      "advertiser": "CBDistillery",
+      "ad_headline": "The CBD Brand that Actually Does What It Says",
+      "opportunity_id": "1e221d2c-e602-4c98-a3b6-757f9662e041",
+      "advertisement_kind": "primary",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "send_by": "2026-11-12T10:26:56Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-11-09",
+      "issue": 8,
+      "post_id": "post_87505272-7f85-4efd-bfe5-0154386e73c7",
       "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "position": "after story 2 (Iran)",
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Vanity Fair's New Show, Where Nothing Is Off the Table",
+      "opportunity_id": "8fcfd3c2-ec63-4aec-9154-79f07cab1f0e",
+      "advertisement_kind": "secondary",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "send_by": "2026-11-12T10:26:56Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-11-09",
+      "issue": 8,
+      "post_id": "post_87505272-7f85-4efd-bfe5-0154386e73c7",
       "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
+      "position": "after story 3 (Sudan-Ethiopia)",
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Confused about what's happening in the Middle East?",
+      "opportunity_id": "a81535db-7bca-40fb-90b9-34473d604c86",
+      "advertisement_kind": "secondary",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "send_by": "2026-11-12T10:26:57Z"
     }
-  ]
+  ],
+  "_ad_notes_2026-11-09": "Ad network quirks learned this run: (1) a post supports only ONE 'primary' ad slot; additional ads must be 'secondary' or the save is rejected with 'No primary ad slot available'. (2) The publication has a cap on accepting NEW opportunities; placing offers by their list_ad_offers id tries to accept a new opportunity and failed with 'can not accept any more opportunities'. Fix: embed already-ACCEPTED opportunities by their opportunity_id from list_ad_opportunities(status=accepted) instead of offer ids. (3) Atlas Salt (opp 5293384c, 300c) was the highest payout but its send_by was 2026-11-09T10:22:20Z, before the 16:00 UTC (08:00 PST) target send, so it was excluded as expiring before send time. Ranked remaining valid accepted opportunities by payout: CBDistillery 225, Conde Nast 225, 1440 Media 206. No sponsorship_agreement_items were waiting. All three slots filled with real ads; no placeholders."
 }

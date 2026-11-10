@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
-      "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
+      "date": "2026-11-10",
+      "issue": 8,
+      "title": "Russia and Ukraine Return to US Mediated Talks in Abu Dhabi",
       "region": "Eastern Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes",
+        "https://www.cbsnews.com/news/us-russia-ukraine-war-talks-peace-abu-dhabi-deal/",
+        "https://www.usnews.com/news/world/articles/2026-11-10/us-brokered-talks-are-set-to-start-in-abu-dhabi-to-discuss-ukraine-russia-peace-deal"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-11-10",
+      "issue": 8,
+      "title": "Japan Agrees to Supply the Philippines With Radar and Drones",
+      "region": "Indo-Pacific / Southeast Asia",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.wral.com/news/ap/fe32e-japan-to-provide-coastal-radar-and-drones-to-the-philippines-under-27m-deal/",
+        "https://www.aa.com.tr/en/asia-pacific/japan-to-provide-radar-system-unmanned-aircraft-to-philippine-military-amid-rising-tensions-with-china/4116611",
+        "https://www.nippon.com/en/articles/-/57128"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "issue": 8,
+      "title": "COP31 Opens in Antalya With an Early Fight Over Climate Finance",
+      "region": "Global / Climate",
+      "sources": [
+        "https://www.turkishminute.com/2026/11/09/cop31-opens-in-antalya-with-early-dispute-over-climate-finance/",
+        "https://english.news.cn/20261109/1c2f910709c04c18b90ad07b066a3be0/c.html",
+        "https://oilprice.com/Latest-Energy-News/World-News/COP31-Opens-in-Antalya-With-a-UN-Push-for-Faster-Climate-Action.html"
       ]
     }
-  ]
+  ],
+  "notes": "Issues #2-#7 (published 2026-06-26 through 2026-08-17) were not logged to this file by prior runs; state was stale at last_issue_number=1 until issue #8. Most recent prior issue before #8 was #7 (2026-08-17, Kuril Islands / Mecca pact / C919). Issue #1 topics dropped here as older than 30 days."
 }

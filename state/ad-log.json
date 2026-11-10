@@ -8,6 +8,24 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-10",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_published": "2026-08-17",
+      "note": "Most recent published issue was #7 on 2026-08-17, roughly three months before this run (issues #2-#7 ran through mid-August; no issues published between 2026-08-17 and this 2026-11-10 run). Graded issue #7: 13 emails sent, 13 delivered (100%), open rate 30.77% (4 unique opens), click rate 50.0% raw / 25.0% verified (2 unique clickers raw, 1 verified), 1 unsubscribe (7.69%), 0 spam, 0 web views. Reasonable open rate for a small list; the single unsubscribe weighs heavily on a 13-recipient base. Publication now at 12 active subscribers (down from 13 at that send and 14 at issue #1), net -1 over the last 3 months with 1 churn and 0 new, earnings $65.17 over the last 3 months.",
+      "subscribers_active": 12,
+      "net_subscribers_3mo": -1,
+      "churned_3mo": 1,
+      "new_subscribers_3mo": 0,
+      "earnings_3mo_usd": 65.17,
+      "issue7_email_open_rate": 30.77,
+      "issue7_email_click_rate_raw": 50.0,
+      "issue7_email_click_rate_verified": 25.0,
+      "issue7_unsubscribes": 1,
+      "issue7_unsubscribe_rate": 7.69
     }
   ],
   "ad_slots": [
@@ -38,6 +56,46 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-11-10",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Vanity Fair's New Show, Where Nothing Is Off the Table",
+      "opportunity_id": "8fcfd3c2-ec63-4aec-9154-79f07cab1f0e",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-11-12T10:26:56Z"
+    },
+    {
+      "date": "2026-11-10",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "CBDistillery",
+      "ad_headline": "The CBD Brand that Actually Does What It Says",
+      "opportunity_id": "1e221d2c-e602-4c98-a3b6-757f9662e041",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-12T10:26:56Z"
+    },
+    {
+      "date": "2026-11-10",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Confused about what's happening in the Middle East?",
+      "opportunity_id": "a81535db-7bca-40fb-90b9-34473d604c86",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-12T10:26:57Z"
     }
-  ]
+  ],
+  "notes": "Ad placement mechanics learned issue #8: the beehiiv ad network allows only ONE 'primary' ad slot per post (extra primaries are rejected with 'No primary ad slot is available'), and the publication already had its full allotment of ACCEPTED opportunities, so placing fresh offers from list_ad_offers failed with 'can not accept any more opportunities'. Fix: embed the already-accepted opportunity IDs from list_ad_opportunities(status=accepted) directly, with the highest-value ad as the single 'primary' and the rest as 'secondary'. Offer IDs from list_ad_offers rotate every call; accepted opportunity IDs are stable."
 }

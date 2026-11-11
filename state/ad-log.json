@@ -3,11 +3,30 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post', sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0%, earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-11",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Newest published issue (#7, 2026-08-17) graded as 'yesterday'. State on this branch had only tracked issue #1; reconciled to reality this run. Issue #7 email stats: 13 sent, 13 delivered (100% delivery), open rate 30.77% (4 unique opens), click rate 50.0% raw / 25.0% verified (2 unique clickers raw, 1 verified), 1 unsubscribe (7.69% unsub rate), 0 web views. Publication last-7-days as of 2026-11-11: 12 active subscribers (down from 14 at issue #1), 0 new, 0 churned, 0.0% open/click (list dormant ~3 months since last send), earnings $0.00.",
+      "graded_issue_email_sent": 13,
+      "graded_issue_open_rate": 30.77,
+      "graded_issue_click_rate_raw": 50.0,
+      "graded_issue_click_rate_verified": 25.0,
+      "graded_issue_unsubscribes": 1,
+      "graded_issue_unsubscribe_rate": 7.69,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -17,27 +36,50 @@
       "slot": 1,
       "type": "real",
       "advertiser": "I Hate It Here",
-      "ad_headline": "The free newsletter making HR less lonely",
-      "offer_id_at_placement": "71499732",
-      "advertisement_id": "d5d338ed-6033-47c1-987a-0d6cf13d855e",
+      "payout_per_click_cents": 131
+    },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
+    {
+      "date": "2026-11-11",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "CBDistillery",
+      "ad_headline": "The CBD Brand that Actually Does What It Says",
+      "opportunity_id": "1e221d2c-e602-4c98-a3b6-757f9662e041",
       "payout_model": "cpc",
-      "payout_per_click_cents": 131,
-      "creative_kind": "primary",
-      "send_by": "2026-06-29T07:09:42Z"
+      "payout_per_click_cents": 225,
+      "send_by": "2026-11-12T10:26:56Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-11-11",
+      "issue": 8,
       "slot": 2,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Vanity Fair's New Show, Where Nothing Is Off the Table",
+      "opportunity_id": "8fcfd3c2-ec63-4aec-9154-79f07cab1f0e",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "send_by": "2026-11-12T10:26:56Z"
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
+      "date": "2026-11-11",
+      "issue": 8,
       "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Confused about what's happening in the Middle East?",
+      "opportunity_id": "a81535db-7bca-40fb-90b9-34473d604c86",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "send_by": "2026-11-12T10:26:57Z"
     }
+  ],
+  "placement_lessons": [
+    "beehiiv pre-allocates a fixed set of ad slots per send as 'accepted' ad opportunities (list_ad_opportunities status=accepted). Those pre-accepted opportunity IDs are the real, embeddable slots and should be used in the advertisementOpportunity node. Embedding arbitrary high-payout offers from list_ad_offers that have NO allocated slot fails with: 'No primary ad slot is available in this post for opportunity <id>.'",
+    "This run: list_ad_offers advertised higher payouts (e.g. Atlas Salt 300c) but those offers had no allocated slot and were rejected. The three accepted opportunities for the 2026-11-12 send window (CBDistillery 225c, Conde Nast 225c, 1440 Media 206c) placed cleanly. Omit data-advertisement-kind and let the server pick the creative.",
+    "Lesson for future runs: call list_ad_opportunities(status='accepted') and use those opportunity IDs for the current send window (ranked by payout_per_click_cents), rather than ranking list_ad_offers. Still discard any whose send_by is at or before the target send timestamp."
   ]
 }

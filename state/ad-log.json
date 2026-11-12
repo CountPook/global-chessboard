@@ -1,6 +1,24 @@
 {
   "performance_history": [
     {
+      "date": "2026-11-12",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "Graded the most recent published issue (#7, sent Aug 17). The state file was stale (last_issue_number was 1) but six further issues had shipped since; the latest masthead reads ISSUE #7, so today's run is issue #8. Issue #7 reached 13 recipients, 13 delivered (100%), 30.77% open rate (4 unique opens), 50% raw / 25% verified click rate (2 raw clicks, 1 verified), 1 unsubscribe (7.69% of the send), 0 spam, 0 web views. Engagement rate is healthy for a tiny list but the absolute base is small and the single unsubscribe is a large share of 13. Publication now: 12 active subscribers, 0 net new in trailing 7d, 0.0% aggregate open/click (7d), $0.00 earnings (7d). Priorities remain list growth and converting opens into verified clicks. Note there was a long gap: no issue shipped between Aug 17 and this Nov 12 run.",
+      "graded_post_email_sent": 13,
+      "graded_post_delivered": 13,
+      "graded_post_open_rate": 30.77,
+      "graded_post_click_rate_verified": 25.0,
+      "graded_post_unsubscribes": 1,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
+    },
+    {
       "date": "2026-06-24",
       "issue": 1,
       "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
@@ -11,6 +29,46 @@
     }
   ],
   "ad_slots": [
+    {
+      "date": "2026-11-12",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "placement_mechanism": "accepted_ad_opportunity",
+      "advertiser": "CBDistillery",
+      "opportunity_id": "1e221d2c-e602-4c98-a3b6-757f9662e041",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-11-12T10:26:56Z",
+      "note": "Placed the ad-network's already-accepted opportunity for the Nov 12 cycle, not a freshly claimed offer. See report for the ad-slot rules learned this run."
+    },
+    {
+      "date": "2026-11-12",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "placement_mechanism": "accepted_ad_opportunity",
+      "advertiser": "Conde Nast",
+      "opportunity_id": "8fcfd3c2-ec63-4aec-9154-79f07cab1f0e",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-12T10:26:56Z"
+    },
+    {
+      "date": "2026-11-12",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "placement_mechanism": "accepted_ad_opportunity",
+      "advertiser": "1440 Media",
+      "opportunity_id": "a81535db-7bca-40fb-90b9-34473d604c86",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-12T10:26:57Z"
+    },
     {
       "date": "2026-06-24",
       "issue": 1,

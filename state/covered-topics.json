@@ -1,37 +1,40 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issue numbering follows the masthead of the latest PUBLISHED post, not just this file. On 2026-11-12 the file was found stale (said 1) while published issues had reached #7 (2026-08-17). Corrected to 8. Future runs: if this number looks behind the newest published issue, verify via the latest published post's masthead before numbering.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-11-12",
+      "issue": 8,
+      "title": "American Envoys Carry an Abu Dhabi Framework to Moscow and Kyiv",
+      "region": "Eastern Europe / Diplomacy",
+      "sources": [
+        "https://www.washingtonpost.com/world/2026/11/10/russia-ukraine-begin-us-backed-peace-talks-abu-dhabi/",
+        "https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi",
+        "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+        "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu"
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "issue": 8,
+      "title": "Israel's President Hands Eisenkot the Mandate to Form a Government",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government",
+        "https://www.axios.com/2026/11/07/israel-eisenkot-netanyahu-government-herzog",
+        "https://abcnews.com/International/netanyahu-challenger-eisenkot-tasked-forming-new-government/story?id=137945429",
+        "https://www.haaretz.com/israel-news/elections/2026-11-08/ty-article/.premium/what-happens-next-the-timeline-of-eisenkots-race-to-61/000001a1-bc6d-dd01-a1e5-feff48f20000"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-12",
+      "issue": 8,
+      "title": "The US and China Buy Time on Trade as the Shenzhen Summit Nears",
+      "region": "Indo-Pacific / Economics",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.thenationalnews.com/news/us/2026/11/09/china-extends-pause-on-rare-earth-export-curbs-for-two-months/",
+        "https://www.supplychaindive.com/news/us-china-trade-truce-donald-trump-xi-jinping-apec/",
+        "https://investinglive.com/news/us-and-china-extend-busan-trade-truce-to-january-10-as-xi-arrives-for-trump-summit/"
       ]
     }
   ]

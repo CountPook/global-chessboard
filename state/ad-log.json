@@ -8,6 +8,26 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-16",
+      "graded_issue": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "note": "State memory was stale: covered-topics.json recorded only issue #1 (2026-06-24), but beehiiv shows the newsletter published through issue #7 on 2026-08-17, then went quiet for ~3 months. Issue number was recovered from the live masthead of the latest published post (#7) and incremented to #8 for this run. Graded the most recent published issue, #7. No sends in the last 7 days, so publication 7-day aggregates are all zero; grading uses the post-level stats instead.",
+      "issue7_total_delivered": 13,
+      "issue7_delivery_rate": 100,
+      "issue7_open_rate": 30.77,
+      "issue7_unique_opens": 4,
+      "issue7_click_rate_raw": 50.0,
+      "issue7_click_rate_verified": 25.0,
+      "issue7_unsubscribes": 1,
+      "issue7_unsubscribe_rate": 7.69,
+      "issue7_spam_reports": 0,
+      "issue7_web_views": 0,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +58,52 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-11-16",
+      "issue": 8,
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Introducing Fair Game from Vanity Fair",
+      "offer_id_at_placement": "191765818",
+      "advertisement_id": "cbdae72c-f00b-4d97-8e51-b5b1a28be221",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-11-21T10:25:04Z"
+    },
+    {
+      "date": "2026-11-16",
+      "issue": 8,
+      "slot": 2,
+      "type": "real",
+      "advertiser": "What We Spend (Podcast)",
+      "ad_headline": "Bank Statement life - Text Only 1 - November '26",
+      "offer_id_at_placement": "191765822",
+      "advertisement_id": "eeb34d3c-a711-458f-b2e1-1b6d2b08f171",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-21T10:25:04Z"
+    },
+    {
+      "date": "2026-11-16",
+      "issue": 8,
+      "slot": 3,
+      "type": "real",
+      "advertiser": "HubSpot for Startups",
+      "ad_headline": "Find what's slowing your GTM.",
+      "offer_id_at_placement": "191765819",
+      "advertisement_id": "f96409e4-3baa-4984-a0ce-63dda7c9f736",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-21T10:25:04Z"
     }
-  ]
+  ],
+  "notes": {
+    "ad_slot_kind_constraint": "This post rejected three 'primary' (with-logo) ad blocks with the error 'No primary ad slot is available in this post'. Placing slot 1 as 'primary' and slots 2 and 3 as 'secondary' (without logo) succeeded with all three ads accepted. On future runs, default to one primary plus secondary for the rest, or expect the save to be rejected if more than one primary is used.",
+    "ad_ranking": "Ranked by payout_per_click_cents descending. Top four were Conde Nast (225), What We Spend (225), HubSpot (206), 1440 Media (206). Chose HubSpot over 1440 for the 206 tie because 1440 ran recently in issue #7 (ad fatigue). No realized CTR blending available: ad-log had no overlapping repeat advertiser with a recorded CTR."
+  }
 }

@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-11-18",
+      "issue": 8,
+      "title": "Trump, Xi, and Putin Prepare for Rare Three-Way Nuclear Talks in China",
+      "region": "Indo-Pacific / Arms Control",
+      "sources": [
+        "https://www.aljazeera.com/news/2026/11/14/trump-xi-putin-trilateral-meeting-at-apec-what-to-expect",
+        "https://www.ctvnews.ca/world/article/trump-xi-and-putin-plan-an-unprecedented-joint-meeting-on-the-sidelines-of-apec-white-house-says",
+        "https://www.qatar-tribune.com/article/264267/world/trump-xi-putin-to-hold-trilateral-talks-in-china-white-house"
+      ]
+    },
+    {
+      "date": "2026-11-18",
+      "issue": 8,
+      "title": "Iran Rules Out UN Nuclear Inspections Until Its War With Washington Ends",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.dhakatribune.com/world/middle-east/424780/iran-rules-out-un-inspections-of-damaged-nuclear",
+        "https://www.bostonglobe.com/2026/11/13/world/iran-un-nuclear-agency-monitoring/",
+        "https://www.dawn.com/news/1956446"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
+      "date": "2026-11-18",
+      "issue": 8,
+      "title": "Ukraine Strikes the Crimean Bridge in One of the War's Largest Drone Assaults",
       "region": "Eastern Europe",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.twz.com/news-features/russias-prized-kerch-bridge-struck-in-ukrainian-drone-onslaught",
+        "https://www.stripes.com/theaters/europe/2026-11-16/ukraine-drone-strike-crimea-bridge-23483059.html",
+        "https://kyivindependent.com/ukraine-war-latest-crimean-bridge-hit-in-reported-attack-traffic-restrictions-imposed/"
       ]
     }
-  ]
+  ],
+  "_note": "Issue numbering realigned to the live beehiiv archive on 2026-11-18. The last published issue was #7 (2026-08-17), so this run is #8. Prior state tracked only issue #1 and was stale. Topics older than 30 days are dropped per spec; issue #1 topics (2026-06-24) were removed on this run."
 }

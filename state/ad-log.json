@@ -3,9 +3,22 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf, published 2026-05-31), sent to a single test recipient. Baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click 0.0%, earnings $2.24 (7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-18",
+      "issue": 8,
+      "note": "Graded the most recent published issue, #7 (post_178199d6, 'Putin's Kuril Islands Visit...', sent 2026-08-17). It delivered to 13 recipients: 30.77% open rate (4 unique opens), 1 verified click (raw unique-click rate 25%, verified CTR ~7.7%), 1 unsubscribe (7.69%), 0 bounces, 0 spam. Publication now has 12 active subscribers, 0 net new in the last 7 days, $0.00 earnings (7 days) because nothing has been sent since 2026-08-17. Note: the list shrank from 14 (Jun) to 12 (Nov). The audience is tiny, so single-reader actions swing every percentage. No real campaign has shipped in ~3 months despite a daily automation generating drafts.",
+      "issue_7_delivered": 13,
+      "issue_7_open_rate": 30.77,
+      "issue_7_verified_clicks": 1,
+      "issue_7_unsubscribes": 1,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
     }
@@ -25,19 +38,17 @@
       "creative_kind": "primary",
       "send_by": "2026-06-29T07:09:42Z"
     },
+    { "date": "2026-06-24", "issue": 1, "slot": 2, "type": "placeholder", "advertiser": "none" },
+    { "date": "2026-06-24", "issue": 1, "slot": 3, "type": "placeholder", "advertiser": "none" },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 2,
+      "date": "2026-11-18",
+      "issue": 8,
+      "slot": 1,
       "type": "placeholder",
-      "advertiser": "none"
+      "advertiser": "none",
+      "note": "No ad was placeable. 9 CPC offers were available (top: Conde Nast 225c, TigerData 225c, HubSpot 206c) but could not be placed: claiming any NEW offer returned 'can not accept any more opportunities' (acceptance cap), and the 3 already-accepted opportunities (Conde Nast, What We Spend, HubSpot, all send_by 2026-11-21) are already embedded in other unsent drafts (e.g. the 2026-11-16 draft post_bc135bd2). Placeholder block used per Step 3f."
     },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "slot": 3,
-      "type": "placeholder",
-      "advertiser": "none"
-    }
+    { "date": "2026-11-18", "issue": 8, "slot": 2, "type": "placeholder", "advertiser": "none", "note": "See slot 1 note." },
+    { "date": "2026-11-18", "issue": 8, "slot": 3, "type": "placeholder", "advertiser": "none", "note": "See slot 1 note." }
   ]
 }

@@ -42,3 +42,21 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;
 body text #a0b4c8; muted #8a9bb0; heading accent #e8d5a3; faint #5a6a7a;
 border #1e3a52; ad strip bg #0c1e30. Heading font Georgia serif; body Inter.
+
+## Ad placement learnings (2026-11-18)
+- The ad network has an **acceptance cap**. If prior unsent drafts already hold
+  accepted opportunities, claiming a new offer fails with "can not accept any
+  more opportunities," and an accepted opportunity already embedded elsewhere
+  fails with "already placed in another post." Check `list_ad_opportunities`
+  (status=accepted) first; an accepted opportunity is embeddable ONLY if it is
+  not already in another post.
+- Some advertisers have no `primary` (with-logo) creative for a given post
+  ("No 'primary' ad slot is available..."). Safest: OMIT `data-advertisement-kind`
+  and let the server pick a valid creative.
+- `save_post` email fields are `email_settings.email_subject_line` and
+  `email_settings.email_preview_text` (NOT `subject_line`/`preview_text`); wrong
+  keys are silently ignored and subject/preview fall back to title/subtitle.
+- WebFetch to external news + Wikimedia domains is blocked in the cloud session
+  (ENOTFOUND). Use WebSearch summaries for sourcing; use beehiiv `generate_image`
+  for art (no identifiable real people; caption honestly as illustration) when
+  verified public-domain photo URLs cannot be confirmed.

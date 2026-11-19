@@ -8,6 +8,26 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-19",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent_at": "2026-08-17",
+      "note": "State was stale between issue #1 and this run: issues #2-#7 were published on beehiiv (through 2026-08-17) but never logged here. The most recent published issue (#7, Aug 17) is graded below. No issue has been sent in the ~3 months since, so publication 7-day aggregates are all zero and subscriber growth is flat.",
+      "issue7_email_delivered": 13,
+      "issue7_open_rate": 30.77,
+      "issue7_unique_opens": 4,
+      "issue7_click_rate_raw": 50.0,
+      "issue7_unique_clickers": 2,
+      "issue7_unsubscribe_rate": 7.69,
+      "issue7_unsubscribes": 1,
+      "subscribers_active": 12,
+      "net_new_subscribers_since_sep1": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +58,52 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-11-19",
+      "issue": 8,
+      "post_id": "post_371cd52e-7aa4-4ca4-b2f5-0fd2b344ddbc",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Introducing Fair Game from Vanity Fair",
+      "advertisement_id": "e122cfc0-a898-49a4-afd3-f6d10fbf0f17",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-11-24T10:24:14Z"
+    },
+    {
+      "date": "2026-11-19",
+      "issue": 8,
+      "post_id": "post_371cd52e-7aa4-4ca4-b2f5-0fd2b344ddbc",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "TigerData",
+      "ad_headline": "Live Analytics, Oct - Text",
+      "advertisement_id": "2e6fd257-9c3e-490c-b738-51c706528a93",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-22T23:59:59Z"
+    },
+    {
+      "date": "2026-11-19",
+      "issue": 8,
+      "post_id": "post_371cd52e-7aa4-4ca4-b2f5-0fd2b344ddbc",
+      "slot": 3,
+      "type": "real",
+      "advertiser": "HubSpot for Startups",
+      "ad_headline": "Find what's slowing your GTM.",
+      "advertisement_id": "eacda56c-c416-4826-b9dc-bb60b0c0803e",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-24T10:24:14Z"
     }
-  ]
+  ],
+  "ad_placement_notes": {
+    "primary_slot_cap": "This publication's posts accept only ONE 'primary' (with-logo) ad-network placement per post. Attempting to place 3 primary ads is rejected with 'No primary ad slot is available in this post'. Fix: place the top-value offer as primary and fill remaining slots with data-advertisement-kind='secondary'. All 3 slots were filled this way for issue #8.",
+    "offer_id_rotation": "list_ad_offers returns NEW ids on every call. Call it immediately before save_post and use the freshest ids, or the save is rejected as unknown offer."
+  }
 }

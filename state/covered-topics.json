@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "Issue numbering reconciled on 2026-11-19. The state file was stale (recorded only issue #1), but the publication had in fact published issues #2 through #7 on beehiiv through 2026-08-17. Today's issue is #8. Older covered topics (issue #1, 2026-06-24) were dropped per the 30-day retention rule.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-11-19",
+      "issue": 8,
+      "title": "Iran Strikes Kuwait and Bahrain as Its War With Washington Widens",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://npr.org/2026/11/17/nx-s1-6044255/us-iran-war-latest-bahrain",
+        "https://www.theglobeandmail.com/world/article-iran-attacks-gulf-neighbours-kuwait-bahrain/",
+        "https://www.cbsnews.com/live-updates/iran-war-us-gulf-retaliation-strikes-strait-of-hormuz/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-19",
+      "issue": 8,
+      "title": "Trump, Xi, and Putin Hold Their First Three Way Meeting in Shenzhen",
+      "region": "East Asia / Indo-Pacific",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
+        "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit",
+        "https://kyivindependent.com/historic-first-summit-among-trump-xi-putin-will-not-focus-on-ukraine-white-house-says/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-11-19",
+      "issue": 8,
+      "title": "The EU Proposes a 45 Billion Euro Loan to Fund Ukraine Through 2027",
+      "region": "Europe",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.euronews.com/2026/11/18/von-der-leyen-proposes-45bn-loan-to-ukraine-backed-by-joint-debt",
+        "https://commission.europa.eu/topics/eu-solidarity-ukraine/timeline_en",
+        "https://ieu-monitoring.com/editorial/eu-commission-proposes-additional-e45-billion-loan-for-ukraine-in-2027/1255068"
       ]
     }
   ]

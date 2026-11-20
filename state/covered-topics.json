@@ -1,38 +1,39 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-11-20",
+      "issue": 8,
+      "title": "Trump, Xi and Putin Share a Table but Little Else in Shenzhen",
+      "region": "East Asia / Great Powers",
+      "sources": [
+        "https://www.rferl.org/a/trump-xi-putin-summit-four-key-takeaways/33902100.html",
+        "https://www.cbsnews.com/news/trump-xi-putin-china-apec-summit/",
+        "https://www.cfr.org/articles/six-experts-on-what-trump-xi-and-putins-first-trilateral-means"
+      ]
+    },
+    {
+      "date": "2026-11-20",
+      "issue": 8,
+      "title": "Iran Widens Its Gulf Campaign to US Bases in Kuwait and Bahrain",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island",
+        "https://www.pbs.org/newshour/world/iran-widens-gulf-attacks-by-targeting-u-s-air-base-in-kuwait-and-sites-in-bahrain",
+        "https://thehill.com/policy/defense/6227812-iran-attacks-us-air-base-kuwait/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-20",
+      "issue": 8,
+      "title": "The World Court Finds Myanmar Committed Genocide Against the Rohingya",
+      "region": "Southeast Asia / Global South",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.hrw.org/news/2026/11/19/world-court-finds-myanmar-committed-rohingya-genocide",
+        "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+        "https://www.rfa.org/english/myanmar/2026/11/19/rohingya-genocide-icj-ruling-myanmar/"
       ]
     }
-  ]
+  ],
+  "_note": "Entries older than 30 days are pruned each run. Issue #1 (2026-06-24) topics were dropped on the 2026-11-20 run. NOTE: this branch's state only recorded issue #1, but beehiiv shows 7 real issues published through 2026-08-17 (issue #7). Issue number reconciled to the true sequence: today's issue is #8."
 }

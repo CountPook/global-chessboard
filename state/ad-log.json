@@ -3,11 +3,26 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "No prior real newsletter issue to grade. The only published post was a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days).",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-20",
+      "issue": 8,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global (Issue #7, sent 2026-08-17)",
+      "note": "This branch's state had only issue #1 recorded, but beehiiv shows 7 real issues published (through issue #7 on 2026-08-17). Graded the most recent published issue (#7). It delivered to 13 of 13 (100% delivery), 30.77% open rate (4 unique opens), 2 unique raw clicks (1 verified), 1 unsubscribe (7.69% unsub rate), 0 spam. Engagement is up from issue #1's 0% baseline, but on a 12-13 person list a single unsubscribe swings rates sharply. Publication is now at 12 active subscribers (down from 14 at issue #1), 0 net new and $0.00 earnings in the last 7 days. Growth, not monetization, remains the constraint.",
+      "graded_post_delivered": 13,
+      "graded_post_open_rate": 30.77,
+      "graded_post_click_rate_verified": 25,
+      "graded_post_unsubscribes": 1,
+      "graded_post_unsub_rate": 7.69,
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +50,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-11-20",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Six paying CPC offers were available and valid past send time (HubSpot for Startups 206c, Particle for Men 187c, Morning Brew 187c, The Rundown AI 150c, Superhuman AI 150c, Angelinos Coffee 105c). Placement of 3 ads, then 1 ad, both failed with 'can not accept any more opportunities' - a publication/account-level block on accepting new ad opportunities, not a per-post cap. No ads could be placed this run; all three slots rendered as placeholders."
+    },
+    {
+      "date": "2026-11-20",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-11-20",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

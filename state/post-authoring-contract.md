@@ -36,7 +36,15 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).
 - **recipients**: omit on save_post to default to free tier on web+email (matches
-  this publication's audience).
+  this publication's audience). Prior issues explicitly set web+email tier_ids
+  ["free"]; either works.
+- **AD NETWORK CAP (seen 2026-11-20):** save_post can be rejected with
+  "can not accept any more opportunities" even for a single ad. This is an
+  account/publication-level block on accepting NEW ad opportunities, not a
+  per-post cap (list_ad_offers showed 0 pending and all offers still available
+  after the failed save, so nothing was claimed). The save is atomic, so the
+  whole post is rejected. If this recurs, fall back to placeholder ad blocks and
+  log the shortfall rather than retrying repeatedly.
 
 ## Brand tokens (do not restyle theme; apply via spans/sections)
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;

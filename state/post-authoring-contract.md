@@ -1,6 +1,12 @@
 # Cached beehiiv authoring contract (pub_995eb47b-b524-4e27-b1ea-daf929e01bd5)
 
-Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior changes.
+Cached 2026-06-24 from learn_post_authoring; re-verified unchanged 2026-11-21. Re-fetch if beehiiv behavior changes.
+
+NOTE (2026-11-21): Ad network has an acceptance cap. Placing offers from list_ad_offers
+auto-claims opportunities; if the cap is full the save is rejected with
+"can not accept any more opportunities". Accepted opportunities already placed in
+another post cannot be reused ("already placed in another post"). Omit
+data-advertisement-kind for text-only creatives (let the server pick) to avoid mismatches.
 
 ## Key facts for building issues
 

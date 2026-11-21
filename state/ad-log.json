@@ -8,6 +8,28 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-21",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_scheduled_at": "2026-08-17",
+      "note": "No post published since 2026-08-17, so the most recent published issue (#7, Kuril/Mecca pact/C919) was graded instead of a literal yesterday post. Issue #7: 13 delivered (100% delivery), 30.77% open rate (4 unique opens), 50% raw CTR / 25% verified CTR (2 unique raw clicks, 1 verified), 1 unsubscribe (7.69%), 0 web views, 0 upgrades. Publication is dormant: 12 active subscribers (down from 14 at issue #1), 0 new and 0 churned Oct 1 to Nov 21, aggregate 7d open/click 0.0%, 7d earnings $0.00. The ~3-month publishing gap is the most likely driver of flat growth. NOTE: state last_issue_number was stale at 1 while beehiiv shows issues through #7; corrected to 7 in covered-topics.json this run, so today is issue #8.",
+      "subscribers_active": 12,
+      "net_new_subscribers_since_oct1": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "graded_issue_7_stats": {
+        "delivered": 13,
+        "open_rate": 30.77,
+        "unique_opens": 4,
+        "click_rate_raw": 50,
+        "click_rate_verified": 25,
+        "unique_clicks_raw": 2,
+        "unsubscribes": 1,
+        "unsubscribe_rate": 7.69,
+        "web_views": 0
+      }
     }
   ],
   "ad_slots": [
@@ -35,6 +57,31 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-11-21",
+      "issue": 8,
+      "post_id": "post_580bd059-bbf9-48b5-8244-657fa093faf1",
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "shortfall_reason": "Real ad offers existed (TigerData 225c, Conde Nast 225c, HubSpot for Startups 206c, Morning Brew 187c, Particle for Men 187c, The Rundown AI 150c, Superhuman AI 150c, Angelinos Coffee 105c) with valid send_by dates, but could not be placed. New offers were rejected with 'can not accept any more opportunities' (acceptance cap saturated), and the already-accepted best opportunities (TigerData 2e6fd257, HubSpot eacda56c, Conde Nast e122cfc0) are already placed in another post (post_371cd52e, an auto-generated draft from 2026-11-19). Root cause: an automated process is generating a draft newsletter almost daily (108 drafts exist, none published since 2026-08-17), and those drafts claim and hold the available ad opportunities, blocking placement in a fresh post."
+    },
+    {
+      "date": "2026-11-21",
+      "issue": 8,
+      "post_id": "post_580bd059-bbf9-48b5-8244-657fa093faf1",
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-11-21",
+      "issue": 8,
+      "post_id": "post_580bd059-bbf9-48b5-8244-657fa093faf1",
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

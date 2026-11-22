@@ -3,11 +3,25 @@
     {
       "date": "2026-06-24",
       "issue": 1,
-      "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
+      "note": "Baseline. No prior real issue to grade. Placeholder post only. 14 active subscribers, +2 net/7d, 0% open/click (no real campaign yet), earnings $2.24/7d.",
       "subscribers_active": 14,
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-22",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent": "2026-08-17",
+      "note": "Grading the most recent PUBLISHED issue (#7, sent 2026-08-17), since nothing has been published since. Email: 13 sent, 13 delivered (100%), open rate 30.77% (4 unique opens), click rate 50% raw / 25% verified (2 unique raw clicks, 1 verified), unsubscribe rate 7.69% (1 unsub), 0 spam, 0 bounces. Web views 0. Performance read: for a 12-14 subscriber list a ~31% open is healthy but the sample is tiny; the single unsubscribe is a meaningful 7.7% of a small base. No real ad clicks recorded. Publication snapshot at run time: 12 active subscribers (down from 14 at issue #1, reflecting the one unsubscribe), last 7 days 0 new / 0 churned / $0.00 earnings / 0% aggregate open (no email sent in the last 7 days because the daily drafts since August were never scheduled).",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_issue7": 30.77,
+      "click_rate_issue7_verified": 25.0,
+      "unsubscribe_rate_issue7": 7.69,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -35,6 +49,28 @@
     {
       "date": "2026-06-24",
       "issue": 1,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-11-22",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "3 high-value CPC offers were available and valid (Conde Nast 225c, HubSpot for Startups 206c, 1440 Media 206c, all send_by 2026-11-27). Placement was attempted but the beehiiv ad network rejected it: first with 'No primary ad slot is available in this post', then with 'can not accept any more opportunities'. This is an account-level opportunity cap, most likely saturated by the 100+ accumulated unpublished daily drafts that hold claimed opportunities. Fell back to placeholder blocks, which is also what the sibling-process draft dated 2026-11-21 did."
+    },
+    {
+      "date": "2026-11-22",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-11-22",
+      "issue": 8,
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"

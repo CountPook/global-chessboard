@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "notes": "State file tracks this routine's own issues. As of 2026-11-22 it was out of sync: only issue #1 was ever recorded here, yet the publication has 8 published issues (#1-#7, last published 2026-08-17) plus 100+ unpublished daily drafts created by a sibling process that does not update this file. Issue numbering continues from the last PUBLISHED issue (#7) plus 1 = #8, which also matches the number used by the unpublished daily drafts. Entries older than 30 days are dropped.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-11-22",
+      "issue": 8,
+      "title": "Washington Pushes Kyiv and Moscow Toward a Year-End Peace Deal",
+      "region": "Europe / Diplomacy",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.euronews.com/2026/11/11/ukraine-russia-peace-talks-enter-second-day-with-territory-and-security-guarantees-in-focu",
+        "https://www.washingtonpost.com/world/2026/11/21/zelensky-suggests-new-round-peace-talks-could-happen-during-g-20-summit/",
+        "https://www.usnews.com/news/world/articles/2026-11-16/ukraines-zelenskiy-says-new-talks-on-peace-prospects-held-with-us-european-officials"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-22",
+      "issue": 8,
+      "title": "The United States and Venezuela Restore Military Ties in Caracas",
+      "region": "Latin America / Western Hemisphere",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://en.mercopress.com/2026/11/19/us-and-venezuela-restore-military-cooperation-with-hegseth-s-surprise-visit",
+        "https://www.yahoo.com/news/world/articles/hegseth-venezuela-meet-interim-authorities-162255387.html",
+        "https://latinamericareports.com/u-s-war-secretary-signs-military-deal-with-venezuela-on-surprise-visit-to-caracas/15651/"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-11-22",
+      "issue": 8,
+      "title": "COP31 Nears a Climate Deal That Omits Fossil Fuels",
+      "region": "Global / Climate (Antalya, Turkey)",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.rte.ie/news/world/2026/1122/1600166-cop31-turkey/",
+        "https://news.un.org/en/story/2026/11/1168845",
+        "https://www.thenationalnews.com/news/mena/2026/11/21/cop31-climate-talks-overrun-in-dispute-over-final-deal/"
       ]
     }
   ]

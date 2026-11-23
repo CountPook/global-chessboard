@@ -33,6 +33,12 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
   save_post and use the fresh id, or the save is rejected as "Unknown ad offer".
   data-advertisement-kind = primary (with logo) | secondary (no logo).
 - **Direct sponsorship**: <div class="node-sponsorship" data-agreement-item-id="<uuid>"></div>
+- **AD SLOT LIMIT (learned 2026-11-23)**: this publication's post allows only ONE
+  `primary` advertisementOpportunity per post. Placing more than one primary block is
+  rejected with "No 'primary' ad slot is available in this post". Place the highest-value
+  offer as `primary` and any additional ad slots as `secondary`
+  (data-advertisement-kind="secondary"). All offers so far expose both primary and
+  secondary creative_variations, so this is always possible.
 - **Merge tags**: {{current_date_full}} (date, "full" suffix), {{unsubscribe_url}},
   {{subscriber_preferences_url}}, {{first_name|there}} (with fallback).
 - **recipients**: omit on save_post to default to free tier on web+email (matches

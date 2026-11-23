@@ -8,6 +8,29 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-23",
+      "issue": 8,
+      "note": "Graded issue #7 (post_178199d6-8943-47a0-bccb-b38b778953f8, 'Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global', published 2026-08-17), which is the most recent published post. The newsletter had not published since mid-August, roughly a three month gap. State's last_issue_number was stale at 1 while the real last published issue was #7 (issues 2-7 ran Jun-Aug but were never logged to state); corrected last_issue_number to 8 this run. Issue #7 email performance: 13 sent and delivered (100% delivery), 30.77% open rate (4 unique opens), 50% raw click rate but 25% verified (1-2 unique clickers), 1 unsubscribe (7.69%), 0 spam, 0 web views. Publication now has 12 active subscribers, 0 net new and $0.00 earnings in the last 7 days. Takeaway: engagement is thin on a very small list; the single unsubscribe on only 13 sends is the main negative, and the long publishing gap likely cost momentum. No realized CTR by advertiser is tracked yet, so today's ad ranking used payout per click only.",
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_issue": 7,
+      "issue_7_email": {
+        "total_sent": 13,
+        "delivery_rate": 100,
+        "open_rate": 30.77,
+        "click_rate_raw": 50,
+        "click_rate_verified": 25,
+        "unsubscribes": 1,
+        "unsubscribe_rate": 7.69,
+        "spam_reported": 0,
+        "web_views": 0
+      },
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_7d": 0.0,
+      "click_rate_7d": 0.0,
+      "earnings_7d": "$0.00"
     }
   ],
   "ad_slots": [
@@ -38,6 +61,52 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-11-23",
+      "issue": 8,
+      "post_id": "post_590df534-3748-4675-b5a1-131f25c669e1",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Vanity Fair's New Show, Where Nothing Is Off the Table",
+      "offer_id_at_placement": "198121978",
+      "advertisement_id": "baff6bbf-2bba-48a5-8c08-47e5b834f970",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-11-28T10:21:13Z"
+    },
+    {
+      "date": "2026-11-23",
+      "issue": 8,
+      "post_id": "post_590df534-3748-4675-b5a1-131f25c669e1",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "HubSpot for Startups",
+      "ad_headline": "Find what's slowing your GTM.",
+      "offer_id_at_placement": "198121980",
+      "advertisement_id": "0adbcd4b-d5fb-40a7-9506-8ad5cd2a47d2",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-28T10:21:13Z",
+      "note": "Placed as secondary creative. The ad network allows only one 'primary' slot per post; a first attempt with three primary blocks was rejected ('No primary ad slot is available'), so slots 2 and 3 were placed as secondary."
+    },
+    {
+      "date": "2026-11-23",
+      "issue": 8,
+      "post_id": "post_590df534-3748-4675-b5a1-131f25c669e1",
+      "slot": 3,
+      "type": "real",
+      "advertiser": "1440 Media",
+      "ad_headline": "Tired of news that needs you outraged?",
+      "offer_id_at_placement": "198121985",
+      "advertisement_id": "c376ee48-5376-4655-95f7-bff7ee2c8c21",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "secondary",
+      "send_by": "2026-11-28T10:21:13Z"
     }
   ]
 }

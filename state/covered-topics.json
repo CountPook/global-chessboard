@@ -1,37 +1,43 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 7,
+  "_note": "last_issue_number is the last PUBLISHED issue (#7, sent 2026-08-17). Daily runs have been drafting issue #8 since early November but NONE have been scheduled or sent, so the next issue to publish is still #8. Keep last_issue_number at 7 until an issue #8 actually ships, so 'add 1' continues to yield 8. Beehiiv is the source of truth for issue numbers; these state files had drifted (were stuck at 1) and were reconciled on 2026-11-24.",
+  "publishing_backlog_warning": "As of 2026-11-24 there were ~112 unpublished DRAFTS on the publication and nothing sent since 2026-08-17. The automation drafts daily but a human has not been scheduling. Flag this every run until resolved.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-11-24",
+      "issue": 8,
+      "draft_post_id": "post_eb258041-c1be-4043-a2c2-317f984c38ec",
+      "title": "Trump, Xi, and Putin Hold Their First Trilateral Summit in Shenzhen",
+      "region": "Great Powers / Indo-Pacific",
+      "sources": [
+        "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html",
+        "https://www.washingtonpost.com/politics/2026/11/18/trump-xi-putin-meet-with-conflicting-agendas-sharp-divides/",
+        "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
+        "https://www.cnn.com/2026/11/19/politics/trump-putin-xi-meeting-takeaways"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "issue": 8,
+      "draft_post_id": "post_eb258041-c1be-4043-a2c2-317f984c38ec",
+      "title": "The US and Iran Trade Strikes Around the Strait of Hormuz",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/liveblog/2026/11/24/iran-war-live-iran-says-three-ships-catch-fire-after-hitting-hormuz-mines",
+        "https://www.pbs.org/newshour/world/u-s-strikes-iranian-targets-in-strait-of-hormuz-u-s-official-tells-ap",
+        "https://gulfnews.com/world/mena/us-strikes-multiple-iranian-naval-vessels-mine-laying-ships-used-to-harass-shipping-in-strait-of-hormuz-1.500470395"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-24",
+      "issue": 8,
+      "draft_post_id": "post_eb258041-c1be-4043-a2c2-317f984c38ec",
+      "title": "COP31 Climate Talks Collapse Over a Fossil Fuel Phase-Out",
+      "region": "Global / Climate",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
-      ]
-    },
-    {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
-      "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/",
+        "https://www.aljazeera.com/news/2026/11/23/cop31-what-next-after-un-climate-talks-collapse",
+        "https://www.npr.org/2026/11/22/nx-s1-6046195/cop31-climate-talks-close-disappointment"
       ]
     }
   ]

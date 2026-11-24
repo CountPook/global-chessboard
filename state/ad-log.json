@@ -1,6 +1,19 @@
 {
   "performance_history": [
     {
+      "date": "2026-11-24",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_sent": "2026-08-17",
+      "note": "Graded the most recent PUBLISHED issue (#7, Aug 17) because no issue has been sent since. State files were stale at issue #1; beehiiv shows real published issues through #7. This run builds issue #8. Material gap: no newsletter sent between 2026-08-17 and this run (2026-11-24). Issue #7 performance (13 delivered): open 30.77% (4 unique), click 50% raw / 25% verified, 1 unsubscribe (7.69%), 0 web views. Publication now 12 active subscribers, down from 14 at issue #1. Last-7-days aggregate 0/0/0 (nothing sent in window).",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "open_rate_issue7": 30.77,
+      "click_rate_verified_issue7": 25.0,
+      "unsubscribes_issue7": 1
+    },
+    {
       "date": "2026-06-24",
       "issue": 1,
       "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
@@ -11,6 +24,38 @@
     }
   ],
   "ad_slots": [
+    {
+      "date": "2026-11-24",
+      "issue": 8,
+      "draft_post_id": "post_eb258041-c1be-4043-a2c2-317f984c38ec",
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "intended_advertiser": "HubSpot for Startups (CPC 206c)",
+      "reason": "Ad network rejected the placement: 'can not accept any more opportunities'. The ~112 unpublished daily drafts are each holding claimed ad opportunities, so the publication has hit its concurrent-placement cap. Fell back to placeholder per Step 3f."
+    },
+    {
+      "date": "2026-11-24",
+      "issue": 8,
+      "draft_post_id": "post_eb258041-c1be-4043-a2c2-317f984c38ec",
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none",
+      "intended_advertiser": "1440 Media (CPC 206c)"
+    },
+    {
+      "date": "2026-11-24",
+      "issue": 8,
+      "draft_post_id": "post_eb258041-c1be-4043-a2c2-317f984c38ec",
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none",
+      "intended_advertiser": "Particle for Men (CPC 187c)"
+    },
+    {
+      "date": "2026-11-24_available_offers_snapshot",
+      "note": "7-8 live CPC offers were available and none were expired (all send_by 2026-11-29), ranked: HubSpot 206c, 1440 Media 206c, Particle for Men 187c, Morning Brew 187c, The Rundown AI 150c, Superhuman AI 150c, The Deep View 138c, Angelinos Coffee 105c. Real demand exists; placement is blocked only by the unpublished-draft backlog consuming opportunity slots. Once drafts are published or deleted, ads should place again."
+    },
     {
       "date": "2026-06-24",
       "issue": 1,

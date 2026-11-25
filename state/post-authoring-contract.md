@@ -42,3 +42,22 @@ Cached 2026-06-24 from learn_post_authoring. Re-fetch if beehiiv behavior change
 gold #c9a84c; navy bg #0d1b2a; secondary bg #0a1520; card bg #0f2133;
 body text #a0b4c8; muted #8a9bb0; heading accent #e8d5a3; faint #5a6a7a;
 border #1e3a52; ad strip bg #0c1e30. Heading font Georgia serif; body Inter.
+
+## Ad placement lessons (added 2026-11-25)
+
+- **Only ONE `primary` (with-logo) ad slot per post.** Additional ad nodes must use
+  `data-advertisement-kind="secondary"`. Placing a 2nd primary fails:
+  "No 'primary' ad slot is available in this post for opportunity <id>".
+- **The ad network caps simultaneously ACCEPTED opportunities (appears to be 3).**
+  Embedding a numeric offer id in save_post ACCEPTS it (consumes a slot). If the cap is
+  full you get "can not accept any more opportunities". Accepted opportunities that are
+  already placed in a draft stay consumed until that draft is published or deleted, or
+  the ad is removed from it.
+- **An accepted opportunity already in a post cannot be reused**: "already placed in
+  another post". Use list_ad_opportunities(status="accepted") to see what's placed where.
+- **Before placing ads, check list_ad_opportunities** for already-accepted/placed items
+  so you don't exhaust the cap or double-book. Only `accepted` opportunities embed.
+- **IMPORTANT context:** This publication accumulates unpublished daily drafts that are
+  never scheduled. Those drafts hold accepted ad opportunities and exhaust the cap, which
+  blocks real ad placement on new drafts. If ads can't be placed, use the placeholder
+  block and flag the draft backlog in the report rather than editing other drafts.

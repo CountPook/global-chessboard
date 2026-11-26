@@ -1,37 +1,38 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
+  "note": "last_issue_number tracks the next-published series. Issue #7 was the last PUBLISHED post (2026-08-17); nothing has been published since. Many daily DRAFTS exist in beehiiv (Nov 16-25) that were never scheduled, so beehiiv's draft list is the real record of recent coverage, not this file. Topics older than 30 days are dropped.",
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
+      "date": "2026-11-26",
+      "issue": 8,
+      "title": "Oil Tankers Strike Mines in the Strait of Hormuz as the Iran Standoff Hardens",
       "region": "Middle East",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.usnews.com/news/world/articles/2026-11-25/iran-says-ships-hit-mines-in-hormuz-warns-vessels-to-coordinate-passage",
+        "https://www.arabnews.com/middle-east/third-tanker-hits-mine-in-strait-of-hormuz-iran-says-3013942",
+        "https://www.middleeasteye.net/live-blog/live-blog-update/irans-army-says-oil-tanker-hit-naval-mine-and-caught-fire-strait-hormuz"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-26",
+      "issue": 8,
+      "title": "Australia and the Solomon Islands Sign a Treaty Barring Foreign Military Bases",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://www.nzherald.co.nz/nz/solomon-islands-australia-sign-new-treaty-to-keep-foreign-military-bases-out/OAIXSMVTWZDZPO3PGGWGJKOAR4/",
+        "https://www.koreaherald.com/article/10948949",
+        "https://www.manilatimes.net/2026/11/26/world/asia-oceania/australia-solomon-islands-sign-pact-seen-to-thwart-china/2478061"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-11-26",
+      "issue": 8,
+      "title": "Washington Readies New Tariffs on Major Trading Partners After a Court Defeat",
+      "region": "Global Trade",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target",
+        "https://www.rte.ie/news/us/2026/1125/1600630-us-tariffs/",
+        "https://www.abc.net.au/news/2026-11-26/trump-new-tariffs-major-trading-partners/107425504"
       ]
     }
   ]

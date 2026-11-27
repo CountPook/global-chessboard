@@ -1,6 +1,21 @@
 {
   "performance_history": [
     {
+      "date": "2026-11-27",
+      "issue": 8,
+      "graded_post": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_issue": 7,
+      "graded_issue_date": "2026-08-17",
+      "note": "State files were stale (knew only issue 1); beehiiv shows 7 real published issues, newest being issue #7 (2026-08-17, Kurils/Mecca Pact/C919). Graded that as the most recent published issue. It sent to 13 recipients, 100% delivery, 30.77% open rate (4 unique opens), 50% raw click rate but only 25% verified (1 verified unique click), 1 unsubscribe (7.69%, inflated by the tiny base), 0 bounces, 0 spam, 0 web views. Open and engagement are reasonable for the audience size, but the list is very small and noisy. Publication has drifted from 14 active subscribers to 12. No sends and no earnings in the last 7 days. Repeat advertiser realized CTR remains too thin to rank on. Resuming numbering at issue #8.",
+      "subscribers_active": 12,
+      "net_new_subscribers_7d": 0,
+      "churned_subscribers_7d": 0,
+      "open_rate_graded_issue": 30.77,
+      "click_rate_graded_issue_verified": 25.0,
+      "unsubscribe_rate_graded_issue": 7.69,
+      "earnings_7d": "$0.00"
+    },
+    {
       "date": "2026-06-24",
       "issue": 1,
       "note": "No prior real newsletter issue to grade. The only published post is a placeholder titled 'New post' (post_a6a02adf-dbc2-4b32-821f-74a7845965c0, published 2026-05-31), sent to a single test recipient. Publication baseline at run time: 14 active subscribers, +2 net new in the last 7 days, aggregate open/click rate 0.0% (no real campaign sent yet), earnings $2.24 (last 7 days). Use this as the baseline for grading issue #1 on the next run.",
@@ -11,6 +26,28 @@
     }
   ],
   "ad_slots": [
+    {
+      "date": "2026-11-27",
+      "issue": 8,
+      "slot": 1,
+      "type": "placeholder",
+      "advertiser": "none",
+      "note": "Real ads were available (Particle for Men 187c, Rundown AI 150c, Superhuman AI 150c, Conde Nast 225c, 1440 Media 206c, HubSpot 206c) but the ad network rejected placement. Claiming new offers returned 'can not accept any more opportunities', and the three accepted weekly opportunities (Conde Nast, 1440, HubSpot, send_by 2026-11-28) were already placed in other unsent daily drafts. Used placeholder blocks, matching every recent daily draft (e.g. 2026-11-26 issue #8). Earlier save attempts may have left dangling claimed opportunities for Particle/Rundown/Superhuman; no post was created by those failed attempts."
+    },
+    {
+      "date": "2026-11-27",
+      "issue": 8,
+      "slot": 2,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
+    {
+      "date": "2026-11-27",
+      "issue": 8,
+      "slot": 3,
+      "type": "placeholder",
+      "advertiser": "none"
+    },
     {
       "date": "2026-06-24",
       "issue": 1,

@@ -8,6 +8,37 @@
       "net_new_subscribers_7d": 2,
       "open_rate_7d": 0.0,
       "click_rate_7d": 0.0
+    },
+    {
+      "date": "2026-11-28",
+      "issue_graded": 7,
+      "graded_post_id": "post_178199d6-8943-47a0-bccb-b38b778953f8",
+      "graded_post_title": "Putin's Kuril Islands Visit, the Mecca Defense Pact, and China's C919 Goes Global",
+      "graded_post_scheduled_at": "2026-08-17",
+      "note": "Issue #7 (the most recent published issue, Aug 17) reached all 13 email recipients at a 100% delivery rate with a 30.77% open rate (4 unique opens), a strong rate for a small list. Click rate was 50% raw / 25% verified (2 unique raw clicks, 1 verified), so engagement among openers was decent. One unsubscribe reads as a high 7.69% in percentage terms but is a single reader in absolute terms; 0 spam reports, 0 bounces, 0 web views. The subscriber base has drifted from 14 (issue 1) to 12 now with zero net growth in the past 7 days. Key constraint is audience size/growth, not engagement. A multi-month gap since the last published issue (no issue shipped Aug 18 to Nov 27) likely contributed to the flat/declining list.",
+      "email_sent": 13,
+      "email_delivered": 13,
+      "delivery_rate": 100,
+      "open_rate": 30.77,
+      "unique_opens": 4,
+      "click_rate_raw": 50,
+      "click_rate_verified": 25,
+      "unique_clicks_raw": 2,
+      "unique_clicks_verified": 1,
+      "unsubscribe_rate": 7.69,
+      "total_unsubscribes": 1,
+      "spam_reports": 0,
+      "bounce_rate": 0,
+      "web_views": 0,
+      "publication_last_7_days": {
+        "active_subscribers": 12,
+        "new_subscribers": 0,
+        "churned_subscribers": 0,
+        "net_subscribers": 0,
+        "open_rate": 0,
+        "click_rate": 0,
+        "earnings": "$0.00"
+      }
     }
   ],
   "ad_slots": [
@@ -38,6 +69,52 @@
       "slot": 3,
       "type": "placeholder",
       "advertiser": "none"
+    },
+    {
+      "date": "2026-11-28",
+      "issue": 8,
+      "post_id": "post_8d0c3157-452f-4349-a409-0c9fcb4bbebb",
+      "slot": 1,
+      "type": "real",
+      "advertiser": "Conde Nast",
+      "ad_headline": "Introducing Fair Game from Vanity Fair",
+      "offer_id_at_placement": "202557340",
+      "advertisement_id": "9832bed9-5909-4ffb-ba03-ff555f37f4ee",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 225,
+      "creative_kind": "primary",
+      "send_by": "2026-11-30T23:59:59Z"
+    },
+    {
+      "date": "2026-11-28",
+      "issue": 8,
+      "post_id": "post_8d0c3157-452f-4349-a409-0c9fcb4bbebb",
+      "slot": 2,
+      "type": "real",
+      "advertiser": "HubSpot for Startups",
+      "ad_headline": "Show Up When Buyers Ask ChatGPT",
+      "offer_id_at_placement": "202557342",
+      "advertisement_id": "1b73adb3-b911-4a69-ab9e-3e49786b79d6",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 206,
+      "creative_kind": "secondary",
+      "send_by": "2026-12-03T10:22:56Z"
+    },
+    {
+      "date": "2026-11-28",
+      "issue": 8,
+      "post_id": "post_8d0c3157-452f-4349-a409-0c9fcb4bbebb",
+      "slot": 3,
+      "type": "real",
+      "advertiser": "Particle for Men",
+      "ad_headline": "What We're Gifting the Men in Our Lives",
+      "offer_id_at_placement": "202557341",
+      "advertisement_id": "2ef6a969-4684-41e6-b292-7027349e9b5c",
+      "payout_model": "cpc",
+      "payout_per_click_cents": 187,
+      "creative_kind": "secondary",
+      "send_by": "2026-12-03T10:22:56Z"
     }
-  ]
+  ],
+  "notes": "Ad network rule learned on 2026-11-28: a post accepts only ONE 'primary' (with-logo) advertisementOpportunity slot. Additional ad slots must use data-advertisement-kind='secondary' or the save is rejected with 'No primary ad slot is available'. Place the highest-CPC ad as primary (slot 1) and the rest as secondary."
 }

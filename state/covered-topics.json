@@ -1,37 +1,37 @@
 {
-  "last_issue_number": 1,
+  "last_issue_number": 8,
   "topics": [
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Washington Eases Iran Oil Sanctions as a Fragile Nuclear Bargain Takes Shape",
-      "region": "Middle East",
+      "date": "2026-11-28",
+      "issue": 8,
+      "title": "Washington Proposes New Tariffs on Fourteen Major Trading Partners",
+      "region": "Global / Economics",
       "sources": [
-        "https://www.aljazeera.com/news/2026/6/22/us-partially-lifts-iran-oil-sanctions-amid-encouraging-talks",
-        "https://www.cbc.ca/news/world/united-states-iran-oil-sales-peace-deal-9.7244322",
-        "https://tribune.com.pk/story/2614666/us-eases-iran-oil-sanctions-with-60-day-waiver"
+        "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target",
+        "https://www.investing.com/news/world-news/us-proposes-new-tariffs-on-14-trading-partners-to-fight-excess-factory-capacity-5050714",
+        "https://www.business-standard.com/economy/news/us-proposes-new-tariffs-on-14-trading-partners-including-india-and-china-126112501125_1.html"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Ukraine's Deep Strikes Meet Russia's Grinding Advance in the Donbas",
-      "region": "Eastern Europe",
+      "date": "2026-11-28",
+      "issue": 8,
+      "title": "China Warns Japan Over the South China Sea as Tokyo Arms the Philippines",
+      "region": "Indo-Pacific",
       "sources": [
-        "https://www.npr.org/2026/06/18/g-s1-128782/moscow-ukraine-drone-attack-russia-oil-refinery",
-        "https://www.foreignexchanges.news/p/world-roundup-june-23-2026",
-        "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-06.htm"
+        "https://kfgo.com/2026/11/26/chinas-defence-ministry-urges-japan-to-stop-stirring-up-south-china-sea-disputes/",
+        "https://www.gmanetwork.com/news/topstories/world/1010860/china-demands-that-japan-to-stop-stirring-up-disputes-amid-security-boost-for-ph/story/",
+        "https://saudigazette.com.sa/article/666557/world/china-urges-japan-to-stop-stirring-up-south-china-sea-disputes"
       ]
     },
     {
-      "date": "2026-06-24",
-      "issue": 1,
-      "title": "Sudan's Army Pushes Into Blue Nile as the War Widens Toward Ethiopia",
-      "region": "Africa / Global South",
+      "date": "2026-11-28",
+      "issue": 8,
+      "title": "US Envoys Press Ukraine and Russia for a Rapid Peace Deal",
+      "region": "Europe / Russia-Ukraine",
       "sources": [
-        "https://sudantribune.com/article/315409",
-        "https://www.aa.com.tr/en/africa/sudanese-army-says-it-repelled-rsf-attack-in-blue-nile-state/3823657",
-        "https://en.wikipedia.org/wiki/2026_Blue_Nile_campaign"
+        "https://english.nv.ua/nation/witkoff-and-kushner-want-ukraine-russia-peace-deal-as-soon-as-possible-50662152.html",
+        "https://www.washingtonpost.com/world/2026/11/10/russia-ukraine-begin-us-backed-peace-talks-abu-dhabi/",
+        "https://www.pbs.org/newshour/world/russia-ukraine-peace-talks-led-by-u-s-will-look-at-security-guarantees-for-both-sides"
       ]
     }
   ]
